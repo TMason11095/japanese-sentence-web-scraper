@@ -1,0 +1,19 @@
+{
+  "name": "japanese-sentence-web-scraper",
+  "version": "1.0.0",
+  "description": "Web scraper for pulling Japanese sentence examples.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tyler Mason",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^10.2.0",
+    "puppeteer": "^21.7.0",
+    "selenium-webdriver": "^4.16.0"
+  },
+  "devDependencies": {
+    "chai": "^5.0.0"
+  }
+}
