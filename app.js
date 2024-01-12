@@ -1,5 +1,7 @@
-const { error } = require('console');
-const puppeteer = require('puppeteer');
+import * as helper from './js/helper.js';
+
+import * as error from 'console';
+import * as puppeteer from 'puppeteer';
 
 const screenshotsDirPath = "screenshots/";
 const cookiesDirPath = "cookies/";
@@ -17,15 +19,15 @@ const kanjiHiraKanjiExampleUrl = "https://www.kanshudo.com/example/18180";
         //Open new page
         const page = await browser.newPage();
         //Load cookies
-        await loadCookiesFromFile(page, cookiesDirPath + "kanshudo.json");
+        await helper.loadCookiesFromFile(page, cookiesDirPath + "kanshudo.json");
         //Navigate to the Kanshudo website
         await page.goto(kanjiHiraKanjiExampleUrl);
         //Inject jQuery
-            //await injectJquery(page);
+            //await helper.injectJquery(page);
         //Save cookies
-            //await saveCookiesToFile(page, cookiesDirPath + "kanshudo.json");
+            //await helper.saveCookiesToFile(page, cookiesDirPath + "kanshudo.json");
         //Save HTML
-            //await saveHtmlToFile(page, htmlDirPath + "kanshudo.html");
+            //await helper.saveHtmlToFile(page, htmlDirPath + "kanshudo.html");
 
         //Grab the example sentence section
         const sentenceSect = await page.$('#main-content .bodyarea .spaced .tatoeba');
@@ -74,7 +76,7 @@ const kanjiHiraKanjiExampleUrl = "https://www.kanshudo.com/example/18180";
             return japSentenceJson;
         }, sentenceSect);
         //Save Sentence JSON to file
-        await saveDataToFile(japSentenceJson, jsonDirPath + "jap_sentence");
+        await helper.saveDataToFile(japSentenceJson, jsonDirPath + "jap_sentence");
 
         //Take a screenshot of the current page
             //await page.screenshot({path: screenshotsDirPath + "page.png", fullPage: true});
@@ -93,89 +95,3 @@ const kanjiHiraKanjiExampleUrl = "https://www.kanshudo.com/example/18180";
     }
     
 })();
-
-async function saveDataToFile(data, filePath) {
-    try {
-        //Grab file system
-        const fs = require('fs');
-        //Write data to file
-        fs.writeFileSync(filePath, data);
-        //Data saved
-        return true;
-    }
-    catch (error) {
-        //Error saving data to file
-        console.error('Error saving date to file: ', error);
-        //data not saved
-        return false;
-    }
-}
-
-// async function injectJquery(page) {
-//     try {
-//         await page.addScriptTag({url: 'https://code.jquery.com/jquery-3.7.1.min.js'});
-//     }
-//     catch {
-//         //Error injecting jQuery
-//         console.error('Error injecting jQuery: ', error);
-//         //jQuery not injected
-//         return false;
-//     }
-// }
-
-async function saveHtmlToFile(page, filePath) {
-    try {
-        //Grab the page's HTML
-        const html = await page.content();
-        //Grab file system
-        const fs = require('fs');
-        //Write HTML to file
-        fs.writeFileSync(filePath, html);
-    }
-    catch (error) {
-        //Error saving HTML
-        console.error('Error saving HTML: ', error);
-        //HTML not saved
-        return false;
-    }
-}
-
-async function saveCookiesToFile(page, filePath) {
-    try {
-        //Grab the cookies from the page
-        const cookies = await page.cookies();
-        //Grab file system
-        const fs = require('fs');
-        //Write cookies to file as JSON
-        fs.writeFileSync(filePath, JSON.stringify(value = cookies, replacer = null, space = 2));
-        //Cookies saved
-        return true;
-    }
-    catch (error) {
-        //Error saving cookies
-        console.error('Error saving cookies: ', error);
-        //Cookies not saved
-        return false;
-    }
-}
-
-async function loadCookiesFromFile(page, filePath) {
-    try {
-        //Grab file system
-        const fs = require('fs');
-        //Grab the cookies JSON
-        const cookiesJson = fs.readFileSync(filePath);
-        //Convert to cookies
-        const cookies = JSON.parse(cookiesJson);
-        //Set the cookies on the page
-        await page.setCookie(...cookies);
-        //Cookies set
-        return true;
-    }
-    catch (error) {
-        //Error loading cookies
-        console.error('Error loading cookies: ', error);
-        //Cookies not loaded
-        return false;
-    }
-}
