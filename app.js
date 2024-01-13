@@ -11,6 +11,9 @@ const jsonDirPath =  "jsons/"
 const mainExampleUrl = "https://www.kanshudo.com/example/46829"
 const kanjiHiraKanjiExampleUrl = "https://www.kanshudo.com/example/18180";
 
+//Set current url
+const currentUrl = mainExampleUrl;
+
 (async () => {
     //Launch puppeteer
     const browser = await puppeteer.launch({dumpio: true});//{headless: false}
@@ -21,7 +24,7 @@ const kanjiHiraKanjiExampleUrl = "https://www.kanshudo.com/example/18180";
         //Load cookies
         await helper.loadCookiesFromFile(page, cookiesDirPath + "kanshudo.json");
         //Navigate to the Kanshudo website
-        await page.goto(kanjiHiraKanjiExampleUrl);
+        await page.goto(currentUrl);
         //Inject jQuery
             //await helper.injectJquery(page);
         //Save cookies
@@ -31,27 +34,27 @@ const kanjiHiraKanjiExampleUrl = "https://www.kanshudo.com/example/18180";
         //Get the Japanese example sentence breakdown
         const japSentence = await getJapSentenceExample(page);
         //Get the English translation of the example sentence
+        const engSentence = await getEngSentenceExample(page);
+        //Get the grammar ids
+        const grammarIds = await getGrammarIds(page);
+
         
-        //Grab the example sentence section
-        const engSentenceElement = await page.$('#main-content .bodyarea .spaced .tatoeba .tat_eng .text');
-        //Grab the text
-        const engSentence = await page.evaluate((engSentenceElement) => engSentenceElement.textContent, engSentenceElement);
 
-        //console.log(engSentence);
 
-        //japSentence.english_sentence = engSentence;
+
         
         //Merge the objects
-        const test = {
+        const mergedObjects = {
             japanese_sentence: japSentence,
-            english_sentence: engSentence
+            english_sentence: engSentence,
+            grammar_ids: grammarIds
         };
         
-        //const japSentenceJson = JSON.stringify(value = test, replacer = null, space = 4);
-        const japSentenceJson = JSON.stringify(test, null, 4);
+
+        const mergedObjectsJson = JSON.stringify(mergedObjects, null, 4);
         
         //Save Sentence JSON to file
-        await helper.saveDataToFile(japSentenceJson, jsonDirPath + "test2.json");
+        await helper.saveDataToFile(mergedObjectsJson, jsonDirPath + "test3.json");
 
         //Take a screenshot of the current page
             //await page.screenshot({path: screenshotsDirPath + "page.png", fullPage: true});
@@ -70,6 +73,43 @@ const kanjiHiraKanjiExampleUrl = "https://www.kanshudo.com/example/18180";
     }
     
 })();
+
+async function getGrammarIds(page) {
+    //Grab grammar section header (grammars don't have classes so we need to next sibling into it)
+    const grammarSectionHeader = await page.$('#main-content .bodyarea .shead::-p-text(Grammar and points of interest)');
+    //Grab all grammar ids
+    const grammarIds = await page.evaluate((grammarSectionHeader) => {
+        //Grab the next sibling for the grammar section
+        const grammarSection = grammarSectionHeader.nextElementSibling;
+        //Grab all the grammar entries
+        const grammarEntries = grammarSection.querySelectorAll('.gp_search');
+        //Loop through each entry to get the id
+        let grammarIds = [];
+        for (const grammarEntry of grammarEntries) {
+            //Get id container
+            const idContainer = grammarEntry.querySelector('.gp_icons .jlpt_container');
+            //Grab the id with 'jlpt_' prefix
+            const prefixedId = idContainer.id;
+            //Grab the id by removing the 'jlpt_' prefix
+            const grammarId = prefixedId.replace(/^(jlpt_)/, "");
+            //Add to ids
+            grammarIds.push(grammarId);
+        }
+        //Return ids
+        return grammarIds;
+    }, grammarSectionHeader);
+    //Return
+    return grammarIds;
+}
+
+async function getEngSentenceExample(page) {
+    //Grab the example sentence section
+    const engSentenceElement = await page.$('#main-content .bodyarea .spaced .tatoeba .tat_eng .text');
+    //Grab the text
+    const engSentence = await page.evaluate((engSentenceElement) => engSentenceElement.textContent, engSentenceElement);
+    //Return
+    return engSentence;
+}
 
 async function getJapSentenceExample(page) {
     //Grab the example sentence section
