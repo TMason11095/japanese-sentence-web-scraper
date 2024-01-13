@@ -36,9 +36,9 @@ const currentUrl = mainExampleUrl;
         //Get the English translation of the example sentence
         const engSentence = await getEngSentenceExample(page);
         //Get the grammar ids
-        const grammarIds = await getGrammarIds(page);
-
-        
+        const grammarIds = await getSectionIds(page, 'Grammar and points of interest', '.gp_icons .jlpt_container', 'id', '^(jlpt_)');
+        //Get inflection ids
+        const inflectionIds = await getInflectionIds(page);
 
 
 
@@ -47,14 +47,14 @@ const currentUrl = mainExampleUrl;
         const mergedObjects = {
             japanese_sentence: japSentence,
             english_sentence: engSentence,
-            grammar_ids: grammarIds
+            grammar_ids: grammarIds,
+            inflection_ids: inflectionIds
         };
-        
 
         const mergedObjectsJson = JSON.stringify(mergedObjects, null, 4);
         
         //Save Sentence JSON to file
-        await helper.saveDataToFile(mergedObjectsJson, jsonDirPath + "test3.json");
+        await helper.saveDataToFile(mergedObjectsJson, jsonDirPath + "test4.json");
 
         //Take a screenshot of the current page
             //await page.screenshot({path: screenshotsDirPath + "page.png", fullPage: true});
@@ -74,32 +74,41 @@ const currentUrl = mainExampleUrl;
     
 })();
 
-async function getGrammarIds(page) {
-    //Grab grammar section header (grammars don't have classes so we need to next sibling into it)
-    const grammarSectionHeader = await page.$('#main-content .bodyarea .shead::-p-text(Grammar and points of interest)');
-    //Grab all grammar ids
-    const grammarIds = await page.evaluate((grammarSectionHeader) => {
+async function getInflectionIds(page) {
+    //Get inflection ids with possible duplicates
+    const dupInflectionIds = await getSectionIds(page, 'Conjugations and inflections', "a[href^='/grammar/id/']", 'href', '^(https://www.kanshudo.com/grammar/id/)');
+    //Convert the array to a set and back to remove any duplicates
+    const inflectionIds = Array.from(new Set(dupInflectionIds));
+    //Return
+    return inflectionIds;
+}
+
+async function getSectionIds(page, sectionHeaderText, idContainerSelector, idField, idPrefixRegExText) {
+    //Grab section header (sections don't have classes so we need to next sibling into it)
+    const sectionHeader = await page.$(`#main-content .bodyarea .shead::-p-text(${sectionHeaderText})`);
+    //Grab all ids
+    const ids = await page.evaluate((sectionHeader, idContainerSelector, idField, idPrefixRegExText) => {
         //Grab the next sibling for the grammar section
-        const grammarSection = grammarSectionHeader.nextElementSibling;
-        //Grab all the grammar entries
-        const grammarEntries = grammarSection.querySelectorAll('.gp_search');
+        const section = sectionHeader.nextElementSibling;
+        //Grab all entries
+        const entries = section.querySelectorAll('.gp_search');
         //Loop through each entry to get the id
-        let grammarIds = [];
-        for (const grammarEntry of grammarEntries) {
+        let ids = [];
+        for (const entry of entries) {
             //Get id container
-            const idContainer = grammarEntry.querySelector('.gp_icons .jlpt_container');
-            //Grab the id with 'jlpt_' prefix
-            const prefixedId = idContainer.id;
-            //Grab the id by removing the 'jlpt_' prefix
-            const grammarId = prefixedId.replace(/^(jlpt_)/, "");
+            const idContainer = entry.querySelector(idContainerSelector);
+            //Grab the idField with the prefixed id
+            const prefixedId = idContainer[idField];
+            //Grab the id by removing the prefix
+            const id = prefixedId.replace(new RegExp(idPrefixRegExText), "");
             //Add to ids
-            grammarIds.push(grammarId);
+            ids.push(id);
         }
         //Return ids
-        return grammarIds;
-    }, grammarSectionHeader);
+        return ids;
+    }, sectionHeader, idContainerSelector, idField, idPrefixRegExText);
     //Return
-    return grammarIds;
+    return ids;
 }
 
 async function getEngSentenceExample(page) {
