@@ -32,16 +32,16 @@ const currentUrl = mainExampleUrl;
         //Save HTML
             //await helper.saveHtmlToFile(page, htmlDirPath + "kanshudo.html");
         //Get the Japanese example sentence breakdown
-        const japSentence = await getJapSentenceExample(page);
+        const japSentence = await getJapSentence(page);
         //Get the English translation of the example sentence
-        const engSentence = await getEngSentenceExample(page);
+        const engSentence = await getEngSentence(page);
         //Get the grammar ids
-        const grammarIds = await getSectionIds(page, 'Grammar and points of interest', '.gp_icons .jlpt_container', 'id', '^(jlpt_)');
-        //Get inflection ids
-        const inflectionIds = await getInflectionIds(page);
+        const grammarIds = await getGrammarIds(page);
         //Get vocab ids
-        const vocabIds = await getVocabIds(page);
-        
+        const vocabIds = await getIds(page, '#main-content .bodyarea .jukugorow', 'id', '^(jukugo_)');
+        //Get kanji ids
+
+
 
         
         
@@ -53,14 +53,14 @@ const currentUrl = mainExampleUrl;
             japanese_sentence: japSentence,
             english_sentence: engSentence,
             grammar_ids: grammarIds,
-            inflection_ids: inflectionIds,
+            //inflection_ids: inflectionIds,
             vocab_ids: vocabIds
         };
 
         const mergedObjectsJson = JSON.stringify(mergedObjects, null, 4);
         
         //Save Sentence JSON to file
-        await helper.saveDataToFile(mergedObjectsJson, jsonDirPath + "test5.json");
+        await helper.saveDataToFile(mergedObjectsJson, jsonDirPath + "test6.json");
 
         //Take a screenshot of the current page
             //await page.screenshot({path: screenshotsDirPath + "page.png", fullPage: true});
@@ -80,66 +80,43 @@ const currentUrl = mainExampleUrl;
     
 })();
 
-async function getVocabIds(page) {
-    //Get vocab ids
-    const vocabIds = await page.evaluate(() => {
-        //Get vocab id entries
-        const vocabIdEntries = document.querySelectorAll("#main-content .bodyarea .jukugorow");
-        //Loop through the entries and grab vocab ids
-        let vocabIds = [];
-        for (const entry of vocabIdEntries) {
-            //Get prefixed id
-            const prefixedId = entry.id;
-            //Remove the prefix
-            const id = prefixedId.replace(/^(jukugo_)/, '');
-            //Add to array
-            vocabIds.push(id);
-        }
-        //Return
-        return vocabIds;
-    });
+//Grammar is split up into 2 areas. Need to combine them here
+async function getGrammarIds(page) {
+    //Get the standard grammar ids
+    const standardGrammarIds = await getIds(page, '#main-content .bodyarea div .gp_search .gp_icons .jlpt_container', 'id', '^(jlpt_)');
+    //Get inflection ids
+    const inflectionIds = await getIds(page, '#main-content .bodyarea div .gp_search a[href^="/grammar/id/"]', 'href', '^(https://www.kanshudo.com/grammar/id/)');
+    //Merge the 2 id lists to get all grammar ids (might have duplicate entries)
+    const dupGrammarIds = standardGrammarIds.concat(inflectionIds);
+    //Remove duplicate entries by converting the array to a set and then back to an array
+    const grammarIds = Array.from(new Set(dupGrammarIds));
     //Return
-    return vocabIds;
+    return grammarIds;
 }
 
-async function getInflectionIds(page) {
-    //Get inflection ids with possible duplicates
-    const dupInflectionIds = await getSectionIds(page, 'Conjugations and inflections', "a[href^='/grammar/id/']", 'href', '^(https://www.kanshudo.com/grammar/id/)');
-    //Convert the array to a set and back to remove any duplicates
-    const inflectionIds = Array.from(new Set(dupInflectionIds));
-    //Return
-    return inflectionIds;
-}
-
-async function getSectionIds(page, sectionHeaderText, idContainerSelector, idField, idPrefixRegExText) {
-    //Grab section header (sections don't have classes so we need to next sibling into it)
-    const sectionHeader = await page.$(`#main-content .bodyarea .shead::-p-text(${sectionHeaderText})`);
-    //Grab all ids
-    const ids = await page.evaluate((sectionHeader, idContainerSelector, idField, idPrefixRegExText) => {
-        //Grab the next sibling for the grammar section
-        const section = sectionHeader.nextElementSibling;
-        //Grab all entries
-        const entries = section.querySelectorAll('.gp_search');
-        //Loop through each entry to get the id
+async function getIds(page, entriesSelector, entryIdField, idPrefixRegExText) {
+    //Get ids
+    const ids = await page.evaluate((entriesSelector, entryIdField, idPrefixRegExText) => {
+        //Get id entries
+        const entries = document.querySelectorAll(entriesSelector);
+        //Loop and grab ids
         let ids = [];
         for (const entry of entries) {
-            //Get id container
-            const idContainer = entry.querySelector(idContainerSelector);
-            //Grab the idField with the prefixed id
-            const prefixedId = idContainer[idField];
-            //Grab the id by removing the prefix
+            //Get prefixed id
+            const prefixedId = entry[entryIdField];
+            //Remove prefix
             const id = prefixedId.replace(new RegExp(idPrefixRegExText), "");
-            //Add to ids
+            //Add to list
             ids.push(id);
         }
-        //Return ids
+        //Return
         return ids;
-    }, sectionHeader, idContainerSelector, idField, idPrefixRegExText);
+    }, entriesSelector, entryIdField, idPrefixRegExText);
     //Return
     return ids;
 }
 
-async function getEngSentenceExample(page) {
+async function getEngSentence(page) {
     //Grab the example sentence section
     const engSentenceElement = await page.$('#main-content .bodyarea .spaced .tatoeba .tat_eng .text');
     //Grab the text
@@ -148,25 +125,21 @@ async function getEngSentenceExample(page) {
     return engSentence;
 }
 
-async function getJapSentenceExample(page) {
-    //Grab the example sentence section
-    const sentenceSect = await page.$('#main-content .bodyarea .spaced .tatoeba');
-    //Process the Japanese sentence
-    const japSentence = await page.evaluate((sentenceSect) => {
-        //Grab the start of the Japanese section (Only need it as the starting point for the following siblings)
-        const start = sentenceSect.querySelector('.tat-tf');
-        //Start looping through the siblings until we hit <br>. Build the sentence as we go
+async function getJapSentence(page) {
+    //Get and process Japanese sentence
+    const japSentence = await page.evaluate(() => {
+        //Get sentence elements
+        const sentenceElements = document.querySelectorAll('#main-content .bodyarea .spaced .tatoeba [class*="tatvoc"]');
+        //Loop through and build the sentence
         let japSentenceBuilder = [];
-        let currentElement = start.nextElementSibling;
-        while (currentElement && currentElement.tagName != 'BR') {
-            switch (currentElement.tagName) {
+        for (const element of sentenceElements) {
+            switch (element.tagName) {
                 case 'A'://Clickable (vocab)
                     //Track if kanji was found to put it in a kanji_vocab object
                     let hasKanji = false;
-                    //Build the vocab
+                    //Loop through children and build the vocab
                     let vocabBuilder = [];
-                    //Loop through children
-                    for (const node of currentElement.childNodes) {
+                    for (const node of element.childNodes) {
                         //Check the node type
                         switch (node.nodeType) {
                             case Node.ELEMENT_NODE: //Kanji with furigana
@@ -181,6 +154,7 @@ async function getJapSentenceExample(page) {
                             case Node.TEXT_NODE: //Hiragana
                                 //Add to vocab
                                 vocabBuilder.push(node.textContent);
+                                break;
                         }
                     }
                     //Set vocab (overridable for kanji_vocab)
@@ -195,11 +169,9 @@ async function getJapSentenceExample(page) {
                     break;
                 case 'SPAN'://Punctuation and joining characters
                     //Add to the sentence
-                    japSentenceBuilder.push(currentElement.textContent);
+                    japSentenceBuilder.push(element.textContent);
                     break;
             }
-            //Get the next sibling
-            currentElement = currentElement.nextElementSibling;
         }
         //Combine from sentence builder
         const japSentence = japSentenceBuilder.flat();
@@ -236,8 +208,7 @@ async function getJapSentenceExample(page) {
         }
         //Return the sentence
         return mergedJapSentence;
-    }, sentenceSect);
-
+    });
     //Return the sentence
     return japSentence;
 }
