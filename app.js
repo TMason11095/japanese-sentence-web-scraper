@@ -39,7 +39,12 @@ const currentUrl = mainExampleUrl;
         const grammarIds = await getSectionIds(page, 'Grammar and points of interest', '.gp_icons .jlpt_container', 'id', '^(jlpt_)');
         //Get inflection ids
         const inflectionIds = await getInflectionIds(page);
+        //Get vocab ids
+        const vocabIds = await getVocabIds(page);
+        
 
+        
+        
 
 
         
@@ -48,13 +53,14 @@ const currentUrl = mainExampleUrl;
             japanese_sentence: japSentence,
             english_sentence: engSentence,
             grammar_ids: grammarIds,
-            inflection_ids: inflectionIds
+            inflection_ids: inflectionIds,
+            vocab_ids: vocabIds
         };
 
         const mergedObjectsJson = JSON.stringify(mergedObjects, null, 4);
         
         //Save Sentence JSON to file
-        await helper.saveDataToFile(mergedObjectsJson, jsonDirPath + "test4.json");
+        await helper.saveDataToFile(mergedObjectsJson, jsonDirPath + "test5.json");
 
         //Take a screenshot of the current page
             //await page.screenshot({path: screenshotsDirPath + "page.png", fullPage: true});
@@ -73,6 +79,28 @@ const currentUrl = mainExampleUrl;
     }
     
 })();
+
+async function getVocabIds(page) {
+    //Get vocab ids
+    const vocabIds = await page.evaluate(() => {
+        //Get vocab id entries
+        const vocabIdEntries = document.querySelectorAll("#main-content .bodyarea .jukugorow");
+        //Loop through the entries and grab vocab ids
+        let vocabIds = [];
+        for (const entry of vocabIdEntries) {
+            //Get prefixed id
+            const prefixedId = entry.id;
+            //Remove the prefix
+            const id = prefixedId.replace(/^(jukugo_)/, '');
+            //Add to array
+            vocabIds.push(id);
+        }
+        //Return
+        return vocabIds;
+    });
+    //Return
+    return vocabIds;
+}
 
 async function getInflectionIds(page) {
     //Get inflection ids with possible duplicates
