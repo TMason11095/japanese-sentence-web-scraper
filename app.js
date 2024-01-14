@@ -40,27 +40,21 @@ const currentUrl = mainExampleUrl;
         //Get vocab ids
         const vocabIds = await getIds(page, '#main-content .bodyarea .jukugorow', 'id', '^(jukugo_)');
         //Get kanji ids
-
-
-
-        
-        
-
-
+        const kanjiIds = await getIds(page, '#main-content .bodyarea div .kanjirow.level0 .kr_container .kanji', 'id', '^(k_kan_)');
         
         //Merge the objects
         const mergedObjects = {
             japanese_sentence: japSentence,
             english_sentence: engSentence,
             grammar_ids: grammarIds,
-            //inflection_ids: inflectionIds,
-            vocab_ids: vocabIds
+            vocab_ids: vocabIds,
+            kanji_ids: kanjiIds
         };
 
         const mergedObjectsJson = JSON.stringify(mergedObjects, null, 4);
         
         //Save Sentence JSON to file
-        await helper.saveDataToFile(mergedObjectsJson, jsonDirPath + "test6.json");
+        await helper.saveDataToFile(mergedObjectsJson, jsonDirPath + "test7.json");
 
         //Take a screenshot of the current page
             //await page.screenshot({path: screenshotsDirPath + "page.png", fullPage: true});
