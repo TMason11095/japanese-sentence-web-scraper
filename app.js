@@ -36,7 +36,7 @@ const currentExampleIds = [mainExampleId, kanjiHiraKanjiExampleId];
         //Convert example sentence to JSON
         const exampleSentencesJson = JSON.stringify(exampleSentencesObj, null, 4);
         //Save Sentence JSON to file
-        await helper.saveDataToFile(exampleSentencesJson, jsonDirPath + "test10.json");
+        await helper.saveDataToFile(exampleSentencesJson, jsonDirPath + "test11.json");
 
         //Take a screenshot of the current page
             //await page.screenshot({path: screenshotsDirPath + "page.png", fullPage: true});

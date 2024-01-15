@@ -26,45 +26,49 @@ export async function getExampleSentences(browser, exampleIds, cookies) {
         //Return list object
         return exampleSentencesObj;
     } catch (error) {
-        console.error('Error in getExampleSentences:', error);
+        console.error('Error in getExampleSentences():', error);
         return false;
     }
 }
 
 export async function getExampleSentence(page, exampleId) {
-    //Example sentence base url
-    const baseUrl = 'https://www.kanshudo.com/example/';
-    //Built the full example sentence url
-    const exampleUrl = baseUrl + exampleId;
-    //Navigate to the Kanshudo website
-    await page.goto(exampleUrl);
-    //Save cookies
-        //await helper.saveCookiesToFile(page, cookiesDirPath + "kanshudo.json");
-    //Save HTML
-        //await helper.saveHtmlToFile(page, htmlDirPath + "kanshudo.html");
-    //Get the Japanese example sentence breakdown
-    const japSentence = await getJapSentence(page);
-    //Get the English translation of the example sentence
-    const engSentence = await getEngSentence(page);
-    //Get the grammar ids
-    const grammarIds = await getGrammarIds(page);
-    //Get vocab ids
-    const vocabIds = await getIds(page, '#main-content .bodyarea .jukugorow', 'id', '^(jukugo_)');
-    //Get kanji ids
-    const kanjiIds = await getIds(page, '#main-content .bodyarea div .kanjirow.level0 .kr_container .kanji', 'id', '^(k_kan_)');
-    
-    //Merge the objects
-    const mergedObjects = {
-        id: exampleId,
-        japanese_sentence: japSentence,
-        english_sentence: engSentence,
-        grammar_ids: grammarIds,
-        vocab_ids: vocabIds,
-        kanji_ids: kanjiIds
-    };
+    try {
+        //Example sentence base url
+        const baseUrl = 'https://www.kanshudo.com/example/';
+        //Built the full example sentence url
+        const exampleUrl = baseUrl + exampleId;
+        //Navigate to the Kanshudo website
+        await page.goto(exampleUrl);
+        //Save cookies
+            //await helper.saveCookiesToFile(page, cookiesDirPath + "kanshudo.json");
+        //Save HTML
+            //await helper.saveHtmlToFile(page, htmlDirPath + "kanshudo.html");
 
-    //Return
-    return mergedObjects;
+        //Get all sentence components in parallel
+        const [japSentence, engSentence, grammarIds, vocabIds, kanjiIds] = await Promise.all([
+            getJapSentence(page),
+            getEngSentence(page),
+            getGrammarIds(page),
+            getIds(page, '#main-content .bodyarea .jukugorow', 'id', '^(jukugo_)'),
+            getIds(page, '#main-content .bodyarea div .kanjirow.level0 .kr_container .kanji', 'id', '^(k_kan_)')
+        ]);
+
+        //Merge the objects
+        const mergedObjects = {
+            id: exampleId,
+            japanese_sentence: japSentence,
+            english_sentence: engSentence,
+            grammar_ids: grammarIds,
+            vocab_ids: vocabIds,
+            kanji_ids: kanjiIds
+        };
+
+        //Return
+        return mergedObjects;
+    } catch (error) {
+        console.error('Error in getExampleSentence():', error);
+        return false;
+    }
 }
 
 //Grammar is split up into 2 areas. Need to combine them here
