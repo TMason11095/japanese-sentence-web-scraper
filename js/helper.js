@@ -77,3 +77,20 @@ export async function loadCookiesFromFile(page, filePath) {
         return false;
     }
 }
+
+export async function getCookiesFromFile(filePath) {
+    try {
+        //Grab the cookies JSON
+        const cookiesJson = fs.readFileSync(filePath);
+        //Convert to cookies
+        const cookies = JSON.parse(cookiesJson);
+        //Return cookies
+        return cookies;
+    }
+    catch (error) {
+        //Error getting cookies
+        console.error('Error getting cookies: ', error);
+        //Cookies not retrieved
+        return false;
+    }
+}

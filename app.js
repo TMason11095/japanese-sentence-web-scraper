@@ -21,20 +21,22 @@ const currentExampleIds = [mainExampleId, kanjiHiraKanjiExampleId];
     const browser = await puppeteer.launch({dumpio: true});//{headless: false}
     //Do the rest of the operations within a try so the browser doesn't stay open on errors
     try {
-        //Open new page
-        const page = await browser.newPage();
-        //Load cookies
-        await helper.loadCookiesFromFile(page, cookiesDirPath + "kanshudo.json");
+        //Get cookies
+        const cookies = await helper.getCookiesFromFile(cookiesDirPath + "kanshudo.json");
+
+        //Timer
+        const beforePageCallsTime = Date.now();
+
         //Get example sentences object
-        const exampleSentencesObj = await exampleSentences.getExampleSentences(page, currentExampleIds)
-        //const exampleSentence = await exampleSentences.getExampleSentence(page, currentExampleId);
+        const exampleSentencesObj = await exampleSentences.getExampleSentences(browser, currentExampleIds, cookies);
 
-
+        //Display run time (ms)
+        console.log(Date.now() - beforePageCallsTime);
 
         //Convert example sentence to JSON
         const exampleSentencesJson = JSON.stringify(exampleSentencesObj, null, 4);
         //Save Sentence JSON to file
-        await helper.saveDataToFile(exampleSentencesJson, jsonDirPath + "test9.json");
+        await helper.saveDataToFile(exampleSentencesJson, jsonDirPath + "test10.json");
 
         //Take a screenshot of the current page
             //await page.screenshot({path: screenshotsDirPath + "page.png", fullPage: true});

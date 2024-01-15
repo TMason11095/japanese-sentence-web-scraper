@@ -1,16 +1,34 @@
-export async function getExampleSentences(page, exampleIdsList) {
-    //Loop through the id list and grab their example sentences
-    let exampleSentences = [];
-    for (const exampleId of exampleIdsList) {
-        //Grab example sentence object
-        const exampleSentence = await getExampleSentence(page, exampleId);
-        //Add to list
-        exampleSentences.push(exampleSentence);
+import * as cluster from 'cluster';
+import * as helper from './helper.js';
+
+export async function getExampleSentences(browser, exampleIds, cookies) {
+     
+    //Map the ids to getExampleSentence Promises
+    const examplePromises = exampleIds.map(async (exampleId) => {
+        //Open new page
+        const page = await browser.newPage();
+        //Get example sentence
+        try {
+            //Load cookies
+            await page.setCookie(...cookies);
+            //Get the example sentence
+            return await getExampleSentence(page, exampleId)
+        } finally {
+            //Close the page when done
+            await page.close();
+        }
+    });
+    //Process results
+    try {
+        const exampleSentences = await Promise.all(examplePromises);
+        //Add list to object
+        const exampleSentencesObj = { example_sentences: exampleSentences };
+        //Return list object
+        return exampleSentencesObj;
+    } catch (error) {
+        console.error('Error in getExampleSentences:', error);
+        return false;
     }
-    //Add list to object
-    const exampleSentencesObj = { example_sentences: exampleSentences }
-    //Return list object
-    return exampleSentencesObj;
 }
 
 export async function getExampleSentence(page, exampleId) {
