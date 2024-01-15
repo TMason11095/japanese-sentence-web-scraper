@@ -9,11 +9,11 @@ const cookiesDirPath = "cookies/";
 const htmlDirPath = "htmls/";
 const jsonDirPath =  "jsons/"
 
-const mainExampleUrl = "https://www.kanshudo.com/example/46829"
-const kanjiHiraKanjiExampleUrl = "https://www.kanshudo.com/example/18180";
+const mainExampleId = "46829"
+const kanjiHiraKanjiExampleId = "18180";
 
-//Set current url
-const currentUrl = mainExampleUrl;
+//Set current example id
+const currentExampleId = mainExampleId;
 
 (async () => {
     //Launch puppeteer
@@ -25,7 +25,7 @@ const currentUrl = mainExampleUrl;
         //Load cookies
         await helper.loadCookiesFromFile(page, cookiesDirPath + "kanshudo.json");
         //Get example sentence object
-        const exampleSentence = await exampleSentences.getExampleSentence(page, currentUrl);
+        const exampleSentence = await exampleSentences.getExampleSentence(page, currentExampleId);
 
 
 

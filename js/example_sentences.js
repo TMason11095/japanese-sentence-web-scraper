@@ -1,4 +1,8 @@
-export async function getExampleSentence(page, exampleUrl) {
+export async function getExampleSentence(page, exampleId) {
+    //Example sentence base url
+    const baseUrl = 'https://www.kanshudo.com/example/';
+    //Built the full example sentence url
+    const exampleUrl = baseUrl + exampleId;
     //Navigate to the Kanshudo website
     await page.goto(exampleUrl);
     //Save cookies
@@ -18,6 +22,7 @@ export async function getExampleSentence(page, exampleUrl) {
     
     //Merge the objects
     const mergedObjects = {
+        id: exampleId,
         japanese_sentence: japSentence,
         english_sentence: engSentence,
         grammar_ids: grammarIds,
