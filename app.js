@@ -14,6 +14,7 @@ const kanjiHiraKanjiExampleId = "18180";
 
 //Set current example id
 const currentExampleId = mainExampleId;
+const currentExampleIds = [mainExampleId, kanjiHiraKanjiExampleId];
 
 (async () => {
     //Launch puppeteer
@@ -24,15 +25,16 @@ const currentExampleId = mainExampleId;
         const page = await browser.newPage();
         //Load cookies
         await helper.loadCookiesFromFile(page, cookiesDirPath + "kanshudo.json");
-        //Get example sentence object
-        const exampleSentence = await exampleSentences.getExampleSentence(page, currentExampleId);
+        //Get example sentences object
+        const exampleSentencesObj = await exampleSentences.getExampleSentences(page, currentExampleIds)
+        //const exampleSentence = await exampleSentences.getExampleSentence(page, currentExampleId);
 
 
 
         //Convert example sentence to JSON
-        const exampleSentenceJson = JSON.stringify(exampleSentence, null, 4);
+        const exampleSentencesJson = JSON.stringify(exampleSentencesObj, null, 4);
         //Save Sentence JSON to file
-        await helper.saveDataToFile(exampleSentenceJson, jsonDirPath + "test8.json");
+        await helper.saveDataToFile(exampleSentencesJson, jsonDirPath + "test9.json");
 
         //Take a screenshot of the current page
             //await page.screenshot({path: screenshotsDirPath + "page.png", fullPage: true});

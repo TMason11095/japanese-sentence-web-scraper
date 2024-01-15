@@ -1,3 +1,18 @@
+export async function getExampleSentences(page, exampleIdsList) {
+    //Loop through the id list and grab their example sentences
+    let exampleSentences = [];
+    for (const exampleId of exampleIdsList) {
+        //Grab example sentence object
+        const exampleSentence = await getExampleSentence(page, exampleId);
+        //Add to list
+        exampleSentences.push(exampleSentence);
+    }
+    //Add list to object
+    const exampleSentencesObj = { example_sentences: exampleSentences }
+    //Return list object
+    return exampleSentencesObj;
+}
+
 export async function getExampleSentence(page, exampleId) {
     //Example sentence base url
     const baseUrl = 'https://www.kanshudo.com/example/';
