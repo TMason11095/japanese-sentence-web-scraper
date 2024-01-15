@@ -1,0 +1,37 @@
+{
+    "japanese_sentence": [
+        {
+            "kanji_vocab": [
+                {
+                    "kanji": "彼女",
+                    "furigana": "かのじょ"
+                }
+            ]
+        },
+        "はその",
+        {
+            "kanji_vocab": [
+                {
+                    "kanji": "箱",
+                    "furigana": "はこ"
+                }
+            ]
+        },
+        "を",
+        {
+            "kanji_vocab": [
+                {
+                    "kanji": "人差",
+                    "furigana": "ひとさ"
+                },
+                "し",
+                {
+                    "kanji": "指",
+                    "furigana": "ゆび"
+                }
+            ]
+        },
+        "でとんとんとたたいた。"
+    ],
+    "english_sentence": "She tapped the box with her forefinger."
+}
