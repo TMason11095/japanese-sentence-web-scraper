@@ -81,7 +81,7 @@ async function getGrammarCard(page) {
     //Store front/back in an object
     const grammarCard = {
         front: grammarSplit[0].trim(),
-        back: grammarSplit[1].trim()
+        back: grammarSplit[1] ? grammarSplit[1].trim() : ''
     };
     //Return
     return grammarCard;

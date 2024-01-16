@@ -1,0 +1,18 @@
+{
+    "grammars": [
+        {
+            "id": "412",
+            "front": "particle を",
+            "back": "direct object marker"
+        },
+        {
+            "id": "509",
+            "front": "verb stem + よう",
+            "back": "plain volitional form (let's ~) for ichidan verbs"
+        },
+        {
+            "front": "Ichidan  一段 (いちだん)  'る' form  verbs",
+            "back": ""
+        }
+    ]
+}

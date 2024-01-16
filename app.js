@@ -18,8 +18,9 @@ const currentExampleIds = [mainExampleId, kanjiHiraKanjiExampleId];
 
 const mainGrammar = "を";
 const nextGrammar = "よう"
+const noGrammar = "一段";
 const currentGrammar = mainGrammar;
-const currentGrammars = [mainGrammar, nextGrammar];
+const currentGrammars = [mainGrammar, nextGrammar, noGrammar];
 
 (async () => {
     //Launch puppeteer
@@ -44,7 +45,7 @@ const currentGrammars = [mainGrammar, nextGrammar];
         //Convert example sentence to JSON
         const grammarJson = JSON.stringify(grammarObj, null, 4);
         //Save Sentence JSON to file
-        await helper.saveDataToFile(grammarJson, jsonDirPath + "test2.json");
+        await helper.saveDataToFile(grammarJson, jsonDirPath + "test3.json");
 
         //Take a screenshot of the current page
             //await page.screenshot({path: screenshotsDirPath + "page.png", fullPage: true});
