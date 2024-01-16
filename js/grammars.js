@@ -46,14 +46,12 @@ async function getGrammar(page, grammarUrlSuffix) {
     try {
         //Navigate to grammar page
         await page.goto(grammarUrl);
+        
         //Get grammar components in parallel
-        const [grammarIds, grammarCard] = await Promise.all([
-            helper.getIds(page, '#main-content .bodyarea .grammar_point .gp_headline .gp_icons .jlpt_container', 'id', '^(jlpt_)'),
+        const [grammarId, grammarCard] = await Promise.all([
+            getGrammarId(page),
             getGrammarCard(page)
         ]);
-
-        //Get grammar id (getIds() returns an array, but there's only one grammar id per page)
-        const grammarId = grammarIds[0];
         //Return the grammar
         return {
             id: grammarId,
@@ -85,4 +83,29 @@ async function getGrammarCard(page) {
     };
     //Return
     return grammarCard;
+}
+
+async function getGrammarId(page) {
+    const id = await page.evaluate(() => {
+        //Get all script elements
+        const scriptElements = document.querySelectorAll('#main-content script');
+        //Loop through all scripts
+        for (const script of scriptElements) {
+            //Get script text
+            const scriptText = script.textContent;
+            //Check if the script contains gid=
+            if (scriptText.includes('/contact?gid=')) {
+                //Grab the id match
+                const match = /\/contact\?gid=(\d+)/.exec(scriptText);
+                //Grab the id
+                const id = match[1] ? match[1] : false;
+                //Return
+                return id;
+            }
+        }
+        //Return if gid= wasn't found
+        return false;
+    });
+    //Return
+    return id;
 }

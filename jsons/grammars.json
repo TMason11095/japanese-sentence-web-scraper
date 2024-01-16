@@ -11,8 +11,19 @@
             "back": "plain volitional form (let's ~) for ichidan verbs"
         },
         {
+            "id": "554",
             "front": "Ichidan  一段 (いちだん)  'る' form  verbs",
             "back": ""
+        },
+        {
+            "id": "521",
+            "front": "Japanese dates",
+            "back": ""
+        },
+        {
+            "id": "557",
+            "front": "irregular verbs",
+            "back": "来る（くる） and する"
         }
     ]
 }

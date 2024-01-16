@@ -10,17 +10,17 @@ const cookiesDirPath = "cookies/";
 const htmlDirPath = "htmls/";
 const jsonDirPath =  "jsons/"
 
-const mainExampleId = "46829"
-const kanjiHiraKanjiExampleId = "18180";
-//Set current example id
-const currentExampleId = mainExampleId;
-const currentExampleIds = [mainExampleId, kanjiHiraKanjiExampleId];
+// const mainExampleId = "46829"
+// const kanjiHiraKanjiExampleId = "18180";
+// //Set current example id
+// const currentExampleId = mainExampleId;
+// const currentExampleIds = [mainExampleId, kanjiHiraKanjiExampleId];
 
 const mainGrammar = "を";
 const nextGrammar = "よう"
 const noGrammar = "一段";
 const currentGrammar = mainGrammar;
-const currentGrammars = [mainGrammar, nextGrammar, noGrammar];
+const currentGrammars = [mainGrammar, nextGrammar, noGrammar, 'dates', 'irregular_verbs'];
 
 (async () => {
     //Launch puppeteer
@@ -39,13 +39,16 @@ const currentGrammars = [mainGrammar, nextGrammar, noGrammar];
         //Get grammar object
         const grammarObj = await grammars.getGrammars(browser, currentGrammars, cookies);
 
+        //Get vocab object
+
+
         //Display run time (ms)
         console.log(Date.now() - beforePageCallsTime);
 
         //Convert example sentence to JSON
         const grammarJson = JSON.stringify(grammarObj, null, 4);
         //Save Sentence JSON to file
-        await helper.saveDataToFile(grammarJson, jsonDirPath + "test3.json");
+        await helper.saveDataToFile(grammarJson, jsonDirPath + "test1.json");
 
         //Take a screenshot of the current page
             //await page.screenshot({path: screenshotsDirPath + "page.png", fullPage: true});
