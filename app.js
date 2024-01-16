@@ -1,5 +1,6 @@
 import * as helper from './js/helper.js';
 import * as exampleSentences from './js/example_sentences.js';
+import * as grammars from './js/grammars.js';
 
 import * as error from 'console';
 import * as puppeteer from 'puppeteer';
@@ -11,10 +12,14 @@ const jsonDirPath =  "jsons/"
 
 const mainExampleId = "46829"
 const kanjiHiraKanjiExampleId = "18180";
-
 //Set current example id
 const currentExampleId = mainExampleId;
 const currentExampleIds = [mainExampleId, kanjiHiraKanjiExampleId];
+
+const mainGrammar = "を";
+const nextGrammar = "よう"
+const currentGrammar = mainGrammar;
+const currentGrammars = [mainGrammar, nextGrammar];
 
 (async () => {
     //Launch puppeteer
@@ -28,15 +33,18 @@ const currentExampleIds = [mainExampleId, kanjiHiraKanjiExampleId];
         const beforePageCallsTime = Date.now();
 
         //Get example sentences object
-        const exampleSentencesObj = await exampleSentences.getExampleSentences(browser, currentExampleIds, cookies);
+        //const exampleSentencesObj = await exampleSentences.getExampleSentences(browser, currentExampleIds, cookies);
+
+        //Get grammar object
+        const grammarObj = await grammars.getGrammars(browser, currentGrammars, cookies);
 
         //Display run time (ms)
         console.log(Date.now() - beforePageCallsTime);
 
         //Convert example sentence to JSON
-        const exampleSentencesJson = JSON.stringify(exampleSentencesObj, null, 4);
+        const grammarJson = JSON.stringify(grammarObj, null, 4);
         //Save Sentence JSON to file
-        await helper.saveDataToFile(exampleSentencesJson, jsonDirPath + "test11.json");
+        await helper.saveDataToFile(grammarJson, jsonDirPath + "test2.json");
 
         //Take a screenshot of the current page
             //await page.screenshot({path: screenshotsDirPath + "page.png", fullPage: true});
@@ -55,3 +63,4 @@ const currentExampleIds = [mainExampleId, kanjiHiraKanjiExampleId];
     }
     
 })();
+

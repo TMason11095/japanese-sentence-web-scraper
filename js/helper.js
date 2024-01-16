@@ -1,5 +1,27 @@
 import * as fs from 'fs';
 
+export async function getIds(page, entriesSelector, entryIdField, idPrefixRegExText) {
+    //Get ids
+    const ids = await page.evaluate((entriesSelector, entryIdField, idPrefixRegExText) => {
+        //Get id entries
+        const entries = document.querySelectorAll(entriesSelector);
+        //Loop and grab ids
+        let ids = [];
+        for (const entry of entries) {
+            //Get prefixed id
+            const prefixedId = entry[entryIdField];
+            //Remove prefix
+            const id = prefixedId.replace(new RegExp(idPrefixRegExText), "");
+            //Add to list
+            ids.push(id);
+        }
+        //Return
+        return ids;
+    }, entriesSelector, entryIdField, idPrefixRegExText);
+    //Return
+    return ids;
+}
+
 export async function saveDataToFile(data, filePath) {
     try {
         //Write data to file
