@@ -1,60 +1,18 @@
 {
-    "japanese_sentence": [
+    "grammars": [
         {
-            "kanji_vocab": [
-                {
-                    "kanji": "買",
-                    "furigana": "か"
-                },
-                "う"
-            ]
-        },
-        "のを",
-        {
-            "kanji_vocab": [
-                {
-                    "kanji": "決",
-                    "furigana": "き"
-                },
-                "める"
-            ]
+            "id": "412",
+            "front": "particle を",
+            "back": "direct object marker"
         },
         {
-            "kanji_vocab": [
-                {
-                    "kanji": "前",
-                    "furigana": "まえ"
-                }
-            ]
+            "id": "509",
+            "front": "verb stem + よう",
+            "back": "plain volitional form (let's ~) for ichidan verbs"
         },
-        "に、",
         {
-            "kanji_vocab": [
-                {
-                    "kanji": "似合",
-                    "furigana": "にあ"
-                },
-                "う"
-            ]
-        },
-        "かどうかそのジャケットを",
-        {
-            "kanji_vocab": [
-                {
-                    "kanji": "試着",
-                    "furigana": "しちゃく"
-                },
-                "してみた"
-            ]
-        },
-        "。"
-    ],
-    "english_sentence": "Before deciding to buy it, I tried on the jacket to see if it would fit.",
-    "grammar_ids": [
-        "412",
-        "576",
-        "498",
-        "483",
-        "515"
+            "front": "Ichidan  一段 (いちだん)  'る' form  verbs",
+            "back": ""
+        }
     ]
 }
