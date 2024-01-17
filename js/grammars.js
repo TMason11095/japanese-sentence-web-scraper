@@ -3,7 +3,7 @@ import * as helper from './helper.js';
 export async function getGrammars(browser, grammarUrlSuffixes, cookies) {
     //Map url suffixes to getGrammar Promises
     let pages = [];
-    const grammarPromises = grammarUrlSuffixes.map(async (grammarUrlSuffix) =>{
+    const grammarPromises = grammarUrlSuffixes.map(async (grammarUrlSuffix) => {
         //Open new page
         const page = await browser.newPage();
         //Store pages to close later
