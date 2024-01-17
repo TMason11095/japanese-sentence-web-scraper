@@ -28,7 +28,7 @@ const jsonDirPath =  "jsons/"
 
 const mainKanji = "買";
 const multiMeaningKanji = "外";
-const currentKanji = multiMeaningKanji;
+const currentKanji = mainKanji;
 
 (async () => {
     //Launch puppeteer
@@ -74,7 +74,7 @@ const currentKanji = multiMeaningKanji;
         //Convert example sentence to JSON
         const kanjiJson = JSON.stringify(kanjiObj, null, 4);
         //Save Sentence JSON to file
-        await helper.saveDataToFile(kanjiJson, jsonDirPath + "test1.json");
+        await helper.saveDataToFile(kanjiJson, jsonDirPath + "test2.json");
 
         //Take a screenshot of the current page
             //await page.screenshot({path: screenshotsDirPath + "page.png", fullPage: true});
@@ -110,10 +110,11 @@ async function getKanjiDetail(page, kanjiUrlSuffix) {
         ])
         //Grab the kanji id (only 1 id per page)
         const kanjiId = kanjiIds[0];
-        console.log(kanjiId);
         //Return
         return {
-            id: kanjiId
+            id: kanjiId,
+            kanji: kanjiDef.kanji,
+            meaning: kanjiDef.meaning
         };
     } catch (error) {
         console.error('Error in getKanjiDetail():', error);
@@ -126,5 +127,14 @@ async function getKanjiDetailDefinition(page) {
     const defWithFiller = await page.evaluate(() => {
         return document.querySelector('#main-content .bodyarea h1').textContent;
     });
-    //console.log(defWithFiller);
+    //Split the definition by "mean" (kanji means 'def')
+    const kanjiDefSplit = defWithFiller.split('means');
+    //Get each component of the split
+    const kanji = kanjiDefSplit[0].trim();
+    const kanjiDef = kanjiDefSplit[1].trim().replaceAll("'", ''); //Remove surrounding ''
+    //Return
+    return {
+        kanji: kanji,
+        meaning: kanjiDef
+    }
 }
