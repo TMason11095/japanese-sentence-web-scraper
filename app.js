@@ -65,7 +65,7 @@ const currentVocab = mainVocab;
         //Convert example sentence to JSON
         const vocabPageJson = JSON.stringify(vocabPageObj, null, 4);
         //Save Sentence JSON to file
-        await helper.saveDataToFile(vocabPageJson, jsonDirPath + "test1.json");
+        await helper.saveDataToFile(vocabPageJson, jsonDirPath + "test2.json");
 
         //Take a screenshot of the current page
             //await page.screenshot({path: screenshotsDirPath + "page.png", fullPage: true});
@@ -121,8 +121,26 @@ async function loadEvaluateLocalFunctions(page) {
             const backContainer = vocabContainer.querySelector('.jukugo_reading div');
             //Grab the vocab type
             const vocabType = backContainer.querySelector('.vm div span').textContent.trim();
+            //Grab the vocab definition containers
+            const vocabDefContainers = backContainer.querySelectorAll('.vm ');
+            //Grab the definitions from each container
+            const vocabDefinitions = [];
+            for (const vocabDefContainer of vocabDefContainers) {
+                //Grab the definition from the text child node
+                for (const node of vocabDefContainer.childNodes) {
+                    //Skip if not a text node
+                    if (node.nodeType != Node.TEXT_NODE) { continue; }
+                    //Grab the definition
+                    vocabDefinitions.push(node.textContent.trim());
+                }
+
+            }
+        
             //Return
-            return vocabType;
+            return {
+                type: vocabType,
+                definitions: vocabDefinitions
+            };
         }
     });
 }
@@ -169,12 +187,13 @@ async function getVocabs(page, vocabContainers) {
             //Get the japanese vocab (front)
             const vocabFront = getVocabFront(vocabContainer);
             //Get the english translation (back)
-            //const vocabBack = getVocabBack(vocabContainer);
+            const vocabBack = getVocabBack(vocabContainer);
             //Return
             return {
                 id: id,
-                front: vocabFront
-                //back: vocabBack
+                type: vocabBack.type,
+                front: vocabFront,
+                back: vocabBack.definitions
             };
         }, vocabContainer);
         //Return

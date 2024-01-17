@@ -3,76 +3,104 @@
     "vocabs": [
         {
             "id": "115002",
+            "type": "adverbial noun (fukushitekimeishi), noun",
             "front": [
                 {
                     "kanji": "時間",
                     "furigana": "じかん"
                 }
             ],
-            "back": "adverbial noun (fukushitekimeishi), noun"
+            "back": [
+                "time",
+                "hours (period of)"
+            ]
         },
         {
             "id": "103631",
+            "type": "noun",
             "front": [
                 {
                     "kanji": "会社",
                     "furigana": "かいしゃ"
                 }
             ],
-            "back": "noun"
+            "back": [
+                "company; corporation",
+                "workplace"
+            ]
         },
         {
             "id": "127431",
+            "type": "noun, 'suru' verb, 'no' adjective",
             "front": [
                 {
                     "kanji": "電話",
                     "furigana": "でんわ"
                 }
             ],
-            "back": "noun, 'suru' verb, 'no' adjective"
+            "back": [
+                "telephone call; phone call",
+                "telephone (device); phone"
+            ]
         },
         {
             "id": "140426",
+            "type": "noun (temporal) (jisoumeishi)",
             "front": [
                 {
                     "kanji": "今日",
                     "furigana": "きょう"
                 }
             ],
-            "back": "noun (temporal) (jisoumeishi)"
+            "back": [
+                "today; this day",
+                "these days; recently; nowadays"
+            ]
         },
         {
             "id": "115589",
+            "type": "noun",
             "front": [
                 {
                     "kanji": "写真",
                     "furigana": "しゃしん"
                 }
             ],
-            "back": "noun"
+            "back": [
+                "photograph; photo; picture; snapshot; snap",
+                "movie"
+            ]
         },
         {
             "id": "122795",
+            "type": "adverbial noun (fukushitekimeishi), noun (temporal) (jisoumeishi), 'no' adjective",
             "front": [
                 {
                     "kanji": "全部",
                     "furigana": "ぜんぶ"
                 }
             ],
-            "back": "adverbial noun (fukushitekimeishi), noun (temporal) (jisoumeishi), 'no' adjective"
+            "back": [
+                "all; entire; whole; altogether"
+            ]
         },
         {
             "id": "267998",
+            "type": "noun",
             "front": [
                 {
                     "kanji": "大学",
                     "furigana": "だいがく"
                 }
             ],
-            "back": "noun"
+            "back": [
+                "post-secondary education institution, incl. university, college, etc.",
+                "former central university of Kyoto (established under the ritsuryo system for the training of government administrators)"
+            ]
         },
         {
             "id": "124431",
+            "type": "pre-noun adjectival (rentaishi)",
             "front": [
                 {
                     "kanji": "大",
@@ -80,37 +108,52 @@
                 },
                 "きな"
             ],
-            "back": "pre-noun adjectival (rentaishi)"
+            "back": [
+                "big; large; great"
+            ]
         },
         {
             "id": "133419",
+            "type": "noun",
             "front": [
                 {
                     "kanji": "文章",
                     "furigana": "ぶんしょう"
                 }
             ],
-            "back": "noun"
+            "back": [
+                "sentence; article; composition",
+                "(writing) style"
+            ]
         },
         {
             "id": "136360",
+            "type": "noun",
             "front": [
                 {
                     "kanji": "問題",
                     "furigana": "もんだい"
                 }
             ],
-            "back": "noun"
+            "back": [
+                "question (e.g. on a test); problem",
+                "problem (e.g. societal, political); question; issue; subject (e.g. of research); case; matter"
+            ]
         },
         {
             "id": "326760",
+            "type": "expression",
             "front": [
                 "ください"
             ],
-            "back": "expression"
+            "back": [
+                "please give me",
+                "please do for me"
+            ]
         },
         {
             "id": "262597",
+            "type": "ichidan verb, transitive verb",
             "front": [
                 {
                     "kanji": "見",
@@ -118,104 +161,140 @@
                 },
                 "る"
             ],
-            "back": "ichidan verb, transitive verb"
+            "back": [
+                "to see; to look; to watch; to view; to observe",
+                "to look over; to look on; to assess; to examine; to judge"
+            ]
         },
         {
             "id": "310263",
+            "type": "ichidan verb, intransitive verb",
             "front": [
                 "できる"
             ],
-            "back": "ichidan verb, intransitive verb"
+            "back": [
+                "to be able (in a position) to do; to be up to the task",
+                "to be ready; to be completed"
+            ]
         },
         {
             "id": "138029",
+            "type": "noun, 'suru' verb, 'no' adjective",
             "front": [
                 {
                     "kanji": "旅行",
                     "furigana": "りょこう"
                 }
             ],
-            "back": "noun, 'suru' verb, 'no' adjective"
+            "back": [
+                "travel; trip"
+            ]
         },
         {
             "id": "103024",
+            "type": "noun, 'no' adjective",
             "front": [
                 {
                     "kanji": "家庭",
                     "furigana": "かてい"
                 }
             ],
-            "back": "noun, 'no' adjective"
+            "back": [
+                "home; family; household"
+            ]
         },
         {
             "id": "326467",
+            "type": "adverb, conjunction, prefix",
             "front": [
                 "また"
             ],
-            "back": "adverb, conjunction, prefix"
+            "back": [
+                "again; and; also; still (doing something)"
+            ]
         },
         {
             "id": "260771",
+            "type": "noun",
             "front": [
                 {
                     "kanji": "学校",
                     "furigana": "がっこう"
                 }
             ],
-            "back": "noun"
+            "back": [
+                "school"
+            ]
         },
         {
             "id": "115477",
+            "type": "noun, 'suru' verb, 'no' adjective",
             "front": [
                 {
                     "kanji": "質問",
                     "furigana": "しつもん"
                 }
             ],
-            "back": "noun, 'suru' verb, 'no' adjective"
+            "back": [
+                "question; inquiry; enquiry"
+            ]
         },
         {
             "id": "131150",
+            "type": "noun",
             "front": [
                 {
                     "kanji": "番号",
                     "furigana": "ばんごう"
                 }
             ],
-            "back": "noun"
+            "back": [
+                "number; series of digits"
+            ]
         },
         {
             "id": "140428",
+            "type": "adverbial noun (fukushitekimeishi), noun (temporal) (jisoumeishi)",
             "front": [
                 {
                     "kanji": "今年",
                     "furigana": "ことし"
                 }
             ],
-            "back": "adverbial noun (fukushitekimeishi), noun (temporal) (jisoumeishi)"
+            "back": [
+                "this year"
+            ]
         },
         {
             "id": "109080",
+            "type": "noun, 'no' adjective, 'suru' verb",
             "front": [
                 {
                     "kanji": "結婚",
                     "furigana": "けっこん"
                 }
             ],
-            "back": "noun, 'no' adjective, 'suru' verb"
+            "back": [
+                "marriage"
+            ]
         },
         {
             "id": "115268",
+            "type": "pronoun, 'no' adjective",
             "front": [
                 {
                     "kanji": "自分",
                     "furigana": "じぶん"
                 }
             ],
-            "back": "pronoun, 'no' adjective"
+            "back": [
+                "myself; yourself; oneself; himself; herself",
+                "I; me"
+            ]
         },
         {
             "id": "263534",
+            "type": "'i' adjective",
             "front": [
                 {
                     "kanji": "高",
@@ -223,40 +302,54 @@
                 },
                 "い"
             ],
-            "back": "'i' adjective"
+            "back": [
+                "high; tall",
+                "expensive"
+            ]
         },
         {
             "id": "119528",
+            "type": "noun, 'no' adjective",
             "front": [
                 {
                     "kanji": "新聞",
                     "furigana": "しんぶん"
                 }
             ],
-            "back": "noun, 'no' adjective"
+            "back": [
+                "newspaper"
+            ]
         },
         {
             "id": "113931",
+            "type": "noun, 'suru' verb, 'no' adjective",
             "front": [
                 {
                     "kanji": "仕事",
                     "furigana": "しごと"
                 }
             ],
-            "back": "noun, 'suru' verb, 'no' adjective"
+            "back": [
+                "work; job; business; occupation; employment; vocation; task",
+                "work"
+            ]
         },
         {
             "id": "104444",
+            "type": "noun",
             "front": [
                 {
                     "kanji": "学生",
                     "furigana": "がくせい"
                 }
             ],
-            "back": "noun"
+            "back": [
+                "student (esp. a university student)"
+            ]
         },
         {
             "id": "259235",
+            "type": "numeric",
             "front": [
                 {
                     "kanji": "一",
@@ -264,144 +357,211 @@
                 },
                 "つ"
             ],
-            "back": "numeric"
+            "back": [
+                "one",
+                "for one thing"
+            ]
         },
         {
             "id": "271479",
+            "type": "noun",
             "front": [
                 {
                     "kanji": "名前",
                     "furigana": "なまえ"
                 }
             ],
-            "back": "noun"
+            "back": [
+                "name; full name",
+                "given name; first name"
+            ]
         },
         {
             "id": "122001",
+            "type": "noun",
             "front": [
                 {
                     "kanji": "先生",
                     "furigana": "せんせい"
                 }
             ],
-            "back": "noun"
+            "back": [
+                "teacher; master; doctor",
+                "with names of teachers, etc. as an honorific"
+            ]
         },
         {
             "id": "273535",
+            "type": "noun",
             "front": [
                 {
                     "kanji": "一人",
                     "furigana": "ひとり"
                 }
             ],
-            "back": "noun"
+            "back": [
+                "one person",
+                "alone; unmarried; solitary"
+            ]
         },
         {
             "id": "134107",
+            "type": "'na' adjective",
             "front": [
                 {
                     "kanji": "便利",
                     "furigana": "べんり"
                 }
             ],
-            "back": "'na' adjective"
+            "back": [
+                "convenient; handy; useful"
+            ]
         },
         {
             "id": "101241",
+            "type": "noun, 'no' adjective",
             "front": [
                 {
                     "kanji": "映画",
                     "furigana": "えいが"
                 }
             ],
-            "back": "noun, 'no' adjective"
+            "back": [
+                "movie; film"
+            ]
         },
         {
             "id": "326526",
+            "type": "irregular verb 'suru'",
             "front": [
                 "する"
             ],
-            "back": "irregular verb 'suru'"
+            "back": [
+                "to do",
+                "to cause to become; to make (into); to turn (into)"
+            ]
         },
         {
             "id": "326628",
+            "type": "noun",
             "front": [
                 "ページ"
             ],
-            "back": "noun"
+            "back": [
+                "page"
+            ]
         },
         {
             "id": "326820",
+            "type": "particle",
             "front": [
                 "など"
             ],
-            "back": "particle"
+            "back": [
+                "et cetera; etc.; and the like; and so forth",
+                "or something"
+            ]
         },
         {
             "id": "85805",
+            "type": "conjunction",
             "front": [
                 "でも"
             ],
-            "back": "conjunction"
+            "back": [
+                "but; however; though; nevertheless; still; yet; even so",
+                "even"
+            ]
         },
         {
             "id": "327388",
+            "type": "'ru' godan verb, intransitive verb",
             "front": [
                 "なる"
             ],
-            "back": "'ru' godan verb, intransitive verb"
+            "back": [
+                "to become; to get; to grow; to be; to reach; to attain",
+                "to result in; to prove to be"
+            ]
         },
         {
             "id": "85804",
+            "type": "conjunction, interjection (kandoushi)",
             "front": [
                 "では"
             ],
-            "back": "conjunction, interjection (kandoushi)"
+            "back": [
+                "then; well; so; well then"
+            ]
         },
         {
             "id": "326737",
+            "type": "pre-noun adjectival (rentaishi)",
             "front": [
                 "その"
             ],
-            "back": "pre-noun adjectival (rentaishi)"
+            "back": [
+                "that (something or someone distant from the speaker, close to the listener; actions of the listener, or ideas expressed or understood by the listener); the",
+                "um...; er...; uh..."
+            ]
         },
         {
             "id": "86244",
+            "type": "particle",
             "front": [
                 "より"
             ],
-            "back": "particle"
+            "back": [
+                "than",
+                "from; out of; since; at; on"
+            ]
         },
         {
             "id": "91837",
+            "type": "noun, 'no' adjective",
             "front": [
                 "スポーツ"
             ],
-            "back": "noun, 'no' adjective"
+            "back": [
+                "sport; sports"
+            ]
         },
         {
             "id": "326633",
+            "type": "adverb",
             "front": [
                 "よく"
             ],
-            "back": "adverb"
+            "back": [
+                "nicely; properly; well; skillfully; skilfully",
+                "frequently; often"
+            ]
         },
         {
             "id": "327414",
+            "type": "pronoun",
             "front": [
                 "これ"
             ],
-            "back": "pronoun"
+            "back": [
+                "this (indicating an item near the speaker, the action of the speaker, or the current topic)",
+                "this person (usu. indicating someone in one's in-group)"
+            ]
         },
         {
             "id": "256791",
+            "type": "ii 'i' adjective",
             "front": [
                 "いい"
             ],
-            "back": "ii 'i' adjective"
+            "back": [
+                "good; excellent; fine; nice; pleasant; agreeable",
+                "sufficient (can be used to turn down an offer); ready; prepared"
+            ]
         },
         {
             "id": "263033",
+            "type": "noun",
             "front": [
                 {
                     "kanji": "後",
@@ -409,81 +569,112 @@
                 },
                 "ろ"
             ],
-            "back": "noun"
+            "back": [
+                "back; behind; rear"
+            ]
         },
         {
             "id": "138139",
+            "type": "noun, 'suru' verb",
             "front": [
                 {
                     "kanji": "料理",
                     "furigana": "りょうり"
                 }
             ],
-            "back": "noun, 'suru' verb"
+            "back": [
+                "cooking; cookery; cuisine",
+                "dealing with something; handling; administration; management"
+            ]
         },
         {
             "id": "103011",
+            "type": "noun, 'no' adjective",
             "front": [
                 {
                     "kanji": "家族",
                     "furigana": "かぞく"
                 }
             ],
-            "back": "noun, 'no' adjective"
+            "back": [
+                "family; members of a family"
+            ]
         },
         {
             "id": "326623",
+            "type": "adverb, noun",
             "front": [
                 "みんな"
             ],
-            "back": "adverb, noun"
+            "back": [
+                "all; everyone; everybody",
+                "everything"
+            ]
         },
         {
             "id": "326813",
+            "type": "irregular 'ru' godan verb, intransitive verb",
             "front": [
                 "ある"
             ],
-            "back": "irregular 'ru' godan verb, intransitive verb"
+            "back": [
+                "to be (usu. of inanimate objects); to exist; to live",
+                "to have"
+            ]
         },
         {
             "id": "326855",
+            "type": "'i' adjective",
             "front": [
                 "かわいい"
             ],
-            "back": "'i' adjective"
+            "back": [
+                "cute; adorable; charming; lovely; pretty",
+                "dear; precious; darling; pet"
+            ]
         },
         {
             "id": "135282",
+            "type": "adverbial noun (fukushitekimeishi), noun (temporal) (jisoumeishi)",
             "front": [
                 {
                     "kanji": "毎日",
                     "furigana": "まいにち"
                 }
             ],
-            "back": "adverbial noun (fukushitekimeishi), noun (temporal) (jisoumeishi)"
+            "back": [
+                "every day"
+            ]
         },
         {
             "id": "99604",
+            "type": "noun, 'suru' verb",
             "front": [
                 {
                     "kanji": "意味",
                     "furigana": "いみ"
                 }
             ],
-            "back": "noun, 'suru' verb"
+            "back": [
+                "meaning; significance"
+            ]
         },
         {
             "id": "102184",
+            "type": "noun",
             "front": [
                 {
                     "kanji": "音楽",
                     "furigana": "おんがく"
                 }
             ],
-            "back": "noun"
+            "back": [
+                "music; musical movement"
+            ]
         },
         {
             "id": "275148",
+            "type": "noun, 'no' adjective",
             "front": [
                 {
                     "kanji": "買",
@@ -495,70 +686,95 @@
                     "furigana": "もの"
                 }
             ],
-            "back": "noun, 'no' adjective"
+            "back": [
+                "shopping; purchased goods"
+            ]
         },
         {
             "id": "264678",
+            "type": "noun",
             "front": [
                 {
                     "kanji": "時計",
                     "furigana": "とけい"
                 }
             ],
-            "back": "noun"
+            "back": [
+                "watch; clock; timepiece"
+            ]
         },
         {
             "id": "275776",
+            "type": "noun",
             "front": [
                 {
                     "kanji": "国",
                     "furigana": "くに"
                 }
             ],
-            "back": "noun"
+            "back": [
+                "country; state",
+                "region"
+            ]
         },
         {
             "id": "116107",
+            "type": "noun",
             "front": [
                 {
                     "kanji": "手",
                     "furigana": "て"
                 }
             ],
-            "back": "noun"
+            "back": [
+                "hand; arm",
+                "forepaw; foreleg"
+            ]
         },
         {
             "id": "273789",
+            "type": "numeric",
             "front": [
                 {
                     "kanji": "十",
                     "furigana": "じゅう"
                 }
             ],
-            "back": "numeric"
+            "back": [
+                "ten"
+            ]
         },
         {
             "id": "110487",
+            "type": "noun, 'no' adjective",
             "front": [
                 {
                     "kanji": "後",
                     "furigana": "あと"
                 }
             ],
-            "back": "noun, 'no' adjective"
+            "back": [
+                "behind; rear",
+                "after; later"
+            ]
         },
         {
             "id": "114531",
+            "type": "pronoun, 'no' adjective",
             "front": [
                 {
                     "kanji": "私",
                     "furigana": "わたし"
                 }
             ],
-            "back": "pronoun, 'no' adjective"
+            "back": [
+                "I; me",
+                "private affairs; personal matter; secrecy"
+            ]
         },
         {
             "id": "266225",
+            "type": "'i' adjective",
             "front": [
                 {
                     "kanji": "新",
@@ -566,140 +782,189 @@
                 },
                 "しい"
             ],
-            "back": "'i' adjective"
+            "back": [
+                "new; novel; fresh; recent; latest; up-to-date; modern"
+            ]
         },
         {
             "id": "269185",
+            "type": "noun",
             "front": [
                 {
                     "kanji": "道",
                     "furigana": "みち"
                 }
             ],
-            "back": "noun"
+            "back": [
+                "road; street; way; path; course; route; lane",
+                "distance; ways (e.g. \"a long ways\")"
+            ]
         },
         {
             "id": "273767",
+            "type": "numeric",
             "front": [
                 {
                     "kanji": "四",
                     "furigana": "よん"
                 }
             ],
-            "back": "numeric"
+            "back": [
+                "four"
+            ]
         },
         {
             "id": "271593",
+            "type": "noun",
             "front": [
                 {
                     "kanji": "木",
                     "furigana": "き"
                 }
             ],
-            "back": "noun"
+            "back": [
+                "tree; shrub; bush",
+                "wood; timber"
+            ]
         },
         {
             "id": "274139",
+            "type": "numeric",
             "front": [
                 {
                     "kanji": "六",
                     "furigana": "ろく"
                 }
             ],
-            "back": "numeric"
+            "back": [
+                "six"
+            ]
         },
         {
             "id": "269607",
+            "type": "noun",
             "front": [
                 {
                     "kanji": "年",
                     "furigana": "とし"
                 }
             ],
-            "back": "noun"
+            "back": [
+                "year",
+                "age; years"
+            ]
         },
         {
             "id": "274005",
+            "type": "numeric",
             "front": [
                 {
                     "kanji": "八",
                     "furigana": "はち"
                 }
             ],
-            "back": "numeric"
+            "back": [
+                "eight"
+            ]
         },
         {
             "id": "140230",
+            "type": "pronoun, 'no' adjective",
             "front": [
                 {
                     "kanji": "何",
                     "furigana": "なに"
                 }
             ],
-            "back": "pronoun, 'no' adjective"
+            "back": [
+                "what",
+                "how many"
+            ]
         },
         {
             "id": "264728",
+            "type": "numeric",
             "front": [
                 {
                     "kanji": "七",
                     "furigana": "しち"
                 }
             ],
-            "back": "numeric"
+            "back": [
+                "seven",
+                "hepta-"
+            ]
         },
         {
             "id": "270265",
+            "type": "numeric",
             "front": [
                 {
                     "kanji": "百",
                     "furigana": "ひゃく"
                 }
             ],
-            "back": "numeric"
+            "back": [
+                "100; hundred"
+            ]
         },
         {
             "id": "267177",
+            "type": "numeric",
             "front": [
                 {
                     "kanji": "千",
                     "furigana": "せん"
                 }
             ],
-            "back": "numeric"
+            "back": [
+                "1,000; thousand"
+            ]
         },
         {
             "id": "103892",
+            "type": "noun",
             "front": [
                 {
                     "kanji": "海",
                     "furigana": "うみ"
                 }
             ],
-            "back": "noun"
+            "back": [
+                "sea; ocean; waters"
+            ]
         },
         {
             "id": "260417",
+            "type": "noun",
             "front": [
                 {
                     "kanji": "花",
                     "furigana": "はな"
                 }
             ],
-            "back": "noun"
+            "back": [
+                "flower; blossom; bloom; petal",
+                "cherry blossom"
+            ]
         },
         {
             "id": "119062",
+            "type": "noun",
             "front": [
                 {
                     "kanji": "色",
                     "furigana": "いろ"
                 }
             ],
-            "back": "noun"
+            "back": [
+                "colour; color",
+                "complexion"
+            ]
         },
         {
             "id": "265700",
+            "type": "adverb, noun",
             "front": [
                 {
                     "kanji": "少",
@@ -707,238 +972,324 @@
                 },
                 "し"
             ],
-            "back": "adverb, noun"
+            "back": [
+                "small quantity; little; few; something",
+                "little while"
+            ]
         },
         {
             "id": "107983",
+            "type": "noun, 'no' adjective",
             "front": [
                 {
                     "kanji": "銀行",
                     "furigana": "ぎんこう"
                 }
             ],
-            "back": "noun, 'no' adjective"
+            "back": [
+                "bank"
+            ]
         },
         {
             "id": "115247",
+            "type": "noun",
             "front": [
                 {
                     "kanji": "自動車",
                     "furigana": "じどうしゃ"
                 }
             ],
-            "back": "noun"
+            "back": [
+                "automobile"
+            ]
         },
         {
             "id": "132813",
+            "type": "noun",
             "front": [
                 {
                     "kanji": "部屋",
                     "furigana": "へや"
                 }
             ],
-            "back": "noun"
+            "back": [
+                "room; chamber",
+                "apartment; flat; pad"
+            ]
         },
         {
             "id": "264358",
+            "type": "noun",
             "front": [
                 {
                     "kanji": "子供",
                     "furigana": "こども"
                 }
             ],
-            "back": "noun"
+            "back": [
+                "child; children"
+            ]
         },
         {
             "id": "326846",
+            "type": "'i' adjective",
             "front": [
                 "よい"
             ],
-            "back": "'i' adjective"
+            "back": [
+                "good; excellent; fine; nice; pleasant; agreeable",
+                "sufficient (can be used to turn down an offer); ready; prepared"
+            ]
         },
         {
             "id": "112225",
+            "type": "noun",
             "front": [
                 {
                     "kanji": "黒",
                     "furigana": "くろ"
                 }
             ],
-            "back": "noun"
+            "back": [
+                "black",
+                "black go stone"
+            ]
         },
         {
             "id": "273683",
+            "type": "numeric",
             "front": [
                 {
                     "kanji": "九",
                     "furigana": "きゅう"
                 }
             ],
-            "back": "numeric"
+            "back": [
+                "nine"
+            ]
         },
         {
             "id": "134890",
+            "type": "noun",
             "front": [
                 {
                     "kanji": "北",
                     "furigana": "きた"
                 }
             ],
-            "back": "noun"
+            "back": [
+                "north",
+                "the North; northern territories"
+            ]
         },
         {
             "id": "121317",
+            "type": "noun",
             "front": [
                 {
                     "kanji": "西",
                     "furigana": "にし"
                 }
             ],
-            "back": "noun"
+            "back": [
+                "west"
+            ]
         },
         {
             "id": "273981",
+            "type": "noun",
             "front": [
                 {
                     "kanji": "二人",
                     "furigana": "ふたり"
                 }
             ],
-            "back": "noun"
+            "back": [
+                "two persons; two people; pair; couple"
+            ]
         },
         {
             "id": "128979",
+            "type": "noun",
             "front": [
                 {
                     "kanji": "南",
                     "furigana": "みなみ"
                 }
             ],
-            "back": "noun"
+            "back": [
+                "south"
+            ]
         },
         {
             "id": "102226",
+            "type": "noun",
             "front": [
                 {
                     "kanji": "下",
                     "furigana": "した"
                 }
             ],
-            "back": "noun"
+            "back": [
+                "below; down; under; younger (e.g. daughter)",
+                "bottom"
+            ]
         },
         {
             "id": "112368",
+            "type": "adverbial noun (fukushitekimeishi), noun",
             "front": [
                 {
                     "kanji": "今",
                     "furigana": "いま"
                 }
             ],
-            "back": "adverbial noun (fukushitekimeishi), noun"
+            "back": [
+                "now; the present time; just now; soon; immediately; (one) more"
+            ]
         },
         {
             "id": "127353",
+            "type": "noun",
             "front": [
                 {
                     "kanji": "電気",
                     "furigana": "でんき"
                 }
             ],
-            "back": "noun"
+            "back": [
+                "electricity",
+                "(electric) light"
+            ]
         },
         {
             "id": "259316",
+            "type": "adverbial noun (fukushitekimeishi), noun, 'no' adjective",
             "front": [
                 {
                     "kanji": "一緒",
                     "furigana": "いっしょ"
                 }
             ],
-            "back": "adverbial noun (fukushitekimeishi), noun, 'no' adjective"
+            "back": [
+                "together",
+                "at the same time"
+            ]
         },
         {
             "id": "93539",
+            "type": "noun",
             "front": [
                 "ニュース"
             ],
-            "back": "noun"
+            "back": [
+                "news"
+            ]
         },
         {
             "id": "86193",
+            "type": "adverb",
             "front": [
                 "もっと"
             ],
-            "back": "adverb"
+            "back": [
+                "(some) more; even more; longer; further"
+            ]
         },
         {
             "id": "267736",
+            "type": "noun",
             "front": [
                 {
                     "kanji": "足",
                     "furigana": "あし"
                 }
             ],
-            "back": "noun"
+            "back": [
+                "foot",
+                "leg"
+            ]
         },
         {
             "id": "266826",
+            "type": "noun",
             "front": [
                 {
                     "kanji": "声",
                     "furigana": "こえ"
                 }
             ],
-            "back": "noun"
+            "back": [
+                "voice"
+            ]
         },
         {
             "id": "126681",
+            "type": "noun",
             "front": [
                 {
                     "kanji": "庭",
                     "furigana": "にわ"
                 }
             ],
-            "back": "noun"
+            "back": [
+                "garden; yard; courtyard",
+                "field (of action); area"
+            ]
         },
         {
             "id": "271844",
+            "type": "noun",
             "front": [
                 {
                     "kanji": "友達",
                     "furigana": "ともだち"
                 }
             ],
-            "back": "noun"
+            "back": [
+                "friend; companion"
+            ]
         },
         {
             "id": "266845",
+            "type": "noun, 'no' adjective, 'na' adjective",
             "front": [
                 {
                     "kanji": "青",
                     "furigana": "あお"
                 }
             ],
-            "back": "noun, 'no' adjective, 'na' adjective"
+            "back": [
+                "blue",
+                "green"
+            ]
         },
         {
             "id": "262869",
+            "type": "noun",
             "front": [
                 {
                     "kanji": "言葉",
                     "furigana": "ことば"
                 }
             ],
-            "back": "noun"
+            "back": [
+                "language; dialect",
+                "word; words; phrase; term; expression; remark"
+            ]
         },
         {
             "id": "125243",
+            "type": "noun",
             "front": [
                 {
                     "kanji": "地図",
                     "furigana": "ちず"
                 }
             ],
-            "back": "noun"
+            "back": [
+                "map"
+            ]
         }
     ]
 }
