@@ -6,7 +6,7 @@ export async function getVocabPageFromBrowser(browser, vocabUrlSuffix, cookies) 
     try {
         //Load cookies
         await page.setCookie(...cookies);
-        //Get the example sentence
+        //Get the vocab
         const vocabPageObj = await getVocabPage(page, vocabUrlSuffix);
         //Return
         return vocabPageObj;

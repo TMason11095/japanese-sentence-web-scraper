@@ -23,8 +23,12 @@ const jsonDirPath =  "jsons/"
 // const currentGrammar = mainGrammar;
 // const currentGrammars = [mainGrammar, nextGrammar, noGrammar, 'dates', 'irregular_verbs'];
 
-const mainVocab = "WPJLPT-N5-1";
-const currentVocab = mainVocab;
+// const mainVocab = "WPJLPT-N5-1";
+// const currentVocab = mainVocab;
+
+const mainKanji = "買";
+const multiMeaningKanji = "外";
+const currentKanji = multiMeaningKanji;
 
 (async () => {
     //Launch puppeteer
@@ -44,18 +48,33 @@ const currentVocab = mainVocab;
         //const grammarObj = await grammars.getGrammars(browser, currentGrammars, cookies);
 
         //Get vocab object
-        const vocabPageObj = await vocabs.getVocabPageFromBrowser(browser, currentVocab, cookies);
+        //const vocabPageObj = await vocabs.getVocabPageFromBrowser(browser, currentVocab, cookies);
         
-
+        //Get kanji object
+        
+        //Open new page
+        const page = await browser.newPage();
+        let kanjiObj;
+        try {
+            //Load cookies
+            await page.setCookie(...cookies);
+            //Get kanji
+            kanjiObj = await getKanjiDetail(page, currentKanji);
+        } catch (error) {
+            console.error('Error in main():', error);
+            return false;
+        } finally {
+            page.close();
+        }
 
 
         //Display run time (ms)
         console.log(Date.now() - beforePageCallsTime);
 
         //Convert example sentence to JSON
-        const vocabPageJson = JSON.stringify(vocabPageObj, null, 4);
+        const kanjiJson = JSON.stringify(kanjiObj, null, 4);
         //Save Sentence JSON to file
-        await helper.saveDataToFile(vocabPageJson, jsonDirPath + "test3.json");
+        await helper.saveDataToFile(kanjiJson, jsonDirPath + "test1.json");
 
         //Take a screenshot of the current page
             //await page.screenshot({path: screenshotsDirPath + "page.png", fullPage: true});
@@ -74,3 +93,38 @@ const currentVocab = mainVocab;
     }
     
 })();
+
+async function getKanjiDetail(page, kanjiUrlSuffix) {
+    //Base url
+    const baseUrl = 'https://www.kanshudo.com/kanji/';
+    //Full url
+    const kanjiUrl = baseUrl + kanjiUrlSuffix;
+    //Get kanji detail
+    try {
+        //Navigate to page
+        await page.goto(kanjiUrl);
+        //Get kanji components in parallel
+        const [kanjiIds, kanjiDef] = await Promise.all([
+            helper.getIds(page, '#main-content .bodyarea .kanjirow.level0 .kr_container .kanji', 'id', '^(k_kan_)'),
+            getKanjiDetailDefinition(page)
+        ])
+        //Grab the kanji id (only 1 id per page)
+        const kanjiId = kanjiIds[0];
+        console.log(kanjiId);
+        //Return
+        return {
+            id: kanjiId
+        };
+    } catch (error) {
+        console.error('Error in getKanjiDetail():', error);
+        return false;
+    }
+}
+
+async function getKanjiDetailDefinition(page) {
+    //Get the kanji definition sentence (includes kanji + filler text + definition)
+    const defWithFiller = await page.evaluate(() => {
+        return document.querySelector('#main-content .bodyarea h1').textContent;
+    });
+    //console.log(defWithFiller);
+}
