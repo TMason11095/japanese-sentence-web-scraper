@@ -10,7 +10,7 @@ import * as puppeteer from 'puppeteer';
 const screenshotsDirPath = "screenshots/";
 const cookiesDirPath = "cookies/";
 const htmlDirPath = "htmls/";
-const jsonDirPath =  "jsons/"
+const jsonDirPath =  "jsons/";
 
 // const mainExampleId = "46829"
 // const kanjiHiraKanjiExampleId = "18180";
@@ -36,7 +36,7 @@ const jsonDirPath =  "jsons/"
 
 (async () => {
     //Launch puppeteer
-    const browser = await puppeteer.launch({dumpio: true});//{headless: false}
+    const browser = await puppeteer.launch({dumpio: true, headless: false});//{headless: false}
     //Do the rest of the operations within a try so the browser doesn't stay open on errors
     try {
         //Get cookies
@@ -57,14 +57,16 @@ const jsonDirPath =  "jsons/"
         //Get kanji object
         //const kanjiObj = await kanjis.getKanjis(browser, currentKanjis, cookies);
 
+        //Get kanji components
+        const kanjiCompObj = await kanjis.getAllKanjiComponents(browser, cookies);
 
         //Display run time (ms)
         console.log(Date.now() - beforePageCallsTime);
 
         //Convert example sentence to JSON
-        //const kanjiJson = JSON.stringify(kanjiObj, null, 4);
+        const jsonObj = JSON.stringify(kanjiCompObj, null, 4);
         //Save Sentence JSON to file
-        //await helper.saveDataToFile(kanjiJson, jsonDirPath + "test6.json");
+        await helper.saveDataToFile(jsonObj, jsonDirPath + "test3.json");
 
         //Take a screenshot of the current page
             //await page.screenshot({path: screenshotsDirPath + "page.png", fullPage: true});

@@ -1,0 +1,251 @@
+{
+    "kanjis": [
+        {
+            "name": "1. one",
+            "url": "https://www.kanshudo.com/kanji/%E4%B8%80",
+            "kanji": {
+                "id": "1",
+                "kanji": "一",
+                "meaning": "one",
+                "type": "Jōyō (常用)",
+                "component_ids": []
+            }
+        },
+        {
+            "name": "whereupon",
+            "url": "https://www.kanshudo.com/kanji/%E4%B8%BF",
+            "kanji": {
+                "id": "4281",
+                "kanji": "丿",
+                "meaning": "whereupon\n\n        and\n\n        is a variant\n\n      of 乃",
+                "type": "Hyōgaiji (表外字)",
+                "component_ids": []
+            }
+        },
+        {
+            "name": "2. stick",
+            "url": "https://www.kanshudo.com/kanji/%E4%B8%A8",
+            "kanji": {
+                "id": "2258",
+                "kanji": "丨",
+                "meaning": "stick",
+                "type": "Hyōgaiji (表外字)",
+                "component_ids": []
+            }
+        },
+        {
+            "name": "3. dot",
+            "url": "https://www.kanshudo.com/kanji/%E4%B8%B6",
+            "kanji": {
+                "id": "2309",
+                "kanji": "丶",
+                "meaning": "dot",
+                "type": "Hyōgaiji (表外字)",
+                "component_ids": []
+            }
+        },
+        {
+            "name": "4. katakana 'no'; whereupon; splitting away from",
+            "url": "https://www.kanshudo.com/kanji/%E3%83%8E",
+            "kanji": {
+                "id": "4280",
+                "kanji": "ノ\n    is katakana 'no' and",
+                "meaning": "whereupon or splitting away from\n\n        and\n\n        is a variant\n\n      of 乃",
+                "type": "Katakana",
+                "component_ids": []
+            }
+        },
+        {
+            "name": "5. second",
+            "url": "https://www.kanshudo.com/kanji/%E4%B9%99",
+            "kanji": {
+                "id": "71",
+                "kanji": "乙",
+                "meaning": "second",
+                "type": "Jōyō (常用)",
+                "component_ids": []
+            }
+        },
+        {
+            "name": "5. second",
+            "url": "https://www.kanshudo.com/kanji/%E4%B9%9A",
+            "kanji": {
+                "id": "4347",
+                "kanji": "乚",
+                "meaning": "second\n\n        and\n\n        is a variant\n\n      of 乙",
+                "type": "Hyōgaiji (表外字)",
+                "component_ids": []
+            }
+        },
+        {
+            "name": "5. second",
+            "url": "https://www.kanshudo.com/kanji/%E2%BA%84",
+            "kanji": {
+                "id": "4348",
+                "kanji": "⺄",
+                "meaning": "second\n\n        and\n\n        is a variant\n\n      of 乙",
+                "type": "Hyōgaiji (表外字)",
+                "component_ids": []
+            }
+        },
+        {
+            "name": "6. hook",
+            "url": "https://www.kanshudo.com/kanji/%E4%BA%85",
+            "kanji": {
+                "id": "2267",
+                "kanji": "亅",
+                "meaning": "hook",
+                "type": "Hyōgaiji (表外字)",
+                "component_ids": []
+            }
+        },
+        {
+            "name": "6. hook",
+            "url": "https://www.kanshudo.com/kanji/%F0%A0%84%8C",
+            "kanji": {
+                "id": "4050",
+                "kanji": "𠄌",
+                "meaning": "hook\n\n        and\n\n        is a variant\n\n      of 亅",
+                "type": "Hyōgaiji (表外字)",
+                "component_ids": []
+            }
+        },
+        {
+            "name": "shelf",
+            "url": "https://www.kanshudo.com/kanji/%F0%A0%83%8A",
+            "kanji": {
+                "id": "3019",
+                "kanji": "𠃊",
+                "meaning": "shelf",
+                "type": "Hyōgaiji (表外字)",
+                "component_ids": []
+            }
+        },
+        {
+            "name": "three",
+            "url": "https://www.kanshudo.com/kanji/%E3%84%8B",
+            "kanji": {
+                "id": "3270",
+                "kanji": "ㄋ",
+                "meaning": "three",
+                "type": "Hyōgaiji (表外字)",
+                "component_ids": []
+            }
+        },
+        {
+            "name": "fu",
+            "url": "https://www.kanshudo.com/kanji/%E3%87%87",
+            "kanji": {
+                "id": "4074",
+                "kanji": "㇇",
+                "meaning": "fu\n\n        and\n\n        is a variant\n\n      of フ",
+                "type": "Hyōgaiji (表外字)",
+                "component_ids": []
+            }
+        },
+        {
+            "name": "connect",
+            "url": "https://www.kanshudo.com/kanji/%E4%B8%A9",
+            "kanji": {
+                "id": "2274",
+                "kanji": "丩",
+                "meaning": "connect",
+                "type": "Hyōgaiji (表外字)",
+                "component_ids": [
+                    "2258"
+                ]
+            }
+        },
+        {
+            "name": "katakana 'yu'",
+            "url": "https://www.kanshudo.com/kanji/%E3%83%A6",
+            "kanji": {
+                "id": "3083",
+                "kanji": "ユ\n    is katakana 'yu'",
+                "meaning": "No definition",
+                "type": "Katakana",
+                "component_ids": []
+            }
+        },
+        {
+            "name": "4. whereupon",
+            "url": "https://www.kanshudo.com/kanji/%E4%B9%83",
+            "kanji": {
+                "id": "686",
+                "kanji": "乃",
+                "meaning": "whereupon",
+                "type": "Jinmeiyō (人名用)",
+                "component_ids": [
+                    "3270",
+                    "4280"
+                ]
+            }
+        },
+        {
+            "name": "7. two",
+            "url": "https://www.kanshudo.com/kanji/%E4%BA%8C",
+            "kanji": {
+                "id": "2",
+                "kanji": "二",
+                "meaning": "two",
+                "type": "Jōyō (常用)",
+                "component_ids": []
+            }
+        },
+        {
+            "name": "8. lid",
+            "url": "https://www.kanshudo.com/kanji/%E4%BA%A0",
+            "kanji": {
+                "id": "2303",
+                "kanji": "亠",
+                "meaning": "lid",
+                "type": "Hyōgaiji (表外字)",
+                "component_ids": []
+            }
+        },
+        {
+            "name": "9. person",
+            "url": "https://www.kanshudo.com/kanji/%E4%BA%BA",
+            "kanji": {
+                "id": "951",
+                "kanji": "人",
+                "meaning": "person",
+                "type": "Jōyō (常用)",
+                "component_ids": []
+            }
+        },
+        {
+            "name": "9. man",
+            "url": "https://www.kanshudo.com/kanji/%E4%BA%BB",
+            "kanji": {
+                "id": "4039",
+                "kanji": "亻",
+                "meaning": "man\n\n        and\n\n        is a variant\n\n      of 人",
+                "type": "Hyōgaiji (表外字)",
+                "component_ids": []
+            }
+        },
+        {
+            "name": "9. man",
+            "url": "https://www.kanshudo.com/kanji/%F0%A0%86%A2",
+            "kanji": {
+                "id": "4040",
+                "kanji": "𠆢",
+                "meaning": "man\n\n        and\n\n        is a variant\n\n      of 人",
+                "type": "Hyōgaiji (表外字)",
+                "component_ids": []
+            }
+        },
+        {
+            "name": "9. man",
+            "url": "https://www.kanshudo.com/kanji/%F0%A0%82%89",
+            "kanji": {
+                "id": "4041",
+                "kanji": "",
+                "meaning": "man\n\n        and\n\n        is a variant\n\n      of 人",
+                "type": "Hyōgaiji (表外字)",
+                "component_ids": []
+            }
+        }
+    ]
+}
