@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Web scraper for pulling Japanese sentence examples.",
   "main": "app.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "mocha": "^10.2.0",
+    "p-limit": "^5.0.0",
     "puppeteer": "^21.7.0",
     "selenium-webdriver": "^4.16.0"
   },
