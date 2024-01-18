@@ -28,7 +28,8 @@ const jsonDirPath =  "jsons/"
 
 const mainKanji = "買";
 const multiMeaningKanji = "外";
-const currentKanji = mainKanji;
+const varPlusLessUsedSubKanji = "酒";
+const currentKanji = varPlusLessUsedSubKanji;
 
 (async () => {
     //Launch puppeteer
@@ -51,6 +52,8 @@ const currentKanji = mainKanji;
         //const vocabPageObj = await vocabs.getVocabPageFromBrowser(browser, currentVocab, cookies);
         
         //Get kanji object
+        //console.log(encodeURI('录'));
+
         
         //Open new page
         const page = await browser.newPage();
@@ -74,7 +77,7 @@ const currentKanji = mainKanji;
         //Convert example sentence to JSON
         const kanjiJson = JSON.stringify(kanjiObj, null, 4);
         //Save Sentence JSON to file
-        await helper.saveDataToFile(kanjiJson, jsonDirPath + "test3.json");
+        await helper.saveDataToFile(kanjiJson, jsonDirPath + "test4.json");
 
         //Take a screenshot of the current page
             //await page.screenshot({path: screenshotsDirPath + "page.png", fullPage: true});
@@ -104,10 +107,10 @@ async function getKanjiDetail(page, kanjiUrlSuffix) {
         //Navigate to page
         await page.goto(kanjiUrl);
         //Get kanji components in parallel
-        const [kanjiIds, kanjiDef, kanjiSubIds] = await Promise.all([
+        const [kanjiIds, kanjiDef, componentIds] = await Promise.all([
             helper.getIds(page, '#main-content .bodyarea .kanjirow.level0 .kr_container .kanji', 'id', '^(k_kan_)'),
             getKanjiDetailDefinition(page),
-            helper.getIds(page, '#main-content .bodyarea .kanjirow.level1 .kr_container [class="kanji "]', 'id', '^(k_kan_)')
+            helper.getIds(page, '#main-content .bodyarea .kanjirow.level1 .kr_container .kanji', 'id', '^(k_kan_)')
         ])
         //Grab the kanji id (only 1 id per page)
         const kanjiId = kanjiIds[0];
@@ -116,7 +119,7 @@ async function getKanjiDetail(page, kanjiUrlSuffix) {
             id: kanjiId,
             kanji: kanjiDef.kanji,
             meaning: kanjiDef.meaning,
-            sub_kanji_ids: kanjiSubIds
+            component_ids: componentIds
         };
     } catch (error) {
         console.error('Error in getKanjiDetail():', error);
