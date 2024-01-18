@@ -2,6 +2,7 @@ import * as helper from './js/helper.js';
 import * as exampleSentences from './js/example_sentences.js';
 import * as grammars from './js/grammars.js';
 import * as vocabs from './js/vocabs.js';
+import * as kanjis from './js/kanjis.js';
 
 import * as error from 'console';
 import * as puppeteer from 'puppeteer';
@@ -23,8 +24,15 @@ const jsonDirPath =  "jsons/"
 // const currentGrammar = mainGrammar;
 // const currentGrammars = [mainGrammar, nextGrammar, noGrammar, 'dates', 'irregular_verbs'];
 
-const mainVocab = "WPJLPT-N5-1";
-const currentVocab = mainVocab;
+// const mainVocab = "WPJLPT-N5-1";
+// const currentVocab = mainVocab;
+
+// const mainKanji = "買";
+// const multiMeaningKanji = "外";
+// const varPlusLessUsedSubKanji = "酒";
+// const kanjiComponent = "录";
+// const currentKanji = varPlusLessUsedSubKanji;
+// const currentKanjis = [mainKanji, multiMeaningKanji, varPlusLessUsedSubKanji, kanjiComponent, "伸", "近", "差", "録"];
 
 (async () => {
     //Launch puppeteer
@@ -44,18 +52,19 @@ const currentVocab = mainVocab;
         //const grammarObj = await grammars.getGrammars(browser, currentGrammars, cookies);
 
         //Get vocab object
-        const vocabPageObj = await vocabs.getVocabPageFromBrowser(browser, currentVocab, cookies);
+        //const vocabPageObj = await vocabs.getVocabPageFromBrowser(browser, currentVocab, cookies);
         
-
+        //Get kanji object
+        //const kanjiObj = await kanjis.getKanjis(browser, currentKanjis, cookies);
 
 
         //Display run time (ms)
         console.log(Date.now() - beforePageCallsTime);
 
         //Convert example sentence to JSON
-        const vocabPageJson = JSON.stringify(vocabPageObj, null, 4);
+        //const kanjiJson = JSON.stringify(kanjiObj, null, 4);
         //Save Sentence JSON to file
-        await helper.saveDataToFile(vocabPageJson, jsonDirPath + "test3.json");
+        //await helper.saveDataToFile(kanjiJson, jsonDirPath + "test6.json");
 
         //Take a screenshot of the current page
             //await page.screenshot({path: screenshotsDirPath + "page.png", fullPage: true});
@@ -74,3 +83,4 @@ const currentVocab = mainVocab;
     }
     
 })();
+
