@@ -29,7 +29,9 @@ const jsonDirPath =  "jsons/"
 const mainKanji = "買";
 const multiMeaningKanji = "外";
 const varPlusLessUsedSubKanji = "酒";
+const kanjiComponent = "录";
 const currentKanji = varPlusLessUsedSubKanji;
+const currentKanjis = [mainKanji, multiMeaningKanji, varPlusLessUsedSubKanji, kanjiComponent, "伸", "近", "差", "録"];
 
 (async () => {
     //Launch puppeteer
@@ -52,23 +54,7 @@ const currentKanji = varPlusLessUsedSubKanji;
         //const vocabPageObj = await vocabs.getVocabPageFromBrowser(browser, currentVocab, cookies);
         
         //Get kanji object
-        //console.log(encodeURI('录'));
-
-        
-        //Open new page
-        const page = await browser.newPage();
-        let kanjiObj;
-        try {
-            //Load cookies
-            await page.setCookie(...cookies);
-            //Get kanji
-            kanjiObj = await getKanjiDetail(page, currentKanji);
-        } catch (error) {
-            console.error('Error in main():', error);
-            return false;
-        } finally {
-            page.close();
-        }
+        const kanjiObj = await getKanjis(browser, currentKanjis, cookies);
 
 
         //Display run time (ms)
@@ -77,7 +63,7 @@ const currentKanji = varPlusLessUsedSubKanji;
         //Convert example sentence to JSON
         const kanjiJson = JSON.stringify(kanjiObj, null, 4);
         //Save Sentence JSON to file
-        await helper.saveDataToFile(kanjiJson, jsonDirPath + "test4.json");
+        await helper.saveDataToFile(kanjiJson, jsonDirPath + "test5.json");
 
         //Take a screenshot of the current page
             //await page.screenshot({path: screenshotsDirPath + "page.png", fullPage: true});
@@ -97,6 +83,43 @@ const currentKanji = varPlusLessUsedSubKanji;
     
 })();
 
+async function getKanjis(browser, kanjiUrlSuffixes, cookies) {
+    //Map url suffixes to getKanjiDetail() Promises
+    let pages = [];//To close later
+    const kanjiPromises = kanjiUrlSuffixes.map(async (kanjiUrlSuffix) => {
+        //Open new page
+        const page = await browser.newPage();
+        //Store page to close later
+        pages.push(page);
+        //Get kanji
+        try {
+            //Load cookies
+            await page.setCookie(...cookies);
+            //Get kanji
+            const kanjiObj = await getKanjiDetail(page, kanjiUrlSuffix);
+            //Return
+            return kanjiObj;
+        } catch (error) {
+            console.error('Error in getKanjis():', error);
+            return false;
+        }
+    });
+    //Process results
+    try {
+        const kanjis = await Promise.all(kanjiPromises);
+        //Add list to object
+        const kanjisObj = { kanjis: kanjis };
+        //Return
+        return kanjisObj;
+    } catch(error) {
+        console.error('Error in getKanjis():', error);
+        return false;
+    } finally {
+        //Close all pages
+        await Promise.all(pages.map(page => page.close()));
+    }
+}
+
 async function getKanjiDetail(page, kanjiUrlSuffix) {
     //Base url
     const baseUrl = 'https://www.kanshudo.com/kanji/';
@@ -107,9 +130,10 @@ async function getKanjiDetail(page, kanjiUrlSuffix) {
         //Navigate to page
         await page.goto(kanjiUrl);
         //Get kanji components in parallel
-        const [kanjiIds, kanjiDef, componentIds] = await Promise.all([
+        const [kanjiIds, kanjiDef, kanjiType, componentIds] = await Promise.all([
             helper.getIds(page, '#main-content .bodyarea .kanjirow.level0 .kr_container .kanji', 'id', '^(k_kan_)'),
             getKanjiDetailDefinition(page),
+            getKanjiType(page),
             helper.getIds(page, '#main-content .bodyarea .kanjirow.level1 .kr_container .kanji', 'id', '^(k_kan_)')
         ])
         //Grab the kanji id (only 1 id per page)
@@ -119,12 +143,19 @@ async function getKanjiDetail(page, kanjiUrlSuffix) {
             id: kanjiId,
             kanji: kanjiDef.kanji,
             meaning: kanjiDef.meaning,
+            type: kanjiType,
             component_ids: componentIds
         };
     } catch (error) {
         console.error('Error in getKanjiDetail():', error);
         return false;
     }
+}
+
+async function getKanjiType(page) {
+    return await page.evaluate(() => {
+        return document.querySelector('#main-content .bodyarea .kdetailsrow .kdetails2 div .typemessage').textContent;
+    });
 }
 
 async function getKanjiDetailDefinition(page) {

@@ -1,0 +1,85 @@
+{
+    "kanjis": [
+        {
+            "id": "831",
+            "kanji": "買",
+            "meaning": "buy",
+            "type": "Jōyō (常用)",
+            "component_ids": [
+                "4490",
+                "54"
+            ]
+        },
+        {
+            "id": "111",
+            "kanji": "外",
+            "meaning": "outside",
+            "type": "Jōyō (常用)",
+            "component_ids": [
+                "109",
+                "2238"
+            ]
+        },
+        {
+            "id": "1428",
+            "kanji": "酒",
+            "meaning": "sake",
+            "type": "Jōyō (常用)",
+            "component_ids": [
+                "4473",
+                "1427"
+            ]
+        },
+        {
+            "id": "3218",
+            "kanji": "录",
+            "meaning": "watery yo",
+            "type": "Hyōgaiji (表外字)",
+            "component_ids": [
+                "4474",
+                "3851"
+            ]
+        },
+        {
+            "id": "1118",
+            "kanji": "伸",
+            "meaning": "grow",
+            "type": "Jōyō (常用)",
+            "component_ids": [
+                "4039",
+                "1117"
+            ]
+        },
+        {
+            "id": "1129",
+            "kanji": "近",
+            "meaning": "close",
+            "type": "Jōyō (常用)",
+            "component_ids": [
+                "1125",
+                "4059"
+            ]
+        },
+        {
+            "id": "554",
+            "kanji": "差",
+            "meaning": "difference",
+            "type": "Jōyō (常用)",
+            "component_ids": [
+                "4280",
+                "4330",
+                "76"
+            ]
+        },
+        {
+            "id": "1144",
+            "kanji": "録",
+            "meaning": "record",
+            "type": "Jōyō (常用)",
+            "component_ids": [
+                "269",
+                "3218"
+            ]
+        }
+    ]
+}
