@@ -58,6 +58,7 @@ const jsonDirPath =  "jsons/";
         //const kanjiObj = await kanjis.getKanjis(browser, currentKanjis, cookies);
 
         //Get kanji components
+        //const kanjiCompObj = await kanjis.getAllKanjiComponents(browser, cookies);
         const kanjiCompObj = await kanjis.getAllKanjiComponents(browser, cookies);
 
         //Display run time (ms)
@@ -66,7 +67,7 @@ const jsonDirPath =  "jsons/";
         //Convert example sentence to JSON
         const jsonObj = JSON.stringify(kanjiCompObj, null, 4);
         //Save Sentence JSON to file
-        await helper.saveDataToFile(jsonObj, jsonDirPath + "test3.json");
+        await helper.saveDataToFile(jsonObj, jsonDirPath + "test6.json");
 
         //Take a screenshot of the current page
             //await page.screenshot({path: screenshotsDirPath + "page.png", fullPage: true});

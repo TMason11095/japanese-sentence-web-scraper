@@ -2,65 +2,48 @@ import * as helper from './helper.js';
 import pLimit from 'p-limit';
 
 export async function getAllKanjiComponents(browser, cookies) {
-    let compsPage;
-    try {
-        //Kanji components url
-        const compsUrl = "https://www.kanshudo.com/component_details/all_components";
-        //Open a new page
-        compsPage = await browser.newPage();
-        //Load cookies
-        await compsPage.setCookie(...cookies);
-        //Navigate to the kanji components page
-        await compsPage.goto(compsUrl);
-        //Get all the component urls from the page
-        const comps = await compsPage.evaluate(() => {
-            //Get the component containers
-            const compContainers = document.querySelectorAll('#main-content .bodyarea .clist .cbox .chead');
-            //Loop through and grab the name and url objects
-            let comps = [];
-            for (const compContainer of compContainers) {
-                //Grab the name
-                const compName = compContainer.querySelector('div .cname').textContent;
-                //Grab the component kanji url
-                const kanjiUrl = compContainer.querySelector('.comp').href;
-                //Add object to list
-                comps.push({
-                    name: compName,
-                    url: kanjiUrl
-                });
-            }
-            //Return
-            return comps;
-        });
-        //Limit to batches of 3
-        const limit = pLimit(10);
-        const compPromises = Array.from(comps).map((comp) => {
-            return limit(async () => {
-                //Get the kanji details
-                const kanji = await getKanjiDetailFromBrowser(browser, comp.url, cookies);
-                //Return the new object
-                return {
-                    name: comp.name,
-                    url: comp.url,
-                    kanji: kanji
-                };
+    return await helper.getAllSubPagesData(
+        browser,
+        cookies,
+        "https://www.kanshudo.com/component_details/all_components",
+        async (page) => {
+            return await page.evaluate(() => {
+                //Get the component containers
+                const compContainers = document.querySelectorAll('#main-content .bodyarea .clist .cbox .chead');
+                //Loop through and grab the name and url objects
+                let comps = [];
+                for (const compContainer of compContainers) {
+                    //Grab the name
+                    const compName = compContainer.querySelector('div .cname').textContent;
+                    //Grab the component kanji url
+                    const kanjiUrl = compContainer.querySelector('.comp').href;
+                    //Add object to list
+                    comps.push({
+                        name: compName,
+                        url: kanjiUrl
+                    });
+                }
+                //Return
+                return comps;
+            });
+        },
+        10,
+        (subUrls, limit) => {
+            return Array.from(subUrls).map((subUrl) => {
+                return limit(async () => {
+                    //Get the kanji details
+                    const kanji = await getKanjiDetailFromBrowser(browser, subUrl.url, cookies);
+                    //Return the new object
+                    return {
+                        name: subUrl.name,
+                        url: subUrl.url,
+                        kanji: kanji
+                    };
+                })
             })
-
-            
-        });
-        //Process
-        const kanjis = await Promise.all(compPromises);
-        //Add list to object
-        const kanjisObj = { kanjis: kanjis };
-        //Return
-        return kanjisObj;
-    } catch (error) {
-        console.error('Error in getAllKanjiComponents():', error);
-        return false;
-    } finally {
-        compsPage.close();
-    }
-    
+        },
+        "kanjis"
+    );
 }
 
 export async function getKanjis(browser, kanjiUrlSuffixes, cookies) {

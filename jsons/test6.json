@@ -1,0 +1,26 @@
+{
+    "kanjis": [
+        {
+            "name": "1. one",
+            "url": "https://www.kanshudo.com/kanji/%E4%B8%80",
+            "kanji": {
+                "id": "1",
+                "kanji": "一",
+                "meaning": "one",
+                "type": "Jōyō (常用)",
+                "component_ids": []
+            }
+        },
+        {
+            "name": "whereupon",
+            "url": "https://www.kanshudo.com/kanji/%E4%B8%BF",
+            "kanji": {
+                "id": "4281",
+                "kanji": "丿",
+                "meaning": "whereupon\n\n        and\n\n        is a variant\n\n      of 乃",
+                "type": "Hyōgaiji (表外字)",
+                "component_ids": []
+            }
+        }
+    ]
+}
