@@ -72,10 +72,26 @@ const jsonDirPath =  "jsons/";
         //     //Save the JSON
         //     await helper.saveDataToFile(jsonObj, jsonDirPath + nLevel + ".json");
         // }
-        //Get N1 (Goes from "N1 1-100" to "N1 1001-1136")
-        //Grab in chunks of 300s
-        
-        
+
+        //Get N1 Kanjis (Goes from "N1 1-100" to "N1 1001-1136")
+        const nLevel = 'N1';
+        const n1KanjisObj = await kanjis.getAllJlptKanjis(browser, cookies, nLevel);
+        //Divide into 3 sections at a time
+        const chunkSize = 3;
+        const n1Sections = n1KanjisObj[nLevel];
+        const n1Split = [];
+        for (let i = 0; i < n1Sections.length; i += chunkSize) {
+            n1Split.push(n1Sections.slice(i, i + chunkSize));
+        }
+        //Generate JSON for each sub section
+        for (let i = 0; i < n1Split.length; i++) {
+            //Setup the object
+            const n1Obj = { [nLevel]: n1Split[i] };
+            //Convert to JSON
+            const jsonObj = JSON.stringify(n1Obj, null, 4);
+            //Save the JSON
+            await helper.saveDataToFile(jsonObj, jsonDirPath + nLevel + "pt" + (i + 1) + ".json");
+        };
 
         //Display run time (ms)
         console.log(Date.now() - beforePageCallsTime);

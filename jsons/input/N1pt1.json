@@ -1,0 +1,3046 @@
+{
+    "N1": [
+        {
+            "title": "JLPT Kanji N1 1-100 (100 kanji)",
+            "kanjis": [
+                {
+                    "id": "1851",
+                    "kanji": "郎",
+                    "meaning": "husband",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "1468",
+                        "4018"
+                    ]
+                },
+                {
+                    "id": "1351",
+                    "kanji": "結",
+                    "meaning": "bind",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "320",
+                        "1333"
+                    ]
+                },
+                {
+                    "id": "1828",
+                    "kanji": "氏",
+                    "meaning": "family",
+                    "type": "Jōyō (常用)",
+                    "component_ids": []
+                },
+                {
+                    "id": "1646",
+                    "kanji": "衛",
+                    "meaning": "defense",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "2152",
+                        "873"
+                    ]
+                },
+                {
+                    "id": "1239",
+                    "kanji": "第",
+                    "meaning": "number",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "4280",
+                        "1233",
+                        "4200"
+                    ]
+                },
+                {
+                    "id": "997",
+                    "kanji": "保",
+                    "meaning": "protect",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "4039",
+                        "2115"
+                    ]
+                },
+                {
+                    "id": "641",
+                    "kanji": "義",
+                    "meaning": "honour or meaning",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "640",
+                        "4330"
+                    ]
+                },
+                {
+                    "id": "320",
+                    "kanji": "吉",
+                    "meaning": "good luck",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "319",
+                        "11"
+                    ]
+                },
+                {
+                    "id": "319",
+                    "kanji": "士",
+                    "meaning": "samurai",
+                    "type": "Jōyō (常用)",
+                    "component_ids": []
+                },
+                {
+                    "id": "1210",
+                    "kanji": "藤",
+                    "meaning": "wisteria",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "4415",
+                        "3210"
+                    ]
+                },
+                {
+                    "id": "1806",
+                    "kanji": "井",
+                    "meaning": "well",
+                    "type": "Jōyō (常用)",
+                    "component_ids": []
+                },
+                {
+                    "id": "139",
+                    "kanji": "江",
+                    "meaning": "stream",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "76",
+                        "4473"
+                    ]
+                },
+                {
+                    "id": "1921",
+                    "kanji": "張",
+                    "meaning": "stretch",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "1920",
+                        "1231"
+                    ]
+                },
+                {
+                    "id": "785",
+                    "kanji": "松",
+                    "meaning": "pine tree",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "784",
+                        "195"
+                    ]
+                },
+                {
+                    "id": "607",
+                    "kanji": "応",
+                    "meaning": "satisfy",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "595",
+                        "2335"
+                    ]
+                },
+                {
+                    "id": "1093",
+                    "kanji": "視",
+                    "meaning": "see",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "57",
+                        "3992"
+                    ]
+                },
+                {
+                    "id": "2005",
+                    "kanji": "態",
+                    "meaning": "condition",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "595",
+                        "2004"
+                    ]
+                },
+                {
+                    "id": "474",
+                    "kanji": "姿",
+                    "meaning": "appearance",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "471",
+                        "98"
+                    ]
+                },
+                {
+                    "id": "261",
+                    "kanji": "皇",
+                    "meaning": "emperor",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "37",
+                        "255"
+                    ]
+                },
+                {
+                    "id": "1033",
+                    "kanji": "宮",
+                    "meaning": "palace",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "24",
+                        "2289"
+                    ]
+                },
+                {
+                    "id": "1492",
+                    "kanji": "離",
+                    "meaning": "separate",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "2360",
+                        "3166"
+                    ]
+                },
+                {
+                    "id": "1767",
+                    "kanji": "基",
+                    "meaning": "foundation",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "2086",
+                        "150"
+                    ]
+                },
+                {
+                    "id": "1306",
+                    "kanji": "隊",
+                    "meaning": "squad",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "3158",
+                        "4017"
+                    ]
+                },
+                {
+                    "id": "1532",
+                    "kanji": "素",
+                    "meaning": "element",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "4116",
+                        "1333"
+                    ]
+                },
+                {
+                    "id": "1603",
+                    "kanji": "価",
+                    "meaning": "price",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "4039",
+                        "4388"
+                    ]
+                },
+                {
+                    "id": "709",
+                    "kanji": "撃",
+                    "meaning": "trounce",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "637",
+                        "3327"
+                    ]
+                },
+                {
+                    "id": "2011",
+                    "kanji": "振",
+                    "meaning": "wield",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "2008",
+                        "4076"
+                    ]
+                },
+                {
+                    "id": "380",
+                    "kanji": "証",
+                    "meaning": "evidence",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "379",
+                        "335"
+                    ]
+                },
+                {
+                    "id": "1855",
+                    "kanji": "派",
+                    "meaning": "faction",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "4473",
+                        "2301"
+                    ]
+                },
+                {
+                    "id": "1794",
+                    "kanji": "僕",
+                    "meaning": "me",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "10616",
+                        "4039"
+                    ]
+                },
+                {
+                    "id": "952",
+                    "kanji": "佐",
+                    "meaning": "help",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "4039",
+                        "77"
+                    ]
+                },
+                {
+                    "id": "1354",
+                    "kanji": "紀",
+                    "meaning": "chronicle",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "525",
+                        "1333"
+                    ]
+                },
+                {
+                    "id": "1347",
+                    "kanji": "統",
+                    "meaning": "govern",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "761",
+                        "1333"
+                    ]
+                },
+                {
+                    "id": "121",
+                    "kanji": "器",
+                    "meaning": "utensil",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "11",
+                        "107"
+                    ]
+                },
+                {
+                    "id": "1797",
+                    "kanji": "異",
+                    "meaning": "different",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "1795",
+                        "14"
+                    ]
+                },
+                {
+                    "id": "700",
+                    "kanji": "護",
+                    "meaning": "defend",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "3139",
+                        "335"
+                    ]
+                },
+                {
+                    "id": "298",
+                    "kanji": "条",
+                    "meaning": "twig",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "2134",
+                        "195"
+                    ]
+                },
+                {
+                    "id": "522",
+                    "kanji": "独",
+                    "meaning": "alone",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "4234",
+                        "517"
+                    ]
+                },
+                {
+                    "id": "142",
+                    "kanji": "源",
+                    "meaning": "source",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "4473",
+                        "134"
+                    ]
+                },
+                {
+                    "id": "1712",
+                    "kanji": "影",
+                    "meaning": "shadow",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "314",
+                        "2207"
+                    ]
+                },
+                {
+                    "id": "1467",
+                    "kanji": "眼",
+                    "meaning": "eye",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "4162",
+                        "15"
+                    ]
+                },
+                {
+                    "id": "375",
+                    "kanji": "企",
+                    "meaning": "plan",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "4040",
+                        "370"
+                    ]
+                },
+                {
+                    "id": "328",
+                    "kanji": "津",
+                    "meaning": "inlet",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "2256",
+                        "4473"
+                    ]
+                },
+                {
+                    "id": "214",
+                    "kanji": "案",
+                    "meaning": "plan",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "190",
+                        "195"
+                    ]
+                },
+                {
+                    "id": "948",
+                    "kanji": "策",
+                    "meaning": "policy",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "4200",
+                        "2359"
+                    ]
+                },
+                {
+                    "id": "1100",
+                    "kanji": "宗",
+                    "meaning": "religion",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "1086",
+                        "2289"
+                    ]
+                },
+                {
+                    "id": "665",
+                    "kanji": "提",
+                    "meaning": "submit",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "4076",
+                        "388"
+                    ]
+                },
+                {
+                    "id": "87",
+                    "kanji": "昭",
+                    "meaning": "bright",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "86",
+                        "12"
+                    ]
+                },
+                {
+                    "id": "775",
+                    "kanji": "密",
+                    "meaning": "secret",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "768",
+                        "2289",
+                        "635"
+                    ]
+                },
+                {
+                    "id": "1863",
+                    "kanji": "司",
+                    "meaning": "administer",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "93"
+                    ]
+                },
+                {
+                    "id": "1673",
+                    "kanji": "検",
+                    "meaning": "investigation",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "2330",
+                        "195"
+                    ]
+                },
+                {
+                    "id": "1159",
+                    "kanji": "康",
+                    "meaning": "peace",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "2351",
+                        "2335"
+                    ]
+                },
+                {
+                    "id": "1072",
+                    "kanji": "沢",
+                    "meaning": "marsh",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "1070",
+                        "4473"
+                    ]
+                },
+                {
+                    "id": "914",
+                    "kanji": "秀",
+                    "meaning": "excellent",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "686",
+                        "2194"
+                    ]
+                },
+                {
+                    "id": "1426",
+                    "kanji": "興",
+                    "meaning": "entertainment",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "180",
+                        "4377",
+                        "3060"
+                    ]
+                },
+                {
+                    "id": "1737",
+                    "kanji": "率",
+                    "meaning": "lead or ratio",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "1383",
+                        "4474",
+                        "10"
+                    ]
+                },
+                {
+                    "id": "1487",
+                    "kanji": "評",
+                    "meaning": "criticism",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "1484",
+                        "335"
+                    ]
+                },
+                {
+                    "id": "1453",
+                    "kanji": "監",
+                    "meaning": "keep watch",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "848",
+                        "1",
+                        "4041",
+                        "1447"
+                    ]
+                },
+                {
+                    "id": "778",
+                    "kanji": "崎",
+                    "meaning": "headland",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "126",
+                        "768"
+                    ]
+                },
+                {
+                    "id": "551",
+                    "kanji": "鮮",
+                    "meaning": "vivid",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "171",
+                        "547"
+                    ]
+                },
+                {
+                    "id": "497",
+                    "kanji": "激",
+                    "meaning": "violent",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "147",
+                        "496"
+                    ]
+                },
+                {
+                    "id": "885",
+                    "kanji": "徳",
+                    "meaning": "benevolence",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "10",
+                        "4490",
+                        "595",
+                        "2250"
+                    ]
+                },
+                {
+                    "id": "1938",
+                    "kanji": "挙",
+                    "meaning": "rise up",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "3103",
+                        "637"
+                    ]
+                },
+                {
+                    "id": "600",
+                    "kanji": "志",
+                    "meaning": "good intention",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "319",
+                        "595"
+                    ]
+                },
+                {
+                    "id": "1883",
+                    "kanji": "敷",
+                    "meaning": "spread out",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "3236",
+                        "2181"
+                    ]
+                },
+                {
+                    "id": "1391",
+                    "kanji": "系",
+                    "meaning": "system",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "4280",
+                        "1333"
+                    ]
+                },
+                {
+                    "id": "1334",
+                    "kanji": "織",
+                    "meaning": "weave",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "1333",
+                        "2313"
+                    ]
+                },
+                {
+                    "id": "419",
+                    "kanji": "製",
+                    "meaning": "manufacture",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "418",
+                        "396"
+                    ]
+                },
+                {
+                    "id": "1167",
+                    "kanji": "端",
+                    "meaning": "edge",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "2239",
+                        "431",
+                        "768"
+                    ]
+                },
+                {
+                    "id": "1772",
+                    "kanji": "遺",
+                    "meaning": "bequest",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "4059",
+                        "1771"
+                    ]
+                },
+                {
+                    "id": "1078",
+                    "kanji": "房",
+                    "meaning": "room",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "1076",
+                        "490"
+                    ]
+                },
+                {
+                    "id": "890",
+                    "kanji": "街",
+                    "meaning": "town",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "155",
+                        "873"
+                    ]
+                },
+                {
+                    "id": "1915",
+                    "kanji": "尾",
+                    "meaning": "tail",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "2269",
+                        "1913"
+                    ]
+                },
+                {
+                    "id": "222",
+                    "kanji": "株",
+                    "meaning": "stock",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "221"
+                    ]
+                },
+                {
+                    "id": "877",
+                    "kanji": "従",
+                    "meaning": "obey",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "4121",
+                        "2220",
+                        "2250"
+                    ]
+                },
+                {
+                    "id": "443",
+                    "kanji": "敵",
+                    "meaning": "enemy",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "2943",
+                        "2181"
+                    ]
+                },
+                {
+                    "id": "1925",
+                    "kanji": "展",
+                    "meaning": "expand",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "4232",
+                        "4152",
+                        "2269"
+                    ]
+                },
+                {
+                    "id": "670",
+                    "kanji": "描",
+                    "meaning": "draw",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "234",
+                        "4076"
+                    ]
+                },
+                {
+                    "id": "1722",
+                    "kanji": "修",
+                    "meaning": "to master",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "3324",
+                        "2207"
+                    ]
+                },
+                {
+                    "id": "640",
+                    "kanji": "我",
+                    "meaning": "I or myself",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "2229",
+                        "4076"
+                    ]
+                },
+                {
+                    "id": "359",
+                    "kanji": "載",
+                    "meaning": "place on",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "3034",
+                        "286"
+                    ]
+                },
+                {
+                    "id": "1850",
+                    "kanji": "響",
+                    "meaning": "affect",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "479",
+                        "1849"
+                    ]
+                },
+                {
+                    "id": "904",
+                    "kanji": "秘",
+                    "meaning": "secret",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "2194",
+                        "635"
+                    ]
+                },
+                {
+                    "id": "330",
+                    "kanji": "攻",
+                    "meaning": "attack",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "76",
+                        "2181"
+                    ]
+                },
+                {
+                    "id": "974",
+                    "kanji": "健",
+                    "meaning": "healthy",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "4039",
+                        "391"
+                    ]
+                },
+                {
+                    "id": "397",
+                    "kanji": "裁",
+                    "meaning": "pass judgment",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "3034",
+                        "396"
+                    ]
+                },
+                {
+                    "id": "1313",
+                    "kanji": "隠",
+                    "meaning": "hide",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "3400",
+                        "4017"
+                    ]
+                },
+                {
+                    "id": "836",
+                    "kanji": "環",
+                    "meaning": "surround",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "2362",
+                        "255"
+                    ]
+                },
+                {
+                    "id": "1951",
+                    "kanji": "援",
+                    "meaning": "assistance",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "3029",
+                        "4076"
+                    ]
+                },
+                {
+                    "id": "333",
+                    "kanji": "故",
+                    "meaning": "strike",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "16",
+                        "2181"
+                    ]
+                },
+                {
+                    "id": "409",
+                    "kanji": "幕",
+                    "meaning": "curtain",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "2208",
+                        "2180"
+                    ]
+                },
+                {
+                    "id": "719",
+                    "kanji": "督",
+                    "meaning": "coach",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "718",
+                        "15"
+                    ]
+                },
+                {
+                    "id": "1630",
+                    "kanji": "倉",
+                    "meaning": "storehouse",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "2248",
+                        "11",
+                        "2269"
+                    ]
+                },
+                {
+                    "id": "1045",
+                    "kanji": "施",
+                    "meaning": "carry out",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "4041",
+                        "490",
+                        "2172"
+                    ]
+                },
+                {
+                    "id": "1598",
+                    "kanji": "嫌",
+                    "meaning": "disagreeable",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "1597",
+                        "98"
+                    ]
+                },
+                {
+                    "id": "1370",
+                    "kanji": "継",
+                    "meaning": "follow",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "1333",
+                        "919",
+                        "3019"
+                    ]
+                },
+                {
+                    "id": "1297",
+                    "kanji": "障",
+                    "meaning": "hinder",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "433",
+                        "4017"
+                    ]
+                },
+                {
+                    "id": "1771",
+                    "kanji": "貴",
+                    "meaning": "precious",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "39",
+                        "1",
+                        "54"
+                    ]
+                },
+                {
+                    "id": "1670",
+                    "kanji": "整",
+                    "meaning": "put in order",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "3142",
+                        "379"
+                    ]
+                },
+                {
+                    "id": "1857",
+                    "kanji": "衆",
+                    "meaning": "populace",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "1448",
+                        "3876"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "JLPT Kanji N1 101-200 (100 kanji)",
+            "kanjis": [
+                {
+                    "id": "688",
+                    "kanji": "及",
+                    "meaning": "amount to",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "3270",
+                        "951"
+                    ]
+                },
+                {
+                    "id": "1457",
+                    "kanji": "盛",
+                    "meaning": "popular",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "1447",
+                        "361"
+                    ]
+                },
+                {
+                    "id": "1383",
+                    "kanji": "玄",
+                    "meaning": "mystery",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "2277",
+                        "2303"
+                    ]
+                },
+                {
+                    "id": "612",
+                    "kanji": "恵",
+                    "meaning": "bless",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "1",
+                        "1105",
+                        "595"
+                    ]
+                },
+                {
+                    "id": "736",
+                    "kanji": "授",
+                    "meaning": "teach",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "4076",
+                        "735"
+                    ]
+                },
+                {
+                    "id": "1931",
+                    "kanji": "弾",
+                    "meaning": "bounce",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "1928",
+                        "1231"
+                    ]
+                },
+                {
+                    "id": "1479",
+                    "kanji": "養",
+                    "meaning": "to rear",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "1472",
+                        "4330"
+                    ]
+                },
+                {
+                    "id": "1987",
+                    "kanji": "驚",
+                    "meaning": "surprised",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "334",
+                        "1978"
+                    ]
+                },
+                {
+                    "id": "1094",
+                    "kanji": "奈",
+                    "meaning": "Nara",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "107",
+                        "1086"
+                    ]
+                },
+                {
+                    "id": "663",
+                    "kanji": "推",
+                    "meaning": "infer",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "2360",
+                        "4076"
+                    ]
+                },
+                {
+                    "id": "1446",
+                    "kanji": "樹",
+                    "meaning": "timber",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "3920",
+                        "195"
+                    ]
+                },
+                {
+                    "id": "1918",
+                    "kanji": "為",
+                    "meaning": "to do",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "4468"
+                    ]
+                },
+                {
+                    "id": "743",
+                    "kanji": "雄",
+                    "meaning": "male or brave",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "2360",
+                        "2184"
+                    ]
+                },
+                {
+                    "id": "83",
+                    "kanji": "刀",
+                    "meaning": "sword",
+                    "type": "Jōyō (常用)",
+                    "component_ids": []
+                },
+                {
+                    "id": "742",
+                    "kanji": "弁",
+                    "meaning": "dialect",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "2198",
+                        "2251"
+                    ]
+                },
+                {
+                    "id": "123",
+                    "kanji": "妙",
+                    "meaning": "strange or mysterious",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "106",
+                        "98"
+                    ]
+                },
+                {
+                    "id": "229",
+                    "kanji": "模",
+                    "meaning": "imitation",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "2180",
+                        "195"
+                    ]
+                },
+                {
+                    "id": "648",
+                    "kanji": "抗",
+                    "meaning": "resist",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "2185",
+                        "4076"
+                    ]
+                },
+                {
+                    "id": "1353",
+                    "kanji": "級",
+                    "meaning": "class",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "1333",
+                        "688"
+                    ]
+                },
+                {
+                    "id": "817",
+                    "kanji": "瞬",
+                    "meaning": "wink",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "2794",
+                        "15"
+                    ]
+                },
+                {
+                    "id": "905",
+                    "kanji": "称",
+                    "meaning": "title",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "3018",
+                        "2194"
+                    ]
+                },
+                {
+                    "id": "1581",
+                    "kanji": "華",
+                    "meaning": "China or Chinese",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "1582",
+                        "4415"
+                    ]
+                },
+                {
+                    "id": "996",
+                    "kanji": "傷",
+                    "meaning": "wound",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "4039",
+                        "2363",
+                        "4041"
+                    ]
+                },
+                {
+                    "id": "1629",
+                    "kanji": "闘",
+                    "meaning": "fight",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "1440",
+                        "45",
+                        "1616"
+                    ]
+                },
+                {
+                    "id": "941",
+                    "kanji": "筋",
+                    "meaning": "muscle",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "2787",
+                        "4200"
+                    ]
+                },
+                {
+                    "id": "1073",
+                    "kanji": "訳",
+                    "meaning": "translate or reason\n\n        and\n\n        is a variant\n\n      of 譯",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "1070",
+                        "335"
+                    ]
+                },
+                {
+                    "id": "1249",
+                    "kanji": "射",
+                    "meaning": "to shoot",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "45",
+                        "1248"
+                    ]
+                },
+                {
+                    "id": "1035",
+                    "kanji": "善",
+                    "meaning": "virtuous",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "547",
+                        "4416",
+                        "11"
+                    ]
+                },
+                {
+                    "id": "240",
+                    "kanji": "黙",
+                    "meaning": "silent",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "173",
+                        "238",
+                        "4468"
+                    ]
+                },
+                {
+                    "id": "1021",
+                    "kanji": "柄",
+                    "meaning": "pattern",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "1020",
+                        "195"
+                    ]
+                },
+                {
+                    "id": "679",
+                    "kanji": "刑",
+                    "meaning": "punishment",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "2264",
+                        "4225"
+                    ]
+                },
+                {
+                    "id": "1464",
+                    "kanji": "節",
+                    "meaning": "occasion",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "1462",
+                        "4200"
+                    ]
+                },
+                {
+                    "id": "498",
+                    "kanji": "脱",
+                    "meaning": "escape",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "4107",
+                        "3050"
+                    ]
+                },
+                {
+                    "id": "1936",
+                    "kanji": "厳",
+                    "meaning": "severe",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "826",
+                        "4098",
+                        "2287"
+                    ]
+                },
+                {
+                    "id": "47",
+                    "kanji": "博",
+                    "meaning": "doctor",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "10",
+                        "46"
+                    ]
+                },
+                {
+                    "id": "1305",
+                    "kanji": "陣",
+                    "meaning": "camp",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "286",
+                        "4017"
+                    ]
+                },
+                {
+                    "id": "126",
+                    "kanji": "奇",
+                    "meaning": "strange",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "107",
+                        "93"
+                    ]
+                },
+                {
+                    "id": "602",
+                    "kanji": "忠",
+                    "meaning": "loyal",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "39",
+                        "595"
+                    ]
+                },
+                {
+                    "id": "509",
+                    "kanji": "染",
+                    "meaning": "stain",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "3112",
+                        "195"
+                    ]
+                },
+                {
+                    "id": "889",
+                    "kanji": "微",
+                    "meaning": "minute, slight",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "2250",
+                        "3031",
+                        "2181",
+                        "768"
+                    ]
+                },
+                {
+                    "id": "1608",
+                    "kanji": "標",
+                    "meaning": "sign",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "1606",
+                        "195"
+                    ]
+                },
+                {
+                    "id": "1372",
+                    "kanji": "縁",
+                    "meaning": "affinity or edge",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "2217",
+                        "4418",
+                        "1333"
+                    ]
+                },
+                {
+                    "id": "1500",
+                    "kanji": "壁",
+                    "meaning": "wall",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "2314",
+                        "150"
+                    ]
+                },
+                {
+                    "id": "1983",
+                    "kanji": "駆",
+                    "meaning": "gallop",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "1978",
+                        "1696"
+                    ]
+                },
+                {
+                    "id": "593",
+                    "kanji": "麻",
+                    "meaning": "flax or flux",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "196",
+                        "2335"
+                    ]
+                },
+                {
+                    "id": "1113",
+                    "kanji": "甲",
+                    "meaning": "first",
+                    "type": "Jōyō (常用)",
+                    "component_ids": []
+                },
+                {
+                    "id": "1912",
+                    "kanji": "藩",
+                    "meaning": "clan",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "1909",
+                        "4473",
+                        "4415"
+                    ]
+                },
+                {
+                    "id": "282",
+                    "kanji": "迫",
+                    "meaning": "urge",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "37",
+                        "4059"
+                    ]
+                },
+                {
+                    "id": "1287",
+                    "kanji": "踏",
+                    "meaning": "step",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "4042",
+                        "2658"
+                    ]
+                },
+                {
+                    "id": "340",
+                    "kanji": "討",
+                    "meaning": "attack",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "45",
+                        "335"
+                    ]
+                },
+                {
+                    "id": "825",
+                    "kanji": "聖",
+                    "meaning": "holy",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "818",
+                        "11",
+                        "255"
+                    ]
+                },
+                {
+                    "id": "1827",
+                    "kanji": "典",
+                    "meaning": "ceremony",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "4120",
+                        "1172"
+                    ]
+                },
+                {
+                    "id": "1671",
+                    "kanji": "剣",
+                    "meaning": "sword",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "2330",
+                        "4225"
+                    ]
+                },
+                {
+                    "id": "1685",
+                    "kanji": "症",
+                    "meaning": "symptom",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "379",
+                        "2325"
+                    ]
+                },
+                {
+                    "id": "1356",
+                    "kanji": "納",
+                    "meaning": "payment",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "1333",
+                        "1019"
+                    ]
+                },
+                {
+                    "id": "2123",
+                    "kanji": "弥",
+                    "meaning": "increasingly",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "3018",
+                        "1231"
+                    ]
+                },
+                {
+                    "id": "1044",
+                    "kanji": "融",
+                    "meaning": "melt",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "517",
+                        "2318"
+                    ]
+                },
+                {
+                    "id": "1332",
+                    "kanji": "浜",
+                    "meaning": "seashore",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "1331",
+                        "4473"
+                    ]
+                },
+                {
+                    "id": "1849",
+                    "kanji": "郷",
+                    "meaning": "hometown",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "4102",
+                        "1851"
+                    ]
+                },
+                {
+                    "id": "614",
+                    "kanji": "惑",
+                    "meaning": "uncertain",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "2271",
+                        "595"
+                    ]
+                },
+                {
+                    "id": "1421",
+                    "kanji": "柳",
+                    "meaning": "willow",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "195",
+                        "2041"
+                    ]
+                },
+                {
+                    "id": "669",
+                    "kanji": "拠",
+                    "meaning": "basis",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "4076",
+                        "297"
+                    ]
+                },
+                {
+                    "id": "1573",
+                    "kanji": "奉",
+                    "meaning": "to present",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "3211",
+                        "2",
+                        "2258"
+                    ]
+                },
+                {
+                    "id": "400",
+                    "kanji": "壊",
+                    "meaning": "break",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "10",
+                        "4490",
+                        "396",
+                        "150"
+                    ]
+                },
+                {
+                    "id": "1881",
+                    "kanji": "益",
+                    "meaning": "profit",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "1447",
+                        "3286"
+                    ]
+                },
+                {
+                    "id": "65",
+                    "kanji": "句",
+                    "meaning": "verse",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "2246",
+                        "11"
+                    ]
+                },
+                {
+                    "id": "1953",
+                    "kanji": "属",
+                    "meaning": "belong to",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "4280",
+                        "2305",
+                        "517",
+                        "2269"
+                    ]
+                },
+                {
+                    "id": "863",
+                    "kanji": "功",
+                    "meaning": "achievement",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "858",
+                        "76"
+                    ]
+                },
+                {
+                    "id": "435",
+                    "kanji": "帝",
+                    "meaning": "sovereign",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "431",
+                        "2316",
+                        "2208"
+                    ]
+                },
+                {
+                    "id": "868",
+                    "kanji": "賀",
+                    "meaning": "congratulations",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "867",
+                        "54"
+                    ]
+                },
+                {
+                    "id": "1062",
+                    "kanji": "堀",
+                    "meaning": "ditch",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "150",
+                        "1060"
+                    ]
+                },
+                {
+                    "id": "1631",
+                    "kanji": "創",
+                    "meaning": "create",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "1630",
+                        "4225"
+                    ]
+                },
+                {
+                    "id": "432",
+                    "kanji": "泣",
+                    "meaning": "to cry",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "431",
+                        "4473"
+                    ]
+                },
+                {
+                    "id": "632",
+                    "kanji": "憶",
+                    "meaning": "memory",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "608",
+                        "4028"
+                    ]
+                },
+                {
+                    "id": "1654",
+                    "kanji": "幹",
+                    "meaning": "main part",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "4040",
+                        "1648",
+                        "3068"
+                    ]
+                },
+                {
+                    "id": "1283",
+                    "kanji": "露",
+                    "meaning": "public or dew",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "4430",
+                        "1282"
+                    ]
+                },
+                {
+                    "id": "1220",
+                    "kanji": "矢",
+                    "meaning": "arrow",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "107",
+                        "4041"
+                    ]
+                },
+                {
+                    "id": "1059",
+                    "kanji": "握",
+                    "meaning": "grasp",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "4076",
+                        "1058"
+                    ]
+                },
+                {
+                    "id": "984",
+                    "kanji": "儀",
+                    "meaning": "ceremony",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "4039",
+                        "641"
+                    ]
+                },
+                {
+                    "id": "827",
+                    "kanji": "聴",
+                    "meaning": "listen",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "10",
+                        "4490",
+                        "595",
+                        "818"
+                    ]
+                },
+                {
+                    "id": "2025",
+                    "kanji": "襲",
+                    "meaning": "attack",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "2127",
+                        "396"
+                    ]
+                },
+                {
+                    "id": "887",
+                    "kanji": "徴",
+                    "meaning": "sign",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "255",
+                        "2250",
+                        "2181",
+                        "768"
+                    ]
+                },
+                {
+                    "id": "91",
+                    "kanji": "丁",
+                    "meaning": "block",
+                    "type": "Jōyō (常用)",
+                    "component_ids": []
+                },
+                {
+                    "id": "1554",
+                    "kanji": "憲",
+                    "meaning": "constitution",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "595",
+                        "4490",
+                        "4116",
+                        "2289"
+                    ]
+                },
+                {
+                    "id": "1624",
+                    "kanji": "閣",
+                    "meaning": "tower",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "291",
+                        "1616"
+                    ]
+                },
+                {
+                    "id": "936",
+                    "kanji": "救",
+                    "meaning": "rescue",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "934",
+                        "2181"
+                    ]
+                },
+                {
+                    "id": "1592",
+                    "kanji": "陰",
+                    "meaning": "shadow",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "3239",
+                        "4017"
+                    ]
+                },
+                {
+                    "id": "1369",
+                    "kanji": "繰",
+                    "meaning": "to wind",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "1333",
+                        "3073"
+                    ]
+                },
+                {
+                    "id": "2103",
+                    "kanji": "那",
+                    "meaning": "what?",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "3134",
+                        "4018"
+                    ]
+                },
+                {
+                    "id": "671",
+                    "kanji": "操",
+                    "meaning": "control",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "4076",
+                        "3073"
+                    ]
+                },
+                {
+                    "id": "1985",
+                    "kanji": "騒",
+                    "meaning": "noise",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "1978",
+                        "517",
+                        "696"
+                    ]
+                },
+                {
+                    "id": "525",
+                    "kanji": "己",
+                    "meaning": "self",
+                    "type": "Jōyō (常用)",
+                    "component_ids": []
+                },
+                {
+                    "id": "2022",
+                    "kanji": "魔",
+                    "meaning": "witch",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "2019",
+                        "593"
+                    ]
+                },
+                {
+                    "id": "822",
+                    "kanji": "撮",
+                    "meaning": "take a picture",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "821",
+                        "4076"
+                    ]
+                },
+                {
+                    "id": "687",
+                    "kanji": "携",
+                    "meaning": "carry",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "686",
+                        "2360",
+                        "4076"
+                    ]
+                },
+                {
+                    "id": "1311",
+                    "kanji": "隣",
+                    "meaning": "next door",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "3349",
+                        "4017"
+                    ]
+                },
+                {
+                    "id": "188",
+                    "kanji": "宣",
+                    "meaning": "announcement",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "32",
+                        "2289"
+                    ]
+                },
+                {
+                    "id": "1773",
+                    "kanji": "遣",
+                    "meaning": "use",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "39",
+                        "1",
+                        "4106",
+                        "4059"
+                    ]
+                },
+                {
+                    "id": "1139",
+                    "kanji": "訴",
+                    "meaning": "accuse",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "1138",
+                        "335"
+                    ]
+                },
+                {
+                    "id": "360",
+                    "kanji": "茂",
+                    "meaning": "overgrown",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "2232",
+                        "4415"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "JLPT Kanji N1 201-300 (100 kanji)",
+            "kanjis": [
+                {
+                    "id": "273",
+                    "kanji": "釣",
+                    "meaning": "fish",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "269",
+                        "68"
+                    ]
+                },
+                {
+                    "id": "649",
+                    "kanji": "批",
+                    "meaning": "criticism",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "447",
+                        "4076"
+                    ]
+                },
+                {
+                    "id": "916",
+                    "kanji": "誘",
+                    "meaning": "invite",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "914",
+                        "335"
+                    ]
+                },
+                {
+                    "id": "1520",
+                    "kanji": "核",
+                    "meaning": "core",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "1519",
+                        "195"
+                    ]
+                },
+                {
+                    "id": "1131",
+                    "kanji": "哲",
+                    "meaning": "wisdom",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "1130",
+                        "11"
+                    ]
+                },
+                {
+                    "id": "543",
+                    "kanji": "豪",
+                    "meaning": "magnificent",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "307",
+                        "2217"
+                    ]
+                },
+                {
+                    "id": "1340",
+                    "kanji": "締",
+                    "meaning": "close",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "435",
+                        "1333"
+                    ]
+                },
+                {
+                    "id": "1999",
+                    "kanji": "鹿",
+                    "meaning": "deer",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "447",
+                        "4388",
+                        "2335"
+                    ]
+                },
+                {
+                    "id": "1969",
+                    "kanji": "就",
+                    "meaning": "employed",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "312",
+                        "2523"
+                    ]
+                },
+                {
+                    "id": "365",
+                    "kanji": "滅",
+                    "meaning": "destroy",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "4473",
+                        "3366"
+                    ]
+                },
+                {
+                    "id": "1701",
+                    "kanji": "仰",
+                    "meaning": "respect",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "2310",
+                        "4039"
+                    ]
+                },
+                {
+                    "id": "1666",
+                    "kanji": "瀬",
+                    "meaning": "rapids",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "1665",
+                        "4473"
+                    ]
+                },
+                {
+                    "id": "756",
+                    "kanji": "致",
+                    "meaning": "to do",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "753",
+                        "2181"
+                    ]
+                },
+                {
+                    "id": "962",
+                    "kanji": "伏",
+                    "meaning": "prostrate",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "238",
+                        "4039"
+                    ]
+                },
+                {
+                    "id": "1713",
+                    "kanji": "杉",
+                    "meaning": "cedar",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "2207",
+                        "195"
+                    ]
+                },
+                {
+                    "id": "1910",
+                    "kanji": "審",
+                    "meaning": "hearing",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "2289",
+                        "1909"
+                    ]
+                },
+                {
+                    "id": "1501",
+                    "kanji": "避",
+                    "meaning": "avoid",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "2314",
+                        "4059"
+                    ]
+                },
+                {
+                    "id": "1967",
+                    "kanji": "揺",
+                    "meaning": "shake",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "4076",
+                        "4334",
+                        "1965"
+                    ]
+                },
+                {
+                    "id": "1837",
+                    "kanji": "浦",
+                    "meaning": "inlet",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "2114",
+                        "4473"
+                    ]
+                },
+                {
+                    "id": "753",
+                    "kanji": "至",
+                    "meaning": "reach",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "1",
+                        "2251",
+                        "150"
+                    ]
+                },
+                {
+                    "id": "793",
+                    "kanji": "裕",
+                    "meaning": "abundant",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "4231",
+                        "788"
+                    ]
+                },
+                {
+                    "id": "1450",
+                    "kanji": "盟",
+                    "meaning": "allegiance",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "20",
+                        "1447"
+                    ]
+                },
+                {
+                    "id": "1506",
+                    "kanji": "執",
+                    "meaning": "hold on to",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "1505",
+                        "44"
+                    ]
+                },
+                {
+                    "id": "774",
+                    "kanji": "崩",
+                    "meaning": "fall to pieces",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "768",
+                        "19"
+                    ]
+                },
+                {
+                    "id": "2019",
+                    "kanji": "鬼",
+                    "meaning": "ogre",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "4113",
+                        "2251",
+                        "2304"
+                    ]
+                },
+                {
+                    "id": "1437",
+                    "kanji": "酸",
+                    "meaning": "acid",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "1427",
+                        "2994"
+                    ]
+                },
+                {
+                    "id": "740",
+                    "kanji": "拡",
+                    "meaning": "broaden",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "739",
+                        "4076"
+                    ]
+                },
+                {
+                    "id": "762",
+                    "kanji": "銃",
+                    "meaning": "gun",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "761",
+                        "269"
+                    ]
+                },
+                {
+                    "id": "1341",
+                    "kanji": "維",
+                    "meaning": "fiber",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "2360",
+                        "1333"
+                    ]
+                },
+                {
+                    "id": "1377",
+                    "kanji": "縄",
+                    "meaning": "rope",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "1333",
+                        "534"
+                    ]
+                },
+                {
+                    "id": "346",
+                    "kanji": "詩",
+                    "meaning": "poetry",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "335",
+                        "158"
+                    ]
+                },
+                {
+                    "id": "1706",
+                    "kanji": "廃",
+                    "meaning": "fall into disuse",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "1705",
+                        "2335"
+                    ]
+                },
+                {
+                    "id": "761",
+                    "kanji": "充",
+                    "meaning": "allot",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "3030",
+                        "2304"
+                    ]
+                },
+                {
+                    "id": "483",
+                    "kanji": "鏡",
+                    "meaning": "mirror",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "3252",
+                        "269"
+                    ]
+                },
+                {
+                    "id": "966",
+                    "kanji": "仮",
+                    "meaning": "temporary",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "4039",
+                        "722"
+                    ]
+                },
+                {
+                    "id": "151",
+                    "kanji": "吐",
+                    "meaning": "spit",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "150",
+                        "11"
+                    ]
+                },
+                {
+                    "id": "1536",
+                    "kanji": "請",
+                    "meaning": "beg",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "1534",
+                        "335"
+                    ]
+                },
+                {
+                    "id": "237",
+                    "kanji": "眺",
+                    "meaning": "watch",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "15",
+                        "235"
+                    ]
+                },
+                {
+                    "id": "138",
+                    "kanji": "沖",
+                    "meaning": "offshore",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "39",
+                        "4473"
+                    ]
+                },
+                {
+                    "id": "1285",
+                    "kanji": "躍",
+                    "meaning": "dance",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "3066",
+                        "4042"
+                    ]
+                },
+                {
+                    "id": "364",
+                    "kanji": "威",
+                    "meaning": "intimidating",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "2332",
+                        "98"
+                    ]
+                },
+                {
+                    "id": "1060",
+                    "kanji": "屈",
+                    "meaning": "yield",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "2269",
+                        "767"
+                    ]
+                },
+                {
+                    "id": "1769",
+                    "kanji": "勘",
+                    "meaning": "intuition",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "1768",
+                        "858"
+                    ]
+                },
+                {
+                    "id": "886",
+                    "kanji": "徹",
+                    "meaning": "go through",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "2250",
+                        "759",
+                        "2181"
+                    ]
+                },
+                {
+                    "id": "1732",
+                    "kanji": "斎",
+                    "meaning": "purification",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "1729",
+                        "105"
+                    ]
+                },
+                {
+                    "id": "1250",
+                    "kanji": "謝",
+                    "meaning": "apologize",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "1249",
+                        "335"
+                    ]
+                },
+                {
+                    "id": "1875",
+                    "kanji": "艦",
+                    "meaning": "warship",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "1868",
+                        "1453"
+                    ]
+                },
+                {
+                    "id": "987",
+                    "kanji": "催",
+                    "meaning": "hold a meeting",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "4039",
+                        "3503"
+                    ]
+                },
+                {
+                    "id": "316",
+                    "kanji": "舎",
+                    "meaning": "house",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "150",
+                        "4040",
+                        "11"
+                    ]
+                },
+                {
+                    "id": "988",
+                    "kanji": "仁",
+                    "meaning": "humanity",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "2",
+                        "4039"
+                    ]
+                },
+                {
+                    "id": "1680",
+                    "kanji": "衝",
+                    "meaning": "collide",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "873",
+                        "1675"
+                    ]
+                },
+                {
+                    "id": "1396",
+                    "kanji": "脚",
+                    "meaning": "leg",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "4188",
+                        "1395"
+                    ]
+                },
+                {
+                    "id": "1990",
+                    "kanji": "虎",
+                    "meaning": "tiger",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "2148",
+                        "2304"
+                    ]
+                },
+                {
+                    "id": "141",
+                    "kanji": "潮",
+                    "meaning": "tide",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "52",
+                        "4473"
+                    ]
+                },
+                {
+                    "id": "1316",
+                    "kanji": "穴",
+                    "meaning": "hole",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "4120",
+                        "2289"
+                    ]
+                },
+                {
+                    "id": "716",
+                    "kanji": "怪",
+                    "meaning": "skeptical",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "4028",
+                        "3014"
+                    ]
+                },
+                {
+                    "id": "986",
+                    "kanji": "仙",
+                    "meaning": "hermit",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "768",
+                        "4039"
+                    ]
+                },
+                {
+                    "id": "302",
+                    "kanji": "輝",
+                    "meaning": "shine",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "119",
+                        "301"
+                    ]
+                },
+                {
+                    "id": "1374",
+                    "kanji": "緊",
+                    "meaning": "tight",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "3057",
+                        "1333"
+                    ]
+                },
+                {
+                    "id": "2013",
+                    "kanji": "唇",
+                    "meaning": "lips",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "2008",
+                        "11"
+                    ]
+                },
+                {
+                    "id": "597",
+                    "kanji": "忍",
+                    "meaning": "endure",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "84",
+                        "595"
+                    ]
+                },
+                {
+                    "id": "260",
+                    "kanji": "狂",
+                    "meaning": "mad",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "4234",
+                        "255"
+                    ]
+                },
+                {
+                    "id": "566",
+                    "kanji": "奪",
+                    "meaning": "snatch",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "3131",
+                        "45"
+                    ]
+                },
+                {
+                    "id": "1724",
+                    "kanji": "診",
+                    "meaning": "diagnosis",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "335",
+                        "3087"
+                    ]
+                },
+                {
+                    "id": "536",
+                    "kanji": "竜",
+                    "meaning": "dragon",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "431",
+                        "2302"
+                    ]
+                },
+                {
+                    "id": "1544",
+                    "kanji": "債",
+                    "meaning": "debt",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "4039",
+                        "1541"
+                    ]
+                },
+                {
+                    "id": "1406",
+                    "kanji": "鈴",
+                    "meaning": "small bell",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "1401",
+                        "269"
+                    ]
+                },
+                {
+                    "id": "982",
+                    "kanji": "僧",
+                    "meaning": "Buddhist priest or monk",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "501",
+                        "4039"
+                    ]
+                },
+                {
+                    "id": "673",
+                    "kanji": "掲",
+                    "meaning": "put up a sign",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "12",
+                        "2225",
+                        "4076"
+                    ]
+                },
+                {
+                    "id": "967",
+                    "kanji": "伯",
+                    "meaning": "chief or uncle",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "37",
+                        "4039"
+                    ]
+                },
+                {
+                    "id": "2003",
+                    "kanji": "熊",
+                    "meaning": "bear",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "2004",
+                        "4468"
+                    ]
+                },
+                {
+                    "id": "1470",
+                    "kanji": "浪",
+                    "meaning": "wandering",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "1468",
+                        "4473"
+                    ]
+                },
+                {
+                    "id": "460",
+                    "kanji": "梅",
+                    "meaning": "plum tree",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "458",
+                        "195"
+                    ]
+                },
+                {
+                    "id": "638",
+                    "kanji": "看",
+                    "meaning": "watch over",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "637",
+                        "15"
+                    ]
+                },
+                {
+                    "id": "1014",
+                    "kanji": "俊",
+                    "meaning": "genius",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "4039",
+                        "2994"
+                    ]
+                },
+                {
+                    "id": "657",
+                    "kanji": "摘",
+                    "meaning": "pluck",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "4076",
+                        "2943"
+                    ]
+                },
+                {
+                    "id": "82",
+                    "kanji": "項",
+                    "meaning": "paragraph",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "76",
+                        "60"
+                    ]
+                },
+                {
+                    "id": "1791",
+                    "kanji": "霊",
+                    "meaning": "ghost",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "4430",
+                        "4484",
+                        "2"
+                    ]
+                },
+                {
+                    "id": "154",
+                    "kanji": "垣",
+                    "meaning": "hedge",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "32",
+                        "150"
+                    ]
+                },
+                {
+                    "id": "829",
+                    "kanji": "慢",
+                    "meaning": "ridicule",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "2971",
+                        "4028"
+                    ]
+                },
+                {
+                    "id": "690",
+                    "kanji": "扱",
+                    "meaning": "handle",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "4076",
+                        "688"
+                    ]
+                },
+                {
+                    "id": "372",
+                    "kanji": "渉",
+                    "meaning": "ford",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "371",
+                        "4473"
+                    ]
+                },
+                {
+                    "id": "100",
+                    "kanji": "如",
+                    "meaning": "same",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "98",
+                        "11"
+                    ]
+                },
+                {
+                    "id": "1336",
+                    "kanji": "縮",
+                    "meaning": "shrink",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "995",
+                        "1333"
+                    ]
+                },
+                {
+                    "id": "550",
+                    "kanji": "詳",
+                    "meaning": "detailed",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "547",
+                        "335"
+                    ]
+                },
+                {
+                    "id": "30",
+                    "kanji": "旦",
+                    "meaning": "dawn",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "12",
+                        "1"
+                    ]
+                },
+                {
+                    "id": "1996",
+                    "kanji": "慮",
+                    "meaning": "consideration",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "2148",
+                        "605"
+                    ]
+                },
+                {
+                    "id": "1907",
+                    "kanji": "雅",
+                    "meaning": "elegant",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "2360",
+                        "1904"
+                    ]
+                },
+                {
+                    "id": "532",
+                    "kanji": "砲",
+                    "meaning": "cannon",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "530",
+                        "113"
+                    ]
+                },
+                {
+                    "id": "1760",
+                    "kanji": "謀",
+                    "meaning": "plan",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "1759",
+                        "335"
+                    ]
+                },
+                {
+                    "id": "828",
+                    "kanji": "懐",
+                    "meaning": "nostalgic",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "10",
+                        "4490",
+                        "396",
+                        "4028"
+                    ]
+                },
+                {
+                    "id": "1957",
+                    "kanji": "愚",
+                    "meaning": "foolish",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "2144",
+                        "595"
+                    ]
+                },
+                {
+                    "id": "41",
+                    "kanji": "舌",
+                    "meaning": "tongue",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "40",
+                        "11"
+                    ]
+                },
+                {
+                    "id": "1986",
+                    "kanji": "駄",
+                    "meaning": "pack horse",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "120",
+                        "1978"
+                    ]
+                },
+                {
+                    "id": "702",
+                    "kanji": "奴",
+                    "meaning": "guy",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "98",
+                        "696"
+                    ]
+                },
+                {
+                    "id": "1440",
+                    "kanji": "豆",
+                    "meaning": "bean",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "1",
+                        "11",
+                        "4416"
+                    ]
+                },
+                {
+                    "id": "696",
+                    "kanji": "又",
+                    "meaning": "again",
+                    "type": "Jōyō (常用)",
+                    "component_ids": []
+                },
+                {
+                    "id": "368",
+                    "kanji": "銭",
+                    "meaning": "money",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "269",
+                        "3148"
+                    ]
+                },
+                {
+                    "id": "1700",
+                    "kanji": "抑",
+                    "meaning": "suppress",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "2310",
+                        "4076"
+                    ]
+                },
+                {
+                    "id": "976",
+                    "kanji": "侍",
+                    "meaning": "samurai",
+                    "type": "Jōyō (常用)",
+                    "component_ids": [
+                        "4039",
+                        "158"
+                    ]
+                }
+            ]
+        }
+    ]
+}

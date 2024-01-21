@@ -24,23 +24,21 @@ export async function getAllJlptKanjis(browser, cookies, nLevel) {
                 return jlptKanjis;
             }, nLevel);
         },
-        5,
+        10,
         (jlptSections, limit) => {
             //Loop through each JLPT section
-            return jlptSections.map((jlptSection) => {
-                return limit(async () => {
-                    //Get promises for the kanji pages
-                    const kanjiPromises = jlptSection.kanji_urls.map((kanjiUrl) => {
-                        return limit(() => getKanjiDetailFromBrowser(browser, kanjiUrl, cookies));
-                    });
-                    //Run all the promises
-                    const kanjis = await Promise.all(kanjiPromises);
-                        //Return the sections with their kanjis
-                    return {
-                        title: jlptSection.title,
-                        kanjis: kanjis
-                    };
+            return jlptSections.map(async (jlptSection) => {
+                //Get promises for the kanji pages
+                const kanjiPromises = jlptSection.kanji_urls.map((kanjiUrl) => {
+                    return limit(() => getKanjiDetailFromBrowser(browser, kanjiUrl, cookies));
                 });
+                //Run all the promises
+                const kanjis = await Promise.all(kanjiPromises);
+                    //Return the sections with their kanjis
+                return {
+                    title: jlptSection.title,
+                    kanjis: kanjis
+                };
             });
         },
         nLevel
