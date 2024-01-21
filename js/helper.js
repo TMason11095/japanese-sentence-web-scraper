@@ -1,4 +1,36 @@
 import * as fs from 'fs';
+import pLimit from 'p-limit';
+
+export async function getAllSubPagesData(browser, cookies, mainUrl, getSubUrls, subUrlsLimit, getPromises, groupingName) {
+    let mainPage;
+    try {
+        //Open a new page
+        mainPage = await browser.newPage();
+        //Load cookies
+        await mainPage.setCookie(...cookies);
+        //Enable console redirect
+        mainPage.on('console', (msg) => console.log(msg.text()));
+        //Navigate to the main page
+        await mainPage.goto(mainUrl);
+        //Get all sub urls from the page
+        const subUrls = await getSubUrls(mainPage);
+        //Set the limit for how many sub urls to process at a time
+        const limit = pLimit(subUrlsLimit);
+        //Get the promises for how the sub urls should be processed
+        const promises = getPromises(subUrls, limit);
+        //Process the promises
+        const results = await Promise.all(promises);
+        //Create object list of the results
+        const obj = { [groupingName]: results };
+        //Return
+        return obj;
+    } catch (error) {
+        console.error('Error in getAllSubPagesData():', error);
+        return false;
+    } finally {
+        mainPage.close();
+    }
+}
 
 export async function getIds(page, entriesSelector, entryIdField, idPrefixRegExText) {
     //Get ids

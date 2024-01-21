@@ -1,66 +1,93 @@
 import * as helper from './helper.js';
-import pLimit from 'p-limit';
+
+export async function getAllJlptKanjis(browser, cookies, nLevel) {
+    return await helper.getAllSubPagesData(
+        browser,
+        cookies,
+        "https://www.kanshudo.com/collections/jlpt_kanji",
+        async (page) => {
+            return await page.evaluate((nLevel) => {
+                //Get JLPT level headers
+                const nLevelHeaderContainers = Array.from(document.querySelectorAll('#main-content .bodyarea .bodysection .infopanel h4')).filter(h4 => h4.textContent.includes(nLevel));
+                //Loop through an pull all the kanji urls for each level
+                let jlptKanjis = [];
+                for (const nLevelHeaderContainer of nLevelHeaderContainers) {
+                    //Get the container for the kanji (2 siblings after the header)
+                    const kanjisContainer = nLevelHeaderContainer.nextElementSibling.nextElementSibling;
+                    //Add the new kanjis entry
+                    jlptKanjis.push({
+                        title: nLevelHeaderContainer.textContent,
+                        kanji_urls: Array.from(kanjisContainer.querySelectorAll('.kanji a')).map((kanji) => kanji.href)
+                    });
+                }
+                //Return
+                return jlptKanjis;
+            }, nLevel);
+        },
+        10,
+        (jlptSections, limit) => {
+            //Loop through each JLPT section
+            return jlptSections.map(async (jlptSection) => {
+                //Get promises for the kanji pages
+                const kanjiPromises = jlptSection.kanji_urls.map((kanjiUrl) => {
+                    return limit(() => getKanjiDetailFromBrowser(browser, kanjiUrl, cookies));
+                });
+                //Run all the promises
+                const kanjis = await Promise.all(kanjiPromises);
+                    //Return the sections with their kanjis
+                return {
+                    title: jlptSection.title,
+                    kanjis: kanjis
+                };
+            });
+        },
+        nLevel
+    );
+}
 
 export async function getAllKanjiComponents(browser, cookies) {
-    let compsPage;
-    try {
-        //Kanji components url
-        const compsUrl = "https://www.kanshudo.com/component_details/all_components";
-        //Open a new page
-        compsPage = await browser.newPage();
-        //Load cookies
-        await compsPage.setCookie(...cookies);
-        //Navigate to the kanji components page
-        await compsPage.goto(compsUrl);
-        //Get all the component urls from the page
-        const comps = await compsPage.evaluate(() => {
-            //Get the component containers
-            const compContainers = document.querySelectorAll('#main-content .bodyarea .clist .cbox .chead');
-            //Loop through and grab the name and url objects
-            let comps = [];
-            for (const compContainer of compContainers) {
-                //Grab the name
-                const compName = compContainer.querySelector('div .cname').textContent;
-                //Grab the component kanji url
-                const kanjiUrl = compContainer.querySelector('.comp').href;
-                //Add object to list
-                comps.push({
-                    name: compName,
-                    url: kanjiUrl
-                });
-            }
-            //Return
-            return comps;
-        });
-        //Limit to batches of 3
-        const limit = pLimit(10);
-        const compPromises = Array.from(comps).map((comp) => {
-            return limit(async () => {
-                //Get the kanji details
-                const kanji = await getKanjiDetailFromBrowser(browser, comp.url, cookies);
-                //Return the new object
-                return {
-                    name: comp.name,
-                    url: comp.url,
-                    kanji: kanji
-                };
+    return await helper.getAllSubPagesData(
+        browser,
+        cookies,
+        "https://www.kanshudo.com/component_details/all_components",
+        async (page) => {
+            return await page.evaluate(() => {
+                //Get the component containers
+                const compContainers = document.querySelectorAll('#main-content .bodyarea .clist .cbox .chead');
+                //Loop through and grab the name and url objects
+                let comps = [];
+                for (const compContainer of compContainers) {
+                    //Grab the name
+                    const compName = compContainer.querySelector('div .cname').textContent;
+                    //Grab the component kanji url
+                    const kanjiUrl = compContainer.querySelector('.comp').href;
+                    //Add object to list
+                    comps.push({
+                        name: compName,
+                        url: kanjiUrl
+                    });
+                }
+                //Return
+                return comps;
+            });
+        },
+        10,
+        (subUrls, limit) => {
+            return Array.from(subUrls).map((subUrl) => {
+                return limit(async () => {
+                    //Get the kanji details
+                    const kanji = await getKanjiDetailFromBrowser(browser, subUrl.url, cookies);
+                    //Return the new object
+                    return {
+                        name: subUrl.name,
+                        url: subUrl.url,
+                        kanji: kanji
+                    };
+                })
             })
-
-            
-        });
-        //Process
-        const kanjis = await Promise.all(compPromises);
-        //Add list to object
-        const kanjisObj = { kanjis: kanjis };
-        //Return
-        return kanjisObj;
-    } catch (error) {
-        console.error('Error in getAllKanjiComponents():', error);
-        return false;
-    } finally {
-        compsPage.close();
-    }
-    
+        },
+        "kanjis"
+    );
 }
 
 export async function getKanjis(browser, kanjiUrlSuffixes, cookies) {

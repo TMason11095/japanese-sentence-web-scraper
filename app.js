@@ -58,15 +58,48 @@ const jsonDirPath =  "jsons/";
         //const kanjiObj = await kanjis.getKanjis(browser, currentKanjis, cookies);
 
         //Get kanji components
-        const kanjiCompObj = await kanjis.getAllKanjiComponents(browser, cookies);
+        //const kanjiCompObj = await kanjis.getAllKanjiComponents(browser, cookies);
+
+        //Get JLPT Kanjis
+        //Get N2-N5
+        // for (let level = 5; level >= 2; level--) {//N1 has too many entries to store into a single JSON
+        //     //Set the N# text
+        //     const nLevel = 'N' + level;
+        //     //Get the kanjis for that N level
+        //     const kanjiObj = await kanjis.getAllJlptKanjis(browser, cookies, nLevel);
+        //     //Convert to JSON
+        //     const jsonObj = JSON.stringify(kanjiObj, null, 4);
+        //     //Save the JSON
+        //     await helper.saveDataToFile(jsonObj, jsonDirPath + nLevel + ".json");
+        // }
+
+        //Get N1 Kanjis (Goes from "N1 1-100" to "N1 1001-1136")
+        const nLevel = 'N1';
+        const n1KanjisObj = await kanjis.getAllJlptKanjis(browser, cookies, nLevel);
+        //Divide into 3 sections at a time
+        const chunkSize = 3;
+        const n1Sections = n1KanjisObj[nLevel];
+        const n1Split = [];
+        for (let i = 0; i < n1Sections.length; i += chunkSize) {
+            n1Split.push(n1Sections.slice(i, i + chunkSize));
+        }
+        //Generate JSON for each sub section
+        for (let i = 0; i < n1Split.length; i++) {
+            //Setup the object
+            const n1Obj = { [nLevel]: n1Split[i] };
+            //Convert to JSON
+            const jsonObj = JSON.stringify(n1Obj, null, 4);
+            //Save the JSON
+            await helper.saveDataToFile(jsonObj, jsonDirPath + nLevel + "pt" + (i + 1) + ".json");
+        };
 
         //Display run time (ms)
         console.log(Date.now() - beforePageCallsTime);
 
         //Convert example sentence to JSON
-        const jsonObj = JSON.stringify(kanjiCompObj, null, 4);
+        //const jsonObj = JSON.stringify(kanjiObj, null, 4);
         //Save Sentence JSON to file
-        await helper.saveDataToFile(jsonObj, jsonDirPath + "test3.json");
+        //await helper.saveDataToFile(jsonObj, jsonDirPath + nLevel + ".json");
 
         //Take a screenshot of the current page
             //await page.screenshot({path: screenshotsDirPath + "page.png", fullPage: true});
