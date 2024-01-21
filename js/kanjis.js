@@ -1,5 +1,51 @@
 import * as helper from './helper.js';
-import pLimit from 'p-limit';
+
+export async function getAllJlptKanjis(browser, cookies, nLevel) {
+    return await helper.getAllSubPagesData(
+        browser,
+        cookies,
+        "https://www.kanshudo.com/collections/jlpt_kanji",
+        async (page) => {
+            return await page.evaluate((nLevel) => {
+                //Get JLPT level headers
+                const nLevelHeaderContainers = Array.from(document.querySelectorAll('#main-content .bodyarea .bodysection .infopanel h4')).filter(h4 => h4.textContent.includes(nLevel));
+                //Loop through an pull all the kanji urls for each level
+                let jlptKanjis = [];
+                for (const nLevelHeaderContainer of nLevelHeaderContainers) {
+                    //Get the container for the kanji (2 siblings after the header)
+                    const kanjisContainer = nLevelHeaderContainer.nextElementSibling.nextElementSibling;
+                    //Add the new kanjis entry
+                    jlptKanjis.push({
+                        title: nLevelHeaderContainer.textContent,
+                        kanji_urls: Array.from(kanjisContainer.querySelectorAll('.kanji a')).map((kanji) => kanji.href)
+                    });
+                }
+                //Return
+                return jlptKanjis;
+            }, nLevel);
+        },
+        5,
+        (jlptSections, limit) => {
+            //Loop through each JLPT section
+            return jlptSections.map((jlptSection) => {
+                return limit(async () => {
+                    //Get promises for the kanji pages
+                    const kanjiPromises = jlptSection.kanji_urls.map((kanjiUrl) => {
+                        return limit(() => getKanjiDetailFromBrowser(browser, kanjiUrl, cookies));
+                    });
+                    //Run all the promises
+                    const kanjis = await Promise.all(kanjiPromises);
+                        //Return the sections with their kanjis
+                    return {
+                        title: jlptSection.title,
+                        kanjis: kanjis
+                    };
+                });
+            });
+        },
+        nLevel
+    );
+}
 
 export async function getAllKanjiComponents(browser, cookies) {
     return await helper.getAllSubPagesData(

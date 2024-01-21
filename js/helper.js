@@ -8,6 +8,8 @@ export async function getAllSubPagesData(browser, cookies, mainUrl, getSubUrls, 
         mainPage = await browser.newPage();
         //Load cookies
         await mainPage.setCookie(...cookies);
+        //Enable console redirect
+        mainPage.on('console', (msg) => console.log(msg.text()));
         //Navigate to the main page
         await mainPage.goto(mainUrl);
         //Get all sub urls from the page

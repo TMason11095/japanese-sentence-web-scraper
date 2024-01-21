@@ -59,15 +59,31 @@ const jsonDirPath =  "jsons/";
 
         //Get kanji components
         //const kanjiCompObj = await kanjis.getAllKanjiComponents(browser, cookies);
-        const kanjiCompObj = await kanjis.getAllKanjiComponents(browser, cookies);
+
+        //Get JLPT Kanjis
+        //Get N2-N5
+        // for (let level = 5; level >= 2; level--) {//N1 has too many entries to store into a single JSON
+        //     //Set the N# text
+        //     const nLevel = 'N' + level;
+        //     //Get the kanjis for that N level
+        //     const kanjiObj = await kanjis.getAllJlptKanjis(browser, cookies, nLevel);
+        //     //Convert to JSON
+        //     const jsonObj = JSON.stringify(kanjiObj, null, 4);
+        //     //Save the JSON
+        //     await helper.saveDataToFile(jsonObj, jsonDirPath + nLevel + ".json");
+        // }
+        //Get N1 (Goes from "N1 1-100" to "N1 1001-1136")
+        //Grab in chunks of 300s
+        
+        
 
         //Display run time (ms)
         console.log(Date.now() - beforePageCallsTime);
 
         //Convert example sentence to JSON
-        const jsonObj = JSON.stringify(kanjiCompObj, null, 4);
+        //const jsonObj = JSON.stringify(kanjiObj, null, 4);
         //Save Sentence JSON to file
-        await helper.saveDataToFile(jsonObj, jsonDirPath + "test6.json");
+        //await helper.saveDataToFile(jsonObj, jsonDirPath + nLevel + ".json");
 
         //Take a screenshot of the current page
             //await page.screenshot({path: screenshotsDirPath + "page.png", fullPage: true});
