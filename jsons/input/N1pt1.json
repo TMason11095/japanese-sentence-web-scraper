@@ -1,5 +1,6 @@
 {
-    "N1": [
+    "grouping_name": "N1",
+    "sections": [
         {
             "title": "JLPT Kanji N1 1-100 (100 kanji)",
             "kanjis": [
