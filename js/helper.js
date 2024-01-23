@@ -21,7 +21,10 @@ export async function getAllSubPagesData(browser, cookies, mainUrl, getSubUrls, 
         //Process the promises
         const results = await Promise.all(promises);
         //Create object list of the results
-        const obj = { [groupingName]: results };
+        const obj = {
+            grouping_name: groupingName,
+            sections: results 
+        };
         //Return
         return obj;
     } catch (error) {
