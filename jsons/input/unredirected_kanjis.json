@@ -1,0 +1,2537 @@
+[
+    {
+        "id": "25",
+        "kanji": "昌",
+        "meaning": "prosperous",
+        "type": "Jinmeiyō (人名用)",
+        "component_ids": [
+            "12"
+        ]
+    },
+    {
+        "id": "2168",
+        "kanji": "胡",
+        "meaning": "foreign",
+        "type": "Jinmeiyō (人名用)",
+        "component_ids": [
+            "16",
+            "13"
+        ]
+    },
+    {
+        "id": "3061",
+        "kanji": "匀",
+        "meaning": "wrap the ice",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "2246",
+            "4481"
+        ]
+    },
+    {
+        "id": "87",
+        "kanji": "昭",
+        "meaning": "bright",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "86",
+            "12"
+        ]
+    },
+    {
+        "id": "3307",
+        "kanji": "宁",
+        "meaning": "calm",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "91",
+            "2289"
+        ]
+    },
+    {
+        "id": "190",
+        "kanji": "安",
+        "meaning": "peaceful",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "98",
+            "2289"
+        ]
+    },
+    {
+        "id": "3264",
+        "kanji": "枼",
+        "meaning": "tree world",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "195",
+            "28"
+        ]
+    },
+    {
+        "id": "186",
+        "kanji": "守",
+        "meaning": "protect",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "45",
+            "2289"
+        ]
+    },
+    {
+        "id": "248",
+        "kanji": "先",
+        "meaning": "ahead",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "3159",
+            "2304"
+        ]
+    },
+    {
+        "id": "250",
+        "kanji": "介",
+        "meaning": "mediate",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "4280",
+            "4040",
+            "2258"
+        ]
+    },
+    {
+        "id": "112",
+        "kanji": "名",
+        "meaning": "name",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "109",
+            "11"
+        ]
+    },
+    {
+        "id": "277",
+        "kanji": "道",
+        "meaning": "road",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "70",
+            "4059"
+        ]
+    },
+    {
+        "id": "3205",
+        "kanji": "卂",
+        "meaning": "fast",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "4348",
+            "10"
+        ]
+    },
+    {
+        "id": "294",
+        "kanji": "客",
+        "meaning": "guest",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "291",
+            "2289"
+        ]
+    },
+    {
+        "id": "2662",
+        "kanji": "洛",
+        "meaning": "Kyoto",
+        "type": "Jinmeiyō (人名用)",
+        "component_ids": [
+            "4473",
+            "291"
+        ]
+    },
+    {
+        "id": "119",
+        "kanji": "光",
+        "meaning": "light",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "105",
+            "3031"
+        ]
+    },
+    {
+        "id": "3203",
+        "kanji": "戎",
+        "meaning": "ten spears",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "4112",
+            "2229"
+        ]
+    },
+    {
+        "id": "3366",
+        "kanji": "烕",
+        "meaning": "fire dog",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "161",
+            "2332"
+        ]
+    },
+    {
+        "id": "377",
+        "kanji": "武",
+        "meaning": "military",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "370",
+            "2228",
+            "1"
+        ]
+    },
+    {
+        "id": "2231",
+        "kanji": "戉",
+        "meaning": "warrior",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "2229",
+            "4050"
+        ]
+    },
+    {
+        "id": "392",
+        "kanji": "延",
+        "meaning": "prolong",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "4280",
+            "370",
+            "2311"
+        ]
+    },
+    {
+        "id": "2626",
+        "kanji": "楚",
+        "meaning": "switch",
+        "type": "Jinmeiyō (人名用)",
+        "component_ids": [
+            "2220",
+            "196"
+        ]
+    },
+    {
+        "id": "3837",
+        "kanji": "胥",
+        "meaning": "No definition",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "13",
+            "2220"
+        ]
+    },
+    {
+        "id": "18",
+        "kanji": "冒",
+        "meaning": "to brave",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "12",
+            "15"
+        ]
+    },
+    {
+        "id": "415",
+        "kanji": "帯",
+        "meaning": "belt",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "3156",
+            "2316",
+            "2208"
+        ]
+    },
+    {
+        "id": "418",
+        "kanji": "制",
+        "meaning": "system",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "4041",
+            "412",
+            "4225"
+        ]
+    },
+    {
+        "id": "423",
+        "kanji": "雲",
+        "meaning": "cloud",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "4430",
+            "2189"
+        ]
+    },
+    {
+        "id": "445",
+        "kanji": "北",
+        "meaning": "north",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "444",
+            "4082"
+        ]
+    },
+    {
+        "id": "448",
+        "kanji": "昆",
+        "meaning": "descendants",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "447",
+            "12"
+        ]
+    },
+    {
+        "id": "462",
+        "kanji": "乞",
+        "meaning": "beg",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "71",
+            "4041"
+        ]
+    },
+    {
+        "id": "147",
+        "kanji": "泊",
+        "meaning": "stay",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "37",
+            "4473"
+        ]
+    },
+    {
+        "id": "3112",
+        "kanji": "氿",
+        "meaning": "nine lots of water",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "9",
+            "4473"
+        ]
+    },
+    {
+        "id": "241",
+        "kanji": "然",
+        "meaning": "resemble",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "238",
+            "4188",
+            "4468"
+        ]
+    },
+    {
+        "id": "3233",
+        "kanji": "它",
+        "meaning": "snake",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "444",
+            "2289"
+        ]
+    },
+    {
+        "id": "536",
+        "kanji": "竜",
+        "meaning": "dragon",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "431",
+            "2302"
+        ]
+    },
+    {
+        "id": "3309",
+        "kanji": "㳄",
+        "meaning": "lack of water",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "466",
+            "4473"
+        ]
+    },
+    {
+        "id": "557",
+        "kanji": "焦",
+        "meaning": "impatience",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "2360",
+            "4468"
+        ]
+    },
+    {
+        "id": "3385",
+        "kanji": "淮",
+        "meaning": "little bird in the water",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "2360",
+            "4473"
+        ]
+    },
+    {
+        "id": "3069",
+        "kanji": "亶",
+        "meaning": "sincere",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "30",
+            "3382"
+        ]
+    },
+    {
+        "id": "597",
+        "kanji": "忍",
+        "meaning": "endure",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "84",
+            "595"
+        ]
+    },
+    {
+        "id": "600",
+        "kanji": "志",
+        "meaning": "good intention",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "319",
+            "595"
+        ]
+    },
+    {
+        "id": "603",
+        "kanji": "串",
+        "meaning": "skewer",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "2258",
+            "11"
+        ]
+    },
+    {
+        "id": "51",
+        "kanji": "卓",
+        "meaning": "superior or table",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "2238",
+            "26"
+        ]
+    },
+    {
+        "id": "488",
+        "kanji": "荒",
+        "meaning": "violent",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "4415",
+            "485",
+            "127"
+        ]
+    },
+    {
+        "id": "102",
+        "kanji": "貫",
+        "meaning": "pierce",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "4141",
+            "54"
+        ]
+    },
+    {
+        "id": "615",
+        "kanji": "感",
+        "meaning": "feelings",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "2230",
+            "595"
+        ]
+    },
+    {
+        "id": "3279",
+        "kanji": "忝",
+        "meaning": "calamity of the heart",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "3278",
+            "4029"
+        ]
+    },
+    {
+        "id": "217",
+        "kanji": "末",
+        "meaning": "end",
+        "type": "Jōyō (常用)",
+        "component_ids": []
+    },
+    {
+        "id": "3161",
+        "kanji": "叧",
+        "meaning": "with your sword under the mouth",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "83",
+            "11"
+        ]
+    },
+    {
+        "id": "297",
+        "kanji": "処",
+        "meaning": "deal with",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "2134",
+            "2186"
+        ]
+    },
+    {
+        "id": "3391",
+        "kanji": "妾",
+        "meaning": "standing woman",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "431",
+            "98"
+        ]
+    },
+    {
+        "id": "676",
+        "kanji": "戒",
+        "meaning": "warn",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "2198",
+            "2229"
+        ]
+    },
+    {
+        "id": "679",
+        "kanji": "刑",
+        "meaning": "punishment",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "2264",
+            "4225"
+        ]
+    },
+    {
+        "id": "3226",
+        "kanji": "乀",
+        "meaning": "stretch",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": []
+    },
+    {
+        "id": "3890",
+        "kanji": "叒",
+        "meaning": "again and a pair of agains",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "696",
+            "697"
+        ]
+    },
+    {
+        "id": "3327",
+        "kanji": "軗",
+        "meaning": "the car and the lance shaft",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "286",
+            "2190"
+        ]
+    },
+    {
+        "id": "731",
+        "kanji": "将",
+        "meaning": "commander",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "4334",
+            "45",
+            "4082"
+        ]
+    },
+    {
+        "id": "735",
+        "kanji": "受",
+        "meaning": "receive",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "696",
+            "2316",
+            "4334"
+        ]
+    },
+    {
+        "id": "2184",
+        "kanji": "厷",
+        "meaning": "forearm",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "4112",
+            "2251"
+        ]
+    },
+    {
+        "id": "168",
+        "kanji": "灰",
+        "meaning": "ash",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "161",
+            "2287"
+        ]
+    },
+    {
+        "id": "50",
+        "kanji": "下",
+        "meaning": "below",
+        "type": "Jōyō (常用)",
+        "component_ids": []
+    },
+    {
+        "id": "790",
+        "kanji": "容",
+        "meaning": "contents",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "2289",
+            "788"
+        ]
+    },
+    {
+        "id": "2097",
+        "kanji": "吊",
+        "meaning": "hang",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "11",
+            "2208"
+        ]
+    },
+    {
+        "id": "803",
+        "kanji": "波",
+        "meaning": "wave",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "802",
+            "4473"
+        ]
+    },
+    {
+        "id": "67",
+        "kanji": "旬",
+        "meaning": "season",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "12",
+            "2246"
+        ]
+    },
+    {
+        "id": "815",
+        "kanji": "死",
+        "meaning": "death",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "2206",
+            "444"
+        ]
+    },
+    {
+        "id": "2794",
+        "kanji": "舜",
+        "meaning": "morning glory",
+        "type": "Jinmeiyō (人名用)",
+        "component_ids": [
+            "2187",
+            "4334",
+            "2316"
+        ]
+    },
+    {
+        "id": "821",
+        "kanji": "最",
+        "meaning": "most",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "819",
+            "12"
+        ]
+    },
+    {
+        "id": "3414",
+        "kanji": "蜀",
+        "meaning": "green caterpillar",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "517",
+            "2246",
+            "4490"
+        ]
+    },
+    {
+        "id": "842",
+        "kanji": "替",
+        "meaning": "replace",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "838",
+            "12"
+        ]
+    },
+    {
+        "id": "850",
+        "kanji": "蔵",
+        "meaning": "storehouse",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "848",
+            "360"
+        ]
+    },
+    {
+        "id": "3232",
+        "kanji": "㝵",
+        "meaning": "an inch at dawn",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "45",
+            "30"
+        ]
+    },
+    {
+        "id": "887",
+        "kanji": "徴",
+        "meaning": "sign",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "255",
+            "2250",
+            "2181",
+            "768"
+        ]
+    },
+    {
+        "id": "262",
+        "kanji": "呈",
+        "meaning": "display",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "255",
+            "11"
+        ]
+    },
+    {
+        "id": "108",
+        "kanji": "多",
+        "meaning": "many",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "109"
+        ]
+    },
+    {
+        "id": "900",
+        "kanji": "秋",
+        "meaning": "autumn",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "2194",
+            "161"
+        ]
+    },
+    {
+        "id": "612",
+        "kanji": "恵",
+        "meaning": "bless",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "1",
+            "1105",
+            "595"
+        ]
+    },
+    {
+        "id": "3861",
+        "kanji": "囷",
+        "meaning": "No definition",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "2194",
+            "2331"
+        ]
+    },
+    {
+        "id": "2078",
+        "kanji": "庄",
+        "meaning": "level",
+        "type": "Jinmeiyō (人名用)",
+        "component_ids": [
+            "150",
+            "2335"
+        ]
+    },
+    {
+        "id": "177",
+        "kanji": "量",
+        "meaning": "measure",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "30",
+            "173"
+        ]
+    },
+    {
+        "id": "3878",
+        "kanji": "匊",
+        "meaning": "wrapped-up rice",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "2246",
+            "919"
+        ]
+    },
+    {
+        "id": "2787",
+        "kanji": "肋",
+        "meaning": "rib",
+        "type": "Jinmeiyō (人名用)",
+        "component_ids": [
+            "4188",
+            "858"
+        ]
+    },
+    {
+        "id": "2751",
+        "kanji": "筑",
+        "meaning": "zither",
+        "type": "Jinmeiyō (人名用)",
+        "component_ids": [
+            "62",
+            "76",
+            "4200"
+        ]
+    },
+    {
+        "id": "311",
+        "kanji": "亭",
+        "meaning": "pavilion",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "2316",
+            "91",
+            "2303",
+            "11"
+        ]
+    },
+    {
+        "id": "755",
+        "kanji": "到",
+        "meaning": "arrive",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "753",
+            "4225"
+        ]
+    },
+    {
+        "id": "55",
+        "kanji": "貞",
+        "meaning": "upright",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "54",
+            "2238"
+        ]
+    },
+    {
+        "id": "796",
+        "kanji": "賞",
+        "meaning": "prize",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "56",
+            "3127"
+        ]
+    },
+    {
+        "id": "3503",
+        "kanji": "崔",
+        "meaning": "the mountain with the little bird",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "768",
+            "2360"
+        ]
+    },
+    {
+        "id": "693",
+        "kanji": "吏",
+        "meaning": "official",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "1",
+            "692"
+        ]
+    },
+    {
+        "id": "616",
+        "kanji": "憂",
+        "meaning": "grieve",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "595",
+            "296"
+        ]
+    },
+    {
+        "id": "997",
+        "kanji": "保",
+        "meaning": "protect",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "4039",
+            "2115"
+        ]
+    },
+    {
+        "id": "1003",
+        "kanji": "任",
+        "meaning": "responsibility",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "4039",
+            "2336"
+        ]
+    },
+    {
+        "id": "1012",
+        "kanji": "何",
+        "meaning": "what",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "93",
+            "4039"
+        ]
+    },
+    {
+        "id": "3246",
+        "kanji": "旁",
+        "meaning": "the way of standing covered",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "490",
+            "431",
+            "2316"
+        ]
+    },
+    {
+        "id": "1016",
+        "kanji": "久",
+        "meaning": "long time",
+        "type": "Jōyō (常用)",
+        "component_ids": []
+    },
+    {
+        "id": "3842",
+        "kanji": "亩",
+        "meaning": "the rice field with the lid",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "14",
+            "2303"
+        ]
+    },
+    {
+        "id": "1002",
+        "kanji": "府",
+        "meaning": "borough",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "1000",
+            "2335"
+        ]
+    },
+    {
+        "id": "1028",
+        "kanji": "以",
+        "meaning": "or",
+        "type": "Jōyō (常用)",
+        "component_ids": []
+    },
+    {
+        "id": "1037",
+        "kanji": "夜",
+        "meaning": "night",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "4039",
+            "2134",
+            "2309",
+            "2303"
+        ]
+    },
+    {
+        "id": "3284",
+        "kanji": "斿",
+        "meaning": "the man knows the way to make the child",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "4041",
+            "490",
+            "95"
+        ]
+    },
+    {
+        "id": "1051",
+        "kanji": "易",
+        "meaning": "easy",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "1049",
+            "12"
+        ]
+    },
+    {
+        "id": "1054",
+        "kanji": "尼",
+        "meaning": "nun",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "2269",
+            "444"
+        ]
+    },
+    {
+        "id": "3003",
+        "kanji": "屏",
+        "meaning": "folding screen",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "2959",
+            "2269"
+        ]
+    },
+    {
+        "id": "1058",
+        "kanji": "屋",
+        "meaning": "roof",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "2269",
+            "753"
+        ]
+    },
+    {
+        "id": "3026",
+        "kanji": "𠃌",
+        "meaning": "partly wrapped",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "2246"
+        ]
+    },
+    {
+        "id": "1081",
+        "kanji": "戻",
+        "meaning": "return",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "107",
+            "1076"
+        ]
+    },
+    {
+        "id": "1083",
+        "kanji": "雇",
+        "meaning": "employ",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "2360",
+            "1076"
+        ]
+    },
+    {
+        "id": "1095",
+        "kanji": "尉",
+        "meaning": "military officer",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "1086",
+            "45",
+            "2269"
+        ]
+    },
+    {
+        "id": "1098",
+        "kanji": "禁",
+        "meaning": "prohibition",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "1086",
+            "196"
+        ]
+    },
+    {
+        "id": "1103",
+        "kanji": "察",
+        "meaning": "surmise",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "1102",
+            "2289"
+        ]
+    },
+    {
+        "id": "1138",
+        "kanji": "斥",
+        "meaning": "reject",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "1125",
+            "2309"
+        ]
+    },
+    {
+        "id": "1157",
+        "kanji": "唐",
+        "meaning": "Tang Dynasty",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "11",
+            "3227",
+            "2335"
+        ]
+    },
+    {
+        "id": "1165",
+        "kanji": "需",
+        "meaning": "need",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "2239",
+            "4430"
+        ]
+    },
+    {
+        "id": "1168",
+        "kanji": "両",
+        "meaning": "both",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "1",
+            "768",
+            "2305"
+        ]
+    },
+    {
+        "id": "1191",
+        "kanji": "庶",
+        "meaning": "commoner",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "2335",
+            "1190",
+            "4468"
+        ]
+    },
+    {
+        "id": "1194",
+        "kanji": "度",
+        "meaning": "degree",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "2335",
+            "1190",
+            "696"
+        ]
+    },
+    {
+        "id": "3384",
+        "kanji": "夲",
+        "meaning": "ten big",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "10",
+            "107"
+        ]
+    },
+    {
+        "id": "1207",
+        "kanji": "巻",
+        "meaning": "roll up",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "525",
+            "4422"
+        ]
+    },
+    {
+        "id": "3210",
+        "kanji": "滕",
+        "meaning": "rising water",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "4474",
+            "2027"
+        ]
+    },
+    {
+        "id": "1227",
+        "kanji": "務",
+        "meaning": "work",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "858",
+            "2181",
+            "1225"
+        ]
+    },
+    {
+        "id": "3835",
+        "kanji": "夸",
+        "meaning": "boast",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "2219",
+            "107"
+        ]
+    },
+    {
+        "id": "1246",
+        "kanji": "与",
+        "meaning": "grant",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "2219",
+            "1"
+        ]
+    },
+    {
+        "id": "1249",
+        "kanji": "射",
+        "meaning": "to shoot",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "45",
+            "1248"
+        ]
+    },
+    {
+        "id": "1252",
+        "kanji": "考",
+        "meaning": "think",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "2219",
+            "4174"
+        ]
+    },
+    {
+        "id": "3174",
+        "kanji": "帀",
+        "meaning": "one turban",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "1",
+            "2208"
+        ]
+    },
+    {
+        "id": "1282",
+        "kanji": "路",
+        "meaning": "street",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "291",
+            "4042"
+        ]
+    },
+    {
+        "id": "2658",
+        "kanji": "沓",
+        "meaning": "shoes",
+        "type": "Jinmeiyō (人名用)",
+        "component_ids": [
+            "130",
+            "12"
+        ]
+    },
+    {
+        "id": "187",
+        "kanji": "完",
+        "meaning": "complete",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "59",
+            "2289"
+        ]
+    },
+    {
+        "id": "1306",
+        "kanji": "隊",
+        "meaning": "squad",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "3158",
+            "4017"
+        ]
+    },
+    {
+        "id": "3844",
+        "kanji": "坒",
+        "meaning": "compared to the ground",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "447",
+            "150"
+        ]
+    },
+    {
+        "id": "3349",
+        "kanji": "粦",
+        "meaning": "the rice you oppose",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "919",
+            "2187"
+        ]
+    },
+    {
+        "id": "1317",
+        "kanji": "空",
+        "meaning": "empty",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "76",
+            "1316"
+        ]
+    },
+    {
+        "id": "85",
+        "kanji": "切",
+        "meaning": "cut",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "7",
+            "83"
+        ]
+    },
+    {
+        "id": "2743",
+        "kanji": "窄",
+        "meaning": "narrow",
+        "type": "Jinmeiyō (人名用)",
+        "component_ids": [
+            "2366",
+            "1316"
+        ]
+    },
+    {
+        "id": "1331",
+        "kanji": "兵",
+        "meaning": "soldier",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "1125",
+            "3060"
+        ]
+    },
+    {
+        "id": "995",
+        "kanji": "宿",
+        "meaning": "inn",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "3401",
+            "2289"
+        ]
+    },
+    {
+        "id": "459",
+        "kanji": "敏",
+        "meaning": "cleverness",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "458",
+            "2181"
+        ]
+    },
+    {
+        "id": "877",
+        "kanji": "従",
+        "meaning": "obey",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "4121",
+            "2220",
+            "2250"
+        ]
+    },
+    {
+        "id": "1341",
+        "kanji": "維",
+        "meaning": "fiber",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "2360",
+            "1333"
+        ]
+    },
+    {
+        "id": "752",
+        "kanji": "会",
+        "meaning": "meet",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "4040",
+            "2189"
+        ]
+    },
+    {
+        "id": "427",
+        "kanji": "冬",
+        "meaning": "winter",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "4482",
+            "2134"
+        ]
+    },
+    {
+        "id": "3398",
+        "kanji": "肙",
+        "meaning": "mouth for a month",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "11",
+            "4107"
+        ]
+    },
+    {
+        "id": "3140",
+        "kanji": "罔",
+        "meaning": "net",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "2305",
+            "485",
+            "4416"
+        ]
+    },
+    {
+        "id": "534",
+        "kanji": "亀",
+        "meaning": "turtle",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "2302",
+            "4408",
+            "14"
+        ]
+    },
+    {
+        "id": "1384",
+        "kanji": "畜",
+        "meaning": "animal raising",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "1383",
+            "14"
+        ]
+    },
+    {
+        "id": "3567",
+        "kanji": "雍",
+        "meaning": "softening",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "2360",
+            "4102",
+            "2303"
+        ]
+    },
+    {
+        "id": "4168",
+        "kanji": "縣",
+        "meaning": "prefecture\n\n        and\n\n        is a kyujitai form\n\n      of 県",
+        "type": "Jinmeiyō (人名用)",
+        "component_ids": [
+            "1391",
+            "513"
+        ]
+    },
+    {
+        "id": "1395",
+        "kanji": "却",
+        "meaning": "withdraw",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "750",
+            "2320"
+        ]
+    },
+    {
+        "id": "1397",
+        "kanji": "卸",
+        "meaning": "sell wholesale",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "568",
+            "370",
+            "2320"
+        ]
+    },
+    {
+        "id": "2089",
+        "kanji": "叩",
+        "meaning": "strike",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "2320",
+            "11"
+        ]
+    },
+    {
+        "id": "1171",
+        "kanji": "歯",
+        "meaning": "tooth",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "370",
+            "919",
+            "2317"
+        ]
+    },
+    {
+        "id": "1415",
+        "kanji": "厄",
+        "meaning": "unlucky",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "4085",
+            "2287"
+        ]
+    },
+    {
+        "id": "1417",
+        "kanji": "宛",
+        "meaning": "address",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "2289",
+            "3101"
+        ]
+    },
+    {
+        "id": "128",
+        "kanji": "州",
+        "meaning": "state",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "127",
+            "2309"
+        ]
+    },
+    {
+        "id": "3920",
+        "kanji": "尌",
+        "meaning": "No definition",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "45",
+            "3081"
+        ]
+    },
+    {
+        "id": "20",
+        "kanji": "明",
+        "meaning": "bright",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "12",
+            "13"
+        ]
+    },
+    {
+        "id": "2517",
+        "kanji": "孟",
+        "meaning": "beginning",
+        "type": "Jinmeiyō (人名用)",
+        "component_ids": [
+            "95",
+            "1447"
+        ]
+    },
+    {
+        "id": "1462",
+        "kanji": "即",
+        "meaning": "an instant",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "4162",
+            "2320"
+        ]
+    },
+    {
+        "id": "2453",
+        "kanji": "乎",
+        "meaning": "question mark",
+        "type": "Jinmeiyō (人名用)",
+        "component_ids": [
+            "4280",
+            "4121",
+            "1",
+            "2267"
+        ]
+    },
+    {
+        "id": "1502",
+        "kanji": "新",
+        "meaning": "new",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "3295",
+            "1125"
+        ]
+    },
+    {
+        "id": "1511",
+        "kanji": "卑",
+        "meaning": "shabby",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "4280",
+            "10",
+            "4113"
+        ]
+    },
+    {
+        "id": "3072",
+        "kanji": "夌",
+        "meaning": "dawdle",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "2134",
+            "4062"
+        ]
+    },
+    {
+        "id": "1546",
+        "kanji": "表",
+        "meaning": "surface",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "4116",
+            "4232"
+        ]
+    },
+    {
+        "id": "1549",
+        "kanji": "契",
+        "meaning": "pledge",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "3231",
+            "107"
+        ]
+    },
+    {
+        "id": "2044",
+        "kanji": "逢",
+        "meaning": "meet",
+        "type": "Jinmeiyō (人名用)",
+        "component_ids": [
+            "3376",
+            "4060"
+        ]
+    },
+    {
+        "id": "1565",
+        "kanji": "寿",
+        "meaning": "longevity",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "3211",
+            "45"
+        ]
+    },
+    {
+        "id": "1585",
+        "kanji": "乗",
+        "meaning": "load or power",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "2194"
+        ]
+    },
+    {
+        "id": "3239",
+        "kanji": "侌",
+        "meaning": "now I say",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "1587",
+            "2189"
+        ]
+    },
+    {
+        "id": "1604",
+        "kanji": "要",
+        "meaning": "need",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "98",
+            "4388"
+        ]
+    },
+    {
+        "id": "1613",
+        "kanji": "南",
+        "meaning": "south",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "10",
+            "2305"
+        ]
+    },
+    {
+        "id": "994",
+        "kanji": "伐",
+        "meaning": "fell (an enemy)",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "4039",
+            "2229"
+        ]
+    },
+    {
+        "id": "1620",
+        "kanji": "間",
+        "meaning": "interval",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "12",
+            "1616"
+        ]
+    },
+    {
+        "id": "3847",
+        "kanji": "オ\n    is katakana 'o'",
+        "meaning": "No definition",
+        "type": "Katakana",
+        "component_ids": []
+    },
+    {
+        "id": "2898",
+        "kanji": "閏",
+        "meaning": "extra",
+        "type": "Jinmeiyō (人名用)",
+        "component_ids": [
+            "255",
+            "1616"
+        ]
+    },
+    {
+        "id": "1630",
+        "kanji": "倉",
+        "meaning": "storehouse",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "2248",
+            "11",
+            "2269"
+        ]
+    },
+    {
+        "id": "1665",
+        "kanji": "頼",
+        "meaning": "rely",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "60",
+            "1664"
+        ]
+    },
+    {
+        "id": "3142",
+        "kanji": "敕",
+        "meaning": "strike the bundle",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "2181",
+            "1664"
+        ]
+    },
+    {
+        "id": "1223",
+        "kanji": "知",
+        "meaning": "know",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "1220",
+            "11"
+        ]
+    },
+    {
+        "id": "1703",
+        "kanji": "登",
+        "meaning": "climb",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "1440",
+            "2324"
+        ]
+    },
+    {
+        "id": "1705",
+        "kanji": "発",
+        "meaning": "emission",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "2324",
+            "2",
+            "2304"
+        ]
+    },
+    {
+        "id": "1716",
+        "kanji": "彦",
+        "meaning": "boy",
+        "type": "Jinmeiyō (人名用)",
+        "component_ids": [
+            "3035",
+            "2207"
+        ]
+    },
+    {
+        "id": "1720",
+        "kanji": "参",
+        "meaning": "visit",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "107",
+            "2251",
+            "2207"
+        ]
+    },
+    {
+        "id": "1735",
+        "kanji": "楽",
+        "meaning": "music or happy",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "37",
+            "4474",
+            "195"
+        ]
+    },
+    {
+        "id": "4092",
+        "kanji": "弯",
+        "meaning": "curved\n\n        and\n\n        is a variant\n\n      of 彎",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "2454",
+            "1231"
+        ]
+    },
+    {
+        "id": "1443",
+        "kanji": "豊",
+        "meaning": "plentiful",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "1440",
+            "1172"
+        ]
+    },
+    {
+        "id": "1775",
+        "kanji": "無",
+        "meaning": "not",
+        "type": "Jōyō (常用)",
+        "component_ids": []
+    },
+    {
+        "id": "1786",
+        "kanji": "普",
+        "meaning": "universal",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "12",
+            "1785"
+        ]
+    },
+    {
+        "id": "1801",
+        "kanji": "暴",
+        "meaning": "violent",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "4474",
+            "1795",
+            "12"
+        ]
+    },
+    {
+        "id": "1809",
+        "kanji": "亜",
+        "meaning": "Asia",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "4388"
+        ]
+    },
+    {
+        "id": "2585",
+        "kanji": "昏",
+        "meaning": "dark",
+        "type": "Jinmeiyō (人名用)",
+        "component_ids": [
+            "1828",
+            "12"
+        ]
+    },
+    {
+        "id": "1834",
+        "kanji": "民",
+        "meaning": "people",
+        "type": "Jōyō (常用)",
+        "component_ids": []
+    },
+    {
+        "id": "1849",
+        "kanji": "郷",
+        "meaning": "hometown",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "4102",
+            "1851"
+        ]
+    },
+    {
+        "id": "1853",
+        "kanji": "盾",
+        "meaning": "shield",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "4112",
+            "15",
+            "4086"
+        ]
+    },
+    {
+        "id": "3876",
+        "kanji": "乑",
+        "meaning": "three men",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "4039"
+        ]
+    },
+    {
+        "id": "1859",
+        "kanji": "段",
+        "meaning": "grade",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "2366",
+            "2190"
+        ]
+    },
+    {
+        "id": "3286",
+        "kanji": "𡯂",
+        "meaning": "eight tables",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "8",
+            "2186"
+        ]
+    },
+    {
+        "id": "3229",
+        "kanji": "叚",
+        "meaning": "Ko with the striped corpse again",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "3868",
+            "2269",
+            "696"
+        ]
+    },
+    {
+        "id": "3236",
+        "kanji": "旉",
+        "meaning": "the first time the way",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "2114",
+            "490"
+        ]
+    },
+    {
+        "id": "2941",
+        "kanji": "丞",
+        "meaning": "help",
+        "type": "Jinmeiyō (人名用)",
+        "component_ids": [
+            "1",
+            "3067"
+        ]
+    },
+    {
+        "id": "3404",
+        "kanji": "亟",
+        "meaning": "reach the mouth again",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "2219",
+            "1",
+            "11",
+            "696"
+        ]
+    },
+    {
+        "id": "1918",
+        "kanji": "為",
+        "meaning": "to do",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "4468"
+        ]
+    },
+    {
+        "id": "826",
+        "kanji": "敢",
+        "meaning": "daring",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "2181",
+            "4404",
+            "818"
+        ]
+    },
+    {
+        "id": "4368",
+        "kanji": "鼡",
+        "meaning": "mouse\n\n        and\n\n        is a variant\n\n      of 鼠",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "1181",
+            "4098"
+        ]
+    },
+    {
+        "id": "1953",
+        "kanji": "属",
+        "meaning": "belong to",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "4280",
+            "2305",
+            "517",
+            "2269"
+        ]
+    },
+    {
+        "id": "3191",
+        "kanji": "匋",
+        "meaning": "wrapped up can",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "2246",
+            "1965"
+        ]
+    },
+    {
+        "id": "1976",
+        "kanji": "象",
+        "meaning": "image or elephant",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "2217",
+            "2258",
+            "11",
+            "4408"
+        ]
+    },
+    {
+        "id": "29",
+        "kanji": "胃",
+        "meaning": "stomach",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "4188",
+            "14"
+        ]
+    },
+    {
+        "id": "1993",
+        "kanji": "虚",
+        "meaning": "void",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "2148",
+            "4484"
+        ]
+    },
+    {
+        "id": "605",
+        "kanji": "思",
+        "meaning": "think",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "595",
+            "14"
+        ]
+    },
+    {
+        "id": "3301",
+        "kanji": "豦",
+        "meaning": "fighting",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "2148",
+            "2217"
+        ]
+    },
+    {
+        "id": "3277",
+        "kanji": "丽",
+        "meaning": "paws",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "1",
+            "2305",
+            "2309"
+        ]
+    },
+    {
+        "id": "2006",
+        "kanji": "寅",
+        "meaning": "tiger",
+        "type": "Jinmeiyō (人名用)",
+        "component_ids": [
+            "4120",
+            "1105",
+            "1",
+            "2289"
+        ]
+    },
+    {
+        "id": "2014",
+        "kanji": "農",
+        "meaning": "agriculture",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "2008",
+            "1172"
+        ]
+    },
+    {
+        "id": "3828",
+        "kanji": "赫",
+        "meaning": "red",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "1743"
+        ]
+    },
+    {
+        "id": "1439",
+        "kanji": "尊",
+        "meaning": "precious",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "45",
+            "3197"
+        ]
+    },
+    {
+        "id": "3389",
+        "kanji": "澡",
+        "meaning": "No definition",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "4473",
+            "3073"
+        ]
+    },
+    {
+        "id": "3281",
+        "kanji": "舄",
+        "meaning": "magpie",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "2246",
+            "4468",
+            "2048"
+        ]
+    },
+    {
+        "id": "3043",
+        "kanji": "矣",
+        "meaning": "private arrow",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "2251",
+            "1220"
+        ]
+    },
+    {
+        "id": "4424",
+        "kanji": "堇",
+        "meaning": "violet\n\n        and\n\n        is a variant\n\n      of 菫",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "266",
+            "4415",
+            "11"
+        ]
+    },
+    {
+        "id": "1969",
+        "kanji": "就",
+        "meaning": "employed",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "312",
+            "2523"
+        ]
+    },
+    {
+        "id": "1393",
+        "kanji": "孫",
+        "meaning": "grandchild",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "1391",
+            "4070"
+        ]
+    },
+    {
+        "id": "1236",
+        "kanji": "弱",
+        "meaning": "weak",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "3155",
+            "573"
+        ]
+    },
+    {
+        "id": "3134",
+        "kanji": "冄",
+        "meaning": "furry",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "13"
+        ]
+    },
+    {
+        "id": "924",
+        "kanji": "迷",
+        "meaning": "perplexed",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "919",
+            "4059"
+        ]
+    },
+    {
+        "id": "3045",
+        "kanji": "皃",
+        "meaning": "white with legs",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "37",
+            "2304"
+        ]
+    },
+    {
+        "id": "3106",
+        "kanji": "孛",
+        "meaning": "child under ten covers",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "95",
+            "10",
+            "2316"
+        ]
+    },
+    {
+        "id": "1407",
+        "kanji": "勇",
+        "meaning": "brave",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "859",
+            "2270"
+        ]
+    },
+    {
+        "id": "4080",
+        "kanji": "兪",
+        "meaning": "in general\n\n        and\n\n        is a variant\n\n      of 俞",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": []
+    },
+    {
+        "id": "737",
+        "kanji": "愛",
+        "meaning": "love",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "2134",
+            "2316",
+            "595",
+            "4334"
+        ]
+    },
+    {
+        "id": "3146",
+        "kanji": "鬯",
+        "meaning": "fragrant herbs",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "444"
+        ]
+    },
+    {
+        "id": "3877",
+        "kanji": "戔",
+        "meaning": "damage",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "2229"
+        ]
+    },
+    {
+        "id": "1889",
+        "kanji": "妻",
+        "meaning": "wife",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "98",
+            "1",
+            "3227"
+        ]
+    },
+    {
+        "id": "1686",
+        "kanji": "疾",
+        "meaning": "rapidly",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "1220",
+            "2325"
+        ]
+    },
+    {
+        "id": "3082",
+        "kanji": "咢",
+        "meaning": "reach the one with two mouths",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "2219",
+            "1",
+            "11"
+        ]
+    },
+    {
+        "id": "2510",
+        "kanji": "奄",
+        "meaning": "suffocate",
+        "type": "Jinmeiyō (人名用)",
+        "component_ids": [
+            "107",
+            "2302"
+        ]
+    },
+    {
+        "id": "122",
+        "kanji": "臭",
+        "meaning": "foul-smelling",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "36",
+            "107"
+        ]
+    },
+    {
+        "id": "1556",
+        "kanji": "星",
+        "meaning": "star",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "1555",
+            "12"
+        ]
+    },
+    {
+        "id": "913",
+        "kanji": "委",
+        "meaning": "entrust",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "98",
+            "2194"
+        ]
+    },
+    {
+        "id": "3129",
+        "kanji": "曷",
+        "meaning": "what",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "3130",
+            "12"
+        ]
+    },
+    {
+        "id": "74",
+        "kanji": "具",
+        "meaning": "tool",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "15",
+            "3060"
+        ]
+    },
+    {
+        "id": "3394",
+        "kanji": "敖",
+        "meaning": "play",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "490",
+            "2181",
+            "150"
+        ]
+    },
+    {
+        "id": "1506",
+        "kanji": "執",
+        "meaning": "hold on to",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "1505",
+            "44"
+        ]
+    },
+    {
+        "id": "2040",
+        "kanji": "丑",
+        "meaning": "sign of the cow",
+        "type": "Jinmeiyō (人名用)",
+        "component_ids": [
+            "5",
+            "2258"
+        ]
+    },
+    {
+        "id": "290",
+        "kanji": "前",
+        "meaning": "before",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "3258",
+            "4416"
+        ]
+    },
+    {
+        "id": "756",
+        "kanji": "致",
+        "meaning": "to do",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "753",
+            "2181"
+        ]
+    },
+    {
+        "id": "1590",
+        "kanji": "念",
+        "meaning": "idea",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "1587",
+            "595"
+        ]
+    },
+    {
+        "id": "1423",
+        "kanji": "留",
+        "meaning": "detain",
+        "type": "Jōyō (常用)",
+        "component_ids": [
+            "2041",
+            "14"
+        ]
+    },
+    {
+        "id": "1609",
+        "kanji": "栗",
+        "meaning": "chestnut",
+        "type": "Jinmeiyō (人名用)",
+        "component_ids": [
+            "4388",
+            "195"
+        ]
+    },
+    {
+        "id": "4126",
+        "kanji": "眞",
+        "meaning": "truth\n\n        and\n\n        is a variant\n\n      of 真",
+        "type": "Jinmeiyō (人名用)",
+        "component_ids": [
+            "444",
+            "513"
+        ]
+    },
+    {
+        "id": "2685",
+        "kanji": "爾",
+        "meaning": "you",
+        "type": "Jinmeiyō (人名用)",
+        "component_ids": [
+            "2339",
+            "2305",
+            "3060",
+            "2258"
+        ]
+    },
+    {
+        "id": "4055",
+        "kanji": "夾",
+        "meaning": "between\n\n        and\n\n        is a variant\n\n      of 夹",
+        "type": "Hyōgaiji (表外字)",
+        "component_ids": [
+            "951",
+            "107"
+        ]
+    }
+]

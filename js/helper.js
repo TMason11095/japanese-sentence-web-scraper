@@ -135,19 +135,24 @@ export async function loadCookiesFromFile(page, filePath) {
     }
 }
 
+//Delete later (Replace all function calls with getJsonFileContents())
 export async function getCookiesFromFile(filePath) {
+    return await getJsonFileContents(filePath);
+}
+
+export async function getJsonFileContents(filePath) {
     try {
-        //Grab the cookies JSON
-        const cookiesJson = fs.readFileSync(filePath);
-        //Convert to cookies
-        const cookies = JSON.parse(cookiesJson);
+        //Grab the JSON
+        const json = fs.readFileSync(filePath);
+        //Convert to object
+        const obj = JSON.parse(json);
         //Return cookies
-        return cookies;
+        return obj;
     }
     catch (error) {
-        //Error getting cookies
-        console.error('Error getting cookies: ', error);
-        //Cookies not retrieved
+        //Error getting contents
+        console.error('Error getting JSON contents: ', error);
+        //Contents not retrieved
         return false;
     }
 }

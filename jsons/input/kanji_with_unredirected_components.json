@@ -1,0 +1,1516 @@
+{
+    "kanjis": [
+        {
+            "kanji": "唱",
+            "kanji_url": "https://www.kanshudo.com/kanji/唱",
+            "kanji_id": 21,
+            "component_id": 25
+        },
+        {
+            "kanji": "湖",
+            "kanji_url": "https://www.kanshudo.com/kanji/湖",
+            "kanji_id": 148,
+            "component_id": 2168
+        },
+        {
+            "kanji": "均",
+            "kanji_url": "https://www.kanshudo.com/kanji/均",
+            "kanji_id": 160,
+            "component_id": 3061
+        },
+        {
+            "kanji": "照",
+            "kanji_url": "https://www.kanshudo.com/kanji/照",
+            "kanji_id": 170,
+            "component_id": 87
+        },
+        {
+            "kanji": "貯",
+            "kanji_url": "https://www.kanshudo.com/kanji/貯",
+            "kanji_id": 194,
+            "component_id": 3307
+        },
+        {
+            "kanji": "案",
+            "kanji_url": "https://www.kanshudo.com/kanji/案",
+            "kanji_id": 214,
+            "component_id": 190
+        },
+        {
+            "kanji": "葉",
+            "kanji_url": "https://www.kanshudo.com/kanji/葉",
+            "kanji_id": 228,
+            "component_id": 3264
+        },
+        {
+            "kanji": "狩",
+            "kanji_url": "https://www.kanshudo.com/kanji/狩",
+            "kanji_id": 243,
+            "component_id": 186
+        },
+        {
+            "kanji": "洗",
+            "kanji_url": "https://www.kanshudo.com/kanji/洗",
+            "kanji_id": 249,
+            "component_id": 248
+        },
+        {
+            "kanji": "界",
+            "kanji_url": "https://www.kanshudo.com/kanji/界",
+            "kanji_id": 251,
+            "component_id": 250
+        },
+        {
+            "kanji": "銘",
+            "kanji_url": "https://www.kanshudo.com/kanji/銘",
+            "kanji_id": 275,
+            "component_id": 112
+        },
+        {
+            "kanji": "導",
+            "kanji_url": "https://www.kanshudo.com/kanji/導",
+            "kanji_id": 278,
+            "component_id": 277
+        },
+        {
+            "kanji": "迅",
+            "kanji_url": "https://www.kanshudo.com/kanji/迅",
+            "kanji_id": 280,
+            "component_id": 3205
+        },
+        {
+            "kanji": "額",
+            "kanji_url": "https://www.kanshudo.com/kanji/額",
+            "kanji_id": 295,
+            "component_id": 294
+        },
+        {
+            "kanji": "落",
+            "kanji_url": "https://www.kanshudo.com/kanji/落",
+            "kanji_id": 299,
+            "component_id": 2662
+        },
+        {
+            "kanji": "輝",
+            "kanji_url": "https://www.kanshudo.com/kanji/輝",
+            "kanji_id": 302,
+            "component_id": 119
+        },
+        {
+            "kanji": "賊",
+            "kanji_url": "https://www.kanshudo.com/kanji/賊",
+            "kanji_id": 357,
+            "component_id": 3203
+        },
+        {
+            "kanji": "滅",
+            "kanji_url": "https://www.kanshudo.com/kanji/滅",
+            "kanji_id": 365,
+            "component_id": 3366
+        },
+        {
+            "kanji": "賦",
+            "kanji_url": "https://www.kanshudo.com/kanji/賦",
+            "kanji_id": 378,
+            "component_id": 377
+        },
+        {
+            "kanji": "越",
+            "kanji_url": "https://www.kanshudo.com/kanji/越",
+            "kanji_id": 387,
+            "component_id": 2231
+        },
+        {
+            "kanji": "誕",
+            "kanji_url": "https://www.kanshudo.com/kanji/誕",
+            "kanji_id": 393,
+            "component_id": 392
+        },
+        {
+            "kanji": "礎",
+            "kanji_url": "https://www.kanshudo.com/kanji/礎",
+            "kanji_id": 394,
+            "component_id": 2626
+        },
+        {
+            "kanji": "婿",
+            "kanji_url": "https://www.kanshudo.com/kanji/婿",
+            "kanji_id": 395,
+            "component_id": 3837
+        },
+        {
+            "kanji": "帽",
+            "kanji_url": "https://www.kanshudo.com/kanji/帽",
+            "kanji_id": 408,
+            "component_id": 18
+        },
+        {
+            "kanji": "滞",
+            "kanji_url": "https://www.kanshudo.com/kanji/滞",
+            "kanji_id": 416,
+            "component_id": 415
+        },
+        {
+            "kanji": "製",
+            "kanji_url": "https://www.kanshudo.com/kanji/製",
+            "kanji_id": 419,
+            "component_id": 418
+        },
+        {
+            "kanji": "曇",
+            "kanji_url": "https://www.kanshudo.com/kanji/曇",
+            "kanji_id": 424,
+            "component_id": 423
+        },
+        {
+            "kanji": "背",
+            "kanji_url": "https://www.kanshudo.com/kanji/背",
+            "kanji_id": 446,
+            "component_id": 445
+        },
+        {
+            "kanji": "混",
+            "kanji_url": "https://www.kanshudo.com/kanji/混",
+            "kanji_id": 450,
+            "component_id": 448
+        },
+        {
+            "kanji": "乾",
+            "kanji_url": "https://www.kanshudo.com/kanji/乾",
+            "kanji_id": 463,
+            "component_id": 462
+        },
+        {
+            "kanji": "激",
+            "kanji_url": "https://www.kanshudo.com/kanji/激",
+            "kanji_id": 497,
+            "component_id": 147
+        },
+        {
+            "kanji": "染",
+            "kanji_url": "https://www.kanshudo.com/kanji/染",
+            "kanji_id": 509,
+            "component_id": 3112
+        },
+        {
+            "kanji": "燃",
+            "kanji_url": "https://www.kanshudo.com/kanji/燃",
+            "kanji_id": 510,
+            "component_id": 241
+        },
+        {
+            "kanji": "蛇",
+            "kanji_url": "https://www.kanshudo.com/kanji/蛇",
+            "kanji_id": 519,
+            "component_id": 3233
+        },
+        {
+            "kanji": "滝",
+            "kanji_url": "https://www.kanshudo.com/kanji/滝",
+            "kanji_id": 537,
+            "component_id": 536
+        },
+        {
+            "kanji": "羨",
+            "kanji_url": "https://www.kanshudo.com/kanji/羨",
+            "kanji_id": 553,
+            "component_id": 3309
+        },
+        {
+            "kanji": "礁",
+            "kanji_url": "https://www.kanshudo.com/kanji/礁",
+            "kanji_id": 558,
+            "component_id": 557
+        },
+        {
+            "kanji": "準",
+            "kanji_url": "https://www.kanshudo.com/kanji/準",
+            "kanji_id": 564,
+            "component_id": 3385
+        },
+        {
+            "kanji": "壇",
+            "kanji_url": "https://www.kanshudo.com/kanji/壇",
+            "kanji_id": 587,
+            "component_id": 3069
+        },
+        {
+            "kanji": "認",
+            "kanji_url": "https://www.kanshudo.com/kanji/認",
+            "kanji_id": 598,
+            "component_id": 597
+        },
+        {
+            "kanji": "誌",
+            "kanji_url": "https://www.kanshudo.com/kanji/誌",
+            "kanji_id": 601,
+            "component_id": 600
+        },
+        {
+            "kanji": "患",
+            "kanji_url": "https://www.kanshudo.com/kanji/患",
+            "kanji_id": 604,
+            "component_id": 603
+        },
+        {
+            "kanji": "悼",
+            "kanji_url": "https://www.kanshudo.com/kanji/悼",
+            "kanji_id": 621,
+            "component_id": 51
+        },
+        {
+            "kanji": "慌",
+            "kanji_url": "https://www.kanshudo.com/kanji/慌",
+            "kanji_id": 624,
+            "component_id": 488
+        },
+        {
+            "kanji": "慣",
+            "kanji_url": "https://www.kanshudo.com/kanji/慣",
+            "kanji_id": 627,
+            "component_id": 102
+        },
+        {
+            "kanji": "憾",
+            "kanji_url": "https://www.kanshudo.com/kanji/憾",
+            "kanji_id": 631,
+            "component_id": 615
+        },
+        {
+            "kanji": "添",
+            "kanji_url": "https://www.kanshudo.com/kanji/添",
+            "kanji_id": 634,
+            "component_id": 3279
+        },
+        {
+            "kanji": "抹",
+            "kanji_url": "https://www.kanshudo.com/kanji/抹",
+            "kanji_id": 644,
+            "component_id": 217
+        },
+        {
+            "kanji": "拐",
+            "kanji_url": "https://www.kanshudo.com/kanji/拐",
+            "kanji_id": 656,
+            "component_id": 3161
+        },
+        {
+            "kanji": "拠",
+            "kanji_url": "https://www.kanshudo.com/kanji/拠",
+            "kanji_id": 669,
+            "component_id": 297
+        },
+        {
+            "kanji": "接",
+            "kanji_url": "https://www.kanshudo.com/kanji/接",
+            "kanji_id": 672,
+            "component_id": 3391
+        },
+        {
+            "kanji": "械",
+            "kanji_url": "https://www.kanshudo.com/kanji/械",
+            "kanji_id": 677,
+            "component_id": 676
+        },
+        {
+            "kanji": "型",
+            "kanji_url": "https://www.kanshudo.com/kanji/型",
+            "kanji_id": 680,
+            "component_id": 679
+        },
+        {
+            "kanji": "丈",
+            "kanji_url": "https://www.kanshudo.com/kanji/丈",
+            "kanji_id": 691,
+            "component_id": 3226
+        },
+        {
+            "kanji": "桑",
+            "kanji_url": "https://www.kanshudo.com/kanji/桑",
+            "kanji_id": 698,
+            "component_id": 3890
+        },
+        {
+            "kanji": "撃",
+            "kanji_url": "https://www.kanshudo.com/kanji/撃",
+            "kanji_id": 709,
+            "component_id": 3327
+        },
+        {
+            "kanji": "奨",
+            "kanji_url": "https://www.kanshudo.com/kanji/奨",
+            "kanji_id": 732,
+            "component_id": 731
+        },
+        {
+            "kanji": "授",
+            "kanji_url": "https://www.kanshudo.com/kanji/授",
+            "kanji_id": 736,
+            "component_id": 735
+        },
+        {
+            "kanji": "雄",
+            "kanji_url": "https://www.kanshudo.com/kanji/雄",
+            "kanji_id": 743,
+            "component_id": 2184
+        },
+        {
+            "kanji": "炭",
+            "kanji_url": "https://www.kanshudo.com/kanji/炭",
+            "kanji_id": 771,
+            "component_id": 168
+        },
+        {
+            "kanji": "峠",
+            "kanji_url": "https://www.kanshudo.com/kanji/峠",
+            "kanji_id": 773,
+            "component_id": 50
+        },
+        {
+            "kanji": "溶",
+            "kanji_url": "https://www.kanshudo.com/kanji/溶",
+            "kanji_id": 791,
+            "component_id": 790
+        },
+        {
+            "kanji": "常",
+            "kanji_url": "https://www.kanshudo.com/kanji/常",
+            "kanji_id": 799,
+            "component_id": 2097
+        },
+        {
+            "kanji": "婆",
+            "kanji_url": "https://www.kanshudo.com/kanji/婆",
+            "kanji_id": 804,
+            "component_id": 803
+        },
+        {
+            "kanji": "殉",
+            "kanji_url": "https://www.kanshudo.com/kanji/殉",
+            "kanji_id": 809,
+            "component_id": 67
+        },
+        {
+            "kanji": "葬",
+            "kanji_url": "https://www.kanshudo.com/kanji/葬",
+            "kanji_id": 816,
+            "component_id": 815
+        },
+        {
+            "kanji": "瞬",
+            "kanji_url": "https://www.kanshudo.com/kanji/瞬",
+            "kanji_id": 817,
+            "component_id": 2794
+        },
+        {
+            "kanji": "撮",
+            "kanji_url": "https://www.kanshudo.com/kanji/撮",
+            "kanji_id": 822,
+            "component_id": 821
+        },
+        {
+            "kanji": "濁",
+            "kanji_url": "https://www.kanshudo.com/kanji/濁",
+            "kanji_id": 835,
+            "component_id": 3414
+        },
+        {
+            "kanji": "潜",
+            "kanji_url": "https://www.kanshudo.com/kanji/潜",
+            "kanji_id": 844,
+            "component_id": 842
+        },
+        {
+            "kanji": "臓",
+            "kanji_url": "https://www.kanshudo.com/kanji/臓",
+            "kanji_id": 851,
+            "component_id": 850
+        },
+        {
+            "kanji": "得",
+            "kanji_url": "https://www.kanshudo.com/kanji/得",
+            "kanji_id": 876,
+            "component_id": 3232
+        },
+        {
+            "kanji": "懲",
+            "kanji_url": "https://www.kanshudo.com/kanji/懲",
+            "kanji_id": 888,
+            "component_id": 887
+        },
+        {
+            "kanji": "程",
+            "kanji_url": "https://www.kanshudo.com/kanji/程",
+            "kanji_id": 894,
+            "component_id": 262
+        },
+        {
+            "kanji": "移",
+            "kanji_url": "https://www.kanshudo.com/kanji/移",
+            "kanji_id": 898,
+            "component_id": 108
+        },
+        {
+            "kanji": "愁",
+            "kanji_url": "https://www.kanshudo.com/kanji/愁",
+            "kanji_id": 901,
+            "component_id": 900
+        },
+        {
+            "kanji": "穂",
+            "kanji_url": "https://www.kanshudo.com/kanji/穂",
+            "kanji_id": 909,
+            "component_id": 612
+        },
+        {
+            "kanji": "菌",
+            "kanji_url": "https://www.kanshudo.com/kanji/菌",
+            "kanji_id": 918,
+            "component_id": 3861
+        },
+        {
+            "kanji": "粧",
+            "kanji_url": "https://www.kanshudo.com/kanji/粧",
+            "kanji_id": 923,
+            "component_id": 2078
+        },
+        {
+            "kanji": "糧",
+            "kanji_url": "https://www.kanshudo.com/kanji/糧",
+            "kanji_id": 926,
+            "component_id": 177
+        },
+        {
+            "kanji": "菊",
+            "kanji_url": "https://www.kanshudo.com/kanji/菊",
+            "kanji_id": 927,
+            "component_id": 3878
+        },
+        {
+            "kanji": "筋",
+            "kanji_url": "https://www.kanshudo.com/kanji/筋",
+            "kanji_id": 941,
+            "component_id": 2787
+        },
+        {
+            "kanji": "築",
+            "kanji_url": "https://www.kanshudo.com/kanji/築",
+            "kanji_id": 950,
+            "component_id": 2751
+        },
+        {
+            "kanji": "停",
+            "kanji_url": "https://www.kanshudo.com/kanji/停",
+            "kanji_id": 977,
+            "component_id": 311
+        },
+        {
+            "kanji": "倒",
+            "kanji_url": "https://www.kanshudo.com/kanji/倒",
+            "kanji_id": 980,
+            "component_id": 755
+        },
+        {
+            "kanji": "偵",
+            "kanji_url": "https://www.kanshudo.com/kanji/偵",
+            "kanji_id": 981,
+            "component_id": 55
+        },
+        {
+            "kanji": "償",
+            "kanji_url": "https://www.kanshudo.com/kanji/償",
+            "kanji_id": 985,
+            "component_id": 796
+        },
+        {
+            "kanji": "催",
+            "kanji_url": "https://www.kanshudo.com/kanji/催",
+            "kanji_id": 987,
+            "component_id": 3503
+        },
+        {
+            "kanji": "使",
+            "kanji_url": "https://www.kanshudo.com/kanji/使",
+            "kanji_id": 990,
+            "component_id": 693
+        },
+        {
+            "kanji": "優",
+            "kanji_url": "https://www.kanshudo.com/kanji/優",
+            "kanji_id": 993,
+            "component_id": 616
+        },
+        {
+            "kanji": "褒",
+            "kanji_url": "https://www.kanshudo.com/kanji/褒",
+            "kanji_id": 998,
+            "component_id": 997
+        },
+        {
+            "kanji": "賃",
+            "kanji_url": "https://www.kanshudo.com/kanji/賃",
+            "kanji_id": 1004,
+            "component_id": 1003
+        },
+        {
+            "kanji": "荷",
+            "kanji_url": "https://www.kanshudo.com/kanji/荷",
+            "kanji_id": 1013,
+            "component_id": 1012
+        },
+        {
+            "kanji": "傍",
+            "kanji_url": "https://www.kanshudo.com/kanji/傍",
+            "kanji_id": 1015,
+            "component_id": 3246
+        },
+        {
+            "kanji": "畝",
+            "kanji_url": "https://www.kanshudo.com/kanji/畝",
+            "kanji_id": 1017,
+            "component_id": 1016
+        },
+        {
+            "kanji": "畝",
+            "kanji_url": "https://www.kanshudo.com/kanji/畝",
+            "kanji_id": 1017,
+            "component_id": 3842
+        },
+        {
+            "kanji": "腐",
+            "kanji_url": "https://www.kanshudo.com/kanji/腐",
+            "kanji_id": 1023,
+            "component_id": 1002
+        },
+        {
+            "kanji": "似",
+            "kanji_url": "https://www.kanshudo.com/kanji/似",
+            "kanji_id": 1029,
+            "component_id": 1028
+        },
+        {
+            "kanji": "液",
+            "kanji_url": "https://www.kanshudo.com/kanji/液",
+            "kanji_id": 1038,
+            "component_id": 1037
+        },
+        {
+            "kanji": "遊",
+            "kanji_url": "https://www.kanshudo.com/kanji/遊",
+            "kanji_id": 1047,
+            "component_id": 3284
+        },
+        {
+            "kanji": "賜",
+            "kanji_url": "https://www.kanshudo.com/kanji/賜",
+            "kanji_id": 1052,
+            "component_id": 1051
+        },
+        {
+            "kanji": "泥",
+            "kanji_url": "https://www.kanshudo.com/kanji/泥",
+            "kanji_id": 1055,
+            "component_id": 1054
+        },
+        {
+            "kanji": "塀",
+            "kanji_url": "https://www.kanshudo.com/kanji/塀",
+            "kanji_id": 1056,
+            "component_id": 3003
+        },
+        {
+            "kanji": "握",
+            "kanji_url": "https://www.kanshudo.com/kanji/握",
+            "kanji_id": 1059,
+            "component_id": 1058
+        },
+        {
+            "kanji": "局",
+            "kanji_url": "https://www.kanshudo.com/kanji/局",
+            "kanji_id": 1066,
+            "component_id": 3026
+        },
+        {
+            "kanji": "涙",
+            "kanji_url": "https://www.kanshudo.com/kanji/涙",
+            "kanji_id": 1082,
+            "component_id": 1081
+        },
+        {
+            "kanji": "顧",
+            "kanji_url": "https://www.kanshudo.com/kanji/顧",
+            "kanji_id": 1084,
+            "component_id": 1083
+        },
+        {
+            "kanji": "慰",
+            "kanji_url": "https://www.kanshudo.com/kanji/慰",
+            "kanji_id": 1096,
+            "component_id": 1095
+        },
+        {
+            "kanji": "襟",
+            "kanji_url": "https://www.kanshudo.com/kanji/襟",
+            "kanji_id": 1099,
+            "component_id": 1098
+        },
+        {
+            "kanji": "擦",
+            "kanji_url": "https://www.kanshudo.com/kanji/擦",
+            "kanji_id": 1104,
+            "component_id": 1103
+        },
+        {
+            "kanji": "訴",
+            "kanji_url": "https://www.kanshudo.com/kanji/訴",
+            "kanji_id": 1139,
+            "component_id": 1138
+        },
+        {
+            "kanji": "糖",
+            "kanji_url": "https://www.kanshudo.com/kanji/糖",
+            "kanji_id": 1158,
+            "component_id": 1157
+        },
+        {
+            "kanji": "儒",
+            "kanji_url": "https://www.kanshudo.com/kanji/儒",
+            "kanji_id": 1166,
+            "component_id": 1165
+        },
+        {
+            "kanji": "満",
+            "kanji_url": "https://www.kanshudo.com/kanji/満",
+            "kanji_id": 1169,
+            "component_id": 1168
+        },
+        {
+            "kanji": "遮",
+            "kanji_url": "https://www.kanshudo.com/kanji/遮",
+            "kanji_id": 1192,
+            "component_id": 1191
+        },
+        {
+            "kanji": "渡",
+            "kanji_url": "https://www.kanshudo.com/kanji/渡",
+            "kanji_id": 1195,
+            "component_id": 1194
+        },
+        {
+            "kanji": "奔",
+            "kanji_url": "https://www.kanshudo.com/kanji/奔",
+            "kanji_id": 1196,
+            "component_id": 3384
+        },
+        {
+            "kanji": "圏",
+            "kanji_url": "https://www.kanshudo.com/kanji/圏",
+            "kanji_id": 1208,
+            "component_id": 1207
+        },
+        {
+            "kanji": "藤",
+            "kanji_url": "https://www.kanshudo.com/kanji/藤",
+            "kanji_id": 1210,
+            "component_id": 3210
+        },
+        {
+            "kanji": "霧",
+            "kanji_url": "https://www.kanshudo.com/kanji/霧",
+            "kanji_id": 1228,
+            "component_id": 1227
+        },
+        {
+            "kanji": "誇",
+            "kanji_url": "https://www.kanshudo.com/kanji/誇",
+            "kanji_id": 1244,
+            "component_id": 3835
+        },
+        {
+            "kanji": "写",
+            "kanji_url": "https://www.kanshudo.com/kanji/写",
+            "kanji_id": 1247,
+            "component_id": 1246
+        },
+        {
+            "kanji": "謝",
+            "kanji_url": "https://www.kanshudo.com/kanji/謝",
+            "kanji_id": 1250,
+            "component_id": 1249
+        },
+        {
+            "kanji": "拷",
+            "kanji_url": "https://www.kanshudo.com/kanji/拷",
+            "kanji_id": 1255,
+            "component_id": 1252
+        },
+        {
+            "kanji": "師",
+            "kanji_url": "https://www.kanshudo.com/kanji/師",
+            "kanji_id": 1269,
+            "component_id": 3174
+        },
+        {
+            "kanji": "露",
+            "kanji_url": "https://www.kanshudo.com/kanji/露",
+            "kanji_id": 1283,
+            "component_id": 1282
+        },
+        {
+            "kanji": "踏",
+            "kanji_url": "https://www.kanshudo.com/kanji/踏",
+            "kanji_id": 1287,
+            "component_id": 2658
+        },
+        {
+            "kanji": "院",
+            "kanji_url": "https://www.kanshudo.com/kanji/院",
+            "kanji_id": 1304,
+            "component_id": 187
+        },
+        {
+            "kanji": "墜",
+            "kanji_url": "https://www.kanshudo.com/kanji/墜",
+            "kanji_id": 1307,
+            "component_id": 1306
+        },
+        {
+            "kanji": "陛",
+            "kanji_url": "https://www.kanshudo.com/kanji/陛",
+            "kanji_id": 1310,
+            "component_id": 3844
+        },
+        {
+            "kanji": "隣",
+            "kanji_url": "https://www.kanshudo.com/kanji/隣",
+            "kanji_id": 1311,
+            "component_id": 3349
+        },
+        {
+            "kanji": "控",
+            "kanji_url": "https://www.kanshudo.com/kanji/控",
+            "kanji_id": 1318,
+            "component_id": 1317
+        },
+        {
+            "kanji": "窃",
+            "kanji_url": "https://www.kanshudo.com/kanji/窃",
+            "kanji_id": 1322,
+            "component_id": 85
+        },
+        {
+            "kanji": "搾",
+            "kanji_url": "https://www.kanshudo.com/kanji/搾",
+            "kanji_id": 1324,
+            "component_id": 2743
+        },
+        {
+            "kanji": "浜",
+            "kanji_url": "https://www.kanshudo.com/kanji/浜",
+            "kanji_id": 1332,
+            "component_id": 1331
+        },
+        {
+            "kanji": "縮",
+            "kanji_url": "https://www.kanshudo.com/kanji/縮",
+            "kanji_id": 1336,
+            "component_id": 995
+        },
+        {
+            "kanji": "繁",
+            "kanji_url": "https://www.kanshudo.com/kanji/繁",
+            "kanji_id": 1337,
+            "component_id": 459
+        },
+        {
+            "kanji": "縦",
+            "kanji_url": "https://www.kanshudo.com/kanji/縦",
+            "kanji_id": 1338,
+            "component_id": 877
+        },
+        {
+            "kanji": "羅",
+            "kanji_url": "https://www.kanshudo.com/kanji/羅",
+            "kanji_id": 1342,
+            "component_id": 1341
+        },
+        {
+            "kanji": "絵",
+            "kanji_url": "https://www.kanshudo.com/kanji/絵",
+            "kanji_id": 1346,
+            "component_id": 752
+        },
+        {
+            "kanji": "終",
+            "kanji_url": "https://www.kanshudo.com/kanji/終",
+            "kanji_id": 1352,
+            "component_id": 427
+        },
+        {
+            "kanji": "絹",
+            "kanji_url": "https://www.kanshudo.com/kanji/絹",
+            "kanji_id": 1368,
+            "component_id": 3398
+        },
+        {
+            "kanji": "網",
+            "kanji_url": "https://www.kanshudo.com/kanji/網",
+            "kanji_id": 1373,
+            "component_id": 3140
+        },
+        {
+            "kanji": "縄",
+            "kanji_url": "https://www.kanshudo.com/kanji/縄",
+            "kanji_id": 1377,
+            "component_id": 534
+        },
+        {
+            "kanji": "蓄",
+            "kanji_url": "https://www.kanshudo.com/kanji/蓄",
+            "kanji_id": 1385,
+            "component_id": 1384
+        },
+        {
+            "kanji": "擁",
+            "kanji_url": "https://www.kanshudo.com/kanji/擁",
+            "kanji_id": 1387,
+            "component_id": 3567
+        },
+        {
+            "kanji": "懸",
+            "kanji_url": "https://www.kanshudo.com/kanji/懸",
+            "kanji_id": 1394,
+            "component_id": 4168
+        },
+        {
+            "kanji": "脚",
+            "kanji_url": "https://www.kanshudo.com/kanji/脚",
+            "kanji_id": 1396,
+            "component_id": 1395
+        },
+        {
+            "kanji": "御",
+            "kanji_url": "https://www.kanshudo.com/kanji/御",
+            "kanji_id": 1398,
+            "component_id": 1397
+        },
+        {
+            "kanji": "命",
+            "kanji_url": "https://www.kanshudo.com/kanji/命",
+            "kanji_id": 1400,
+            "component_id": 2089
+        },
+        {
+            "kanji": "齢",
+            "kanji_url": "https://www.kanshudo.com/kanji/齢",
+            "kanji_id": 1403,
+            "component_id": 1171
+        },
+        {
+            "kanji": "危",
+            "kanji_url": "https://www.kanshudo.com/kanji/危",
+            "kanji_id": 1416,
+            "component_id": 1415
+        },
+        {
+            "kanji": "腕",
+            "kanji_url": "https://www.kanshudo.com/kanji/腕",
+            "kanji_id": 1418,
+            "component_id": 1417
+        },
+        {
+            "kanji": "酬",
+            "kanji_url": "https://www.kanshudo.com/kanji/酬",
+            "kanji_id": 1432,
+            "component_id": 128
+        },
+        {
+            "kanji": "樹",
+            "kanji_url": "https://www.kanshudo.com/kanji/樹",
+            "kanji_id": 1446,
+            "component_id": 3920
+        },
+        {
+            "kanji": "盟",
+            "kanji_url": "https://www.kanshudo.com/kanji/盟",
+            "kanji_id": 1450,
+            "component_id": 20
+        },
+        {
+            "kanji": "猛",
+            "kanji_url": "https://www.kanshudo.com/kanji/猛",
+            "kanji_id": 1456,
+            "component_id": 2517
+        },
+        {
+            "kanji": "節",
+            "kanji_url": "https://www.kanshudo.com/kanji/節",
+            "kanji_id": 1464,
+            "component_id": 1462
+        },
+        {
+            "kanji": "呼",
+            "kanji_url": "https://www.kanshudo.com/kanji/呼",
+            "kanji_id": 1485,
+            "component_id": 2453
+        },
+        {
+            "kanji": "薪",
+            "kanji_url": "https://www.kanshudo.com/kanji/薪",
+            "kanji_id": 1503,
+            "component_id": 1502
+        },
+        {
+            "kanji": "碑",
+            "kanji_url": "https://www.kanshudo.com/kanji/碑",
+            "kanji_id": 1512,
+            "component_id": 1511
+        },
+        {
+            "kanji": "陵",
+            "kanji_url": "https://www.kanshudo.com/kanji/陵",
+            "kanji_id": 1518,
+            "component_id": 3072
+        },
+        {
+            "kanji": "俵",
+            "kanji_url": "https://www.kanshudo.com/kanji/俵",
+            "kanji_id": 1547,
+            "component_id": 1546
+        },
+        {
+            "kanji": "喫",
+            "kanji_url": "https://www.kanshudo.com/kanji/喫",
+            "kanji_id": 1550,
+            "component_id": 1549
+        },
+        {
+            "kanji": "縫",
+            "kanji_url": "https://www.kanshudo.com/kanji/縫",
+            "kanji_id": 1563,
+            "component_id": 2044
+        },
+        {
+            "kanji": "鋳",
+            "kanji_url": "https://www.kanshudo.com/kanji/鋳",
+            "kanji_id": 1566,
+            "component_id": 1565
+        },
+        {
+            "kanji": "剰",
+            "kanji_url": "https://www.kanshudo.com/kanji/剰",
+            "kanji_id": 1586,
+            "component_id": 1585
+        },
+        {
+            "kanji": "陰",
+            "kanji_url": "https://www.kanshudo.com/kanji/陰",
+            "kanji_id": 1592,
+            "component_id": 3239
+        },
+        {
+            "kanji": "腰",
+            "kanji_url": "https://www.kanshudo.com/kanji/腰",
+            "kanji_id": 1605,
+            "component_id": 1604
+        },
+        {
+            "kanji": "献",
+            "kanji_url": "https://www.kanshudo.com/kanji/献",
+            "kanji_id": 1615,
+            "component_id": 1613
+        },
+        {
+            "kanji": "閥",
+            "kanji_url": "https://www.kanshudo.com/kanji/閥",
+            "kanji_id": 1619,
+            "component_id": 994
+        },
+        {
+            "kanji": "簡",
+            "kanji_url": "https://www.kanshudo.com/kanji/簡",
+            "kanji_id": 1621,
+            "component_id": 1620
+        },
+        {
+            "kanji": "閉",
+            "kanji_url": "https://www.kanshudo.com/kanji/閉",
+            "kanji_id": 1623,
+            "component_id": 3847
+        },
+        {
+            "kanji": "潤",
+            "kanji_url": "https://www.kanshudo.com/kanji/潤",
+            "kanji_id": 1627,
+            "component_id": 2898
+        },
+        {
+            "kanji": "創",
+            "kanji_url": "https://www.kanshudo.com/kanji/創",
+            "kanji_id": 1631,
+            "component_id": 1630
+        },
+        {
+            "kanji": "瀬",
+            "kanji_url": "https://www.kanshudo.com/kanji/瀬",
+            "kanji_id": 1666,
+            "component_id": 1665
+        },
+        {
+            "kanji": "整",
+            "kanji_url": "https://www.kanshudo.com/kanji/整",
+            "kanji_id": 1670,
+            "component_id": 3142
+        },
+        {
+            "kanji": "痴",
+            "kanji_url": "https://www.kanshudo.com/kanji/痴",
+            "kanji_id": 1683,
+            "component_id": 1223
+        },
+        {
+            "kanji": "澄",
+            "kanji_url": "https://www.kanshudo.com/kanji/澄",
+            "kanji_id": 1704,
+            "component_id": 1703
+        },
+        {
+            "kanji": "廃",
+            "kanji_url": "https://www.kanshudo.com/kanji/廃",
+            "kanji_id": 1706,
+            "component_id": 1705
+        },
+        {
+            "kanji": "顔",
+            "kanji_url": "https://www.kanshudo.com/kanji/顔",
+            "kanji_id": 1717,
+            "component_id": 1716
+        },
+        {
+            "kanji": "惨",
+            "kanji_url": "https://www.kanshudo.com/kanji/惨",
+            "kanji_id": 1721,
+            "component_id": 1720
+        },
+        {
+            "kanji": "薬",
+            "kanji_url": "https://www.kanshudo.com/kanji/薬",
+            "kanji_id": 1736,
+            "component_id": 1735
+        },
+        {
+            "kanji": "湾",
+            "kanji_url": "https://www.kanshudo.com/kanji/湾",
+            "kanji_id": 1749,
+            "component_id": 4092
+        },
+        {
+            "kanji": "艶",
+            "kanji_url": "https://www.kanshudo.com/kanji/艶",
+            "kanji_id": 1755,
+            "component_id": 1443
+        },
+        {
+            "kanji": "舞",
+            "kanji_url": "https://www.kanshudo.com/kanji/舞",
+            "kanji_id": 1774,
+            "component_id": 1775
+        },
+        {
+            "kanji": "譜",
+            "kanji_url": "https://www.kanshudo.com/kanji/譜",
+            "kanji_id": 1787,
+            "component_id": 1786
+        },
+        {
+            "kanji": "爆",
+            "kanji_url": "https://www.kanshudo.com/kanji/爆",
+            "kanji_id": 1802,
+            "component_id": 1801
+        },
+        {
+            "kanji": "悪",
+            "kanji_url": "https://www.kanshudo.com/kanji/悪",
+            "kanji_id": 1810,
+            "component_id": 1809
+        },
+        {
+            "kanji": "婚",
+            "kanji_url": "https://www.kanshudo.com/kanji/婚",
+            "kanji_id": 1830,
+            "component_id": 2585
+        },
+        {
+            "kanji": "眠",
+            "kanji_url": "https://www.kanshudo.com/kanji/眠",
+            "kanji_id": 1835,
+            "component_id": 1834
+        },
+        {
+            "kanji": "響",
+            "kanji_url": "https://www.kanshudo.com/kanji/響",
+            "kanji_id": 1850,
+            "component_id": 1849
+        },
+        {
+            "kanji": "循",
+            "kanji_url": "https://www.kanshudo.com/kanji/循",
+            "kanji_id": 1854,
+            "component_id": 1853
+        },
+        {
+            "kanji": "衆",
+            "kanji_url": "https://www.kanshudo.com/kanji/衆",
+            "kanji_id": 1857,
+            "component_id": 3876
+        },
+        {
+            "kanji": "鍛",
+            "kanji_url": "https://www.kanshudo.com/kanji/鍛",
+            "kanji_id": 1860,
+            "component_id": 1859
+        },
+        {
+            "kanji": "幻",
+            "kanji_url": "https://www.kanshudo.com/kanji/幻",
+            "kanji_id": 1862,
+            "component_id": 3026
+        },
+        {
+            "kanji": "益",
+            "kanji_url": "https://www.kanshudo.com/kanji/益",
+            "kanji_id": 1881,
+            "component_id": 3286
+        },
+        {
+            "kanji": "暇",
+            "kanji_url": "https://www.kanshudo.com/kanji/暇",
+            "kanji_id": 1882,
+            "component_id": 3229
+        },
+        {
+            "kanji": "敷",
+            "kanji_url": "https://www.kanshudo.com/kanji/敷",
+            "kanji_id": 1883,
+            "component_id": 3236
+        },
+        {
+            "kanji": "蒸",
+            "kanji_url": "https://www.kanshudo.com/kanji/蒸",
+            "kanji_id": 1900,
+            "component_id": 2941
+        },
+        {
+            "kanji": "極",
+            "kanji_url": "https://www.kanshudo.com/kanji/極",
+            "kanji_id": 1903,
+            "component_id": 3404
+        },
+        {
+            "kanji": "偽",
+            "kanji_url": "https://www.kanshudo.com/kanji/偽",
+            "kanji_id": 1919,
+            "component_id": 1918
+        },
+        {
+            "kanji": "厳",
+            "kanji_url": "https://www.kanshudo.com/kanji/厳",
+            "kanji_id": 1936,
+            "component_id": 826
+        },
+        {
+            "kanji": "猟",
+            "kanji_url": "https://www.kanshudo.com/kanji/猟",
+            "kanji_id": 1940,
+            "component_id": 4368
+        },
+        {
+            "kanji": "嘱",
+            "kanji_url": "https://www.kanshudo.com/kanji/嘱",
+            "kanji_id": 1954,
+            "component_id": 1953
+        },
+        {
+            "kanji": "陶",
+            "kanji_url": "https://www.kanshudo.com/kanji/陶",
+            "kanji_id": 1966,
+            "component_id": 3191
+        },
+        {
+            "kanji": "像",
+            "kanji_url": "https://www.kanshudo.com/kanji/像",
+            "kanji_id": 1977,
+            "component_id": 1976
+        },
+        {
+            "kanji": "膚",
+            "kanji_url": "https://www.kanshudo.com/kanji/膚",
+            "kanji_id": 1992,
+            "component_id": 29
+        },
+        {
+            "kanji": "戯",
+            "kanji_url": "https://www.kanshudo.com/kanji/戯",
+            "kanji_id": 1994,
+            "component_id": 1993
+        },
+        {
+            "kanji": "慮",
+            "kanji_url": "https://www.kanshudo.com/kanji/慮",
+            "kanji_id": 1996,
+            "component_id": 605
+        },
+        {
+            "kanji": "劇",
+            "kanji_url": "https://www.kanshudo.com/kanji/劇",
+            "kanji_id": 1997,
+            "component_id": 3301
+        },
+        {
+            "kanji": "麗",
+            "kanji_url": "https://www.kanshudo.com/kanji/麗",
+            "kanji_id": 2002,
+            "component_id": 3277
+        },
+        {
+            "kanji": "演",
+            "kanji_url": "https://www.kanshudo.com/kanji/演",
+            "kanji_id": 2007,
+            "component_id": 2006
+        },
+        {
+            "kanji": "濃",
+            "kanji_url": "https://www.kanshudo.com/kanji/濃",
+            "kanji_id": 2015,
+            "component_id": 2014
+        },
+        {
+            "kanji": "嚇",
+            "kanji_url": "https://www.kanshudo.com/kanji/嚇",
+            "kanji_id": 2026,
+            "component_id": 3828
+        },
+        {
+            "kanji": "遵",
+            "kanji_url": "https://www.kanshudo.com/kanji/遵",
+            "kanji_id": 2031,
+            "component_id": 1439
+        },
+        {
+            "kanji": "藻",
+            "kanji_url": "https://www.kanshudo.com/kanji/藻",
+            "kanji_id": 2035,
+            "component_id": 3389
+        },
+        {
+            "kanji": "潟",
+            "kanji_url": "https://www.kanshudo.com/kanji/潟",
+            "kanji_id": 2039,
+            "component_id": 3281
+        },
+        {
+            "kanji": "挨",
+            "kanji_url": "https://www.kanshudo.com/kanji/挨",
+            "kanji_id": 2043,
+            "component_id": 3043
+        },
+        {
+            "kanji": "僅",
+            "kanji_url": "https://www.kanshudo.com/kanji/僅",
+            "kanji_id": 2062,
+            "component_id": 4424
+        },
+        {
+            "kanji": "蹴",
+            "kanji_url": "https://www.kanshudo.com/kanji/蹴",
+            "kanji_id": 2076,
+            "component_id": 1969
+        },
+        {
+            "kanji": "遜",
+            "kanji_url": "https://www.kanshudo.com/kanji/遜",
+            "kanji_id": 2088,
+            "component_id": 1393
+        },
+        {
+            "kanji": "溺",
+            "kanji_url": "https://www.kanshudo.com/kanji/溺",
+            "kanji_id": 2099,
+            "component_id": 1236
+        },
+        {
+            "kanji": "那",
+            "kanji_url": "https://www.kanshudo.com/kanji/那",
+            "kanji_id": 2103,
+            "component_id": 3134
+        },
+        {
+            "kanji": "謎",
+            "kanji_url": "https://www.kanshudo.com/kanji/謎",
+            "kanji_id": 2104,
+            "component_id": 924
+        },
+        {
+            "kanji": "貌",
+            "kanji_url": "https://www.kanshudo.com/kanji/貌",
+            "kanji_id": 2118,
+            "component_id": 3045
+        },
+        {
+            "kanji": "勃",
+            "kanji_url": "https://www.kanshudo.com/kanji/勃",
+            "kanji_id": 2120,
+            "component_id": 3106
+        },
+        {
+            "kanji": "湧",
+            "kanji_url": "https://www.kanshudo.com/kanji/湧",
+            "kanji_id": 2124,
+            "component_id": 1407
+        },
+        {
+            "kanji": "喩",
+            "kanji_url": "https://www.kanshudo.com/kanji/喩",
+            "kanji_id": 2132,
+            "component_id": 4080
+        },
+        {
+            "kanji": "曖",
+            "kanji_url": "https://www.kanshudo.com/kanji/曖",
+            "kanji_id": 2139,
+            "component_id": 737
+        },
+        {
+            "kanji": "鬱",
+            "kanji_url": "https://www.kanshudo.com/kanji/鬱",
+            "kanji_id": 2140,
+            "component_id": 3146
+        },
+        {
+            "kanji": "箋",
+            "kanji_url": "https://www.kanshudo.com/kanji/箋",
+            "kanji_id": 2145,
+            "component_id": 3877
+        },
+        {
+            "kanji": "凄",
+            "kanji_url": "https://www.kanshudo.com/kanji/凄",
+            "kanji_id": 2158,
+            "component_id": 1889
+        },
+        {
+            "kanji": "嫉",
+            "kanji_url": "https://www.kanshudo.com/kanji/嫉",
+            "kanji_id": 2166,
+            "component_id": 1686
+        },
+        {
+            "kanji": "顎",
+            "kanji_url": "https://www.kanshudo.com/kanji/顎",
+            "kanji_id": 2170,
+            "component_id": 3082
+        },
+        {
+            "kanji": "俺",
+            "kanji_url": "https://www.kanshudo.com/kanji/俺",
+            "kanji_id": 2247,
+            "component_id": 2510
+        },
+        {
+            "kanji": "嗅",
+            "kanji_url": "https://www.kanshudo.com/kanji/嗅",
+            "kanji_id": 2273,
+            "component_id": 122
+        },
+        {
+            "kanji": "醒",
+            "kanji_url": "https://www.kanshudo.com/kanji/醒",
+            "kanji_id": 2282,
+            "component_id": 1556
+        },
+        {
+            "kanji": "萎",
+            "kanji_url": "https://www.kanshudo.com/kanji/萎",
+            "kanji_id": 2375,
+            "component_id": 913
+        },
+        {
+            "kanji": "葛",
+            "kanji_url": "https://www.kanshudo.com/kanji/葛",
+            "kanji_id": 2377,
+            "component_id": 3129
+        },
+        {
+            "kanji": "惧",
+            "kanji_url": "https://www.kanshudo.com/kanji/惧",
+            "kanji_id": 2382,
+            "component_id": 74
+        },
+        {
+            "kanji": "傲",
+            "kanji_url": "https://www.kanshudo.com/kanji/傲",
+            "kanji_id": 2386,
+            "component_id": 3394
+        },
+        {
+            "kanji": "摯",
+            "kanji_url": "https://www.kanshudo.com/kanji/摯",
+            "kanji_id": 2392,
+            "component_id": 1506
+        },
+        {
+            "kanji": "羞",
+            "kanji_url": "https://www.kanshudo.com/kanji/羞",
+            "kanji_id": 2401,
+            "component_id": 2040
+        },
+        {
+            "kanji": "煎",
+            "kanji_url": "https://www.kanshudo.com/kanji/煎",
+            "kanji_id": 2409,
+            "component_id": 290
+        },
+        {
+            "kanji": "緻",
+            "kanji_url": "https://www.kanshudo.com/kanji/緻",
+            "kanji_id": 2413,
+            "component_id": 756
+        },
+        {
+            "kanji": "捻",
+            "kanji_url": "https://www.kanshudo.com/kanji/捻",
+            "kanji_id": 2423,
+            "component_id": 1590
+        },
+        {
+            "kanji": "瑠",
+            "kanji_url": "https://www.kanshudo.com/kanji/瑠",
+            "kanji_id": 2433,
+            "component_id": 1423
+        },
+        {
+            "kanji": "慄",
+            "kanji_url": "https://www.kanshudo.com/kanji/慄",
+            "kanji_id": 2435,
+            "component_id": 1609
+        },
+        {
+            "kanji": "塡",
+            "kanji_url": "https://www.kanshudo.com/kanji/塡",
+            "kanji_id": 3465,
+            "component_id": 4126
+        },
+        {
+            "kanji": "璽",
+            "kanji_url": "https://www.kanshudo.com/kanji/璽",
+            "kanji_id": 3833,
+            "component_id": 2685
+        },
+        {
+            "kanji": "頰",
+            "kanji_url": "https://www.kanshudo.com/kanji/頰",
+            "kanji_id": 4274,
+            "component_id": 4055
+        }
+    ]
+}

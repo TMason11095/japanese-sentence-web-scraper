@@ -96,13 +96,17 @@ const jsonDirPath =  "jsons/";
         //     await helper.saveDataToFile(jsonObj, jsonDirPath + nLevel + "pt" + (i + 1) + ".json");
         // };
 
+        //Get kanji with unredirected components from JSON file
+        // const unredirectedKanjis = await helper.getJsonFileContents(jsonDirPath + "/input/kanji_with_unredirected_components.json");
+        // const kanjiObj = await kanjis.getSpecificKanjiComponents(browser, cookies, unredirectedKanjis.kanjis);
+
         //Display run time (ms)
         console.log(Date.now() - beforePageCallsTime);
 
         //Convert example sentence to JSON
         //const jsonObj = JSON.stringify(kanjiObj, null, 4);
         //Save Sentence JSON to file
-        //await helper.saveDataToFile(jsonObj, jsonDirPath + nLevel + ".json");
+        //await helper.saveDataToFile(jsonObj, jsonDirPath + "unredirected_kanjis.json");
 
         //Take a screenshot of the current page
             //await page.screenshot({path: screenshotsDirPath + "page.png", fullPage: true});

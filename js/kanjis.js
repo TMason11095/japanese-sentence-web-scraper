@@ -1,4 +1,5 @@
 import * as helper from './helper.js';
+import pLimit from 'p-limit';
 
 export async function getAllJlptKanjis(browser, cookies, nLevel) {
     return await helper.getAllSubPagesData(
@@ -43,6 +44,55 @@ export async function getAllJlptKanjis(browser, cookies, nLevel) {
         },
         nLevel
     );
+}
+
+//kanjis is based on kanji_with_unredirected_components.json layout
+export async function getSpecificKanjiComponents(browser, cookies, kanjis) {
+    //Get specified component urls from each kanji page
+    //Get promises for the kanji page component urls with pLimit
+    const limit = pLimit(10);
+    const componentUrlPromises = kanjis.map((kanji) => {
+        return limit(async () => {
+            //Open new page
+            const page = await browser.newPage();
+            try {
+                //Load cookies
+                await page.setCookie(...cookies);
+                //Navigate to the kanji page
+                await page.goto(kanji.kanji_url);
+                //Return the component kanji url
+                return await page.evaluate((kanji) => {
+                    //Build the component kanji id for query selector
+                    const componentSelectorId = '#k_kan_' + kanji.component_id;
+                    //Get the component kanji
+                    const componentKanji = document.querySelector('#main-content .bodyarea .kanjirow.level1 .kr_container ' + componentSelectorId + ' a').textContent;
+                    //Build the component kanji url
+                    const componentKanjiUrl = 'https://www.kanshudo.com/kanji/' + componentKanji;
+                    //Return url
+                    return componentKanjiUrl;
+                }, kanji);
+            } catch (error) {
+                console.error('Error in getSpecificKanjiComponents():', error);
+                return false;
+            } finally {
+                await page.close();
+            }
+
+            
+        })
+    })
+    //Run all the promises
+    let componentUrls = await Promise.all(componentUrlPromises);
+    //Filter out any duplicate urls (multiple kanji can have the same component)
+    componentUrls = componentUrls.filter((componentUrl, index) => { return componentUrls.indexOf(componentUrl) === index })
+    //Get promises for the kanji details from each component url
+    const kanjiDetailPromises = componentUrls.map((componentUrl) => {
+        return limit(async () => {
+            return await getKanjiDetailFromBrowser(browser, componentUrl, cookies);
+        });
+    });
+    //Run all the promises and return
+    return await Promise.all(kanjiDetailPromises);
 }
 
 export async function getAllKanjiComponents(browser, cookies) {
