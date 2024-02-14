@@ -1,2 +1,3 @@
 ./cookies/*.json
 ./jsons/*.json
+./package-lock.json
