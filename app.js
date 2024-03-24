@@ -100,6 +100,46 @@ const jsonDirPath =  "jsons/";
         // const unredirectedKanjis = await helper.getJsonFileContents(jsonDirPath + "/input/kanji_with_unredirected_components.json");
         // const kanjiObj = await kanjis.getSpecificKanjiComponents(browser, cookies, unredirectedKanjis.kanjis);
 
+        //Get JLPT vocab
+        const nLevel = 'N1'
+        const nLevelVocabs = await vocabs.getAllJlptVocabs(browser, cookies, nLevel);
+        //Split into chunks to fit into JSON files
+        const nLevelVocabSectionsLength = nLevelVocabs.sections.length;
+        let vocabChunks = [];
+        const maxChunkSize = 3;
+        const chunkBonusOverrideSize = 1;//Number of elements remaining to just add to the current chunk instead of making a new chunk
+        let currentChunkIndex = 0;
+        for (let i = 0; i < nLevelVocabSectionsLength; i++) {
+            //Check if the current chunk doesn't exist yet
+            if ((vocabChunks.length - 1) < currentChunkIndex) {
+                //Setup a new chunk
+                vocabChunks.push({
+                    grouping_name: nLevelVocabs.grouping_name,
+                    sections: []
+                });
+            };
+            //Add the current vocab section to the chunk
+            vocabChunks[currentChunkIndex].sections.push(nLevelVocabs.sections[i]);
+            //Check if the chunk size has reached the max
+            if (vocabChunks[currentChunkIndex].sections.length >= maxChunkSize) {
+                //Check if there's just enough remaining sections to put them all in this chunk
+                if ((nLevelVocabSectionsLength - 1) - i <= chunkBonusOverrideSize) {
+                    //Skip the current loop since we don't need to update the chunk index
+                    continue;
+                }
+                //Increment the current chunk
+                currentChunkIndex++;
+            }
+        }
+        //Put each chunk into their own JSON file
+        for (let i = 0; i < vocabChunks.length; i++) {
+            //Convert current index to JSON
+            const jsonObj = JSON.stringify(vocabChunks[i], null, 4);
+            //Save the JSON
+            await helper.saveDataToFile(jsonObj, jsonDirPath + "vocab-" + nLevel + "-pt" + (i + 1) + ".json");
+        }
+
+
         //Display run time (ms)
         console.log(Date.now() - beforePageCallsTime);
 

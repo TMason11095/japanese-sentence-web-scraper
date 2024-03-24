@@ -1,5 +1,50 @@
 import * as helper from './helper.js';
 
+export async function getAllJlptVocabs(browser, cookies, nLevel) {
+    return await helper.getAllSubPagesData(
+        browser,
+        cookies,
+        "https://www.kanshudo.com/collections/wikipedia_jlpt",
+        async (page) => {
+            return await page.evaluate((nLevel) => {
+                //Get JLPT level header (Only one instance per level so grab the first element of the array after filtering)
+                const nLevelHeader = Array.from(document.querySelectorAll('#main-content .bodyarea .bodysection .infopanel h4')).filter(h4 => h4.textContent.includes(nLevel))[0];
+                //Get the URLs for each 100 vocab sections
+                const vocabSectionUrls = Array.from(nLevelHeader.nextElementSibling.querySelectorAll('.coll_div a')).map((vocab) => vocab.href);
+                //Return
+                return vocabSectionUrls;
+            }, nLevel);
+        },
+        3,
+        (vocabUrls, limit) => {
+            //Get promises for the vocab pages
+            return vocabUrls.map((vocabUrl) => {
+                return limit(() => getVocabDetailFromBrowser(browser, vocabUrl, cookies));
+            });
+        },
+        nLevel
+    );
+}
+
+async function getVocabDetailFromBrowser(browser, vocabUrl, cookies) {
+    //Open new page
+    const page = await browser.newPage();
+    try {
+        //Load cookies
+        await page.setCookie(...cookies);
+        //Get the vocab
+        const vocabPageObj = await getVocabDetail(page, vocabUrl);
+        //Return
+        return vocabPageObj;
+    } catch {
+        console.error('Error in getVocabDetailFromBrowser():', error);
+        return false;
+    } finally {
+        //Close the page
+        page.close();
+    }
+}
+
 export async function getVocabPageFromBrowser(browser, vocabUrlSuffix, cookies) {
     //Open new page
     const page = await browser.newPage();
@@ -53,23 +98,32 @@ async function loadEvaluateLocalFunctions(page) {
         window.getVocabBack = (vocabContainer) => {
             //Get the back container
             const backContainer = vocabContainer.querySelector('.jukugo_reading div');
-            //Grab the vocab type
-            const vocabType = backContainer.querySelector('.vm div span').textContent.trim();
-            //Grab the vocab definition containers
-            const vocabDefContainers = backContainer.querySelectorAll('.vm ');
-            //Grab the definitions from each container
+            //Get the type and definition
+            let vocabType;
             const vocabDefinitions = [];
-            for (const vocabDefContainer of vocabDefContainers) {
-                //Grab the definition from the text child node
-                for (const node of vocabDefContainer.childNodes) {
-                    //Skip if not a text node
-                    if (node.nodeType != Node.TEXT_NODE) { continue; }
-                    //Grab the definition
-                    vocabDefinitions.push(node.textContent.trim());
-                }
-
+            //Check if there's no vm class object in the container
+            if (vocabContainer.querySelector('.vm') == null) {
+                //No type given and the definition is just the container's text content
+                vocabType = "";
+                vocabDefinitions.push(backContainer.textContent.trim());
             }
-        
+            else {
+                //Grab the vocab type
+                vocabType = backContainer.querySelector('.vm div span').textContent.trim();
+                //Grab the vocab definition containers
+                const vocabDefContainers = backContainer.querySelectorAll('.vm ');
+                //Grab the definitions from each container
+                for (const vocabDefContainer of vocabDefContainers) {
+                    //Grab the definition from the text child node
+                    for (const node of vocabDefContainer.childNodes) {
+                        //Skip if not a text node
+                        if (node.nodeType != Node.TEXT_NODE) { continue; }
+                        //Grab the definition
+                        vocabDefinitions.push(node.textContent.trim());
+                    }
+                }
+            }
+            
             //Return
             return {
                 type: vocabType,
@@ -79,11 +133,7 @@ async function loadEvaluateLocalFunctions(page) {
     });
 }
 
-async function getVocabPage(page, vocabUrlSuffix) {
-    //Base url
-    const baseUrl = 'https://www.kanshudo.com/collections/wikipedia_jlpt/';
-    //Build the url
-    const vocabUrl = baseUrl + vocabUrlSuffix;
+async function getVocabDetail(page, vocabUrl) {
     //Get vocab
     try {
         //Navigate to vocab list page
@@ -102,9 +152,18 @@ async function getVocabPage(page, vocabUrlSuffix) {
             vocabs: vocabs
         };
     } catch (error) {
-        console.error('Error in getVocabPage():', error);
+        console.error('Error in getVocabDetail():', error);
         return false;
     }
+}
+
+async function getVocabPage(page, vocabUrlSuffix) {
+    //Base url
+    const baseUrl = 'https://www.kanshudo.com/collections/wikipedia_jlpt/';
+    //Build the url
+    const vocabUrl = baseUrl + vocabUrlSuffix;
+    //Return vocab
+    return getVocabDetail(page, vocabUrl);
 }
 
 async function getVocab(page, vocabContainer) {
