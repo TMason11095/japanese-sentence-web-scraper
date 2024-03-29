@@ -1,0 +1,6439 @@
+{
+    "grouping_name": "N0",
+    "vocabs": [
+        {
+            "id": "85313",
+            "type": "particle",
+            "front": [
+                "から"
+            ],
+            "back": [
+                "from (e.g. time, place, numerical quantity); since",
+                "from (originator); by"
+            ]
+        },
+        {
+            "id": "129945",
+            "type": "particle",
+            "front": [
+                "の"
+            ],
+            "back": [
+                "indicates possessive",
+                "nominalizes verbs and adjectives"
+            ]
+        },
+        {
+            "id": "181251",
+            "type": "particle",
+            "front": [
+                "に"
+            ],
+            "back": [
+                "at (place, time); in; on; during",
+                "to (direction, state); toward; into"
+            ]
+        },
+        {
+            "id": "181244",
+            "type": "particle",
+            "front": [
+                "は"
+            ],
+            "back": [
+                "topic marker particle",
+                "indicates contrast with another option (stated or unstated)"
+            ]
+        },
+        {
+            "id": "134342",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "母",
+                    "furigana": "はは"
+                }
+            ],
+            "back": [
+                "mother"
+            ]
+        },
+        {
+            "id": "132647",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "父",
+                    "furigana": "ちち"
+                }
+            ],
+            "back": [
+                "father"
+            ]
+        },
+        {
+            "id": "125472",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "中学生",
+                    "furigana": "ちゅうがくせい"
+                }
+            ],
+            "back": [
+                "junior high school student; middle school pupil"
+            ]
+        },
+        {
+            "id": "145117",
+            "type": "expression",
+            "front": [
+                "です"
+            ],
+            "back": [
+                "be; is"
+            ]
+        },
+        {
+            "id": "326576",
+            "type": "noun, 'no' adjective",
+            "front": [
+                "カラオケ"
+            ],
+            "back": [
+                "karaoke (singing to taped accompaniment)"
+            ]
+        },
+        {
+            "id": "181253",
+            "type": "particle",
+            "front": [
+                "を"
+            ],
+            "back": [
+                "indicates direct object of action",
+                "indicates subject of causative expression"
+            ]
+        },
+        {
+            "id": "85802",
+            "type": "expression",
+            "front": [
+                "でしょう"
+            ],
+            "back": [
+                "seems; I think; I guess; I wonder; I hope",
+                "don't you agree?; I thought you'd say that!"
+            ]
+        },
+        {
+            "id": "87137",
+            "type": "noun, 'no' adjective",
+            "front": [
+                "インターネット"
+            ],
+            "back": [
+                "Internet"
+            ]
+        },
+        {
+            "id": "327561",
+            "type": "expression, ichidan verb",
+            "front": [
+                "ことができる"
+            ],
+            "back": [
+                "can (do); to be able to (do); can be done; is able to be done"
+            ]
+        },
+        {
+            "id": "327177",
+            "type": "noun",
+            "front": [
+                "イギリス"
+            ],
+            "back": [
+                "Great Britain; United Kingdom"
+            ]
+        },
+        {
+            "id": "327382",
+            "type": "noun",
+            "front": [
+                "ドイツ"
+            ],
+            "back": [
+                "Germany"
+            ]
+        },
+        {
+            "id": "327193",
+            "type": "noun",
+            "front": [
+                "オーストラリア"
+            ],
+            "back": [
+                "Australia"
+            ]
+        },
+        {
+            "id": "327094",
+            "type": "noun",
+            "front": [
+                "りんご"
+            ],
+            "back": [
+                "apple (fruit)",
+                "apple tree (Malus pumila)"
+            ]
+        },
+        {
+            "id": "112421",
+            "type": "adverb",
+            "front": [
+                {
+                    "kanji": "今日中",
+                    "furigana": "きょうじゅう"
+                },
+                "に"
+            ],
+            "back": [
+                "by today; before the day is over"
+            ]
+        },
+        {
+            "id": "136914",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "有名人",
+                    "furigana": "ゆうめいじん"
+                }
+            ],
+            "back": [
+                "celebrity; public figure; big name"
+            ]
+        },
+        {
+            "id": "94645",
+            "type": "noun",
+            "front": [
+                "パンダ"
+            ],
+            "back": [
+                "panda"
+            ]
+        },
+        {
+            "id": "158472",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "海外旅行",
+                    "furigana": "かいがいりょこう"
+                }
+            ],
+            "back": [
+                "vacation abroad"
+            ]
+        },
+        {
+            "id": "115513",
+            "type": "adverb",
+            "front": [
+                {
+                    "kanji": "実際",
+                    "furigana": "じっさい"
+                },
+                "に"
+            ],
+            "back": [
+                "virtually; practically; in practice; actually",
+                "currently; presently"
+            ]
+        },
+        {
+            "id": "367559",
+            "type": "expression",
+            "front": [
+                "ではありません"
+            ],
+            "back": [
+                "is not; am not; are not"
+            ]
+        },
+        {
+            "id": "181254",
+            "type": "particle",
+            "front": [
+                "ものの"
+            ],
+            "back": [
+                "but; although"
+            ]
+        },
+        {
+            "id": "181245",
+            "type": "particle",
+            "front": [
+                "が"
+            ],
+            "back": [
+                "indicates sentence subject (occasionally object)",
+                "indicates possessive (esp. in literary expressions)"
+            ]
+        },
+        {
+            "id": "85946",
+            "type": "particle",
+            "front": [
+                "のに"
+            ],
+            "back": [
+                "although; when; and yet; despite this; in spite of; even though; but even so; but even then; however; nevertheless; for all that; notwithstanding that",
+                "while"
+            ]
+        },
+        {
+            "id": "143443",
+            "type": "adverb",
+            "front": [
+                {
+                    "kanji": "絶対",
+                    "furigana": "ぜったい"
+                },
+                "に"
+            ],
+            "back": [
+                "absolutely; unconditionally; never (with neg. verb)"
+            ]
+        },
+        {
+            "id": "85945",
+            "type": "particle",
+            "front": [
+                "ので"
+            ],
+            "back": [
+                "that being the case; because of ...; the reason is ....; given that..."
+            ]
+        },
+        {
+            "id": "115269",
+            "type": "pronoun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "自分自身",
+                    "furigana": "じぶんじしん"
+                }
+            ],
+            "back": [
+                "oneself; myself"
+            ]
+        },
+        {
+            "id": "250692",
+            "type": "expression, 'i' adjective",
+            "front": [
+                "じゃない"
+            ],
+            "back": [
+                "is not; am not; are not",
+                "isn't it?"
+            ]
+        },
+        {
+            "id": "100247",
+            "type": "adverb",
+            "front": [
+                {
+                    "kanji": "一緒",
+                    "furigana": "いっしょ"
+                },
+                "に"
+            ],
+            "back": [
+                "together (with); at the same time; in a lump"
+            ]
+        },
+        {
+            "id": "109082",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "結婚式",
+                    "furigana": "けっこんしき"
+                }
+            ],
+            "back": [
+                "marriage ceremony; wedding; nuptials"
+            ]
+        },
+        {
+            "id": "258018",
+            "type": "noun (temporal) (jisoumeishi)",
+            "front": [
+                {
+                    "kanji": "二時",
+                    "furigana": "にじ"
+                }
+            ],
+            "back": [
+                "two o'clock"
+            ]
+        },
+        {
+            "id": "110463",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "午前中",
+                    "furigana": "ごぜんちゅう"
+                }
+            ],
+            "back": [
+                "this morning; in the morning; throughout the morning"
+            ]
+        },
+        {
+            "id": "186966",
+            "type": "copula",
+            "front": [
+                "だ"
+            ],
+            "back": [
+                "be; is",
+                "indicates past or completed action"
+            ]
+        },
+        {
+            "id": "131755",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "百万",
+                    "furigana": "ひゃくまん"
+                }
+            ],
+            "back": [
+                "1,000,000; one million; million",
+                "many"
+            ]
+        },
+        {
+            "id": "100455",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "一年間",
+                    "furigana": "いちねんかん"
+                }
+            ],
+            "back": [
+                "(period of) one year"
+            ]
+        },
+        {
+            "id": "147862",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "時半",
+                    "furigana": "じはん"
+                }
+            ],
+            "back": [
+                "about an hour; short time",
+                "half past (the hour)"
+            ]
+        },
+        {
+            "id": "108848",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "警察官",
+                    "furigana": "けいさつかん"
+                }
+            ],
+            "back": [
+                "policeman; policewoman; police officer"
+            ]
+        },
+        {
+            "id": "180459",
+            "type": "suffix",
+            "front": [
+                {
+                    "kanji": "時",
+                    "furigana": "じ"
+                }
+            ],
+            "back": [
+                "hour; o'clock",
+                "(specified) time; when ...; during ..."
+            ]
+        },
+        {
+            "id": "104128",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "外国語",
+                    "furigana": "がいこくご"
+                }
+            ],
+            "back": [
+                "foreign language"
+            ]
+        },
+        {
+            "id": "365489",
+            "type": "expression, 'i' adjective",
+            "front": [
+                "ではない"
+            ],
+            "back": [
+                "is not; am not; are not"
+            ]
+        },
+        {
+            "id": "94205",
+            "type": "noun",
+            "front": [
+                "バス",
+                {
+                    "kanji": "停",
+                    "furigana": "てい"
+                }
+            ],
+            "back": [
+                "bus stop"
+            ]
+        },
+        {
+            "id": "140578",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "人",
+                    "furigana": "ひと"
+                }
+            ],
+            "back": [
+                "man; person",
+                "human being; mankind; people"
+            ]
+        },
+        {
+            "id": "120382",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "水",
+                    "furigana": "みず"
+                }
+            ],
+            "back": [
+                "water (esp. cool, fresh water, e.g. drinking water)",
+                "fluid (esp. in an animal tissue); liquid"
+            ]
+        },
+        {
+            "id": "100328",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "一千",
+                    "furigana": "いっせん"
+                }
+            ],
+            "back": [
+                "1,000; one thousand"
+            ]
+        },
+        {
+            "id": "110556",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "後半",
+                    "furigana": "こうはん"
+                }
+            ],
+            "back": [
+                "second half; latter half"
+            ]
+        },
+        {
+            "id": "268515",
+            "type": "adverbial noun (fukushitekimeishi), noun (temporal) (jisoumeishi)",
+            "front": [
+                {
+                    "kanji": "長年",
+                    "furigana": "ながねん"
+                }
+            ],
+            "back": [
+                "long time; many years"
+            ]
+        },
+        {
+            "id": "128265",
+            "type": "adverb, conjunction",
+            "front": [
+                {
+                    "kanji": "同時",
+                    "furigana": "どうじ"
+                },
+                "に"
+            ],
+            "back": [
+                "coincident with; while; simultaneously"
+            ]
+        },
+        {
+            "id": "125528",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "中国",
+                    "furigana": "ちゅうごく"
+                }
+            ],
+            "back": [
+                "China",
+                "Chugoku region of western Honshu (incl. Okayama, Hiroshima, Shimane, Tottori and Yamaguchi prefectures)"
+            ]
+        },
+        {
+            "id": "140833",
+            "type": "adverbial noun (fukushitekimeishi), noun (temporal) (jisoumeishi)",
+            "front": [
+                {
+                    "kanji": "半年",
+                    "furigana": "はんとし"
+                }
+            ],
+            "back": [
+                "half year"
+            ]
+        },
+        {
+            "id": "288701",
+            "type": "expression, ichidan verb",
+            "front": [
+                {
+                    "kanji": "電話",
+                    "furigana": "でんわ"
+                },
+                "をかける"
+            ],
+            "back": [
+                "to telephone; to make a phone call"
+            ]
+        },
+        {
+            "id": "296507",
+            "type": "expression, 'i' adjective",
+            "front": [
+                {
+                    "kanji": "気分",
+                    "furigana": "きぶん"
+                },
+                "が",
+                {
+                    "kanji": "悪",
+                    "furigana": "わる"
+                },
+                "い"
+            ],
+            "back": [
+                "feel sick; feel unwell"
+            ]
+        },
+        {
+            "id": "113555",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "三千",
+                    "furigana": "さんぜん"
+                }
+            ],
+            "back": [
+                "3000",
+                "many"
+            ]
+        },
+        {
+            "id": "102731",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "何百",
+                    "furigana": "なんびゃく"
+                }
+            ],
+            "back": [
+                "hundreds"
+            ]
+        },
+        {
+            "id": "367498",
+            "type": "noun (temporal) (jisoumeishi)",
+            "front": [
+                {
+                    "kanji": "10時",
+                    "furigana": "じゅうじ"
+                }
+            ],
+            "back": [
+                "ten o'clock"
+            ]
+        },
+        {
+            "id": "121328",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "西口",
+                    "furigana": "にしぐち"
+                }
+            ],
+            "back": [
+                "west entrance"
+            ]
+        },
+        {
+            "id": "365557",
+            "type": "noun (temporal) (jisoumeishi)",
+            "front": [
+                {
+                    "kanji": "五時",
+                    "furigana": "ごじ"
+                }
+            ],
+            "back": [
+                "five o'clock; 5 o'clock"
+            ]
+        },
+        {
+            "id": "137019",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "夕食",
+                    "furigana": "ゆうしょく"
+                }
+            ],
+            "back": [
+                "evening meal; dinner"
+            ]
+        },
+        {
+            "id": "331324",
+            "type": "noun",
+            "front": [
+                "からて"
+            ],
+            "back": [
+                "karate",
+                "empty handed"
+            ]
+        },
+        {
+            "id": "106486",
+            "type": "adverbial noun (fukushitekimeishi), noun",
+            "front": [
+                {
+                    "kanji": "休日",
+                    "furigana": "きゅうじつ"
+                }
+            ],
+            "back": [
+                "holiday; day off"
+            ]
+        },
+        {
+            "id": "100203",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "一時間",
+                    "furigana": "いちじかん"
+                }
+            ],
+            "back": [
+                "one hour"
+            ]
+        },
+        {
+            "id": "333778",
+            "type": "expression, irregular verb くる",
+            "front": [
+                "もってくる"
+            ],
+            "back": [
+                "to bring"
+            ]
+        },
+        {
+            "id": "136487",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "野球",
+                    "furigana": "やきゅう"
+                }
+            ],
+            "back": [
+                "baseball"
+            ]
+        },
+        {
+            "id": "140628",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "前半",
+                    "furigana": "ぜんはん"
+                }
+            ],
+            "back": [
+                "first half"
+            ]
+        },
+        {
+            "id": "328498",
+            "type": "expression",
+            "front": [
+                "ひとりで"
+            ],
+            "back": [
+                "alone; by oneself; voluntarily; spontaneously; automatically"
+            ]
+        },
+        {
+            "id": "122567",
+            "type": "adverbial noun (fukushitekimeishi), noun (temporal) (jisoumeishi)",
+            "front": [
+                {
+                    "kanji": "前年",
+                    "furigana": "ぜんねん"
+                }
+            ],
+            "back": [
+                "the preceding year; the previous year; last year"
+            ]
+        },
+        {
+            "id": "327058",
+            "type": "particle",
+            "front": [
+                "まで"
+            ],
+            "back": [
+                "until (a time); till; to; up to",
+                "to (a place); as far as"
+            ]
+        },
+        {
+            "id": "333630",
+            "type": "pronoun, 'no' adjective",
+            "front": [
+                "わたし",
+                {
+                    "kanji": "達",
+                    "furigana": "たち"
+                }
+            ],
+            "back": [
+                "we; us"
+            ]
+        },
+        {
+            "id": "279237",
+            "type": "'i' adjective",
+            "front": [
+                {
+                    "kanji": "分",
+                    "furigana": "わ"
+                },
+                "かりにくい"
+            ],
+            "back": [
+                "hard to understand; incomprehensible; unintelligible"
+            ]
+        },
+        {
+            "id": "187028",
+            "type": "expression",
+            "front": [
+                "どうしよう"
+            ],
+            "back": [
+                "what to do"
+            ]
+        },
+        {
+            "id": "90077",
+            "type": "noun",
+            "front": [
+                "ゴルフ"
+            ],
+            "back": [
+                "golf"
+            ]
+        },
+        {
+            "id": "85924",
+            "type": "expression",
+            "front": [
+                "に",
+                {
+                    "kanji": "関",
+                    "furigana": "かん"
+                },
+                "して"
+            ],
+            "back": [
+                "related to; in relation to"
+            ]
+        },
+        {
+            "id": "94135",
+            "type": "noun",
+            "front": [
+                "バイク"
+            ],
+            "back": [
+                "motorcycle; motorbike"
+            ]
+        },
+        {
+            "id": "327159",
+            "type": "noun",
+            "front": [
+                "インド"
+            ],
+            "back": [
+                "India"
+            ]
+        },
+        {
+            "id": "256732",
+            "type": "expression",
+            "front": [
+                "だった"
+            ],
+            "back": [
+                "was"
+            ]
+        },
+        {
+            "id": "174911",
+            "type": "noun",
+            "front": [
+                "イタリア",
+                {
+                    "kanji": "語",
+                    "furigana": "ご"
+                }
+            ],
+            "back": [
+                "Italian (language)"
+            ]
+        },
+        {
+            "id": "86187",
+            "type": "interjection (kandoushi)",
+            "front": [
+                "もしもし"
+            ],
+            "back": [
+                "hello (e.g. on phone)",
+                "excuse me! (when calling out to someone)"
+            ]
+        },
+        {
+            "id": "256925",
+            "type": "expression, ii 'i' adjective",
+            "front": [
+                "どうしたらいい"
+            ],
+            "back": [
+                "what's the best thing to do?"
+            ]
+        },
+        {
+            "id": "106438",
+            "type": "'no' adjective, noun",
+            "front": [
+                {
+                    "kanji": "休",
+                    "furigana": "やす"
+                },
+                "み",
+                {
+                    "kanji": "中",
+                    "furigana": "ちゅう"
+                }
+            ],
+            "back": [
+                "during vacation; during the holidays; during one's break",
+                "(temporarily) closed; on break"
+            ]
+        },
+        {
+            "id": "250102",
+            "type": "'na' adjective",
+            "front": [
+                {
+                    "kanji": "全体的",
+                    "furigana": "ぜんたいてき"
+                }
+            ],
+            "back": [
+                "overall; on the whole"
+            ]
+        },
+        {
+            "id": "365525",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "五百円",
+                    "furigana": "ごひゃくえん"
+                }
+            ],
+            "back": [
+                "500 yen; five hundred yen"
+            ]
+        },
+        {
+            "id": "85855",
+            "type": "expression",
+            "front": [
+                "どうやって"
+            ],
+            "back": [
+                "how; in what way; by what means"
+            ]
+        },
+        {
+            "id": "109950",
+            "type": "'na' adjective",
+            "front": [
+                {
+                    "kanji": "現実的",
+                    "furigana": "げんじつてき"
+                }
+            ],
+            "back": [
+                "realistic; pragmatic"
+            ]
+        },
+        {
+            "id": "191070",
+            "type": "expression",
+            "front": [
+                "いいとも"
+            ],
+            "back": [
+                "of course; no problem; sounds good; sure thing; damn straight"
+            ]
+        },
+        {
+            "id": "124105",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "体重",
+                    "furigana": "たいじゅう"
+                }
+            ],
+            "back": [
+                "body weight; one's weight"
+            ]
+        },
+        {
+            "id": "105481",
+            "type": "'ru' godan verb, intransitive verb",
+            "front": [
+                {
+                    "kanji": "頑張",
+                    "furigana": "がんば"
+                },
+                "る"
+            ],
+            "back": [
+                "to persevere; to persist; to keep at it; to hang on; to hold out; to do one's best",
+                "to insist that; to stick to (one's opinion)"
+            ]
+        },
+        {
+            "id": "366214",
+            "type": "adverb",
+            "front": [
+                "までに"
+            ],
+            "back": [
+                "by; not later than; before"
+            ]
+        },
+        {
+            "id": "115666",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "社員",
+                    "furigana": "しゃいん"
+                }
+            ],
+            "back": [
+                "company employee",
+                "company stockholders (esp. in legal contexts); members of a corporation"
+            ]
+        },
+        {
+            "id": "326516",
+            "type": "expression",
+            "front": [
+                "おやすみなさい"
+            ],
+            "back": [
+                "good night"
+            ]
+        },
+        {
+            "id": "367614",
+            "type": "expression, 'ru' godan verb",
+            "front": [
+                "いやになる"
+            ],
+            "back": [
+                "to get fed up with; to get sick of; to become disgusted with"
+            ]
+        },
+        {
+            "id": "105830",
+            "type": "noun, 'suru' verb",
+            "front": [
+                {
+                    "kanji": "帰国",
+                    "furigana": "きこく"
+                }
+            ],
+            "back": [
+                "return to one's country"
+            ]
+        },
+        {
+            "id": "327149",
+            "type": "adverb",
+            "front": [
+                "ごく"
+            ],
+            "back": [
+                "quite; very",
+                "10^48; quindecillion"
+            ]
+        },
+        {
+            "id": "199688",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "五百",
+                    "furigana": "ごひゃく"
+                }
+            ],
+            "back": [
+                "500",
+                "many"
+            ]
+        },
+        {
+            "id": "143432",
+            "type": "'na' adjective",
+            "front": [
+                {
+                    "kanji": "女性的",
+                    "furigana": "じょせいてき"
+                }
+            ],
+            "back": [
+                "feminine; effeminate"
+            ]
+        },
+        {
+            "id": "103653",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "会長",
+                    "furigana": "かいちょう"
+                }
+            ],
+            "back": [
+                "president (of a society); chairman"
+            ]
+        },
+        {
+            "id": "289063",
+            "type": "'ru' godan verb",
+            "front": [
+                {
+                    "kanji": "読",
+                    "furigana": "よ"
+                },
+                "み",
+                {
+                    "kanji": "終",
+                    "furigana": "お"
+                },
+                "わる"
+            ],
+            "back": [
+                "to finish reading; to read through"
+            ]
+        },
+        {
+            "id": "110060",
+            "type": "'na' adjective",
+            "front": [
+                {
+                    "kanji": "個人的",
+                    "furigana": "こじんてき"
+                }
+            ],
+            "back": [
+                "personal; individual; private"
+            ]
+        },
+        {
+            "id": "143266",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "平成",
+                    "furigana": "へいせい"
+                }
+            ],
+            "back": [
+                "Heisei era (Jan 8, 1989 - April 30, 2019)"
+            ]
+        },
+        {
+            "id": "288139",
+            "type": "expression, irregular verb くる",
+            "front": [
+                {
+                    "kanji": "帰",
+                    "furigana": "かえ"
+                },
+                "ってくる"
+            ],
+            "back": [
+                "to return; to come back"
+            ]
+        },
+        {
+            "id": "120220",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "人類学",
+                    "furigana": "じんるいがく"
+                }
+            ],
+            "back": [
+                "anthropology"
+            ]
+        },
+        {
+            "id": "186450",
+            "type": "expression, 'u' godan verb",
+            "front": [
+                {
+                    "kanji": "気",
+                    "furigana": "き"
+                },
+                "を",
+                {
+                    "kanji": "失",
+                    "furigana": "うしな"
+                },
+                "う"
+            ],
+            "back": [
+                "to lose consciousness; to faint; to black out"
+            ]
+        },
+        {
+            "id": "102699",
+            "type": "expression",
+            "front": [
+                {
+                    "kanji": "何時間",
+                    "furigana": "なんじかん"
+                }
+            ],
+            "back": [
+                "how many hours?"
+            ]
+        },
+        {
+            "id": "280283",
+            "type": "'ku' godan verb",
+            "front": [
+                {
+                    "kanji": "火",
+                    "furigana": "ひ"
+                },
+                "がつく"
+            ],
+            "back": [
+                "to catch fire; to provoke; to catch fire from; to be ignited"
+            ]
+        },
+        {
+            "id": "186482",
+            "type": "expression, 'ru' godan verb",
+            "front": [
+                "になる"
+            ],
+            "back": [
+                "becomes; will become; turns out",
+                "to do"
+            ]
+        },
+        {
+            "id": "107586",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "業界",
+                    "furigana": "ぎょうかい"
+                }
+            ],
+            "back": [
+                "business world; business circles; (the) industry"
+            ]
+        },
+        {
+            "id": "94140",
+            "type": "noun, 'suru' verb",
+            "front": [
+                "バイト"
+            ],
+            "back": [
+                "work (esp. part time or casual)",
+                "byte; octet"
+            ]
+        },
+        {
+            "id": "112885",
+            "type": "noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "最大",
+                    "furigana": "さいだい"
+                }
+            ],
+            "back": [
+                "biggest; greatest; largest; maximum"
+            ]
+        },
+        {
+            "id": "135079",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "本社",
+                    "furigana": "ほんしゃ"
+                }
+            ],
+            "back": [
+                "head office; main office; headquarters; parent company",
+                "main shrine"
+            ]
+        },
+        {
+            "id": "275048",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "思",
+                    "furigana": "おも"
+                },
+                "い"
+            ],
+            "back": [
+                "thought",
+                "imagination; mind; heart"
+            ]
+        },
+        {
+            "id": "293382",
+            "type": "adverb",
+            "front": [
+                {
+                    "kanji": "二度",
+                    "furigana": "にど"
+                },
+                "と"
+            ],
+            "back": [
+                "never again (with negative verb)"
+            ]
+        },
+        {
+            "id": "101381",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "駅前",
+                    "furigana": "えきまえ"
+                }
+            ],
+            "back": [
+                "in front of station"
+            ]
+        },
+        {
+            "id": "85531",
+            "type": "particle",
+            "front": [
+                "しか"
+            ],
+            "back": [
+                "only; nothing but"
+            ]
+        },
+        {
+            "id": "92252",
+            "type": "noun",
+            "front": [
+                "チケット"
+            ],
+            "back": [
+                "ticket"
+            ]
+        },
+        {
+            "id": "120944",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "正月",
+                    "furigana": "しょうがつ"
+                }
+            ],
+            "back": [
+                "New Year (esp. first three days)",
+                "the first month of the year; January"
+            ]
+        },
+        {
+            "id": "112177",
+            "type": "noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "国内",
+                    "furigana": "こくない"
+                }
+            ],
+            "back": [
+                "internal; domestic"
+            ]
+        },
+        {
+            "id": "115234",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "自宅",
+                    "furigana": "じたく"
+                }
+            ],
+            "back": [
+                "one's home; one's house"
+            ]
+        },
+        {
+            "id": "326558",
+            "type": "expression",
+            "front": [
+                "ありがとうございます"
+            ],
+            "back": [
+                "Thank you very much"
+            ]
+        },
+        {
+            "id": "290167",
+            "type": "adverb",
+            "front": [
+                {
+                    "kanji": "下",
+                    "furigana": "もと"
+                }
+            ],
+            "back": [
+                "under (esp. influence or guidance)"
+            ]
+        },
+        {
+            "id": "293824",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "桜",
+                    "furigana": "さくら"
+                },
+                "の",
+                {
+                    "kanji": "木",
+                    "furigana": "き"
+                }
+            ],
+            "back": [
+                "cherry tree"
+            ]
+        },
+        {
+            "id": "140497",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "十七",
+                    "furigana": "じゅうしち"
+                }
+            ],
+            "back": [
+                "17; seventeen"
+            ]
+        },
+        {
+            "id": "129853",
+            "type": "noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "年上",
+                    "furigana": "としうえ"
+                }
+            ],
+            "back": [
+                "older; senior"
+            ]
+        },
+        {
+            "id": "134131",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "弁護士",
+                    "furigana": "べんごし"
+                }
+            ],
+            "back": [
+                "lawyer; attorney"
+            ]
+        },
+        {
+            "id": "101379",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "駅員",
+                    "furigana": "えきいん"
+                }
+            ],
+            "back": [
+                "station attendant"
+            ]
+        },
+        {
+            "id": "336784",
+            "type": "noun, 'suru' verb",
+            "front": [
+                "せんばつ"
+            ],
+            "back": [
+                "selection; choice; picking out"
+            ]
+        },
+        {
+            "id": "111823",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "高",
+                    "furigana": "たか"
+                },
+                "さ"
+            ],
+            "back": [
+                "height; altitude; elevation; level",
+                "altitude; height"
+            ]
+        },
+        {
+            "id": "97376",
+            "type": "noun, 'suru' verb",
+            "front": [
+                "メール"
+            ],
+            "back": [
+                "email",
+                "mail (usu. in phrases and compound words)"
+            ]
+        },
+        {
+            "id": "266772",
+            "type": "'su' godan verb, transitive verb",
+            "front": [
+                {
+                    "kanji": "生",
+                    "furigana": "う"
+                },
+                "み",
+                {
+                    "kanji": "出",
+                    "furigana": "だ"
+                },
+                "す"
+            ],
+            "back": [
+                "to create; to bring forth; to produce",
+                "to invent; to think up and bring into being"
+            ]
+        },
+        {
+            "id": "185265",
+            "type": "expression",
+            "front": [
+                "もう",
+                {
+                    "kanji": "一",
+                    "furigana": "ひと"
+                },
+                "つ"
+            ],
+            "back": [
+                "another; one more",
+                "not quite; not very good; lacking"
+            ]
+        },
+        {
+            "id": "130442",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "白",
+                    "furigana": "しろ"
+                }
+            ],
+            "back": [
+                "white",
+                "innocence; innocent person"
+            ]
+        },
+        {
+            "id": "329305",
+            "type": "noun",
+            "front": [
+                "なんじ"
+            ],
+            "back": [
+                "what time?"
+            ]
+        },
+        {
+            "id": "119797",
+            "type": "noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "親子",
+                    "furigana": "おやこ"
+                }
+            ],
+            "back": [
+                "parent and child"
+            ]
+        },
+        {
+            "id": "269918",
+            "type": "adverbial noun (fukushitekimeishi)",
+            "front": [
+                {
+                    "kanji": "八月",
+                    "furigana": "はちがつ"
+                }
+            ],
+            "back": [
+                "August"
+            ]
+        },
+        {
+            "id": "112113",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "国外",
+                    "furigana": "こくがい"
+                }
+            ],
+            "back": [
+                "outside the country"
+            ]
+        },
+        {
+            "id": "268215",
+            "type": "'u' godan verb, intransitive verb",
+            "front": [
+                {
+                    "kanji": "知",
+                    "furigana": "し"
+                },
+                "り",
+                {
+                    "kanji": "合",
+                    "furigana": "あ"
+                },
+                "う"
+            ],
+            "back": [
+                "to get to know (someone); to make acquaintance"
+            ]
+        },
+        {
+            "id": "130476",
+            "type": "noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "白人",
+                    "furigana": "はくじん"
+                }
+            ],
+            "back": [
+                "white person; Caucasian"
+            ]
+        },
+        {
+            "id": "127942",
+            "type": "'na' adjective, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "当然",
+                    "furigana": "とうぜん"
+                }
+            ],
+            "back": [
+                "natural; as a matter of course; justified; deserved; reasonable"
+            ]
+        },
+        {
+            "id": "115832",
+            "type": "noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "若者",
+                    "furigana": "わかもの"
+                }
+            ],
+            "back": [
+                "young man; young woman; young people; youth; youngsters"
+            ]
+        },
+        {
+            "id": "327707",
+            "type": "expression",
+            "front": [
+                "ように"
+            ],
+            "back": [
+                "in order to (e.g. meet goal); so that; take care (so as)",
+                "hoping or wishing for something"
+            ]
+        },
+        {
+            "id": "126062",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "長",
+                    "furigana": "なが"
+                },
+                "さ"
+            ],
+            "back": [
+                "length"
+            ]
+        },
+        {
+            "id": "354627",
+            "type": "expression, 'i' adjective",
+            "front": [
+                "ことがない"
+            ],
+            "back": [
+                "(something) has never occurred; to have never done (something); such a thing has not happened",
+                "never happens; there is never a time when"
+            ]
+        },
+        {
+            "id": "140777",
+            "type": "noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "南西",
+                    "furigana": "なんせい"
+                }
+            ],
+            "back": [
+                "southwest"
+            ]
+        },
+        {
+            "id": "94287",
+            "type": "noun",
+            "front": [
+                "バナナ"
+            ],
+            "back": [
+                "banana"
+            ]
+        },
+        {
+            "id": "140930",
+            "type": "noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "北東",
+                    "furigana": "ほくとう"
+                }
+            ],
+            "back": [
+                "northeast"
+            ]
+        },
+        {
+            "id": "256943",
+            "type": "ii 'i' adjective",
+            "front": [
+                {
+                    "kanji": "格好",
+                    "furigana": "かっこ"
+                },
+                "いい"
+            ],
+            "back": [
+                "attractive; good-looking; stylish; cool; smooth; neat; with-it; groovy"
+            ]
+        },
+        {
+            "id": "100989",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "右手",
+                    "furigana": "みぎて"
+                }
+            ],
+            "back": [
+                "right hand",
+                "right-hand side; right-hand direction; (on) the right"
+            ]
+        },
+        {
+            "id": "129656",
+            "type": "noun, 'suru' verb",
+            "front": [
+                {
+                    "kanji": "入力",
+                    "furigana": "にゅうりょく"
+                }
+            ],
+            "back": [
+                "input; (data) entry"
+            ]
+        },
+        {
+            "id": "181260",
+            "type": "particle",
+            "front": [
+                "よ"
+            ],
+            "back": [
+                "indicates certainty, emphasis, contempt, request, etc.",
+                "used when calling out to someone"
+            ]
+        },
+        {
+            "id": "92302",
+            "type": "noun",
+            "front": [
+                "チョコレート"
+            ],
+            "back": [
+                "chocolate"
+            ]
+        },
+        {
+            "id": "181249",
+            "type": "particle",
+            "front": [
+                "か"
+            ],
+            "back": [
+                "indicates a question (sometimes rhetorical)",
+                "or; whether or not"
+            ]
+        },
+        {
+            "id": "125232",
+            "type": "noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "地上",
+                    "furigana": "ちじょう"
+                }
+            ],
+            "back": [
+                "above ground; surface",
+                "earth; world"
+            ]
+        },
+        {
+            "id": "135126",
+            "type": "adverbial noun (fukushitekimeishi), noun (temporal) (jisoumeishi)",
+            "front": [
+                {
+                    "kanji": "本日",
+                    "furigana": "ほんじつ"
+                }
+            ],
+            "back": [
+                "today"
+            ]
+        },
+        {
+            "id": "92969",
+            "type": "noun",
+            "front": [
+                "トマト"
+            ],
+            "back": [
+                "tomato (Solanum lycopersicum)"
+            ]
+        },
+        {
+            "id": "354775",
+            "type": "auxiliary adjective, 'i' adjective",
+            "front": [
+                "にくい"
+            ],
+            "back": [
+                "difficult to ...; hard to ..."
+            ]
+        },
+        {
+            "id": "327609",
+            "type": "noun (suffix)",
+            "front": [
+                "っぱなし"
+            ],
+            "back": [
+                "keep ...-ing (negative nuance, with the state being improper, unpleasant, etc.); have been ...-ing; leaving (something) on; leaving (something) still in use"
+            ]
+        },
+        {
+            "id": "124509",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "大国",
+                    "furigana": "たいこく"
+                }
+            ],
+            "back": [
+                "large country; major powers"
+            ]
+        },
+        {
+            "id": "143582",
+            "type": "adverb",
+            "front": [
+                {
+                    "kanji": "本当",
+                    "furigana": "ほんとう"
+                },
+                "に"
+            ],
+            "back": [
+                "really; truly"
+            ]
+        },
+        {
+            "id": "345731",
+            "type": "expression",
+            "front": [
+                "よかったら"
+            ],
+            "back": [
+                "if you like"
+            ]
+        },
+        {
+            "id": "127847",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "東北",
+                    "furigana": "とうほく"
+                }
+            ],
+            "back": [
+                "north-east",
+                "Tohoku (northernmost six prefectures of Honshu)"
+            ]
+        },
+        {
+            "id": "273858",
+            "type": "noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "人々",
+                    "furigana": "ひとびと"
+                }
+            ],
+            "back": [
+                "each person; people; men and women; everybody"
+            ]
+        },
+        {
+            "id": "129821",
+            "type": "noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "年金",
+                    "furigana": "ねんきん"
+                }
+            ],
+            "back": [
+                "annuity; pension"
+            ]
+        },
+        {
+            "id": "181263",
+            "type": "suffix",
+            "front": [
+                "さ"
+            ],
+            "back": [
+                "-ness (nominalizing suffix indicating degree or condition)",
+                "(sentence end, mainly masc.) indicates assertion"
+            ]
+        },
+        {
+            "id": "134932",
+            "type": "noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "北西",
+                    "furigana": "ほくせい"
+                }
+            ],
+            "back": [
+                "northwest"
+            ]
+        },
+        {
+            "id": "104453",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "学長",
+                    "furigana": "がくちょう"
+                }
+            ],
+            "back": [
+                "university president"
+            ]
+        },
+        {
+            "id": "113892",
+            "type": "noun, 'suru' verb",
+            "front": [
+                {
+                    "kanji": "残業",
+                    "furigana": "ざんぎょう"
+                }
+            ],
+            "back": [
+                "overtime (work)"
+            ]
+        },
+        {
+            "id": "140779",
+            "type": "noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "南東",
+                    "furigana": "なんとう"
+                }
+            ],
+            "back": [
+                "southeast"
+            ]
+        },
+        {
+            "id": "126911",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "天下",
+                    "furigana": "てんか"
+                }
+            ],
+            "back": [
+                "the whole world",
+                "the whole country"
+            ]
+        },
+        {
+            "id": "117684",
+            "type": "noun, 'suru' verb",
+            "front": [
+                {
+                    "kanji": "所有",
+                    "furigana": "しょゆう"
+                }
+            ],
+            "back": [
+                "one's possessions; ownership"
+            ]
+        },
+        {
+            "id": "333242",
+            "type": "adverbial noun (fukushitekimeishi)",
+            "front": [
+                "さんがつ"
+            ],
+            "back": [
+                "March"
+            ]
+        },
+        {
+            "id": "267210",
+            "type": "noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "専門",
+                    "furigana": "せんもん"
+                }
+            ],
+            "back": [
+                "speciality; specialty; subject of study; expert; area of expertise"
+            ]
+        },
+        {
+            "id": "122563",
+            "type": "adverbial noun (fukushitekimeishi), noun (temporal) (jisoumeishi)",
+            "front": [
+                {
+                    "kanji": "前日",
+                    "furigana": "ぜんじつ"
+                }
+            ],
+            "back": [
+                "previous day; day before; eve; prior day; preceding day"
+            ]
+        },
+        {
+            "id": "112176",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "国道",
+                    "furigana": "こくどう"
+                }
+            ],
+            "back": [
+                "national highway"
+            ]
+        },
+        {
+            "id": "114289",
+            "type": "noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "市内",
+                    "furigana": "しない"
+                }
+            ],
+            "back": [
+                "(within a) city; local"
+            ]
+        },
+        {
+            "id": "122452",
+            "type": "adverbial noun (fukushitekimeishi), noun (temporal) (jisoumeishi)",
+            "front": [
+                {
+                    "kanji": "前回",
+                    "furigana": "ぜんかい"
+                }
+            ],
+            "back": [
+                "previous time; last time; previous installment; previous instalment; previous session"
+            ]
+        },
+        {
+            "id": "187302",
+            "type": "auxiliary verb",
+            "front": [
+                "たる"
+            ],
+            "back": [
+                "(those) who are; (that) which is; often used in relation to qualifications and requirements for a position; in the capacity of"
+            ]
+        },
+        {
+            "id": "124432",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "大",
+                    "furigana": "おお"
+                },
+                "きさ"
+            ],
+            "back": [
+                "size; dimensions; volume"
+            ]
+        },
+        {
+            "id": "140584",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "人数",
+                    "furigana": "にんずう"
+                }
+            ],
+            "back": [
+                "the number of people",
+                "many people; a large number of people"
+            ]
+        },
+        {
+            "id": "127934",
+            "type": "adverbial noun (fukushitekimeishi), noun (temporal) (jisoumeishi), 'no' adjective",
+            "front": [
+                {
+                    "kanji": "当初",
+                    "furigana": "とうしょ"
+                }
+            ],
+            "back": [
+                "at first; at the beginning; initially; originally"
+            ]
+        },
+        {
+            "id": "143202",
+            "type": "adverbial noun (fukushitekimeishi), noun (temporal) (jisoumeishi), 'no' adjective",
+            "front": [
+                {
+                    "kanji": "戦後",
+                    "furigana": "せんご"
+                }
+            ],
+            "back": [
+                "postwar period; period after Second World War"
+            ]
+        },
+        {
+            "id": "120441",
+            "type": "noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "水中",
+                    "furigana": "すいちゅう"
+                }
+            ],
+            "back": [
+                "underwater"
+            ]
+        },
+        {
+            "id": "118300",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "昭和",
+                    "furigana": "しょうわ"
+                }
+            ],
+            "back": [
+                "Showa era (1926.12.25-1989.1.7)"
+            ]
+        },
+        {
+            "id": "261209",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "顔",
+                    "furigana": "かお"
+                }
+            ],
+            "back": [
+                "face; visage",
+                "look; expression; countenance"
+            ]
+        },
+        {
+            "id": "124558",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "大正",
+                    "furigana": "たいしょう"
+                }
+            ],
+            "back": [
+                "Taisho era (1912.7.30-1926.12.25)"
+            ]
+        },
+        {
+            "id": "123946",
+            "type": "adverbial noun (fukushitekimeishi), noun",
+            "front": [
+                {
+                    "kanji": "多数",
+                    "furigana": "たすう"
+                }
+            ],
+            "back": [
+                "great number",
+                "countless; majority"
+            ]
+        },
+        {
+            "id": "268010",
+            "type": "'na' adjective, noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "大型",
+                    "furigana": "おおがた"
+                }
+            ],
+            "back": [
+                "large; large scale; big; jumbo"
+            ]
+        },
+        {
+            "id": "125127",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "男女",
+                    "furigana": "だんじょ"
+                }
+            ],
+            "back": [
+                "men and women; man and woman; both sexes; both genders"
+            ]
+        },
+        {
+            "id": "143621",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "明治",
+                    "furigana": "めいじ"
+                }
+            ],
+            "back": [
+                "Meiji era (1868.9.8-1912.7.30)"
+            ]
+        },
+        {
+            "id": "268463",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "朝日",
+                    "furigana": "あさひ"
+                }
+            ],
+            "back": [
+                "morning sun"
+            ]
+        },
+        {
+            "id": "135069",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "本国",
+                    "furigana": "ほんごく"
+                }
+            ],
+            "back": [
+                "one's own country"
+            ]
+        },
+        {
+            "id": "119056",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "職場",
+                    "furigana": "しょくば"
+                }
+            ],
+            "back": [
+                "one's post; place of work; workplace"
+            ]
+        },
+        {
+            "id": "116725",
+            "type": "adverbial noun (fukushitekimeishi), noun",
+            "front": [
+                {
+                    "kanji": "週末",
+                    "furigana": "しゅうまつ"
+                }
+            ],
+            "back": [
+                "weekend"
+            ]
+        },
+        {
+            "id": "127803",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "東京",
+                    "furigana": "とうきょう"
+                }
+            ],
+            "back": [
+                "Tokyo"
+            ]
+        },
+        {
+            "id": "114433",
+            "type": "noun, 'suru' verb",
+            "front": [
+                {
+                    "kanji": "支援",
+                    "furigana": "しえん"
+                }
+            ],
+            "back": [
+                "support; backing; aid; assistance"
+            ]
+        },
+        {
+            "id": "114507",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "死者",
+                    "furigana": "ししゃ"
+                }
+            ],
+            "back": [
+                "casualty; deceased"
+            ]
+        },
+        {
+            "id": "262085",
+            "type": "adverbial noun (fukushitekimeishi)",
+            "front": [
+                {
+                    "kanji": "九月",
+                    "furigana": "くがつ"
+                }
+            ],
+            "back": [
+                "September"
+            ]
+        },
+        {
+            "id": "129791",
+            "type": "noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "年下",
+                    "furigana": "としした"
+                }
+            ],
+            "back": [
+                "younger; junior"
+            ]
+        },
+        {
+            "id": "289632",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "食",
+                    "furigana": "しょく"
+                }
+            ],
+            "back": [
+                "meal; (one's) diet; food; foodstuff; foodstuffs",
+                "eclipse (solar, lunar, etc.)"
+            ]
+        },
+        {
+            "id": "280364",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "竜",
+                    "furigana": "りゅう"
+                }
+            ],
+            "back": [
+                "dragon (esp. a Chinese dragon)",
+                "naga; semi-divine human-cobra chimera in Hindu and Buddhist mythology"
+            ]
+        },
+        {
+            "id": "339031",
+            "type": "suffix",
+            "front": [
+                "どの"
+            ],
+            "back": [
+                "form of address used for official letters and business letters, and in letters to inferiors; Mr."
+            ]
+        },
+        {
+            "id": "128872",
+            "type": "noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "内側",
+                    "furigana": "うちがわ"
+                }
+            ],
+            "back": [
+                "inside; interior; inner part"
+            ]
+        },
+        {
+            "id": "262852",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "言",
+                    "furigana": "い"
+                },
+                "い",
+                {
+                    "kanji": "方",
+                    "furigana": "かた"
+                }
+            ],
+            "back": [
+                "way of talking; speaking style"
+            ]
+        },
+        {
+            "id": "269542",
+            "type": "noun, noun (suffix)",
+            "front": [
+                {
+                    "kanji": "入",
+                    "furigana": "い"
+                },
+                "り"
+            ],
+            "back": [
+                "entering",
+                "setting (of the sun)"
+            ]
+        },
+        {
+            "id": "127546",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "都内",
+                    "furigana": "とない"
+                }
+            ],
+            "back": [
+                "metropolitan area"
+            ]
+        },
+        {
+            "id": "203330",
+            "type": "'i' adjective",
+            "front": [
+                "ない"
+            ],
+            "back": [
+                "nonexistent; not being (there)",
+                "unpossessed; unowned; not had"
+            ]
+        },
+        {
+            "id": "140130",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "一行",
+                    "furigana": "いちぎょう"
+                }
+            ],
+            "back": [
+                "a line (of text etc.); row",
+                "group; troupe; party"
+            ]
+        },
+        {
+            "id": "108132",
+            "type": "'na' adjective",
+            "front": [
+                {
+                    "kanji": "具体的",
+                    "furigana": "ぐたいてき"
+                }
+            ],
+            "back": [
+                "concrete; tangible; definite; specific"
+            ]
+        },
+        {
+            "id": "137482",
+            "type": "noun (temporal) (jisoumeishi)",
+            "front": [
+                {
+                    "kanji": "翌年",
+                    "furigana": "よくねん"
+                }
+            ],
+            "back": [
+                "following year"
+            ]
+        },
+        {
+            "id": "112200",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "国名",
+                    "furigana": "こくめい"
+                }
+            ],
+            "back": [
+                "country name"
+            ]
+        },
+        {
+            "id": "114301",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "市役所",
+                    "furigana": "しやくしょ"
+                }
+            ],
+            "back": [
+                "municipal office; council; city hall"
+            ]
+        },
+        {
+            "id": "124448",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "大雨",
+                    "furigana": "おおあめ"
+                }
+            ],
+            "back": [
+                "heavy rain"
+            ]
+        },
+        {
+            "id": "265302",
+            "type": "adverbial noun (fukushitekimeishi)",
+            "front": [
+                {
+                    "kanji": "十月",
+                    "furigana": "じゅうがつ"
+                }
+            ],
+            "back": [
+                "October"
+            ]
+        },
+        {
+            "id": "117610",
+            "type": "noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "初期",
+                    "furigana": "しょき"
+                }
+            ],
+            "back": [
+                "early (days); initial stage",
+                "initial"
+            ]
+        },
+        {
+            "id": "259956",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "奥様",
+                    "furigana": "おくさま"
+                }
+            ],
+            "back": [
+                "wife; your wife; his wife; married lady; madam"
+            ]
+        },
+        {
+            "id": "272322",
+            "type": "noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "両手",
+                    "furigana": "りょうて"
+                }
+            ],
+            "back": [
+                "(with) both hands",
+                "approvingly"
+            ]
+        },
+        {
+            "id": "290924",
+            "type": "adverb",
+            "front": [
+                {
+                    "kanji": "今",
+                    "furigana": "いま"
+                },
+                "すぐ"
+            ],
+            "back": [
+                "at once; immediately; right now"
+            ]
+        },
+        {
+            "id": "278766",
+            "type": "ichidan verb, transitive verb",
+            "front": [
+                {
+                    "kanji": "見",
+                    "furigana": "み"
+                },
+                "つめる"
+            ],
+            "back": [
+                "to stare at; to gaze at; to look hard at; to watch intently; to fix one's eyes on"
+            ]
+        },
+        {
+            "id": "272541",
+            "type": "adverbial noun (fukushitekimeishi)",
+            "front": [
+                {
+                    "kanji": "六月",
+                    "furigana": "ろくがつ"
+                }
+            ],
+            "back": [
+                "June"
+            ]
+        },
+        {
+            "id": "264802",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "車両",
+                    "furigana": "しゃりょう"
+                }
+            ],
+            "back": [
+                "rolling stock; railroad cars; wheeled vehicles"
+            ]
+        },
+        {
+            "id": "360838",
+            "type": "noun",
+            "front": [
+                "バラ"
+            ],
+            "back": [
+                "rose"
+            ]
+        },
+        {
+            "id": "274323",
+            "type": "noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "足元",
+                    "furigana": "あしもと"
+                }
+            ],
+            "back": [
+                "at one's feet; underfoot; one's step (as in \"watch your step\")",
+                "gait; pace; step"
+            ]
+        },
+        {
+            "id": "264332",
+            "type": "adverbial noun (fukushitekimeishi)",
+            "front": [
+                {
+                    "kanji": "四月",
+                    "furigana": "しがつ"
+                }
+            ],
+            "back": [
+                "April"
+            ]
+        },
+        {
+            "id": "118176",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "小川",
+                    "furigana": "おがわ"
+                }
+            ],
+            "back": [
+                "streamlet; brook"
+            ]
+        },
+        {
+            "id": "274549",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "一ヶ月",
+                    "furigana": "いっかげつ"
+                }
+            ],
+            "back": [
+                "one month"
+            ]
+        },
+        {
+            "id": "120055",
+            "type": "noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "人事",
+                    "furigana": "じんじ"
+                }
+            ],
+            "back": [
+                "personnel affairs; human affairs; human resources; HR"
+            ]
+        },
+        {
+            "id": "86235",
+            "type": "interjection (kandoushi)",
+            "front": [
+                "ようこそ"
+            ],
+            "back": [
+                "welcome!; nice to see you!"
+            ]
+        },
+        {
+            "id": "113282",
+            "type": "adverbial noun (fukushitekimeishi), noun (temporal) (jisoumeishi)",
+            "front": [
+                {
+                    "kanji": "昨年",
+                    "furigana": "さくねん"
+                }
+            ],
+            "back": [
+                "last year"
+            ]
+        },
+        {
+            "id": "130473",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "白書",
+                    "furigana": "はくしょ"
+                }
+            ],
+            "back": [
+                "white paper"
+            ]
+        },
+        {
+            "id": "124645",
+            "type": "'na' adjective, noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "大量",
+                    "furigana": "たいりょう"
+                }
+            ],
+            "back": [
+                "large quantity; massive (quantity); mass (e.g. mass production, mass transit, mass destruction)"
+            ]
+        },
+        {
+            "id": "99062",
+            "type": "noun, 'suru' verb, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "挨拶",
+                    "furigana": "あいさつ"
+                }
+            ],
+            "back": [
+                "greeting; greetings; salutation; salute; polite set phrase used when meeting or parting from somebody",
+                "polite set phrase used to express apology, sympathy, congratulations, etc."
+            ]
+        },
+        {
+            "id": "129585",
+            "type": "noun, 'suru' verb",
+            "front": [
+                {
+                    "kanji": "入国",
+                    "furigana": "にゅうこく"
+                }
+            ],
+            "back": [
+                "entry to a country"
+            ]
+        },
+        {
+            "id": "181246",
+            "type": "particle",
+            "front": [
+                "も"
+            ],
+            "back": [
+                "too; also; in addition; as well; (not) either (in a negative sentence)",
+                "both A and B; A as well as B; neither A nor B (in a negative sentence)"
+            ]
+        },
+        {
+            "id": "116817",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "十一",
+                    "furigana": "じゅういち"
+                }
+            ],
+            "back": [
+                "11; eleven",
+                "Hodgson's hawk-cuckoo (Cuculus fugax); Horsfield's hawk cuckoo"
+            ]
+        },
+        {
+            "id": "100020",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "一員",
+                    "furigana": "いちいん"
+                }
+            ],
+            "back": [
+                "person; member"
+            ]
+        },
+        {
+            "id": "104116",
+            "type": "noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "外見",
+                    "furigana": "がいけん"
+                }
+            ],
+            "back": [
+                "outward appearance"
+            ]
+        },
+        {
+            "id": "134568",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "法人",
+                    "furigana": "ほうじん"
+                }
+            ],
+            "back": [
+                "corporate body; corporation; (legal) person; (juridical) person"
+            ]
+        },
+        {
+            "id": "115056",
+            "type": "adverbial noun (fukushitekimeishi), noun (temporal) (jisoumeishi)",
+            "front": [
+                {
+                    "kanji": "次回",
+                    "furigana": "じかい"
+                }
+            ],
+            "back": [
+                "next time (occasion)"
+            ]
+        },
+        {
+            "id": "121156",
+            "type": "adverbial noun (fukushitekimeishi), noun (temporal) (jisoumeishi)",
+            "front": [
+                {
+                    "kanji": "生前",
+                    "furigana": "せいぜん"
+                }
+            ],
+            "back": [
+                "while alive; during one's lifetime"
+            ]
+        },
+        {
+            "id": "124112",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "体調",
+                    "furigana": "たいちょう"
+                }
+            ],
+            "back": [
+                "physical condition"
+            ]
+        },
+        {
+            "id": "181248",
+            "type": "particle",
+            "front": [
+                "や"
+            ],
+            "back": [
+                "such things as (non-exhaustive list related to a specific time and place); and ... and",
+                "the minute (that) ...; no sooner than ...; as soon as"
+            ]
+        },
+        {
+            "id": "110562",
+            "type": "noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "後方",
+                    "furigana": "こうほう"
+                }
+            ],
+            "back": [
+                "behind; in the rear; in back"
+            ]
+        },
+        {
+            "id": "120199",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "人名",
+                    "furigana": "じんめい"
+                }
+            ],
+            "back": [
+                "person's name"
+            ]
+        },
+        {
+            "id": "137481",
+            "type": "adverbial noun (fukushitekimeishi), noun (temporal) (jisoumeishi)",
+            "front": [
+                {
+                    "kanji": "翌日",
+                    "furigana": "よくじつ"
+                }
+            ],
+            "back": [
+                "next day"
+            ]
+        },
+        {
+            "id": "340310",
+            "type": "noun",
+            "front": [
+                "クラブ"
+            ],
+            "back": [
+                "club; fraternity; sorority; clubhouse"
+            ]
+        },
+        {
+            "id": "268461",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "朝食",
+                    "furigana": "ちょうしょく"
+                }
+            ],
+            "back": [
+                "breakfast"
+            ]
+        },
+        {
+            "id": "254623",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "天然水",
+                    "furigana": "てんねんすい"
+                }
+            ],
+            "back": [
+                "natural water; untreated water; spring water"
+            ]
+        },
+        {
+            "id": "236955",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "三年生",
+                    "furigana": "さんねんせい"
+                }
+            ],
+            "back": [
+                "third-year student"
+            ]
+        },
+        {
+            "id": "113074",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "裁判官",
+                    "furigana": "さいばんかん"
+                }
+            ],
+            "back": [
+                "judge"
+            ]
+        },
+        {
+            "id": "135903",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "娘",
+                    "furigana": "むすめ"
+                },
+                "さん"
+            ],
+            "back": [
+                "daughter"
+            ]
+        },
+        {
+            "id": "136008",
+            "type": "expression, irregular verb 'suru'",
+            "front": [
+                {
+                    "kanji": "明",
+                    "furigana": "あき"
+                },
+                "らかにする"
+            ],
+            "back": [
+                "to make clear; to clarify; to disclose; to make public"
+            ]
+        },
+        {
+            "id": "136009",
+            "type": "expression, 'ru' godan verb",
+            "front": [
+                {
+                    "kanji": "明",
+                    "furigana": "あき"
+                },
+                "らかになる"
+            ],
+            "back": [
+                "to become clear",
+                "to be made public"
+            ]
+        },
+        {
+            "id": "181041",
+            "type": "expression, 'i' adjective",
+            "front": [
+                "しかない"
+            ],
+            "back": [
+                "have no choice",
+                "there is nothing but"
+            ]
+        },
+        {
+            "id": "173872",
+            "type": "expression",
+            "front": [
+                "このぐらい"
+            ],
+            "back": [
+                "to this extent"
+            ]
+        },
+        {
+            "id": "95952",
+            "type": "noun",
+            "front": [
+                "プロジェクト"
+            ],
+            "back": [
+                "project"
+            ]
+        },
+        {
+            "id": "102720",
+            "type": "noun, adverb",
+            "front": [
+                {
+                    "kanji": "何度",
+                    "furigana": "なんど"
+                }
+            ],
+            "back": [
+                "how many times",
+                "how many degrees (temperature, angle, etc.)"
+            ]
+        },
+        {
+            "id": "123203",
+            "type": "adverbial noun (fukushitekimeishi), noun (temporal) (jisoumeishi)",
+            "front": [
+                {
+                    "kanji": "早朝",
+                    "furigana": "そうちょう"
+                }
+            ],
+            "back": [
+                "early morning"
+            ]
+        },
+        {
+            "id": "327560",
+            "type": "expression, irregular 'ru' godan verb",
+            "front": [
+                "ことがある"
+            ],
+            "back": [
+                "(something) has occurred; to have done (something); such a thing happened",
+                "(something) happens on occasions; there are times when"
+            ]
+        },
+        {
+            "id": "140495",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "十四",
+                    "furigana": "じゅうよん"
+                }
+            ],
+            "back": [
+                "14; fourteen"
+            ]
+        },
+        {
+            "id": "135806",
+            "type": "'na' adjective, noun",
+            "front": [
+                {
+                    "kanji": "無人",
+                    "furigana": "むじん"
+                }
+            ],
+            "back": [
+                "lack of help",
+                "unmanned; uninhabited"
+            ]
+        },
+        {
+            "id": "107865",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "近畿",
+                    "furigana": "きんき"
+                }
+            ],
+            "back": [
+                "Kinki (region around Osaka, Kyoto, Nara)"
+            ]
+        },
+        {
+            "id": "103919",
+            "type": "'no' adjective",
+            "front": [
+                {
+                    "kanji": "海上",
+                    "furigana": "かいじょう"
+                }
+            ],
+            "back": [
+                "(by, at, on) sea; maritime; marine"
+            ]
+        },
+        {
+            "id": "118117",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "小学",
+                    "furigana": "しょうがく"
+                }
+            ],
+            "back": [
+                "elementary school; primary school; grade school"
+            ]
+        },
+        {
+            "id": "259481",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "印刷物",
+                    "furigana": "いんさつぶつ"
+                }
+            ],
+            "back": [
+                "printed matter"
+            ]
+        },
+        {
+            "id": "181255",
+            "type": "particle",
+            "front": [
+                "ば"
+            ],
+            "back": [
+                "if ... then; when",
+                "and"
+            ]
+        },
+        {
+            "id": "112841",
+            "type": "'na' adjective, noun",
+            "front": [
+                {
+                    "kanji": "最悪",
+                    "furigana": "さいあく"
+                }
+            ],
+            "back": [
+                "the worst"
+            ]
+        },
+        {
+            "id": "140262",
+            "type": "noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "外側",
+                    "furigana": "そとがわ"
+                }
+            ],
+            "back": [
+                "exterior; outside; outer; external; lateral"
+            ]
+        },
+        {
+            "id": "135117",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "本店",
+                    "furigana": "ほんてん"
+                }
+            ],
+            "back": [
+                "head office; flagship store; main store",
+                "this store"
+            ]
+        },
+        {
+            "id": "365983",
+            "type": "noun",
+            "front": [
+                "お",
+                {
+                    "kanji": "店",
+                    "furigana": "みせ"
+                }
+            ],
+            "back": [
+                "store; shop; establishment; restaurant"
+            ]
+        },
+        {
+            "id": "87502",
+            "type": "noun, 'no' adjective",
+            "front": [
+                "エアコン"
+            ],
+            "back": [
+                "air-conditioner",
+                "air-conditioning"
+            ]
+        },
+        {
+            "id": "178801",
+            "type": "interjection (kandoushi)",
+            "front": [
+                "ううん"
+            ],
+            "back": [
+                "no",
+                "er, well, ..."
+            ]
+        },
+        {
+            "id": "117573",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "順位",
+                    "furigana": "じゅんい"
+                }
+            ],
+            "back": [
+                "order; rank; position (e.g. in a race); precedence"
+            ]
+        },
+        {
+            "id": "326556",
+            "type": "expression",
+            "front": [
+                "これこそ"
+            ],
+            "back": [
+                "this"
+            ]
+        },
+        {
+            "id": "354091",
+            "type": "expression, irregular verb 'suru'",
+            "front": [
+                "ことにする"
+            ],
+            "back": [
+                "to decide to",
+                "to pretend that"
+            ]
+        },
+        {
+            "id": "129887",
+            "type": "adverbial noun (fukushitekimeishi), noun (temporal) (jisoumeishi)",
+            "front": [
+                {
+                    "kanji": "年末",
+                    "furigana": "ねんまつ"
+                }
+            ],
+            "back": [
+                "end-of-year"
+            ]
+        },
+        {
+            "id": "326776",
+            "type": "particle",
+            "front": [
+                "まま"
+            ],
+            "back": [
+                "as it is; as one likes; because; as",
+                "condition; state"
+            ]
+        },
+        {
+            "id": "116189",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "手足",
+                    "furigana": "てあし"
+                }
+            ],
+            "back": [
+                "one's hands and feet; limbs"
+            ]
+        },
+        {
+            "id": "267082",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "折",
+                    "furigana": "おり"
+                }
+            ],
+            "back": [
+                "opportunity; chance; occasion; time",
+                "fold; pleat; crease"
+            ]
+        },
+        {
+            "id": "310151",
+            "type": "noun",
+            "front": [
+                "お",
+                {
+                    "kanji": "正月",
+                    "furigana": "しょうがつ"
+                }
+            ],
+            "back": [
+                "New Year (esp. first three or fifteen days)",
+                "the first month of the year; January"
+            ]
+        },
+        {
+            "id": "260825",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "割引券",
+                    "furigana": "わりびきけん"
+                }
+            ],
+            "back": [
+                "discount coupon or ticket"
+            ]
+        },
+        {
+            "id": "327402",
+            "type": "adverbial noun (fukushitekimeishi)",
+            "front": [
+                "そもそも"
+            ],
+            "back": [
+                "in the first place; to begin with; from the start; originally; ab initio",
+                "... the heck (e.g. \"what the heck?\"); ... in the world (e.g. \"why in the world?\"); ... on earth (e.g. \"who on earth?\")"
+            ]
+        },
+        {
+            "id": "137723",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "理事",
+                    "furigana": "りじ"
+                }
+            ],
+            "back": [
+                "director; board of directors"
+            ]
+        },
+        {
+            "id": "101439",
+            "type": "noun, 'suru' verb",
+            "front": [
+                {
+                    "kanji": "円高",
+                    "furigana": "えんだか"
+                }
+            ],
+            "back": [
+                "appreciation of the yen; strong yen; strengthening of the yen; high-valued yen; exchange in favor of the yen (favour)"
+            ]
+        },
+        {
+            "id": "103517",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "画像",
+                    "furigana": "がぞう"
+                }
+            ],
+            "back": [
+                "image; picture; portrait"
+            ]
+        },
+        {
+            "id": "140347",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "研究所",
+                    "furigana": "けんきゅうしょ"
+                }
+            ],
+            "back": [
+                "research establishment; research institute; laboratory"
+            ]
+        },
+        {
+            "id": "111698",
+            "type": "noun, 'suru' verb",
+            "front": [
+                {
+                    "kanji": "行使",
+                    "furigana": "こうし"
+                }
+            ],
+            "back": [
+                "use; exercise (of one's right, authority, power, etc.)"
+            ]
+        },
+        {
+            "id": "117421",
+            "type": "noun, 'suru' verb",
+            "front": [
+                {
+                    "kanji": "出力",
+                    "furigana": "しゅつりょく"
+                }
+            ],
+            "back": [
+                "output (electrical, signal, etc.)"
+            ]
+        },
+        {
+            "id": "274592",
+            "type": "adverb",
+            "front": [
+                {
+                    "kanji": "今",
+                    "furigana": "いま"
+                },
+                "まで"
+            ],
+            "back": [
+                "until now; so far; up to the present"
+            ]
+        },
+        {
+            "id": "186764",
+            "type": "particle",
+            "front": [
+                "って"
+            ],
+            "back": [
+                "casual quoting particle",
+                "indicates supposition; if ... then"
+            ]
+        },
+        {
+            "id": "273787",
+            "type": "noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "主人",
+                    "furigana": "しゅじん"
+                }
+            ],
+            "back": [
+                "head (of a household); proprietor (of a store); proprietress; landlord; landlady",
+                "one's husband"
+            ]
+        },
+        {
+            "id": "135082",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "本書",
+                    "furigana": "ほんしょ"
+                }
+            ],
+            "back": [
+                "text; script; this book"
+            ]
+        },
+        {
+            "id": "135040",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "本屋",
+                    "furigana": "ほんや"
+                }
+            ],
+            "back": [
+                "bookstore; bookshop",
+                "publisher"
+            ]
+        },
+        {
+            "id": "111645",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "航空券",
+                    "furigana": "こうくうけん"
+                }
+            ],
+            "back": [
+                "airline ticket; plane ticket; air ticket"
+            ]
+        },
+        {
+            "id": "121121",
+            "type": "adverbial noun (fukushitekimeishi), noun (temporal) (jisoumeishi)",
+            "front": [
+                {
+                    "kanji": "生涯",
+                    "furigana": "しょうがい"
+                }
+            ],
+            "back": [
+                "one's lifetime (i.e. one's existence until death); one's career"
+            ]
+        },
+        {
+            "id": "140433",
+            "type": "noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "左側",
+                    "furigana": "ひだりがわ"
+                }
+            ],
+            "back": [
+                "left; left (hand) side"
+            ]
+        },
+        {
+            "id": "110507",
+            "type": "noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "後期",
+                    "furigana": "こうき"
+                }
+            ],
+            "back": [
+                "latter period; second half; late stage; third trimester; second semester"
+            ]
+        },
+        {
+            "id": "114696",
+            "type": "noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "資本主義",
+                    "furigana": "しほんしゅぎ"
+                }
+            ],
+            "back": [
+                "capitalism"
+            ]
+        },
+        {
+            "id": "125265",
+            "type": "noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "地面",
+                    "furigana": "じめん"
+                }
+            ],
+            "back": [
+                "ground; earth's surface"
+            ]
+        },
+        {
+            "id": "116826",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "十九",
+                    "furigana": "じゅうきゅう"
+                }
+            ],
+            "back": [
+                "19; nineteen"
+            ]
+        },
+        {
+            "id": "140166",
+            "type": "noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "右側",
+                    "furigana": "みぎがわ"
+                }
+            ],
+            "back": [
+                "right side; right hand"
+            ]
+        },
+        {
+            "id": "138076",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "両者",
+                    "furigana": "りょうしゃ"
+                }
+            ],
+            "back": [
+                "pair; the two; both persons; both things"
+            ]
+        },
+        {
+            "id": "181259",
+            "type": "particle",
+            "front": [
+                "ね"
+            ],
+            "back": [
+                "indicates emphasis, agreement, request for confirmation, etc.; is it so",
+                "hey; come on; listen"
+            ]
+        },
+        {
+            "id": "125620",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "中日",
+                    "furigana": "ちゅうにち"
+                }
+            ],
+            "back": [
+                "China and Japan",
+                "the middle day"
+            ]
+        },
+        {
+            "id": "126372",
+            "type": "noun (suffix)",
+            "front": [
+                {
+                    "kanji": "通",
+                    "furigana": "どお"
+                },
+                "り"
+            ],
+            "back": [
+                "in accordance with; following",
+                "roughly; about"
+            ]
+        },
+        {
+            "id": "140710",
+            "type": "noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "弟子",
+                    "furigana": "でし"
+                }
+            ],
+            "back": [
+                "pupil; disciple; adherent; follower; apprentice; young person; teacher's student-helper"
+            ]
+        },
+        {
+            "id": "111452",
+            "type": "noun, 'suru' verb",
+            "front": [
+                {
+                    "kanji": "更新",
+                    "furigana": "こうしん"
+                }
+            ],
+            "back": [
+                "renewal; update; innovation; improvement"
+            ]
+        },
+        {
+            "id": "122949",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "組長",
+                    "furigana": "くみちょう"
+                }
+            ],
+            "back": [
+                "boss (esp. yakuza); foreman"
+            ]
+        },
+        {
+            "id": "115143",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "自",
+                    "furigana": "みずか"
+                },
+                "ら"
+            ],
+            "back": [
+                "oneself",
+                "for one's self; personally"
+            ]
+        },
+        {
+            "id": "124585",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "大地",
+                    "furigana": "だいち"
+                }
+            ],
+            "back": [
+                "ground; earth; the solid earth; the (vast) land"
+            ]
+        },
+        {
+            "id": "86650",
+            "type": "noun, 'no' adjective",
+            "front": [
+                "アニメ"
+            ],
+            "back": [
+                "animated film; animated cartoon; anime (when referring to Japanese cartoons)",
+                "animation"
+            ]
+        },
+        {
+            "id": "103680",
+            "type": "noun, 'suru' verb",
+            "front": [
+                {
+                    "kanji": "解消",
+                    "furigana": "かいしょう"
+                }
+            ],
+            "back": [
+                "cancellation; liquidation; resolution; reduction (e.g. of stress)"
+            ]
+        },
+        {
+            "id": "107892",
+            "type": "adverbial noun (fukushitekimeishi), noun (temporal) (jisoumeishi)",
+            "front": [
+                {
+                    "kanji": "近年",
+                    "furigana": "きんねん"
+                }
+            ],
+            "back": [
+                "recent years"
+            ]
+        },
+        {
+            "id": "143189",
+            "type": "counter",
+            "front": [
+                {
+                    "kanji": "羽",
+                    "furigana": "わ"
+                }
+            ],
+            "back": [
+                "counter for birds and rabbits"
+            ]
+        },
+        {
+            "id": "93208",
+            "type": "noun, 'no' adjective",
+            "front": [
+                "ドイツ",
+                {
+                    "kanji": "語",
+                    "furigana": "ご"
+                }
+            ],
+            "back": [
+                "German (language)"
+            ]
+        },
+        {
+            "id": "115491",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "実家",
+                    "furigana": "じっか"
+                }
+            ],
+            "back": [
+                "(one's parents') home"
+            ]
+        },
+        {
+            "id": "117955",
+            "type": "'na' adjective, noun",
+            "front": [
+                {
+                    "kanji": "勝手",
+                    "furigana": "かって"
+                }
+            ],
+            "back": [
+                "one's own convenience; one's way",
+                "convenience or ease of use; knowledge of how to use"
+            ]
+        },
+        {
+            "id": "125607",
+            "type": "noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "中東",
+                    "furigana": "ちゅうとう"
+                }
+            ],
+            "back": [
+                "Middle East"
+            ]
+        },
+        {
+            "id": "122225",
+            "type": "adverbial noun (fukushitekimeishi), noun (temporal) (jisoumeishi), 'no' adjective",
+            "front": [
+                {
+                    "kanji": "戦前",
+                    "furigana": "せんぜん"
+                }
+            ],
+            "back": [
+                "pre-war days; before the war"
+            ]
+        },
+        {
+            "id": "275374",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "悲",
+                    "furigana": "かな"
+                },
+                "しみ"
+            ],
+            "back": [
+                "sadness; sorrow; grief",
+                "affection; love"
+            ]
+        },
+        {
+            "id": "106241",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "疑",
+                    "furigana": "うたが"
+                },
+                "い"
+            ],
+            "back": [
+                "doubt; question; uncertainty; skepticism; scepticism; suspicion; distrust"
+            ]
+        },
+        {
+            "id": "114500",
+            "type": "noun, 'suru' verb",
+            "front": [
+                {
+                    "kanji": "死去",
+                    "furigana": "しきょ"
+                }
+            ],
+            "back": [
+                "death"
+            ]
+        },
+        {
+            "id": "310403",
+            "type": "interjection (kandoushi)",
+            "front": [
+                "そうです"
+            ],
+            "back": [
+                "that is so; that is right; it looks to me; I am of the impression",
+                "people say that (after plain verb, adj); it is said that; I hear that"
+            ]
+        },
+        {
+            "id": "118146",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "小山",
+                    "furigana": "こやま"
+                }
+            ],
+            "back": [
+                "hill; knoll"
+            ]
+        },
+        {
+            "id": "143049",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "陽",
+                    "furigana": "よう"
+                }
+            ],
+            "back": [
+                "yang (i.e. the positive)",
+                "the open (i.e. a visible place)"
+            ]
+        },
+        {
+            "id": "119990",
+            "type": "noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "人権",
+                    "furigana": "じんけん"
+                }
+            ],
+            "back": [
+                "human rights; civil liberties"
+            ]
+        },
+        {
+            "id": "337712",
+            "type": "'na' adjective",
+            "front": [
+                "だいきらい"
+            ],
+            "back": [
+                "detestable; abhorrent; loathsome"
+            ]
+        },
+        {
+            "id": "120440",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "水着",
+                    "furigana": "みずぎ"
+                }
+            ],
+            "back": [
+                "bathing suit; swimsuit; swimmers"
+            ]
+        },
+        {
+            "id": "132969",
+            "type": "'i' adjective",
+            "front": [
+                {
+                    "kanji": "幅広",
+                    "furigana": "はばひろ"
+                },
+                "い"
+            ],
+            "back": [
+                "extensive; wide; broad"
+            ]
+        },
+        {
+            "id": "330619",
+            "type": "noun",
+            "front": [
+                "あり"
+            ],
+            "back": [
+                "ant"
+            ]
+        },
+        {
+            "id": "121343",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "西洋人",
+                    "furigana": "せいようじん"
+                }
+            ],
+            "back": [
+                "Western people"
+            ]
+        },
+        {
+            "id": "110419",
+            "type": "adverbial noun (fukushitekimeishi), noun",
+            "front": [
+                {
+                    "kanji": "五分",
+                    "furigana": "ごぶ"
+                }
+            ],
+            "back": [
+                "half; 50%; tie; evenness",
+                "5 parts; 5%"
+            ]
+        },
+        {
+            "id": "115437",
+            "type": "noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "室内",
+                    "furigana": "しつない"
+                }
+            ],
+            "back": [
+                "indoor; inside the room"
+            ]
+        },
+        {
+            "id": "120738",
+            "type": "noun, 'suru' verb",
+            "front": [
+                {
+                    "kanji": "制覇",
+                    "furigana": "せいは"
+                }
+            ],
+            "back": [
+                "conquest; domination; mastery"
+            ]
+        },
+        {
+            "id": "116670",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "終電",
+                    "furigana": "しゅうでん"
+                }
+            ],
+            "back": [
+                "last train"
+            ]
+        },
+        {
+            "id": "128981",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "南",
+                    "furigana": "みなみ"
+                },
+                "アフリカ"
+            ],
+            "back": [
+                "South Africa"
+            ]
+        },
+        {
+            "id": "349141",
+            "type": "conjunction, particle",
+            "front": [
+                "くせに"
+            ],
+            "back": [
+                "and yet; though; when; in spite of"
+            ]
+        },
+        {
+            "id": "179365",
+            "type": "expression",
+            "front": [
+                "そうですね"
+            ],
+            "back": [
+                "that's so, isn't it"
+            ]
+        },
+        {
+            "id": "121372",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "青空",
+                    "furigana": "あおぞら"
+                }
+            ],
+            "back": [
+                "blue sky"
+            ]
+        },
+        {
+            "id": "129722",
+            "type": "noun, 'suru' verb",
+            "front": [
+                {
+                    "kanji": "認可",
+                    "furigana": "にんか"
+                }
+            ],
+            "back": [
+                "approval; license; licence; permission"
+            ]
+        },
+        {
+            "id": "133202",
+            "type": "noun, 'suru' verb",
+            "front": [
+                {
+                    "kanji": "分割",
+                    "furigana": "ぶんかつ"
+                }
+            ],
+            "back": [
+                "partition; division; separation; segmenting; splitting"
+            ]
+        },
+        {
+            "id": "147301",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "京都",
+                    "furigana": "きょうと"
+                }
+            ],
+            "back": [
+                "Kyoto"
+            ]
+        },
+        {
+            "id": "270675",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "仏教",
+                    "furigana": "ぶっきょう"
+                }
+            ],
+            "back": [
+                "Buddhism"
+            ]
+        },
+        {
+            "id": "134908",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "北京",
+                    "furigana": "ペキン"
+                }
+            ],
+            "back": [
+                "Beijing; Peking"
+            ]
+        },
+        {
+            "id": "114307",
+            "type": "noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "市立",
+                    "furigana": "しりつ"
+                }
+            ],
+            "back": [
+                "municipal; city"
+            ]
+        },
+        {
+            "id": "279944",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "一人暮",
+                    "furigana": "ひとりぐ"
+                },
+                "らし"
+            ],
+            "back": [
+                "a single life; a solitary life; living alone"
+            ]
+        },
+        {
+            "id": "365737",
+            "type": "",
+            "front": [
+                {
+                    "kanji": "四十代",
+                    "furigana": "よんじゅうだい"
+                }
+            ],
+            "back": [
+                "forties (age)\n\n          (click the word to view an additional 1 form, examples and links)"
+            ]
+        },
+        {
+            "id": "118577",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "上映",
+                    "furigana": "じょうえい"
+                }
+            ],
+            "back": [
+                "screening (a movie); showing",
+                "to screen a movie"
+            ]
+        },
+        {
+            "id": "111855",
+            "type": "noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "高山",
+                    "furigana": "こうざん"
+                }
+            ],
+            "back": [
+                "high mountain; alpine"
+            ]
+        },
+        {
+            "id": "142758",
+            "type": "'na' adjective, noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "不要",
+                    "furigana": "ふよう"
+                }
+            ],
+            "back": [
+                "unnecessary; unneeded"
+            ]
+        },
+        {
+            "id": "130191",
+            "type": "noun, 'suru' verb",
+            "front": [
+                {
+                    "kanji": "排気",
+                    "furigana": "はいき"
+                }
+            ],
+            "back": [
+                "exhaust; ventilation"
+            ]
+        },
+        {
+            "id": "261797",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "京阪",
+                    "furigana": "けいはん"
+                }
+            ],
+            "back": [
+                "Kyoto-Osaka"
+            ]
+        },
+        {
+            "id": "128217",
+            "type": "adverbial noun (fukushitekimeishi), 'suru' verb, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "同期",
+                    "furigana": "どうき"
+                }
+            ],
+            "back": [
+                "contemporary; corresponding period; same period; same class",
+                "employee who joined the company in the same year as oneself; classmate; one's contemporary"
+            ]
+        },
+        {
+            "id": "263849",
+            "type": "suffix",
+            "front": [
+                {
+                    "kanji": "歳",
+                    "furigana": "さい"
+                }
+            ],
+            "back": [
+                "-years-old",
+                "ability; gift; talent; aptitude; genius"
+            ]
+        },
+        {
+            "id": "272354",
+            "type": "'na' adjective, noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "緑色",
+                    "furigana": "みどりいろ"
+                }
+            ],
+            "back": [
+                "green; emerald green; green color of new foliage; verdure"
+            ]
+        },
+        {
+            "id": "125553",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "中小",
+                    "furigana": "ちゅうしょう"
+                }
+            ],
+            "back": [
+                "small to medium"
+            ]
+        },
+        {
+            "id": "104411",
+            "type": "noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "学園",
+                    "furigana": "がくえん"
+                }
+            ],
+            "back": [
+                "academy; campus"
+            ]
+        },
+        {
+            "id": "268309",
+            "type": "ichidan verb",
+            "front": [
+                {
+                    "kanji": "着替",
+                    "furigana": "きが"
+                },
+                "える"
+            ],
+            "back": [
+                "to change one's clothes"
+            ]
+        },
+        {
+            "id": "270294",
+            "type": "noun, 'suru' verb",
+            "front": [
+                {
+                    "kanji": "表示",
+                    "furigana": "ひょうじ"
+                }
+            ],
+            "back": [
+                "indication; expression; showing; manifestation; demonstration",
+                "display; displaying"
+            ]
+        },
+        {
+            "id": "264735",
+            "type": "adverbial noun (fukushitekimeishi)",
+            "front": [
+                {
+                    "kanji": "七月",
+                    "furigana": "しちがつ"
+                }
+            ],
+            "back": [
+                "July"
+            ]
+        },
+        {
+            "id": "140831",
+            "type": "adverbial noun (fukushitekimeishi), noun (temporal) (jisoumeishi)",
+            "front": [
+                {
+                    "kanji": "半月",
+                    "furigana": "はんつき"
+                }
+            ],
+            "back": [
+                "half-moon",
+                "half month"
+            ]
+        },
+        {
+            "id": "124103",
+            "type": "noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "体質",
+                    "furigana": "たいしつ"
+                }
+            ],
+            "back": [
+                "constitution (physical); genetic make-up; predisposition (to disease)",
+                "structure (e.g. of an organization); innate characteristics; make-up; nature; culture"
+            ]
+        },
+        {
+            "id": "113544",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "三人",
+                    "furigana": "さんにん"
+                }
+            ],
+            "back": [
+                "three people"
+            ]
+        },
+        {
+            "id": "120421",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "水上",
+                    "furigana": "すいじょう"
+                }
+            ],
+            "back": [
+                "aquatic; on the water"
+            ]
+        },
+        {
+            "id": "115078",
+            "type": "adverb",
+            "front": [
+                {
+                    "kanji": "次第",
+                    "furigana": "しだい"
+                },
+                "に"
+            ],
+            "back": [
+                "gradually (progress into a state)",
+                "in sequence; in order; in turn"
+            ]
+        },
+        {
+            "id": "104007",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "絵本",
+                    "furigana": "えほん"
+                }
+            ],
+            "back": [
+                "picture book"
+            ]
+        },
+        {
+            "id": "140473",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "七十",
+                    "furigana": "ななじゅう"
+                }
+            ],
+            "back": [
+                "seventy"
+            ]
+        },
+        {
+            "id": "107272",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "強",
+                    "furigana": "つよ"
+                },
+                "さ"
+            ],
+            "back": [
+                "strength; power"
+            ]
+        },
+        {
+            "id": "114286",
+            "type": "noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "市長",
+                    "furigana": "しちょう"
+                }
+            ],
+            "back": [
+                "mayor"
+            ]
+        },
+        {
+            "id": "117237",
+            "type": "noun, 'suru' verb",
+            "front": [
+                {
+                    "kanji": "出現",
+                    "furigana": "しゅつげん"
+                }
+            ],
+            "back": [
+                "appearance; arrival; make one's appearance"
+            ]
+        },
+        {
+            "id": "104147",
+            "type": "noun, 'suru' verb",
+            "front": [
+                {
+                    "kanji": "外食",
+                    "furigana": "がいしょく"
+                }
+            ],
+            "back": [
+                "eating out"
+            ]
+        },
+        {
+            "id": "145010",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "本土",
+                    "furigana": "ほんど"
+                }
+            ],
+            "back": [
+                "mainland; one's home country; the country proper"
+            ]
+        },
+        {
+            "id": "115043",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "時点",
+                    "furigana": "じてん"
+                }
+            ],
+            "back": [
+                "point in time; occasion"
+            ]
+        },
+        {
+            "id": "124534",
+            "type": "noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "大手",
+                    "furigana": "おおて"
+                }
+            ],
+            "back": [
+                "major company; big company",
+                "front castle gate"
+            ]
+        },
+        {
+            "id": "262900",
+            "type": "adverbial noun (fukushitekimeishi)",
+            "front": [
+                {
+                    "kanji": "五月",
+                    "furigana": "ごがつ"
+                }
+            ],
+            "back": [
+                "May"
+            ]
+        },
+        {
+            "id": "131714",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "百貨店",
+                    "furigana": "ひゃっかてん"
+                }
+            ],
+            "back": [
+                "(department) store; (department) stores"
+            ]
+        },
+        {
+            "id": "87030",
+            "type": "noun, 'suru' verb",
+            "front": [
+                "イメージ"
+            ],
+            "back": [
+                "(one's) image",
+                "(computer) image"
+            ]
+        },
+        {
+            "id": "116887",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "十六",
+                    "furigana": "じゅうろく"
+                }
+            ],
+            "back": [
+                "16; sixteen"
+            ]
+        },
+        {
+            "id": "179421",
+            "type": "expression, adverb",
+            "front": [
+                {
+                    "kanji": "中",
+                    "furigana": "なか"
+                },
+                "でも"
+            ],
+            "back": [
+                "among (other things); especially; particularly; inter alia; above all (else)"
+            ]
+        },
+        {
+            "id": "169294",
+            "type": "noun, noun (suffix)",
+            "front": [
+                {
+                    "kanji": "出",
+                    "furigana": "で"
+                }
+            ],
+            "back": [
+                "coming out; going out; outflow; efflux; rising (of the sun or moon)",
+                "attending (work); appearing (on stage); one's turn to go on"
+            ]
+        },
+        {
+            "id": "259282",
+            "type": "adverbial noun (fukushitekimeishi)",
+            "front": [
+                {
+                    "kanji": "一月",
+                    "furigana": "いちがつ"
+                }
+            ],
+            "back": [
+                "January"
+            ]
+        },
+        {
+            "id": "120567",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "数値",
+                    "furigana": "すうち"
+                }
+            ],
+            "back": [
+                "numerical value; numerics",
+                "reading (on a meter, etc.)"
+            ]
+        },
+        {
+            "id": "128335",
+            "type": "adverbial noun (fukushitekimeishi), noun (temporal) (jisoumeishi)",
+            "front": [
+                {
+                    "kanji": "同年",
+                    "furigana": "どうねん"
+                }
+            ],
+            "back": [
+                "that year; same year; same age"
+            ]
+        },
+        {
+            "id": "278165",
+            "type": "noun, 'suru' verb",
+            "front": [
+                {
+                    "kanji": "一周",
+                    "furigana": "いっしゅう"
+                }
+            ],
+            "back": [
+                "once around; a revolution; a lap; a turn; a round; one full year"
+            ]
+        },
+        {
+            "id": "115721",
+            "type": "noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "車内",
+                    "furigana": "しゃない"
+                }
+            ],
+            "back": [
+                "inside a train, car, etc."
+            ]
+        },
+        {
+            "id": "133750",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "米国",
+                    "furigana": "べいこく"
+                }
+            ],
+            "back": [
+                "America; USA"
+            ]
+        },
+        {
+            "id": "140328",
+            "type": "noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "金色",
+                    "furigana": "きんいろ"
+                }
+            ],
+            "back": [
+                "golden (colour, color)"
+            ]
+        },
+        {
+            "id": "263396",
+            "type": "'na' adjective",
+            "front": [
+                {
+                    "kanji": "広大",
+                    "furigana": "こうだい"
+                }
+            ],
+            "back": [
+                "huge; very large; vast; extensive; magnificent; grand"
+            ]
+        },
+        {
+            "id": "132949",
+            "type": "noun, 'suru' verb, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "復帰",
+                    "furigana": "ふっき"
+                }
+            ],
+            "back": [
+                "return; comeback; reinstatement",
+                "carriage return; CR"
+            ]
+        },
+        {
+            "id": "327860",
+            "type": "noun",
+            "front": [
+                "スウェーデン"
+            ],
+            "back": [
+                "Sweden"
+            ]
+        },
+        {
+            "id": "331375",
+            "type": "noun",
+            "front": [
+                "くり"
+            ],
+            "back": [
+                "Japanese chestnut (Castanea crenata)"
+            ]
+        },
+        {
+            "id": "104055",
+            "type": "noun, 'suru' verb",
+            "front": [
+                {
+                    "kanji": "開店",
+                    "furigana": "かいてん"
+                }
+            ],
+            "back": [
+                "opening (of a shop)"
+            ]
+        },
+        {
+            "id": "327342",
+            "type": "noun",
+            "front": [
+                "つばめ"
+            ],
+            "back": [
+                "swallow (bird of the Hirundinidae family); martin",
+                "barn swallow (Hirundo rustica)"
+            ]
+        },
+        {
+            "id": "269426",
+            "type": "noun (temporal) (jisoumeishi), adverbial noun (fukushitekimeishi)",
+            "front": [
+                {
+                    "kanji": "二月",
+                    "furigana": "にがつ"
+                }
+            ],
+            "back": [
+                "February",
+                "second month of the lunar calendar"
+            ]
+        },
+        {
+            "id": "85925",
+            "type": "expression",
+            "front": [
+                "に",
+                {
+                    "kanji": "関",
+                    "furigana": "かん"
+                },
+                "する"
+            ],
+            "back": [
+                "related to; in relation to"
+            ]
+        },
+        {
+            "id": "124327",
+            "type": "noun, 'suru' verb, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "代行",
+                    "furigana": "だいこう"
+                }
+            ],
+            "back": [
+                "acting as agent"
+            ]
+        },
+        {
+            "id": "116943",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "重",
+                    "furigana": "おも"
+                },
+                "さ"
+            ],
+            "back": [
+                "weight"
+            ]
+        },
+        {
+            "id": "140832",
+            "type": "adverbial noun (fukushitekimeishi), noun (temporal) (jisoumeishi)",
+            "front": [
+                {
+                    "kanji": "半日",
+                    "furigana": "はんにち"
+                }
+            ],
+            "back": [
+                "half day"
+            ]
+        },
+        {
+            "id": "280551",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "錠",
+                    "furigana": "じょう"
+                }
+            ],
+            "back": [
+                "lock; padlock",
+                "tablet; lozenge; pill"
+            ]
+        },
+        {
+            "id": "109155",
+            "type": "noun, noun or verb acting prenominally",
+            "front": [
+                {
+                    "kanji": "月間",
+                    "furigana": "げっかん"
+                }
+            ],
+            "back": [
+                "month-long period; (during) month"
+            ]
+        },
+        {
+            "id": "99813",
+            "type": "'na' adjective, noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "違法",
+                    "furigana": "いほう"
+                }
+            ],
+            "back": [
+                "illegal; illegality; invalid; unlawfulness"
+            ]
+        },
+        {
+            "id": "332238",
+            "type": "expression",
+            "front": [
+                "おかげで"
+            ],
+            "back": [
+                "thanks to ...; owing to ...; because of ..."
+            ]
+        },
+        {
+            "id": "100555",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "一本",
+                    "furigana": "いっぽん"
+                }
+            ],
+            "back": [
+                "one long cylindrical thing; one film, TV show, etc.; one goal, home run, etc.; one telephone call",
+                "one version"
+            ]
+        },
+        {
+            "id": "115694",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "社名",
+                    "furigana": "しゃめい"
+                }
+            ],
+            "back": [
+                "name of company"
+            ]
+        },
+        {
+            "id": "104048",
+            "type": "noun, 'suru' verb",
+            "front": [
+                {
+                    "kanji": "開設",
+                    "furigana": "かいせつ"
+                }
+            ],
+            "back": [
+                "establishment; opening"
+            ]
+        },
+        {
+            "id": "116859",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "十二",
+                    "furigana": "じゅうに"
+                }
+            ],
+            "back": [
+                "12; twelve"
+            ]
+        },
+        {
+            "id": "122198",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "川上",
+                    "furigana": "かわかみ"
+                }
+            ],
+            "back": [
+                "upper reaches of a river; upstream"
+            ]
+        },
+        {
+            "id": "119521",
+            "type": "adverbial noun (fukushitekimeishi), noun (temporal) (jisoumeishi)",
+            "front": [
+                {
+                    "kanji": "新年",
+                    "furigana": "しんねん"
+                }
+            ],
+            "back": [
+                "New Year"
+            ]
+        },
+        {
+            "id": "122459",
+            "type": "noun (temporal) (jisoumeishi), 'no' adjective",
+            "front": [
+                {
+                    "kanji": "前期",
+                    "furigana": "ぜんき"
+                }
+            ],
+            "back": [
+                "first term; first half-year; preceding period; early period"
+            ]
+        },
+        {
+            "id": "137731",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "理念",
+                    "furigana": "りねん"
+                }
+            ],
+            "back": [
+                "(Platonic) ideal (of how things ought to be, e.g. human rights); foundational principle; idea; conception (e.g. of the university); doctrine; ideology"
+            ]
+        },
+        {
+            "id": "124634",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "大名",
+                    "furigana": "だいみょう"
+                }
+            ],
+            "back": [
+                "daimyo (Japanese feudal lord); daimio"
+            ]
+        },
+        {
+            "id": "260155",
+            "type": "'su' godan verb, transitive verb",
+            "front": [
+                {
+                    "kanji": "下",
+                    "furigana": "くだ"
+                },
+                "す"
+            ],
+            "back": [
+                "to make a decision; to draw a conclusion",
+                "to judge; to hand down a verdict; to pass sentence"
+            ]
+        },
+        {
+            "id": "104149",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "外人",
+                    "furigana": "がいじん"
+                }
+            ],
+            "back": [
+                "foreigner (esp. one of European ancestry); gaijin",
+                "outsider"
+            ]
+        },
+        {
+            "id": "129592",
+            "type": "noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "入試",
+                    "furigana": "にゅうし"
+                }
+            ],
+            "back": [
+                "entrance examination"
+            ]
+        },
+        {
+            "id": "130303",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "媒体",
+                    "furigana": "ばいたい"
+                }
+            ],
+            "back": [
+                "media; medium"
+            ]
+        },
+        {
+            "id": "279262",
+            "type": "expression, noun",
+            "front": [
+                {
+                    "kanji": "我",
+                    "furigana": "わ"
+                },
+                "が",
+                {
+                    "kanji": "国",
+                    "furigana": "くに"
+                }
+            ],
+            "back": [
+                "our country; our land; one's own country"
+            ]
+        },
+        {
+            "id": "101147",
+            "type": "noun, 'suru' verb",
+            "front": [
+                {
+                    "kanji": "運行",
+                    "furigana": "うんこう"
+                }
+            ],
+            "back": [
+                "service (bus, train); operation",
+                "motion; revolution; movement"
+            ]
+        },
+        {
+            "id": "89953",
+            "type": "noun",
+            "front": [
+                "コンビニ"
+            ],
+            "back": [
+                "convenience store"
+            ]
+        },
+        {
+            "id": "339825",
+            "type": "noun",
+            "front": [
+                "か"
+            ],
+            "back": [
+                "addition; increase",
+                "Canada"
+            ]
+        },
+        {
+            "id": "120469",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "水面",
+                    "furigana": "すいめん"
+                }
+            ],
+            "back": [
+                "water's surface"
+            ]
+        },
+        {
+            "id": "126084",
+            "type": "adverbial noun (fukushitekimeishi), noun (temporal) (jisoumeishi)",
+            "front": [
+                {
+                    "kanji": "長時間",
+                    "furigana": "ちょうじかん"
+                }
+            ],
+            "back": [
+                "long period of time; long playing"
+            ]
+        },
+        {
+            "id": "136931",
+            "type": "adverb, noun, 'suru' verb",
+            "front": [
+                {
+                    "kanji": "由来",
+                    "furigana": "ゆらい"
+                }
+            ],
+            "back": [
+                "origin; source; history; derivation; reason; destiny"
+            ]
+        },
+        {
+            "id": "113881",
+            "type": "noun, prefix, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "暫定",
+                    "furigana": "ざんてい"
+                }
+            ],
+            "back": [
+                "tentative; temporary"
+            ]
+        },
+        {
+            "id": "241189",
+            "type": "auxiliary verb",
+            "front": [
+                "う"
+            ],
+            "back": [
+                "indicates speculation",
+                "indicates will"
+            ]
+        },
+        {
+            "id": "337839",
+            "type": "suffix",
+            "front": [
+                "たち"
+            ],
+            "back": [
+                "pluralizing suffix (esp. for people and animals; formerly honorific)"
+            ]
+        },
+        {
+            "id": "107968",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "金利",
+                    "furigana": "きんり"
+                }
+            ],
+            "back": [
+                "interest rates"
+            ]
+        },
+        {
+            "id": "262055",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "金持",
+                    "furigana": "かねも"
+                },
+                "ち"
+            ],
+            "back": [
+                "rich person"
+            ]
+        },
+        {
+            "id": "120439",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "水族館",
+                    "furigana": "すいぞくかん"
+                }
+            ],
+            "back": [
+                "aquarium"
+            ]
+        },
+        {
+            "id": "268822",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "店舗",
+                    "furigana": "てんぽ"
+                }
+            ],
+            "back": [
+                "shop; store"
+            ]
+        },
+        {
+            "id": "112562",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "左手",
+                    "furigana": "ひだりて"
+                }
+            ],
+            "back": [
+                "left hand",
+                "left-hand side; left-hand direction; (on) the left"
+            ]
+        },
+        {
+            "id": "258090",
+            "type": "noun",
+            "front": [
+                "お",
+                {
+                    "kanji": "客様",
+                    "furigana": "きゃくさま"
+                }
+            ],
+            "back": [
+                "guest; visitor; customer"
+            ]
+        },
+        {
+            "id": "268371",
+            "type": "adverb",
+            "front": [
+                {
+                    "kanji": "仲良",
+                    "furigana": "なかよ"
+                },
+                "く"
+            ],
+            "back": [
+                "on good terms with; on cordial terms with; getting along well with; happily; peacefully",
+                "to make friends with; to be good friends with; to get along with"
+            ]
+        },
+        {
+            "id": "265859",
+            "type": "noun, noun (suffix)",
+            "front": [
+                {
+                    "kanji": "上",
+                    "furigana": "あ"
+                },
+                "げ"
+            ],
+            "back": [
+                "tuck (e.g. in a dress)",
+                "rise (e.g. in price)"
+            ]
+        },
+        {
+            "id": "109481",
+            "type": "'no' adjective, noun",
+            "front": [
+                {
+                    "kanji": "県立",
+                    "furigana": "けんりつ"
+                }
+            ],
+            "back": [
+                "prefectural (institution)"
+            ]
+        },
+        {
+            "id": "345779",
+            "type": "numeric",
+            "front": [
+                "りん"
+            ],
+            "back": [
+                "one-hundredth; 0.3 mm (one-hundredth of a sun); 0.1 percent (one-hundredth of a wari); 0.0375 grams (one-hundredth of a monme)",
+                "old monetary unit (0.001 yen)"
+            ]
+        },
+        {
+            "id": "117275",
+            "type": "noun, 'suru' verb",
+            "front": [
+                {
+                    "kanji": "出場",
+                    "furigana": "しゅつじょう"
+                }
+            ],
+            "back": [
+                "(stage) appearance; performance",
+                "participation (e.g. in a tournament)"
+            ]
+        },
+        {
+            "id": "143530",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "何十",
+                    "furigana": "なんじゅう"
+                }
+            ],
+            "back": [
+                "several tens"
+            ]
+        },
+        {
+            "id": "116829",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "十五",
+                    "furigana": "じゅうご"
+                }
+            ],
+            "back": [
+                "15; fifteen"
+            ]
+        },
+        {
+            "id": "128226",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "同級生",
+                    "furigana": "どうきゅうせい"
+                }
+            ],
+            "back": [
+                "classmate; classmates"
+            ]
+        },
+        {
+            "id": "112895",
+            "type": "'na' adjective, noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "最適",
+                    "furigana": "さいてき"
+                }
+            ],
+            "back": [
+                "optimum; the most suitable"
+            ]
+        },
+        {
+            "id": "339833",
+            "type": "noun, 'no' adjective",
+            "front": [
+                "うち"
+            ],
+            "back": [
+                "house; home (one's own)",
+                "(one's) family; (one's) household"
+            ]
+        },
+        {
+            "id": "108167",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "空間",
+                    "furigana": "くうかん"
+                }
+            ],
+            "back": [
+                "space; room; airspace"
+            ]
+        },
+        {
+            "id": "116719",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "週刊",
+                    "furigana": "しゅうかん"
+                }
+            ],
+            "back": [
+                "published weekly"
+            ]
+        },
+        {
+            "id": "116831",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "十三",
+                    "furigana": "じゅうさん"
+                }
+            ],
+            "back": [
+                "13; thirteen"
+            ]
+        },
+        {
+            "id": "127926",
+            "type": "noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "当局",
+                    "furigana": "とうきょく"
+                }
+            ],
+            "back": [
+                "authorities",
+                "this office"
+            ]
+        },
+        {
+            "id": "91222",
+            "type": "noun",
+            "front": [
+                "スーパー"
+            ],
+            "back": [
+                "super",
+                "supermarket"
+            ]
+        },
+        {
+            "id": "137055",
+            "type": "noun, 'suru' verb",
+            "front": [
+                {
+                    "kanji": "予選",
+                    "furigana": "よせん"
+                }
+            ],
+            "back": [
+                "preliminary contest; qualifier; primary; nomination"
+            ]
+        },
+        {
+            "id": "340012",
+            "type": "noun",
+            "front": [
+                "かも"
+            ],
+            "back": [
+                "duck",
+                "easy mark; sucker; sitting duck"
+            ]
+        },
+        {
+            "id": "137826",
+            "type": "noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "陸上",
+                    "furigana": "りくじょう"
+                }
+            ],
+            "back": [
+                "land; ground; shore",
+                "track-and-field events"
+            ]
+        },
+        {
+            "id": "272071",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "欲",
+                    "furigana": "よく"
+                }
+            ],
+            "back": [
+                "greed; craving; desire; avarice; wants"
+            ]
+        },
+        {
+            "id": "276667",
+            "type": "noun, 'suru' verb",
+            "front": [
+                {
+                    "kanji": "制御",
+                    "furigana": "せいぎょ"
+                }
+            ],
+            "back": [
+                "control; governing; checking; suppression; repression; restraint; mastery; management"
+            ]
+        },
+        {
+            "id": "112709",
+            "type": "noun, 'suru' verb",
+            "front": [
+                {
+                    "kanji": "再開",
+                    "furigana": "さいかい"
+                }
+            ],
+            "back": [
+                "reopening; resumption; restarting"
+            ]
+        },
+        {
+            "id": "289191",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "三十",
+                    "furigana": "さんじゅう"
+                }
+            ],
+            "back": [
+                "30; thirty"
+            ]
+        },
+        {
+            "id": "280120",
+            "type": "'na' adjective, noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "小型",
+                    "furigana": "こがた"
+                }
+            ],
+            "back": [
+                "small size; tiny"
+            ]
+        },
+        {
+            "id": "113567",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "三男",
+                    "furigana": "さんなん"
+                }
+            ],
+            "back": [
+                "three sons",
+                "third son"
+            ]
+        },
+        {
+            "id": "130337",
+            "type": "noun, 'suru' verb",
+            "front": [
+                {
+                    "kanji": "買収",
+                    "furigana": "ばいしゅう"
+                }
+            ],
+            "back": [
+                "acquisition (esp. corporate); buy-out; takeover; purchase",
+                "corruption; bribery"
+            ]
+        },
+        {
+            "id": "122261",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "扇",
+                    "furigana": "おうぎ"
+                }
+            ],
+            "back": [
+                "folding fan"
+            ]
+        },
+        {
+            "id": "278847",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "目覚",
+                    "furigana": "めざ"
+                },
+                "まし",
+                {
+                    "kanji": "時計",
+                    "furigana": "とけい"
+                }
+            ],
+            "back": [
+                "alarm clock"
+            ]
+        },
+        {
+            "id": "157478",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "女学校",
+                    "furigana": "じょがっこう"
+                }
+            ],
+            "back": [
+                "girl's school"
+            ]
+        },
+        {
+            "id": "103219",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "火力",
+                    "furigana": "かりょく"
+                }
+            ],
+            "back": [
+                "heating power; steam power",
+                "firepower"
+            ]
+        },
+        {
+            "id": "140155",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "一年",
+                    "furigana": "いちねん"
+                }
+            ],
+            "back": [
+                "one year; some time ago"
+            ]
+        },
+        {
+            "id": "118100",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "将軍",
+                    "furigana": "しょうぐん"
+                }
+            ],
+            "back": [
+                "general; shogun"
+            ]
+        },
+        {
+            "id": "129039",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "南部",
+                    "furigana": "なんぶ"
+                }
+            ],
+            "back": [
+                "southern part; the south (of a region)"
+            ]
+        },
+        {
+            "id": "115304",
+            "type": "'suru' verb",
+            "front": [
+                {
+                    "kanji": "辞任",
+                    "furigana": "じにん"
+                }
+            ],
+            "back": [
+                "to resign",
+                "resignation"
+            ]
+        },
+        {
+            "id": "116875",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "十八",
+                    "furigana": "じゅうはち"
+                }
+            ],
+            "back": [
+                "18; eighteen"
+            ]
+        },
+        {
+            "id": "126641",
+            "type": "noun, 'suru' verb",
+            "front": [
+                {
+                    "kanji": "定着",
+                    "furigana": "ていちゃく"
+                }
+            ],
+            "back": [
+                "taking hold; getting attached; becoming established; becoming entrenched; establishing"
+            ]
+        },
+        {
+            "id": "134352",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "母子",
+                    "furigana": "ぼし"
+                }
+            ],
+            "back": [
+                "mother and child"
+            ]
+        },
+        {
+            "id": "341092",
+            "type": "noun",
+            "front": [
+                "だし"
+            ],
+            "back": [
+                "dashi (Japanese soup stock made from fish and kelp)",
+                "pretext; excuse; pretense (pretence); dupe; front man"
+            ]
+        },
+        {
+            "id": "346697",
+            "type": "adverb",
+            "front": [
+                "いかん"
+            ],
+            "back": [
+                "how; in what way",
+                "circumstances"
+            ]
+        },
+        {
+            "id": "124940",
+            "type": "noun, 'suru' verb",
+            "front": [
+                {
+                    "kanji": "担任",
+                    "furigana": "たんにん"
+                }
+            ],
+            "back": [
+                "in charge (of something)",
+                "class teacher; homeroom teacher; form teacher"
+            ]
+        },
+        {
+            "id": "134946",
+            "type": "noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "北部",
+                    "furigana": "ほくぶ"
+                }
+            ],
+            "back": [
+                "northern part; the north (of a region)"
+            ]
+        },
+        {
+            "id": "100084",
+            "type": "adverb",
+            "front": [
+                {
+                    "kanji": "一気",
+                    "furigana": "いっき"
+                },
+                "に"
+            ],
+            "back": [
+                "in one go; in one gulp; in one breath; without stopping; without pausing; without resting; in one sitting; at a stretch; all at once",
+                "immediately; instantly; right away; straight away; straightaway"
+            ]
+        },
+        {
+            "id": "337808",
+            "type": "noun",
+            "front": [
+                "たか"
+            ],
+            "back": [
+                "falcon (Falconidae spp.); hawk"
+            ]
+        },
+        {
+            "id": "137708",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "履歴書",
+                    "furigana": "りれきしょ"
+                }
+            ],
+            "back": [
+                "personal history; curriculum vitae; resume"
+            ]
+        },
+        {
+            "id": "133442",
+            "type": "'su' godan verb, transitive verb",
+            "front": [
+                {
+                    "kanji": "聞",
+                    "furigana": "き"
+                },
+                "かす"
+            ],
+            "back": [
+                "to inform about; to read to; to sing for"
+            ]
+        },
+        {
+            "id": "140787",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "日数",
+                    "furigana": "にっすう"
+                }
+            ],
+            "back": [
+                "a number of days"
+            ]
+        },
+        {
+            "id": "122821",
+            "type": "noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "全力",
+                    "furigana": "ぜんりょく"
+                }
+            ],
+            "back": [
+                "all one's power; whole energy"
+            ]
+        },
+        {
+            "id": "108719",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "系列",
+                    "furigana": "けいれつ"
+                }
+            ],
+            "back": [
+                "series; sequence; system; order of succession",
+                "keiretsu (conglomeration of businesses linked by cross-shareholdings)"
+            ]
+        },
+        {
+            "id": "264346",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "姉",
+                    "furigana": "ねえ"
+                },
+                "さん"
+            ],
+            "back": [
+                "elder sister",
+                "(vocative) young lady"
+            ]
+        },
+        {
+            "id": "104652",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "株主",
+                    "furigana": "かぶぬし"
+                }
+            ],
+            "back": [
+                "shareholder; stockholder"
+            ]
+        },
+        {
+            "id": "177031",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "中高",
+                    "furigana": "ちゅうこう"
+                }
+            ],
+            "back": [
+                "middle and high school",
+                "medium and high (level)"
+            ]
+        },
+        {
+            "id": "270728",
+            "type": "noun, noun (suffix)",
+            "front": [
+                {
+                    "kanji": "分",
+                    "furigana": "わ"
+                },
+                "け"
+            ],
+            "back": [
+                "sharing; division",
+                "draw; tie"
+            ]
+        },
+        {
+            "id": "125923",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "朝刊",
+                    "furigana": "ちょうかん"
+                }
+            ],
+            "back": [
+                "morning newspaper"
+            ]
+        },
+        {
+            "id": "103922",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "海水",
+                    "furigana": "かいすい"
+                }
+            ],
+            "back": [
+                "ocean water"
+            ]
+        },
+        {
+            "id": "107188",
+            "type": "noun, 'suru' verb, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "共有",
+                    "furigana": "きょうゆう"
+                }
+            ],
+            "back": [
+                "share; joint ownership; co-ownership"
+            ]
+        },
+        {
+            "id": "133227",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "分校",
+                    "furigana": "ぶんこう"
+                }
+            ],
+            "back": [
+                "branch school"
+            ]
+        },
+        {
+            "id": "102080",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "沖縄",
+                    "furigana": "おきなわ"
+                }
+            ],
+            "back": [
+                "Okinawa (prefecture); region comprising most of Japan's southwestern archipelago (esp. Okinawa Island)",
+                "Okinawa (city)"
+            ]
+        },
+        {
+            "id": "265832",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "証券",
+                    "furigana": "しょうけん"
+                }
+            ],
+            "back": [
+                "securities; bonds; certificates"
+            ]
+        },
+        {
+            "id": "124426",
+            "type": "noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "台湾",
+                    "furigana": "たいわん"
+                }
+            ],
+            "back": [
+                "Taiwan"
+            ]
+        },
+        {
+            "id": "327156",
+            "type": "'su' godan verb, transitive verb",
+            "front": [
+                "こなす"
+            ],
+            "back": [
+                "to digest",
+                "to break down; to break to pieces; to crush"
+            ]
+        },
+        {
+            "id": "123134",
+            "type": "noun, 'suru' verb",
+            "front": [
+                {
+                    "kanji": "想定",
+                    "furigana": "そうてい"
+                }
+            ],
+            "back": [
+                "hypothesis; supposition; assumption"
+            ]
+        },
+        {
+            "id": "270355",
+            "type": "'na' adjective, noun",
+            "front": [
+                {
+                    "kanji": "不十分",
+                    "furigana": "ふじゅうぶん"
+                }
+            ],
+            "back": [
+                "insufficient; inadequate; imperfect; shortage"
+            ]
+        },
+        {
+            "id": "269947",
+            "type": "noun, 'suru' verb",
+            "front": [
+                {
+                    "kanji": "発着",
+                    "furigana": "はっちゃく"
+                }
+            ],
+            "back": [
+                "arrival and departure"
+            ]
+        },
+        {
+            "id": "115180",
+            "type": "noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "自国",
+                    "furigana": "じこく"
+                }
+            ],
+            "back": [
+                "one's own country"
+            ]
+        },
+        {
+            "id": "134019",
+            "type": "noun, 'no' adjective",
+            "front": [
+                {
+                    "kanji": "片手",
+                    "furigana": "かたて"
+                }
+            ],
+            "back": [
+                "one hand"
+            ]
+        },
+        {
+            "id": "126438",
+            "type": "noun, 'suru' verb",
+            "front": [
+                {
+                    "kanji": "通話",
+                    "furigana": "つうわ"
+                }
+            ],
+            "back": [
+                "telephone call; talking; calling",
+                "counter for telephone calls"
+            ]
+        },
+        {
+            "id": "267650",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "総理",
+                    "furigana": "そうり"
+                }
+            ],
+            "back": [
+                "prime minister (as the head of a cabinet government); premier",
+                "leading; overseeing; leader; overseer; president"
+            ]
+        },
+        {
+            "id": "120368",
+            "type": "noun, 'suru' verb",
+            "front": [
+                {
+                    "kanji": "推奨",
+                    "furigana": "すいしょう"
+                }
+            ],
+            "back": [
+                "recommendation; endorsement"
+            ]
+        },
+        {
+            "id": "365554",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "二年",
+                    "furigana": "にねん"
+                }
+            ],
+            "back": [
+                "two years"
+            ]
+        },
+        {
+            "id": "130654",
+            "type": "suru verb - special class",
+            "front": [
+                {
+                    "kanji": "発",
+                    "furigana": "はっ"
+                },
+                "する"
+            ],
+            "back": [
+                "to fire (a gun); to emit; to give forth"
+            ]
+        },
+        {
+            "id": "344068",
+            "type": "noun",
+            "front": [
+                "ぬいぐるみ"
+            ],
+            "back": [
+                "stuffed toy; plush toy; soft toy; cuddly toy"
+            ]
+        },
+        {
+            "id": "115365",
+            "type": "noun, 'suru' verb",
+            "front": [
+                {
+                    "kanji": "執行",
+                    "furigana": "しっこう"
+                }
+            ],
+            "back": [
+                "execution; carrying out; performance; enforcement; exercise; service",
+                "lead monk performing various tasks in a temple"
+            ]
+        },
+        {
+            "id": "129445",
+            "type": "noun",
+            "front": [
+                {
+                    "kanji": "日本人",
+                    "furigana": "にほんじん"
+                }
+            ],
+            "back": [
+                "Japanese person; Japanese people"
+            ]
+        }
+    ]
+}

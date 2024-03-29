@@ -1,5 +1,29 @@
 import * as helper from './helper.js';
 
+export async function getAllNonJlptVocabDetailFromBrowser(browser, cookies){
+    return await helper.getAllSubPagesData(
+        browser,
+        cookies,
+        "https://www.kanshudo.com/collections/vocab_usefulness2021",
+        async (page) => {
+            return await page.evaluate(() => {
+                //Get all the url containers
+                const urlContainers = document.querySelectorAll('#main-content .bodyarea .bodysection .infopanel .coll2 .coll2_div a');
+                //Return all the urls
+                return Array.from(urlContainers).map((container) => container.href);
+            });
+        },
+        3,
+        (vocabUrls, limit) => {
+            //Get promises for the vocab pages
+            return vocabUrls.map((vocabUrl) => {
+                return limit(() => getVocabDetailFromBrowser(browser, vocabUrl, cookies, true));
+            });
+        },
+        "N0"
+    );
+}
+
 export async function getAllJlptVocabs(browser, cookies, nLevel) {
     return await helper.getAllSubPagesData(
         browser,
@@ -26,14 +50,14 @@ export async function getAllJlptVocabs(browser, cookies, nLevel) {
     );
 }
 
-async function getVocabDetailFromBrowser(browser, vocabUrl, cookies) {
+export async function getVocabDetailFromBrowser(browser, vocabUrl, cookies, ignoreJlpt = false) {
     //Open new page
     const page = await browser.newPage();
     try {
         //Load cookies
         await page.setCookie(...cookies);
         //Get the vocab
-        const vocabPageObj = await getVocabDetail(page, vocabUrl);
+        const vocabPageObj = await getVocabDetail(page, vocabUrl, ignoreJlpt);
         //Return
         return vocabPageObj;
     } catch {
@@ -133,7 +157,7 @@ async function loadEvaluateLocalFunctions(page) {
     });
 }
 
-async function getVocabDetail(page, vocabUrl) {
+async function getVocabDetail(page, vocabUrl, ignoreJlpt = false) {
     //Get vocab
     try {
         //Navigate to vocab list page
@@ -141,7 +165,23 @@ async function getVocabDetail(page, vocabUrl) {
         //Load local functions to use withing page.evaluate()
         await loadEvaluateLocalFunctions(page);
         //Get vocab page components
-        const [vocabPageTitle, vocabContainers] = await Promise.all([getVocabPageTitle(page), getVocabContainers(page)]);
+        let [vocabPageTitle, vocabContainers] = await Promise.all([getVocabPageTitle(page), getVocabContainers(page)]);
+        //Check if we need to filter out the JLPT entries
+        if (ignoreJlpt) {
+            //Only grab containers that don't have the JLPT element
+            let filteredContainers = await Promise.all(
+                vocabContainers.map(async container => {
+                    if (!await container.$('.jlpt_container')){
+                        return container;
+                    };
+                })
+            );
+            filteredContainers = filteredContainers.filter(container => {
+                return container != undefined;
+            })
+            //Set the new filtered vocab containers
+            vocabContainers = filteredContainers;
+        }
         //Get vocab
         const vocabs = await getVocabs(page, vocabContainers);
         //const vocabs = await Promise.all()
