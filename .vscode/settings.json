@@ -1,0 +1,7 @@
+{
+    "codeium.enableCodeLens": false,
+    "codeium.enableConfig": {
+
+        "*": false
+    }
+}

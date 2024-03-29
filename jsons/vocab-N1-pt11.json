@@ -1,0 +1,5240 @@
+{
+    "grouping_name": "N1",
+    "sections": [
+        {
+            "title": "Wikipedia JLPT N1 Vocab 3001-3100",
+            "vocabs": [
+                {
+                    "id": "264245",
+                    "type": "'u' godan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "仕舞",
+                            "furigana": "しま"
+                        },
+                        "う"
+                    ],
+                    "back": [
+                        "to finish; to stop; to end; to put an end to; to bring to a close",
+                        "to close (a business, etc.); to close down; to shut down; to shut up"
+                    ]
+                },
+                {
+                    "id": "265720",
+                    "type": "adverb",
+                    "front": [
+                        {
+                            "kanji": "尚更",
+                            "furigana": "なおさら"
+                        }
+                    ],
+                    "back": [
+                        "all the more; still less"
+                    ]
+                },
+                {
+                    "id": "85714",
+                    "type": "'na' adjective, adverb, noun, 'suru' verb",
+                    "front": [
+                        "だぶだぶ"
+                    ],
+                    "back": [
+                        "loose; baggy",
+                        "overflowing; brimming"
+                    ]
+                },
+                {
+                    "id": "273892",
+                    "type": "adverb, 'no' adjective",
+                    "front": [
+                        {
+                            "kanji": "嘗",
+                            "furigana": "かつ"
+                        },
+                        "て"
+                    ],
+                    "back": [
+                        "once; before; formerly; ever; former; ex-",
+                        "never yet; never before; first time; still not happened"
+                    ]
+                },
+                {
+                    "id": "279103",
+                    "type": "conjunction",
+                    "front": [
+                        {
+                            "kanji": "依",
+                            "furigana": "よ"
+                        },
+                        "って"
+                    ],
+                    "back": [
+                        "therefore; consequently; accordingly; because of"
+                    ]
+                },
+                {
+                    "id": "258069",
+                    "type": "noun",
+                    "front": [
+                        "お",
+                        {
+                            "kanji": "蔭",
+                            "furigana": "かげ"
+                        }
+                    ],
+                    "back": [
+                        "grace (of God); benevolence (of Buddha); blessing",
+                        "assistance; help; aid"
+                    ]
+                },
+                {
+                    "id": "125842",
+                    "type": "'ru' godan verb, intransitive verb",
+                    "front": [
+                        {
+                            "kanji": "喋",
+                            "furigana": "しゃべ"
+                        },
+                        "る"
+                    ],
+                    "back": [
+                        "to talk; to chat; to chatter"
+                    ]
+                },
+                {
+                    "id": "269896",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "筈",
+                            "furigana": "はず"
+                        }
+                    ],
+                    "back": [
+                        "expectation that something took place, will take place or was in some state; it should be so; bound to be; expected to be; must be",
+                        "nock (of a bow)"
+                    ]
+                },
+                {
+                    "id": "99682",
+                    "type": "noun, 'suru' verb",
+                    "front": [
+                        {
+                            "kanji": "異見",
+                            "furigana": "いけん"
+                        }
+                    ],
+                    "back": [
+                        "different opinion; objection"
+                    ]
+                },
+                {
+                    "id": "273888",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "善",
+                            "furigana": "よ"
+                        },
+                        "し",
+                        {
+                            "kanji": "悪",
+                            "furigana": "あ"
+                        },
+                        "し"
+                    ],
+                    "back": [
+                        "right or wrong; good or bad; merits or demerits; quality; suitability"
+                    ]
+                },
+                {
+                    "id": "124058",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "駄作",
+                            "furigana": "ださく"
+                        }
+                    ],
+                    "back": [
+                        "poor work; rubbish"
+                    ]
+                },
+                {
+                    "id": "113055",
+                    "type": "'ku' godan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "裁",
+                            "furigana": "さば"
+                        },
+                        "く"
+                    ],
+                    "back": [
+                        "to judge"
+                    ]
+                },
+                {
+                    "id": "262866",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "言伝",
+                            "furigana": "ことづて"
+                        }
+                    ],
+                    "back": [
+                        "(oral) message; declaration; hearsay; rumour; rumor"
+                    ]
+                },
+                {
+                    "id": "275414",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "加留多",
+                            "furigana": "かるた"
+                        }
+                    ],
+                    "back": [
+                        "karuta; traditional Japanese playing cards"
+                    ]
+                },
+                {
+                    "id": "268837",
+                    "type": "noun, 'suru' verb",
+                    "front": [
+                        {
+                            "kanji": "転任",
+                            "furigana": "てんにん"
+                        }
+                    ],
+                    "back": [
+                        "change of post"
+                    ]
+                },
+                {
+                    "id": "260461",
+                    "type": "noun, 'suru' verb",
+                    "front": [
+                        {
+                            "kanji": "荷造",
+                            "furigana": "にづく"
+                        },
+                        "り"
+                    ],
+                    "back": [
+                        "packing; baling; crating"
+                    ]
+                },
+                {
+                    "id": "107100",
+                    "type": "noun, 'suru' verb",
+                    "front": [
+                        {
+                            "kanji": "共稼",
+                            "furigana": "ともかせ"
+                        },
+                        "ぎ"
+                    ],
+                    "back": [
+                        "working together; (husband and wife) earning a living together"
+                    ]
+                },
+                {
+                    "id": "278682",
+                    "type": "adverb",
+                    "front": [
+                        {
+                            "kanji": "間々",
+                            "furigana": "まま"
+                        }
+                    ],
+                    "back": [
+                        "occasionally; now and then; sometimes"
+                    ]
+                },
+                {
+                    "id": "125311",
+                    "type": "adverb",
+                    "front": [
+                        {
+                            "kanji": "遅",
+                            "furigana": "おそ"
+                        },
+                        "くとも"
+                    ],
+                    "back": [
+                        "at the latest"
+                    ]
+                },
+                {
+                    "id": "86122",
+                    "type": "adverb, noun",
+                    "front": [
+                        "ぼつぼつ"
+                    ],
+                    "back": [
+                        "gradually; here and there; spots; pimples"
+                    ]
+                },
+                {
+                    "id": "266006",
+                    "type": "noun, 'suru' verb, 'no' adjective",
+                    "front": [
+                        {
+                            "kanji": "蒸留",
+                            "furigana": "じょうりゅう"
+                        }
+                    ],
+                    "back": [
+                        "distillation"
+                    ]
+                },
+                {
+                    "id": "118520",
+                    "type": "'ru' godan verb, intransitive verb",
+                    "front": [
+                        {
+                            "kanji": "障",
+                            "furigana": "さわ"
+                        },
+                        "る"
+                    ],
+                    "back": [
+                        "to hinder; to interfere with; to affect; to do one harm; to be harmful to"
+                    ]
+                },
+                {
+                    "id": "260466",
+                    "type": "'na' adjective, noun",
+                    "front": [
+                        {
+                            "kanji": "華奢",
+                            "furigana": "きゃしゃ"
+                        }
+                    ],
+                    "back": [
+                        "dainty; delicate; slender; slim and elegant",
+                        "fragile (e.g. furniture); delicate; frail"
+                    ]
+                },
+                {
+                    "id": "131117",
+                    "type": "'i' adjective",
+                    "front": [
+                        {
+                            "kanji": "煩",
+                            "furigana": "わずら"
+                        },
+                        "わしい"
+                    ],
+                    "back": [
+                        "troublesome; annoying; complicated"
+                    ]
+                },
+                {
+                    "id": "132679",
+                    "type": "'su' godan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "負",
+                            "furigana": "ま"
+                        },
+                        "かす"
+                    ],
+                    "back": [
+                        "to defeat"
+                    ]
+                },
+                {
+                    "id": "276187",
+                    "type": "adverbial noun (fukushitekimeishi), noun (temporal) (jisoumeishi)",
+                    "front": [
+                        {
+                            "kanji": "明々後日",
+                            "furigana": "しあさって"
+                        }
+                    ],
+                    "back": [
+                        "in three days' time; two days after tomorrow"
+                    ]
+                },
+                {
+                    "id": "263140",
+                    "type": "noun, 'suru' verb",
+                    "front": [
+                        "ご",
+                        {
+                            "kanji": "無沙汰",
+                            "furigana": "ぶさた"
+                        }
+                    ],
+                    "back": [
+                        "not writing or contacting for a while; neglecting (failing) to write (call, visit, etc.); long silence"
+                    ]
+                },
+                {
+                    "id": "120336",
+                    "type": "noun, 'suru' verb",
+                    "front": [
+                        {
+                            "kanji": "吹奏",
+                            "furigana": "すいそう"
+                        }
+                    ],
+                    "back": [
+                        "playing wind instruments"
+                    ]
+                },
+                {
+                    "id": "279833",
+                    "type": "expression",
+                    "front": [
+                        {
+                            "kanji": "止",
+                            "furigana": "や"
+                        },
+                        "むを",
+                        {
+                            "kanji": "得",
+                            "furigana": "え"
+                        },
+                        "ない"
+                    ],
+                    "back": [
+                        "cannot be helped; unavoidable"
+                    ]
+                },
+                {
+                    "id": "271121",
+                    "type": "'su' godan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "放",
+                            "furigana": "ほう"
+                        },
+                        "り",
+                        {
+                            "kanji": "出",
+                            "furigana": "だ"
+                        },
+                        "す"
+                    ],
+                    "back": [
+                        "to throw out",
+                        "to drop; to toss; to dump"
+                    ]
+                },
+                {
+                    "id": "99806",
+                    "type": "ichidan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "違",
+                            "furigana": "ちが"
+                        },
+                        "える"
+                    ],
+                    "back": [
+                        "to change; to alter",
+                        "to mistake; to make a mistake"
+                    ]
+                },
+                {
+                    "id": "271456",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "婿",
+                            "furigana": "むこ"
+                        }
+                    ],
+                    "back": [
+                        "husband; groom",
+                        "(one's) son-in-law"
+                    ]
+                },
+                {
+                    "id": "272757",
+                    "type": "'u' godan verb, transitive verb",
+                    "front": [
+                        "あざ",
+                        {
+                            "kanji": "笑",
+                            "furigana": "わら"
+                        },
+                        "う"
+                    ],
+                    "back": [
+                        "to sneer at; to ridicule"
+                    ]
+                },
+                {
+                    "id": "267958",
+                    "type": "ichidan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "退",
+                            "furigana": "しりぞ"
+                        },
+                        "ける"
+                    ],
+                    "back": [
+                        "to repel; to drive away; to repulse; to reject"
+                    ]
+                },
+                {
+                    "id": "122653",
+                    "type": "adverb",
+                    "front": [
+                        {
+                            "kanji": "然",
+                            "furigana": "さ"
+                        },
+                        "も"
+                    ],
+                    "back": [
+                        "really; extremely",
+                        "in that way"
+                    ]
+                },
+                {
+                    "id": "85535",
+                    "type": "'ru' godan verb, intransitive verb",
+                    "front": [
+                        "しくじる"
+                    ],
+                    "back": [
+                        "to fail; to fall through; to blunder"
+                    ]
+                },
+                {
+                    "id": "276083",
+                    "type": "noun",
+                    "front": [
+                        "ご",
+                        {
+                            "kanji": "馳走",
+                            "furigana": "ちそう"
+                        }
+                    ],
+                    "back": [
+                        "feast; treating (someone)",
+                        "to treat (someone, e.g. to a meal)"
+                    ]
+                },
+                {
+                    "id": "278680",
+                    "type": "noun, 'suru' verb",
+                    "front": [
+                        {
+                            "kanji": "麻痺",
+                            "furigana": "まひ"
+                        }
+                    ],
+                    "back": [
+                        "paralysis; palsy; numbness; stupor"
+                    ]
+                },
+                {
+                    "id": "262990",
+                    "type": "ichidan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "顧",
+                            "furigana": "かえり"
+                        },
+                        "みる"
+                    ],
+                    "back": [
+                        "to look back (e.g. over shoulder or at the past); to turn around",
+                        "to reflect on the past; to reconsider; to review"
+                    ]
+                },
+                {
+                    "id": "127446",
+                    "type": "adverb",
+                    "front": [
+                        {
+                            "kanji": "兎",
+                            "furigana": "と"
+                        },
+                        "に",
+                        {
+                            "kanji": "角",
+                            "furigana": "かく"
+                        }
+                    ],
+                    "back": [
+                        "anyhow; at any rate; anyway; somehow or other; generally speaking; in any case; at least"
+                    ]
+                },
+                {
+                    "id": "106540",
+                    "type": "'su' godan verb",
+                    "front": [
+                        {
+                            "kanji": "急",
+                            "furigana": "せ"
+                        },
+                        "かす"
+                    ],
+                    "back": [
+                        "to hurry; to urge on"
+                    ]
+                },
+                {
+                    "id": "269744",
+                    "type": "'ku' godan verb, intransitive verb",
+                    "front": [
+                        {
+                            "kanji": "背",
+                            "furigana": "そむ"
+                        },
+                        "く"
+                    ],
+                    "back": [
+                        "to run counter to; to go against; to disobey; to infringe"
+                    ]
+                },
+                {
+                    "id": "267803",
+                    "type": "noun, 'suru' verb",
+                    "front": [
+                        {
+                            "kanji": "唾",
+                            "furigana": "つば"
+                        }
+                    ],
+                    "back": [
+                        "saliva; spit; sputum"
+                    ]
+                },
+                {
+                    "id": "126249",
+                    "type": "ichidan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "沈",
+                            "furigana": "しず"
+                        },
+                        "める"
+                    ],
+                    "back": [
+                        "to sink; to submerge",
+                        "to floor (an opponent)"
+                    ]
+                },
+                {
+                    "id": "127863",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "棟",
+                            "furigana": "とう"
+                        }
+                    ],
+                    "back": [
+                        "large building; building with a long roof",
+                        "counter for buildings, apartments, etc."
+                    ]
+                },
+                {
+                    "id": "104869",
+                    "type": "expression, 'i' adjective",
+                    "front": [
+                        {
+                            "kanji": "堪",
+                            "furigana": "たま"
+                        },
+                        "らない"
+                    ],
+                    "back": [
+                        "intolerable; unbearable; unendurable",
+                        "irresistible; tremendous; out of this world"
+                    ]
+                },
+                {
+                    "id": "109510",
+                    "type": "'i' adjective",
+                    "front": [
+                        {
+                            "kanji": "見",
+                            "furigana": "み"
+                        },
+                        "っともない"
+                    ],
+                    "back": [
+                        "shameful; disgraceful; indecent; unseemly; unbecoming; improper"
+                    ]
+                },
+                {
+                    "id": "273066",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "目蓋",
+                            "furigana": "まぶた"
+                        }
+                    ],
+                    "back": [
+                        "eyelid; eyelids"
+                    ]
+                },
+                {
+                    "id": "271538",
+                    "type": "'na' adjective, noun",
+                    "front": [
+                        {
+                            "kanji": "滅茶苦茶",
+                            "furigana": "めちゃくちゃ"
+                        }
+                    ],
+                    "back": [
+                        "absurd; unreasonable; nonsensical; preposterous; incoherent",
+                        "extreme; senseless; reckless; wanton"
+                    ]
+                },
+                {
+                    "id": "111740",
+                    "type": "noun, 'suru' verb",
+                    "front": [
+                        {
+                            "kanji": "講読",
+                            "furigana": "こうどく"
+                        }
+                    ],
+                    "back": [
+                        "reading; translation"
+                    ]
+                },
+                {
+                    "id": "258486",
+                    "type": "adverb",
+                    "front": [
+                        {
+                            "kanji": "其",
+                            "furigana": "そ"
+                        },
+                        "れ",
+                        {
+                            "kanji": "程",
+                            "furigana": "ほど"
+                        }
+                    ],
+                    "back": [
+                        "to that degree; to that extent; that much"
+                    ]
+                },
+                {
+                    "id": "109302",
+                    "type": "noun, noun (suffix)",
+                    "front": [
+                        {
+                            "kanji": "圏",
+                            "furigana": "けん"
+                        }
+                    ],
+                    "back": [
+                        "sphere; circle; range",
+                        "category (only in the context of \"category theory\")"
+                    ]
+                },
+                {
+                    "id": "258968",
+                    "type": "noun, 'no' adjective",
+                    "front": [
+                        {
+                            "kanji": "葦",
+                            "furigana": "あし"
+                        }
+                    ],
+                    "back": [
+                        "common reed (Phragmites australis)"
+                    ]
+                },
+                {
+                    "id": "111519",
+                    "type": "numeric",
+                    "front": [
+                        {
+                            "kanji": "溝",
+                            "furigana": "こう"
+                        }
+                    ],
+                    "back": [
+                        "10^32; hundred nonillion"
+                    ]
+                },
+                {
+                    "id": "267370",
+                    "type": "adverb, conjunction",
+                    "front": [
+                        {
+                            "kanji": "左程",
+                            "furigana": "さほど"
+                        }
+                    ],
+                    "back": [
+                        "not so; not particularly; not very; not that much"
+                    ]
+                },
+                {
+                    "id": "258156",
+                    "type": "expression",
+                    "front": [
+                        "お",
+                        {
+                            "kanji": "邪魔",
+                            "furigana": "じゃま"
+                        },
+                        "します"
+                    ],
+                    "back": [
+                        "excuse me for disturbing (interrupting) you; greeting used when entering someone's home"
+                    ]
+                },
+                {
+                    "id": "280639",
+                    "type": "adverb, suffix",
+                    "front": [
+                        {
+                            "kanji": "偶",
+                            "furigana": "たま"
+                        },
+                        "に"
+                    ],
+                    "back": [
+                        "occasionally; once in a while"
+                    ]
+                },
+                {
+                    "id": "260885",
+                    "type": "ichidan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "叶",
+                            "furigana": "かな"
+                        },
+                        "える"
+                    ],
+                    "back": [
+                        "to grant (request, wish); to answer (prayer)",
+                        "to fulfill (conditions); to meet (requirements)"
+                    ]
+                },
+                {
+                    "id": "258030",
+                    "type": "pronoun",
+                    "front": [
+                        {
+                            "kanji": "彼処",
+                            "furigana": "あそこ"
+                        }
+                    ],
+                    "back": [
+                        "there; over there; that place; yonder; you-know-where",
+                        "genitals; private parts; nether regions"
+                    ]
+                },
+                {
+                    "id": "119909",
+                    "type": "ichidan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "震",
+                            "furigana": "ふる"
+                        },
+                        "わせる"
+                    ],
+                    "back": [
+                        "to (make something) quiver; to shake; to tremble; to vibrate"
+                    ]
+                },
+                {
+                    "id": "271235",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "頬",
+                            "furigana": "ほ"
+                        },
+                        "っぺた"
+                    ],
+                    "back": [
+                        "cheek"
+                    ]
+                },
+                {
+                    "id": "262361",
+                    "type": "noun, 'suru' verb",
+                    "front": [
+                        {
+                            "kanji": "軽蔑",
+                            "furigana": "けいべつ"
+                        }
+                    ],
+                    "back": [
+                        "scorn; disdain; contempt"
+                    ]
+                },
+                {
+                    "id": "135851",
+                    "type": "'na' adjective",
+                    "front": [
+                        {
+                            "kanji": "無茶苦茶",
+                            "furigana": "むちゃくちゃ"
+                        }
+                    ],
+                    "back": [
+                        "nonsensical; unreasonable; absurd; unrealistic",
+                        "awfully; extremely; to excess; senseless; reckless"
+                    ]
+                },
+                {
+                    "id": "263148",
+                    "type": "expression",
+                    "front": [
+                        {
+                            "kanji": "御免",
+                            "furigana": "ごめん"
+                        },
+                        "なさい"
+                    ],
+                    "back": [
+                        "I'm sorry; I beg your pardon; excuse me"
+                    ]
+                },
+                {
+                    "id": "263214",
+                    "type": "'su' godan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "誤魔化",
+                            "furigana": "ごまか"
+                        },
+                        "す"
+                    ],
+                    "back": [
+                        "to deceive; to falsify; to misrepresent; to cheat; to swindle; to tamper; to juggle; to manipulate",
+                        "to dodge; to beg the question (issue, difficulties)"
+                    ]
+                },
+                {
+                    "id": "273991",
+                    "type": "pre-noun adjectival (rentaishi)",
+                    "front": [
+                        {
+                            "kanji": "此",
+                            "furigana": "こ"
+                        },
+                        "の"
+                    ],
+                    "back": [
+                        "this (something or someone close to the speaker (including the speaker), or ideas expressed by the speaker)"
+                    ]
+                },
+                {
+                    "id": "270360",
+                    "type": "adverb",
+                    "front": [
+                        {
+                            "kanji": "不図",
+                            "furigana": "ふと"
+                        }
+                    ],
+                    "back": [
+                        "suddenly; casually; accidentally; incidentally; unexpectedly; unintentionally"
+                    ]
+                },
+                {
+                    "id": "327115",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "僅",
+                            "furigana": "きん"
+                        }
+                    ],
+                    "back": [
+                        "a little; a small quantity"
+                    ]
+                },
+                {
+                    "id": "270752",
+                    "type": "noun, 'suru' verb",
+                    "front": [
+                        {
+                            "kanji": "焚火",
+                            "furigana": "たきび"
+                        }
+                    ],
+                    "back": [
+                        "open-air fire (e.g. for garden refuse); bonfire",
+                        "open fire (e.g. in a kitchen)"
+                    ]
+                },
+                {
+                    "id": "143929",
+                    "type": "'na' adjective, noun",
+                    "front": [
+                        {
+                            "kanji": "艶",
+                            "furigana": "えん"
+                        }
+                    ],
+                    "back": [
+                        "charming; fascinating; voluptuous"
+                    ]
+                },
+                {
+                    "id": "139141",
+                    "type": "'ku' godan verb",
+                    "front": [
+                        {
+                            "kanji": "呟",
+                            "furigana": "つぶや"
+                        },
+                        "く"
+                    ],
+                    "back": [
+                        "to mutter; to murmur; to grumble",
+                        "to tweet (Twitter)"
+                    ]
+                },
+                {
+                    "id": "117303",
+                    "type": "'ru' godan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "出切",
+                            "furigana": "でき"
+                        },
+                        "る"
+                    ],
+                    "back": [
+                        "to be out of; to have no more at hand"
+                    ]
+                },
+                {
+                    "id": "159102",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "鉄片",
+                            "furigana": "てっぺん"
+                        }
+                    ],
+                    "back": [
+                        "iron scraps"
+                    ]
+                },
+                {
+                    "id": "271079",
+                    "type": "ichidan verb, intransitive verb",
+                    "front": [
+                        {
+                            "kanji": "呆",
+                            "furigana": "あき"
+                        },
+                        "れる"
+                    ],
+                    "back": [
+                        "to be amazed; to be shocked; to be astonished; to be astounded; to be disgusted; to be exasperated"
+                    ]
+                },
+                {
+                    "id": "263187",
+                    "type": "'ru' godan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "悟",
+                            "furigana": "さと"
+                        },
+                        "る"
+                    ],
+                    "back": [
+                        "to perceive; to sense; to discern",
+                        "to understand; to comprehend; to realize"
+                    ]
+                },
+                {
+                    "id": "260882",
+                    "type": "'u' godan verb",
+                    "front": [
+                        {
+                            "kanji": "叶",
+                            "furigana": "かな"
+                        },
+                        "う"
+                    ],
+                    "back": [
+                        "to come true (wish)",
+                        "to be suited"
+                    ]
+                },
+                {
+                    "id": "124223",
+                    "type": "adverb",
+                    "front": [
+                        {
+                            "kanji": "態",
+                            "furigana": "わざ"
+                        },
+                        "と"
+                    ],
+                    "back": [
+                        "on purpose"
+                    ]
+                },
+                {
+                    "id": "125909",
+                    "type": "ichidan verb, intransitive verb",
+                    "front": [
+                        {
+                            "kanji": "懲",
+                            "furigana": "こ"
+                        },
+                        "りる"
+                    ],
+                    "back": [
+                        "to learn by experience; to learn one's lesson; to learn the hard way",
+                        "to have enough (of); to be disgusted with"
+                    ]
+                },
+                {
+                    "id": "268127",
+                    "type": "'ku' godan verb, intransitive verb",
+                    "front": [
+                        {
+                            "kanji": "嘆",
+                            "furigana": "なげ"
+                        },
+                        "く"
+                    ],
+                    "back": [
+                        "to sigh; to lament; to grieve"
+                    ]
+                },
+                {
+                    "id": "108099",
+                    "type": "noun, 'suru' verb",
+                    "front": [
+                        {
+                            "kanji": "駆",
+                            "furigana": "か"
+                        },
+                        "けっこ"
+                    ],
+                    "back": [
+                        "(foot) race; sprint"
+                    ]
+                },
+                {
+                    "id": "271084",
+                    "type": "'taru' adjective, 'to' adverb",
+                    "front": [
+                        {
+                            "kanji": "呆然",
+                            "furigana": "ぼうぜん"
+                        }
+                    ],
+                    "back": [
+                        "dumbfounded; overcome with surprise; in blank amazement; in a daze"
+                    ]
+                },
+                {
+                    "id": "326786",
+                    "type": "'ku' godan verb, intransitive verb",
+                    "front": [
+                        "まごつく"
+                    ],
+                    "back": [
+                        "to be confused; to be flustered; to be at a loss"
+                    ]
+                },
+                {
+                    "id": "260521",
+                    "type": "'na' adjective, noun",
+                    "front": [
+                        {
+                            "kanji": "我",
+                            "furigana": "わ"
+                        },
+                        "がまま"
+                    ],
+                    "back": [
+                        "selfishness; egoism; self-indulgence; wilfulness; willfulness",
+                        "disobedience"
+                    ]
+                },
+                {
+                    "id": "277991",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "控室",
+                            "furigana": "ひかえしつ"
+                        }
+                    ],
+                    "back": [
+                        "waiting room"
+                    ]
+                },
+                {
+                    "id": "133005",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "腹立",
+                            "furigana": "はらだ"
+                        },
+                        "ち"
+                    ],
+                    "back": [
+                        "anger"
+                    ]
+                },
+                {
+                    "id": "116961",
+                    "type": "Ichidan verb - zuru verb (alternative form of -jiru verbs), transitive verb",
+                    "front": [
+                        {
+                            "kanji": "重",
+                            "furigana": "おも"
+                        },
+                        "んずる"
+                    ],
+                    "back": [
+                        "to honor; to honour; to respect; to esteem; to prize"
+                    ]
+                },
+                {
+                    "id": "139459",
+                    "type": "'na' adjective, noun",
+                    "front": [
+                        {
+                            "kanji": "洒落",
+                            "furigana": "しゃらく"
+                        }
+                    ],
+                    "back": [
+                        "frank; open-hearted"
+                    ]
+                },
+                {
+                    "id": "143708",
+                    "type": "'i' adjective",
+                    "front": [
+                        {
+                            "kanji": "馬鹿",
+                            "furigana": "ばか"
+                        },
+                        "らしい"
+                    ],
+                    "back": [
+                        "absurd"
+                    ]
+                },
+                {
+                    "id": "260215",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "化繊",
+                            "furigana": "かせん"
+                        }
+                    ],
+                    "back": [
+                        "synthetic fibres; synthetic fibers"
+                    ]
+                },
+                {
+                    "id": "125932",
+                    "type": "noun, 'suru' verb",
+                    "front": [
+                        {
+                            "kanji": "朝寝坊",
+                            "furigana": "あさねぼう"
+                        }
+                    ],
+                    "back": [
+                        "oversleeping; late riser"
+                    ]
+                },
+                {
+                    "id": "125331",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "畜生",
+                            "furigana": "ちくしょう"
+                        }
+                    ],
+                    "back": [
+                        "beast (i.e. any animal other than man)",
+                        "person reborn into the animal realm"
+                    ]
+                },
+                {
+                    "id": "273524",
+                    "type": "adverbial noun (fukushitekimeishi), noun (temporal) (jisoumeishi)",
+                    "front": [
+                        {
+                            "kanji": "一昨昨日",
+                            "furigana": "さきおとつい"
+                        }
+                    ],
+                    "back": [
+                        "two days before yesterday; three days back (ago)"
+                    ]
+                },
+                {
+                    "id": "85618",
+                    "type": "noun",
+                    "front": [
+                        "ずぶ",
+                        {
+                            "kanji": "濡",
+                            "furigana": "ぬ"
+                        },
+                        "れ"
+                    ],
+                    "back": [
+                        "soaked; dripping wet"
+                    ]
+                },
+                {
+                    "id": "99632",
+                    "type": "irregular godan verb 'aru', transitive verb",
+                    "front": [
+                        {
+                            "kanji": "為",
+                            "furigana": "な"
+                        },
+                        "さる"
+                    ],
+                    "back": [
+                        "to do"
+                    ]
+                },
+                {
+                    "id": "104635",
+                    "type": "adverb, conjunction",
+                    "front": [
+                        {
+                            "kanji": "且",
+                            "furigana": "か"
+                        },
+                        "つ"
+                    ],
+                    "back": [
+                        "yet; moreover; and"
+                    ]
+                },
+                {
+                    "id": "267473",
+                    "type": "'ru' godan verb, intransitive verb",
+                    "front": [
+                        {
+                            "kanji": "逆上",
+                            "furigana": "さかのぼ"
+                        },
+                        "る"
+                    ],
+                    "back": [
+                        "to go upstream",
+                        "to go back (in time, to origin); to date back to; to trace back to; to make retroactive"
+                    ]
+                },
+                {
+                    "id": "261052",
+                    "type": "adverb",
+                    "front": [
+                        {
+                            "kanji": "敢",
+                            "furigana": "あ"
+                        },
+                        "えて"
+                    ],
+                    "back": [
+                        "purposely (of something needless, unexpected or seemingly counterproductive, etc.); daringly (doing something); deliberately; intentionally",
+                        "not necessarily; not particularly; not especially"
+                    ]
+                },
+                {
+                    "id": "277797",
+                    "type": "'su' godan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "剥",
+                            "furigana": "は"
+                        },
+                        "がす"
+                    ],
+                    "back": [
+                        "to tear off; to peel off; to rip off; to strip off; to skin; to flay; to disrobe; to deprive of; to detach; to disconnect"
+                    ]
+                },
+                {
+                    "id": "261101",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "貫禄",
+                            "furigana": "かんろく"
+                        }
+                    ],
+                    "back": [
+                        "presence; dignity"
+                    ]
+                },
+                {
+                    "id": "137274",
+                    "type": "'i' adjective",
+                    "front": [
+                        {
+                            "kanji": "容易",
+                            "furigana": "たやす"
+                        },
+                        "い"
+                    ],
+                    "back": [
+                        "easy; simple; light"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Wikipedia JLPT N1 Vocab 3101-3200",
+            "vocabs": [
+                {
+                    "id": "279113",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "夜更",
+                            "furigana": "よふ"
+                        },
+                        "け"
+                    ],
+                    "back": [
+                        "late at night; small hours of the morning"
+                    ]
+                },
+                {
+                    "id": "130136",
+                    "type": "'i' adjective",
+                    "front": [
+                        {
+                            "kanji": "馬鹿馬鹿",
+                            "furigana": "ばかばか"
+                        },
+                        "しい"
+                    ],
+                    "back": [
+                        "absurd; ridiculous; silly; ludicrous; nonsensical; asinine; foolish"
+                    ]
+                },
+                {
+                    "id": "288568",
+                    "type": "noun (temporal) (jisoumeishi)",
+                    "front": [
+                        {
+                            "kanji": "先先週",
+                            "furigana": "せんせんしゅう"
+                        }
+                    ],
+                    "back": [
+                        "week before last"
+                    ]
+                },
+                {
+                    "id": "85992",
+                    "type": "adverb",
+                    "front": [
+                        {
+                            "kanji": "延",
+                            "furigana": "ひ"
+                        },
+                        "いては"
+                    ],
+                    "back": [
+                        "not only ... but also; in addition to; consequently"
+                    ]
+                },
+                {
+                    "id": "260915",
+                    "type": "'ru' godan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "噛",
+                            "furigana": "か"
+                        },
+                        "み",
+                        {
+                            "kanji": "切",
+                            "furigana": "き"
+                        },
+                        "る"
+                    ],
+                    "back": [
+                        "to bite off; to gnaw through"
+                    ]
+                },
+                {
+                    "id": "263154",
+                    "type": "interjection (kandoushi)",
+                    "front": [
+                        "お",
+                        {
+                            "kanji": "目出度",
+                            "furigana": "めでと"
+                        },
+                        "う"
+                    ],
+                    "back": [
+                        "congratulations!; an auspicious occasion!"
+                    ]
+                },
+                {
+                    "id": "103826",
+                    "type": "'ku' godan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "懐",
+                            "furigana": "なつ"
+                        },
+                        "く"
+                    ],
+                    "back": [
+                        "to become emotionally attached"
+                    ]
+                },
+                {
+                    "id": "274613",
+                    "type": "adverb",
+                    "front": [
+                        {
+                            "kanji": "愈々",
+                            "furigana": "いよいよ"
+                        }
+                    ],
+                    "back": [
+                        "more and more; all the more; increasingly",
+                        "at last; finally; beyond doubt"
+                    ]
+                },
+                {
+                    "id": "105169",
+                    "type": "ichidan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "緩",
+                            "furigana": "ゆる"
+                        },
+                        "める"
+                    ],
+                    "back": [
+                        "to loosen; to slow down"
+                    ]
+                },
+                {
+                    "id": "258521",
+                    "type": "'i' adjective",
+                    "front": [
+                        {
+                            "kanji": "詰",
+                            "furigana": "つま"
+                        },
+                        "らない"
+                    ],
+                    "back": [
+                        "dull; uninteresting; boring; tedious",
+                        "insignificant; unimportant; trifling; trivial; worthless"
+                    ]
+                },
+                {
+                    "id": "265098",
+                    "type": "adverb",
+                    "front": [
+                        {
+                            "kanji": "殊",
+                            "furigana": "こと"
+                        },
+                        "に"
+                    ],
+                    "back": [
+                        "especially; particularly; unusually; above all",
+                        "additionally"
+                    ]
+                },
+                {
+                    "id": "277616",
+                    "type": "'na' adjective, 'no' adjective, noun",
+                    "front": [
+                        {
+                            "kanji": "俄",
+                            "furigana": "にわ"
+                        },
+                        "か"
+                    ],
+                    "back": [
+                        "sudden; abrupt; unexpected; improvised; hasty; offhand",
+                        "impromptu skit"
+                    ]
+                },
+                {
+                    "id": "271418",
+                    "type": "adverb",
+                    "front": [
+                        {
+                            "kanji": "無闇",
+                            "furigana": "むやみ"
+                        },
+                        "に"
+                    ],
+                    "back": [
+                        "thoughtlessly; recklessly; rashly; indiscriminately; indiscreetly; at random",
+                        "excessively; unreasonably; immoderately; absurdly"
+                    ]
+                },
+                {
+                    "id": "85850",
+                    "type": "expression",
+                    "front": [
+                        "どうぞ",
+                        {
+                            "kanji": "宜",
+                            "furigana": "よろ"
+                        },
+                        "しく"
+                    ],
+                    "back": [
+                        "pleased to meet you; how do you do",
+                        "my regards (to someone); my greetings; best wishes; remember me to"
+                    ]
+                },
+                {
+                    "id": "139463",
+                    "type": "ichidan verb, intransitive verb",
+                    "front": [
+                        {
+                            "kanji": "洒落",
+                            "furigana": "しゃれ"
+                        },
+                        "る"
+                    ],
+                    "back": [
+                        "to dress stylishly",
+                        "to joke; to play on words"
+                    ]
+                },
+                {
+                    "id": "117722",
+                    "type": "'ru' godan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "書",
+                            "furigana": "か"
+                        },
+                        "き",
+                        {
+                            "kanji": "取",
+                            "furigana": "と"
+                        },
+                        "る"
+                    ],
+                    "back": [
+                        "to write down; to take dictation; to take notes"
+                    ]
+                },
+                {
+                    "id": "269721",
+                    "type": "ichidan verb, intransitive verb",
+                    "front": [
+                        {
+                            "kanji": "廃",
+                            "furigana": "すた"
+                        },
+                        "れる"
+                    ],
+                    "back": [
+                        "to go out of use; to become obsolete; to die out; to go out of fashion"
+                    ]
+                },
+                {
+                    "id": "139990",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "饂飩",
+                            "furigana": "うどん"
+                        }
+                    ],
+                    "back": [
+                        "udon; thick Japanese wheat noodles"
+                    ]
+                },
+                {
+                    "id": "139565",
+                    "type": "'i' adjective",
+                    "front": [
+                        {
+                            "kanji": "眩",
+                            "furigana": "まぶ"
+                        },
+                        "しい"
+                    ],
+                    "back": [
+                        "dazzling; radiant"
+                    ]
+                },
+                {
+                    "id": "112355",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "骨董品",
+                            "furigana": "こっとうひん"
+                        }
+                    ],
+                    "back": [
+                        "curio; antique"
+                    ]
+                },
+                {
+                    "id": "258211",
+                    "type": "noun",
+                    "front": [
+                        "お",
+                        {
+                            "kanji": "祖父",
+                            "furigana": "じい"
+                        },
+                        "さん"
+                    ],
+                    "back": [
+                        "grandfather",
+                        "male senior-citizen"
+                    ]
+                },
+                {
+                    "id": "258703",
+                    "type": "'su' godan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "寄",
+                            "furigana": "よ"
+                        },
+                        "こす"
+                    ],
+                    "back": [
+                        "to send; to forward",
+                        "to hand over (e.g. money)"
+                    ]
+                },
+                {
+                    "id": "134407",
+                    "type": "Ichidan verb - zuru verb (alternative form of -jiru verbs), transitive verb",
+                    "front": [
+                        {
+                            "kanji": "報",
+                            "furigana": "ほう"
+                        },
+                        "ずる"
+                    ],
+                    "back": [
+                        "to inform; to report"
+                    ]
+                },
+                {
+                    "id": "268824",
+                    "type": "'u' godan verb",
+                    "front": [
+                        {
+                            "kanji": "添",
+                            "furigana": "そ"
+                        },
+                        "う"
+                    ],
+                    "back": [
+                        "to meet (one's expectations, etc.); to satisfy; to comply with",
+                        "to accompany; to stay by one's side"
+                    ]
+                },
+                {
+                    "id": "273043",
+                    "type": "noun, 'suru' verb, 'no' adjective",
+                    "front": [
+                        {
+                            "kanji": "目眩",
+                            "furigana": "めまい"
+                        }
+                    ],
+                    "back": [
+                        "dizziness; giddiness; vertigo"
+                    ]
+                },
+                {
+                    "id": "138550",
+                    "type": "ichidan verb, intransitive verb",
+                    "front": [
+                        {
+                            "kanji": "裂",
+                            "furigana": "さ"
+                        },
+                        "ける"
+                    ],
+                    "back": [
+                        "to split; to tear; to burst"
+                    ]
+                },
+                {
+                    "id": "108685",
+                    "type": "interjection (kandoushi), noun",
+                    "front": [
+                        {
+                            "kanji": "敬具",
+                            "furigana": "けいぐ"
+                        }
+                    ],
+                    "back": [
+                        "Yours sincerely; Yours truly; Sincerely yours"
+                    ]
+                },
+                {
+                    "id": "112577",
+                    "type": "interjection (kandoushi)",
+                    "front": [
+                        {
+                            "kanji": "左様",
+                            "furigana": "さよう"
+                        },
+                        "なら"
+                    ],
+                    "back": [
+                        "good-bye"
+                    ]
+                },
+                {
+                    "id": "274056",
+                    "type": "'ru' godan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "奉",
+                            "furigana": "たてまつ"
+                        },
+                        "る"
+                    ],
+                    "back": [
+                        "to offer; to present",
+                        "to revere at a distance; to do respectfully"
+                    ]
+                },
+                {
+                    "id": "274795",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "空",
+                            "furigana": "うつ"
+                        },
+                        "ろ"
+                    ],
+                    "back": [
+                        "cavity; hollow; void",
+                        "hollow (voice); empty (heart); blank (eyes, face, etc.); vacant (stare)"
+                    ]
+                },
+                {
+                    "id": "270205",
+                    "type": "ichidan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "備",
+                            "furigana": "そな"
+                        },
+                        "え",
+                        {
+                            "kanji": "付",
+                            "furigana": "つ"
+                        },
+                        "ける"
+                    ],
+                    "back": [
+                        "to provide; to furnish; to equip; to install"
+                    ]
+                },
+                {
+                    "id": "260113",
+                    "type": "'na' adjective, noun",
+                    "front": [
+                        {
+                            "kanji": "臆病",
+                            "furigana": "おくびょう"
+                        }
+                    ],
+                    "back": [
+                        "cowardice; timidity"
+                    ]
+                },
+                {
+                    "id": "117816",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "助動詞",
+                            "furigana": "じょどうし"
+                        }
+                    ],
+                    "back": [
+                        "auxiliary verb"
+                    ]
+                },
+                {
+                    "id": "261931",
+                    "type": "irregular godan verb 'aru', transitive verb",
+                    "front": [
+                        {
+                            "kanji": "仰",
+                            "furigana": "お"
+                        },
+                        "っしゃる"
+                    ],
+                    "back": [
+                        "to say; to speak; to tell; to talk"
+                    ]
+                },
+                {
+                    "id": "139443",
+                    "type": "'i' adjective",
+                    "front": [
+                        {
+                            "kanji": "鬱陶",
+                            "furigana": "うっとう"
+                        },
+                        "しい"
+                    ],
+                    "back": [
+                        "gloomy (e.g. mood); depressing",
+                        "irritating; troublesome"
+                    ]
+                },
+                {
+                    "id": "277160",
+                    "type": "'mu' godan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "慎",
+                            "furigana": "つつし"
+                        },
+                        "む"
+                    ],
+                    "back": [
+                        "to be careful; to be discreet",
+                        "to do in moderation; to refrain (from overdoing); to abstain"
+                    ]
+                },
+                {
+                    "id": "263022",
+                    "type": "adverb",
+                    "front": [
+                        {
+                            "kanji": "呉",
+                            "furigana": "く"
+                        },
+                        "れ",
+                        {
+                            "kanji": "呉",
+                            "furigana": "ぐ"
+                        },
+                        "れも"
+                    ],
+                    "back": [
+                        "repeatedly; sincerely; earnestly"
+                    ]
+                },
+                {
+                    "id": "261848",
+                    "type": "'ru' godan verb, intransitive verb",
+                    "front": [
+                        {
+                            "kanji": "恐",
+                            "furigana": "おそ"
+                        },
+                        "れ",
+                        {
+                            "kanji": "入",
+                            "furigana": "い"
+                        },
+                        "る"
+                    ],
+                    "back": [
+                        "to be sorry; to beg pardon; to be much obliged; to feel small",
+                        "to be grateful"
+                    ]
+                },
+                {
+                    "id": "273474",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "黴菌",
+                            "furigana": "ばいきん"
+                        }
+                    ],
+                    "back": [
+                        "germ; germs; bacteria; mold; mould",
+                        "something harmful; vermin"
+                    ]
+                },
+                {
+                    "id": "117979",
+                    "type": "'su' godan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "召",
+                            "furigana": "め"
+                        },
+                        "す"
+                    ],
+                    "back": [
+                        "to call; to invite; to send for; to summon",
+                        "to eat; to drink"
+                    ]
+                },
+                {
+                    "id": "277516",
+                    "type": "'i' adjective",
+                    "front": [
+                        {
+                            "kanji": "情",
+                            "furigana": "なさ"
+                        },
+                        "け",
+                        {
+                            "kanji": "深",
+                            "furigana": "ぶか"
+                        },
+                        "い"
+                    ],
+                    "back": [
+                        "tender-hearted; compassionate; charitable; good-hearted"
+                    ]
+                },
+                {
+                    "id": "121757",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "接続詞",
+                            "furigana": "せつぞくし"
+                        }
+                    ],
+                    "back": [
+                        "conjunction"
+                    ]
+                },
+                {
+                    "id": "280702",
+                    "type": "'ru' godan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "擦",
+                            "furigana": "かす"
+                        },
+                        "る"
+                    ],
+                    "back": [
+                        "to graze; to touch lightly",
+                        "to take a percentage; to exploit; to squeeze"
+                    ]
+                },
+                {
+                    "id": "274015",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "斑",
+                            "furigana": "ぶち"
+                        }
+                    ],
+                    "back": [
+                        "spots; speckles; mottles"
+                    ]
+                },
+                {
+                    "id": "107555",
+                    "type": "'ru' godan verb, intransitive verb",
+                    "front": [
+                        {
+                            "kanji": "凝",
+                            "furigana": "こご"
+                        },
+                        "る"
+                    ],
+                    "back": [
+                        "to congeal; to freeze"
+                    ]
+                },
+                {
+                    "id": "103966",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "灰汁",
+                            "furigana": "あく"
+                        }
+                    ],
+                    "back": [
+                        "lye",
+                        "harsh taste; astringency"
+                    ]
+                },
+                {
+                    "id": "272736",
+                    "type": "interjection (kandoushi)",
+                    "front": [
+                        {
+                            "kanji": "嗚呼",
+                            "furigana": "ああ"
+                        }
+                    ],
+                    "back": [
+                        "Ah!; Oh!; Alas!",
+                        "Yes; Indeed; That is correct"
+                    ]
+                },
+                {
+                    "id": "125044",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "団扇",
+                            "furigana": "うちわ"
+                        }
+                    ],
+                    "back": [
+                        "uchiwa; type of traditional Japanese handheld fan"
+                    ]
+                },
+                {
+                    "id": "266285",
+                    "type": "'i' adjective",
+                    "front": [
+                        {
+                            "kanji": "真",
+                            "furigana": "ま"
+                        },
+                        "ん",
+                        {
+                            "kanji": "丸",
+                            "furigana": "まる"
+                        },
+                        "い"
+                    ],
+                    "back": [
+                        "perfectly round; perfectly circular"
+                    ]
+                },
+                {
+                    "id": "267250",
+                    "type": "'i' adjective",
+                    "front": [
+                        {
+                            "kanji": "浅",
+                            "furigana": "あさ"
+                        },
+                        "ましい"
+                    ],
+                    "back": [
+                        "wretched; miserable; shameful; mean; despicable; abject"
+                    ]
+                },
+                {
+                    "id": "127151",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "纏",
+                            "furigana": "まと"
+                        },
+                        "め"
+                    ],
+                    "back": [
+                        "settlement; conclusion; summary"
+                    ]
+                },
+                {
+                    "id": "105926",
+                    "type": "'na' adjective, noun",
+                    "front": [
+                        {
+                            "kanji": "気障",
+                            "furigana": "きざ"
+                        }
+                    ],
+                    "back": [
+                        "affected; smug; pompous; conceited; snobby; pretentious"
+                    ]
+                },
+                {
+                    "id": "327119",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "傑",
+                            "furigana": "けつ"
+                        }
+                    ],
+                    "back": [
+                        "excellence"
+                    ]
+                },
+                {
+                    "id": "264919",
+                    "type": "ichidan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "取",
+                            "furigana": "と"
+                        },
+                        "り",
+                        {
+                            "kanji": "混",
+                            "furigana": "ま"
+                        },
+                        "ぜる"
+                    ],
+                    "back": [
+                        "to mix; to put together"
+                    ]
+                },
+                {
+                    "id": "261839",
+                    "type": "ichidan verb, intransitive verb",
+                    "front": [
+                        {
+                            "kanji": "怯",
+                            "furigana": "おび"
+                        },
+                        "える"
+                    ],
+                    "back": [
+                        "to become frightened; to be frightened (of); to be scared (of)"
+                    ]
+                },
+                {
+                    "id": "268658",
+                    "type": "'su' godan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "吊",
+                            "furigana": "つ"
+                        },
+                        "るす"
+                    ],
+                    "back": [
+                        "to hang; to hang up"
+                    ]
+                },
+                {
+                    "id": "121740",
+                    "type": "'gu' godan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "接",
+                            "furigana": "つ"
+                        },
+                        "ぐ"
+                    ],
+                    "back": [
+                        "to join",
+                        "to piece together"
+                    ]
+                },
+                {
+                    "id": "262684",
+                    "type": "ichidan verb, transitive verb",
+                    "front": [
+                        "やり",
+                        {
+                            "kanji": "遂",
+                            "furigana": "と"
+                        },
+                        "げる"
+                    ],
+                    "back": [
+                        "to accomplish; to finish; to carry through; to follow through"
+                    ]
+                },
+                {
+                    "id": "271951",
+                    "type": "noun, 'suru' verb",
+                    "front": [
+                        {
+                            "kanji": "余所見",
+                            "furigana": "よそみ"
+                        }
+                    ],
+                    "back": [
+                        "looking away; looking aside"
+                    ]
+                },
+                {
+                    "id": "122845",
+                    "type": "'na' adjective, noun",
+                    "front": [
+                        {
+                            "kanji": "疎",
+                            "furigana": "おろそ"
+                        },
+                        "か"
+                    ],
+                    "back": [
+                        "neglect; negligence; carelessness",
+                        "not to mention ...; needless to say ...; not to speak of ...; not only ..."
+                    ]
+                },
+                {
+                    "id": "277310",
+                    "type": "'i' adjective",
+                    "front": [
+                        {
+                            "kanji": "貴",
+                            "furigana": "たっと"
+                        },
+                        "い"
+                    ],
+                    "back": [
+                        "precious; valuable; priceless; noble; exalted; sacred"
+                    ]
+                },
+                {
+                    "id": "267777",
+                    "type": "conjunction",
+                    "front": [
+                        {
+                            "kanji": "其",
+                            "furigana": "そ"
+                        },
+                        "れ",
+                        {
+                            "kanji": "故",
+                            "furigana": "ゆえ"
+                        }
+                    ],
+                    "back": [
+                        "therefore; for that reason; so"
+                    ]
+                },
+                {
+                    "id": "132573",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "布巾",
+                            "furigana": "ふきん"
+                        }
+                    ],
+                    "back": [
+                        "tea-towel; dish cloth"
+                    ]
+                },
+                {
+                    "id": "126142",
+                    "type": "'ru' godan verb, intransitive verb",
+                    "front": [
+                        {
+                            "kanji": "捗",
+                            "furigana": "はかど"
+                        },
+                        "る"
+                    ],
+                    "back": [
+                        "to make progress; to move right ahead (with the work); to advance"
+                    ]
+                },
+                {
+                    "id": "261741",
+                    "type": "suffix, 'u' godan verb",
+                    "front": [
+                        {
+                            "kanji": "給",
+                            "furigana": "たま"
+                        },
+                        "う"
+                    ],
+                    "back": [
+                        "semi-polite or endearing auxiliary verb indicating reception by the speaker"
+                    ]
+                },
+                {
+                    "id": "138753",
+                    "type": "'ru' godan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "弄",
+                            "furigana": "いじ"
+                        },
+                        "る"
+                    ],
+                    "back": [
+                        "to finger; to touch; to play with; to fiddle with; to toy with",
+                        "to make changes to; to tinker with; to tamper with"
+                    ]
+                },
+                {
+                    "id": "111262",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "垢",
+                            "furigana": "あか"
+                        }
+                    ],
+                    "back": [
+                        "dirt; filth; grime",
+                        "account (e.g. online service)"
+                    ]
+                },
+                {
+                    "id": "259931",
+                    "type": "'i' adjective",
+                    "front": [
+                        {
+                            "kanji": "汚",
+                            "furigana": "けが"
+                        },
+                        "らわしい"
+                    ],
+                    "back": [
+                        "filthy; unfair; dirty; untouchable; disgusting; nasty; foul; odious; repulsive"
+                    ]
+                },
+                {
+                    "id": "270570",
+                    "type": "'ku' godan verb, intransitive verb",
+                    "front": [
+                        {
+                            "kanji": "赴",
+                            "furigana": "おもむ"
+                        },
+                        "く"
+                    ],
+                    "back": [
+                        "to go in the direction of; to proceed toward; to proceed according to; to repair to; to betake oneself to",
+                        "to become; to face (facts, circumstances, etc.)"
+                    ]
+                },
+                {
+                    "id": "263119",
+                    "type": "interjection (kandoushi)",
+                    "front": [
+                        "ご",
+                        {
+                            "kanji": "馳走",
+                            "furigana": "ちそう"
+                        },
+                        "さま"
+                    ],
+                    "back": [
+                        "word used after one has been treated (esp. used after a meal)",
+                        "used after hearing something lovey-dovey"
+                    ]
+                },
+                {
+                    "id": "124791",
+                    "type": "'ru' godan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "辿",
+                            "furigana": "たど"
+                        },
+                        "る"
+                    ],
+                    "back": [
+                        "to follow (road); to pursue (course); to follow up; to follow (hyperlink)"
+                    ]
+                },
+                {
+                    "id": "129330",
+                    "type": "'u' godan verb, intransitive verb",
+                    "front": [
+                        {
+                            "kanji": "賑",
+                            "furigana": "にぎ"
+                        },
+                        "わう"
+                    ],
+                    "back": [
+                        "to be crowded with people; to be bustling with",
+                        "to prosper; to flourish; to do thriving business"
+                    ]
+                },
+                {
+                    "id": "131514",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "微塵",
+                            "furigana": "みじん"
+                        }
+                    ],
+                    "back": [
+                        "particle; atom; little piece",
+                        "not at all; not the slightest"
+                    ]
+                },
+                {
+                    "id": "274620",
+                    "type": "adverb, noun, 'suru' verb, 'to' adverb",
+                    "front": [
+                        {
+                            "kanji": "苛々",
+                            "furigana": "いらいら"
+                        }
+                    ],
+                    "back": [
+                        "getting nervous; irritation"
+                    ]
+                },
+                {
+                    "id": "139369",
+                    "type": "ichidan verb, intransitive verb",
+                    "front": [
+                        {
+                            "kanji": "揉",
+                            "furigana": "も"
+                        },
+                        "める"
+                    ],
+                    "back": [
+                        "to disagree; to dispute; to fight (over)"
+                    ]
+                },
+                {
+                    "id": "100656",
+                    "type": "'su' godan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "逸",
+                            "furigana": "そ"
+                        },
+                        "らす"
+                    ],
+                    "back": [
+                        "to turn away; to avert"
+                    ]
+                },
+                {
+                    "id": "268266",
+                    "type": "'su' godan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "遅",
+                            "furigana": "おく"
+                        },
+                        "らす"
+                    ],
+                    "back": [
+                        "to retard; to delay"
+                    ]
+                },
+                {
+                    "id": "139545",
+                    "type": "'i' adjective",
+                    "front": [
+                        {
+                            "kanji": "痒",
+                            "furigana": "かゆ"
+                        },
+                        "い"
+                    ],
+                    "back": [
+                        "itchy; itching"
+                    ]
+                },
+                {
+                    "id": "259873",
+                    "type": "'ru' godan verb, intransitive verb",
+                    "front": [
+                        {
+                            "kanji": "煙",
+                            "furigana": "けむ"
+                        },
+                        "る"
+                    ],
+                    "back": [
+                        "to smoke (e.g. fire)",
+                        "to be hazy"
+                    ]
+                },
+                {
+                    "id": "273421",
+                    "type": "'su' godan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "騙",
+                            "furigana": "だま"
+                        },
+                        "す"
+                    ],
+                    "back": [
+                        "to trick; to cheat; to deceive",
+                        "to coax; to wheedle; to soothe and humor (humour)"
+                    ]
+                },
+                {
+                    "id": "266686",
+                    "type": "adverb",
+                    "front": [
+                        {
+                            "kanji": "成",
+                            "furigana": "な"
+                        },
+                        "る",
+                        {
+                            "kanji": "丈",
+                            "furigana": "たけ"
+                        }
+                    ],
+                    "back": [
+                        "as much as possible; if possible"
+                    ]
+                },
+                {
+                    "id": "136424",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "夜具",
+                            "furigana": "やぐ"
+                        }
+                    ],
+                    "back": [
+                        "bedding; bedclothes"
+                    ]
+                },
+                {
+                    "id": "141050",
+                    "type": "'mu' godan verb, intransitive verb",
+                    "front": [
+                        {
+                            "kanji": "歪",
+                            "furigana": "ゆが"
+                        },
+                        "む"
+                    ],
+                    "back": [
+                        "to warp; to swerve; to deflect; to be crooked; to be distorted; to be bent; to incline; to slant; to be perverted; to be gross-grained; to get bent; to be strained"
+                    ]
+                },
+                {
+                    "id": "270086",
+                    "type": "'i' adjective",
+                    "front": [
+                        {
+                            "kanji": "卑",
+                            "furigana": "いや"
+                        },
+                        "しい"
+                    ],
+                    "back": [
+                        "lowborn; humble; lowly",
+                        "vulgar; coarse; crude; mean; base; vile"
+                    ]
+                },
+                {
+                    "id": "123889",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "他動詞",
+                            "furigana": "たどうし"
+                        }
+                    ],
+                    "back": [
+                        "transitive verb (direct obj.)"
+                    ]
+                },
+                {
+                    "id": "275306",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "箇条書",
+                            "furigana": "かじょうが"
+                        },
+                        "き"
+                    ],
+                    "back": [
+                        "itemized form; itemised form; itemization; itemisation"
+                    ]
+                },
+                {
+                    "id": "270830",
+                    "type": "conjunction",
+                    "front": [
+                        {
+                            "kanji": "而",
+                            "furigana": "しか"
+                        },
+                        "も"
+                    ],
+                    "back": [
+                        "moreover; furthermore",
+                        "nevertheless; and yet"
+                    ]
+                },
+                {
+                    "id": "108630",
+                    "type": "'ru' godan verb",
+                    "front": [
+                        {
+                            "kanji": "契",
+                            "furigana": "ちぎ"
+                        },
+                        "る"
+                    ],
+                    "back": [
+                        "to pledge; to vow; to promise; to swear",
+                        "to have sexual intercourse (esp. between husband and wife); to share a bed"
+                    ]
+                },
+                {
+                    "id": "265117",
+                    "type": "ichidan verb, intransitive verb",
+                    "front": [
+                        {
+                            "kanji": "腫",
+                            "furigana": "は"
+                        },
+                        "れる"
+                    ],
+                    "back": [
+                        "to swell (from inflammation); to become swollen"
+                    ]
+                },
+                {
+                    "id": "273180",
+                    "type": "ichidan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "茹",
+                            "furigana": "ゆ"
+                        },
+                        "でる"
+                    ],
+                    "back": [
+                        "to boil (something in hot water)",
+                        "to treat with medicinal steam (a swelling, etc.)"
+                    ]
+                },
+                {
+                    "id": "277070",
+                    "type": "adverb, noun",
+                    "front": [
+                        {
+                            "kanji": "丁々",
+                            "furigana": "とうとう"
+                        }
+                    ],
+                    "back": [
+                        "clashing of swords; felling of trees; ringing of an ax"
+                    ]
+                },
+                {
+                    "id": "273381",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "鋏",
+                            "furigana": "はさみ"
+                        }
+                    ],
+                    "back": [
+                        "scissors; shears; clippers",
+                        "hole punch"
+                    ]
+                },
+                {
+                    "id": "269391",
+                    "type": "'i' adjective",
+                    "front": [
+                        {
+                            "kanji": "馴",
+                            "furigana": "な"
+                        },
+                        "れ",
+                        {
+                            "kanji": "馴",
+                            "furigana": "な"
+                        },
+                        "れしい"
+                    ],
+                    "back": [
+                        "over-familiar"
+                    ]
+                },
+                {
+                    "id": "138128",
+                    "type": "'gu' godan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "凌",
+                            "furigana": "しの"
+                        },
+                        "ぐ"
+                    ],
+                    "back": [
+                        "to endure; to keep out (e.g. rain); to stave off (e.g. starvation)",
+                        "to pull through; to get over; to survive"
+                    ]
+                },
+                {
+                    "id": "276656",
+                    "type": "ichidan verb, intransitive verb",
+                    "front": [
+                        {
+                            "kanji": "擦",
+                            "furigana": "す"
+                        },
+                        "れる"
+                    ],
+                    "back": [
+                        "to rub; to chafe",
+                        "to wear out; to become worn"
+                    ]
+                },
+                {
+                    "id": "274175",
+                    "type": "noun, 'na' adjective",
+                    "front": [
+                        {
+                            "kanji": "吝嗇",
+                            "furigana": "りんしょく"
+                        }
+                    ],
+                    "back": [
+                        "stinginess; miser; miserliness; selfishness"
+                    ]
+                },
+                {
+                    "id": "268089",
+                    "type": "'ku' godan verb, intransitive verb",
+                    "front": [
+                        {
+                            "kanji": "辿",
+                            "furigana": "たど"
+                        },
+                        "り",
+                        {
+                            "kanji": "着",
+                            "furigana": "つ"
+                        },
+                        "く"
+                    ],
+                    "back": [
+                        "to struggle on to; to arrive somewhere after a struggle; to grope along to; to barely manage to reach; to finally arrive at; to finally hit on (e.g. an idea)"
+                    ]
+                },
+                {
+                    "id": "138947",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "詫",
+                            "furigana": "わ"
+                        },
+                        "び"
+                    ],
+                    "back": [
+                        "apology; excuse"
+                    ]
+                },
+                {
+                    "id": "100675",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "稲光",
+                            "furigana": "いなびかり"
+                        }
+                    ],
+                    "back": [
+                        "(flash of) lightning"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Wikipedia JLPT N1 Vocab 3201-3300",
+            "vocabs": [
+                {
+                    "id": "126068",
+                    "type": "'na' adjective",
+                    "front": [
+                        {
+                            "kanji": "長閑",
+                            "furigana": "のどか"
+                        }
+                    ],
+                    "back": [
+                        "tranquil; calm; quiet; peaceful"
+                    ]
+                },
+                {
+                    "id": "261989",
+                    "type": "'ru' godan verb, intransitive verb",
+                    "front": [
+                        {
+                            "kanji": "勤",
+                            "furigana": "つと"
+                        },
+                        "まる"
+                    ],
+                    "back": [
+                        "to be fit for; to be equal to; to function properly"
+                    ]
+                },
+                {
+                    "id": "261866",
+                    "type": "expression, adverb",
+                    "front": [
+                        {
+                            "kanji": "況",
+                            "furigana": "ま"
+                        },
+                        "して"
+                    ],
+                    "back": [
+                        "still more; to say nothing of; not to mention",
+                        "still less"
+                    ]
+                },
+                {
+                    "id": "258215",
+                    "type": "noun",
+                    "front": [
+                        "お",
+                        {
+                            "kanji": "祖母",
+                            "furigana": "ばあ"
+                        },
+                        "さん"
+                    ],
+                    "back": [
+                        "grandmother",
+                        "old woman; female senior citizen"
+                    ]
+                },
+                {
+                    "id": "272720",
+                    "type": "'ru' godan verb, intransitive verb",
+                    "front": [
+                        {
+                            "kanji": "唸",
+                            "furigana": "うな"
+                        },
+                        "る"
+                    ],
+                    "back": [
+                        "to groan; to moan",
+                        "to roar; to howl; to growl"
+                    ]
+                },
+                {
+                    "id": "85674",
+                    "type": "conjunction",
+                    "front": [
+                        {
+                            "kanji": "其",
+                            "furigana": "そ"
+                        },
+                        "れ",
+                        {
+                            "kanji": "共",
+                            "furigana": "とも"
+                        }
+                    ],
+                    "back": [
+                        "or; or else"
+                    ]
+                },
+                {
+                    "id": "266449",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "塵取",
+                            "furigana": "ちりと"
+                        },
+                        "り"
+                    ],
+                    "back": [
+                        "dustpan"
+                    ]
+                },
+                {
+                    "id": "143680",
+                    "type": "adverb, pronoun",
+                    "front": [
+                        {
+                            "kanji": "彼方此方",
+                            "furigana": "あちこち"
+                        }
+                    ],
+                    "back": [
+                        "here and there; all around; everywhere; throughout; all over",
+                        "to get things in the wrong order (back to front); to become muddled up"
+                    ]
+                },
+                {
+                    "id": "114681",
+                    "type": "'ru' godan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "諮",
+                            "furigana": "はか"
+                        },
+                        "る"
+                    ],
+                    "back": [
+                        "to consult with; to discuss; to confer; to deliberate"
+                    ]
+                },
+                {
+                    "id": "327144",
+                    "type": "",
+                    "front": [
+                        {
+                            "kanji": "働",
+                            "furigana": "どう"
+                        }
+                    ],
+                    "back": [
+                        "work, labor\n\n                      (click the word for examples and links)"
+                    ]
+                },
+                {
+                    "id": "267388",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "粗筋",
+                            "furigana": "あらすじ"
+                        }
+                    ],
+                    "back": [
+                        "outline; summary; argument"
+                    ]
+                },
+                {
+                    "id": "262685",
+                    "type": "'su' godan verb",
+                    "front": [
+                        {
+                            "kanji": "遣",
+                            "furigana": "や"
+                        },
+                        "り",
+                        {
+                            "kanji": "通",
+                            "furigana": "とお"
+                        },
+                        "す"
+                    ],
+                    "back": [
+                        "to carry through; to achieve; to complete"
+                    ]
+                },
+                {
+                    "id": "262301",
+                    "type": "'mu' godan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "恵",
+                            "furigana": "めぐ"
+                        },
+                        "む"
+                    ],
+                    "back": [
+                        "to bless; to show mercy to",
+                        "to give (money, etc.)"
+                    ]
+                },
+                {
+                    "id": "139915",
+                    "type": "'suru' verb",
+                    "front": [
+                        {
+                            "kanji": "辟易",
+                            "furigana": "へきえき"
+                        }
+                    ],
+                    "back": [
+                        "to wince; to shrink back",
+                        "to be stumped; to be disconcerted"
+                    ]
+                },
+                {
+                    "id": "273037",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "皺",
+                            "furigana": "しわ"
+                        }
+                    ],
+                    "back": [
+                        "wrinkle; crease",
+                        "ripple"
+                    ]
+                },
+                {
+                    "id": "139079",
+                    "type": "'na' adjective, noun, 'suru' verb",
+                    "front": [
+                        {
+                            "kanji": "几帳面",
+                            "furigana": "きちょうめん"
+                        }
+                    ],
+                    "back": [
+                        "methodical; punctual; steady"
+                    ]
+                },
+                {
+                    "id": "259869",
+                    "type": "'i' adjective",
+                    "front": [
+                        {
+                            "kanji": "煙",
+                            "furigana": "けむ"
+                        },
+                        "たい"
+                    ],
+                    "back": [
+                        "smoky",
+                        "awkward; ill at ease"
+                    ]
+                },
+                {
+                    "id": "139146",
+                    "type": "noun, 'no' adjective",
+                    "front": [
+                        {
+                            "kanji": "咄嗟",
+                            "furigana": "とっさ"
+                        }
+                    ],
+                    "back": [
+                        "moment; instant"
+                    ]
+                },
+                {
+                    "id": "115246",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "自動詞",
+                            "furigana": "じどうし"
+                        }
+                    ],
+                    "back": [
+                        "intransitive verb (no direct obj.)"
+                    ]
+                },
+                {
+                    "id": "264710",
+                    "type": "noun, 'no' adjective",
+                    "front": [
+                        {
+                            "kanji": "自惚",
+                            "furigana": "うぬぼ"
+                        },
+                        "れ"
+                    ],
+                    "back": [
+                        "pretension; conceit; hubris"
+                    ]
+                },
+                {
+                    "id": "272397",
+                    "type": "ichidan verb, intransitive verb",
+                    "front": [
+                        {
+                            "kanji": "零",
+                            "furigana": "こぼ"
+                        },
+                        "れる"
+                    ],
+                    "back": [
+                        "to spill; to fall out of; to overflow",
+                        "to peek through; to become visible (although normally not)"
+                    ]
+                },
+                {
+                    "id": "139550",
+                    "type": "ichidan verb, intransitive verb",
+                    "front": [
+                        {
+                            "kanji": "痺",
+                            "furigana": "しび"
+                        },
+                        "れる"
+                    ],
+                    "back": [
+                        "to become numb; to go to sleep (e.g. a limb)",
+                        "to be excited; to be titillated; to be mesmerized"
+                    ]
+                },
+                {
+                    "id": "139918",
+                    "type": "'i' adjective",
+                    "front": [
+                        {
+                            "kanji": "逞",
+                            "furigana": "たくま"
+                        },
+                        "しい"
+                    ],
+                    "back": [
+                        "burly; strong; sturdy",
+                        "indomitable; indefatigable; strong-willed; resolute; bold"
+                    ]
+                },
+                {
+                    "id": "276940",
+                    "type": "adverb",
+                    "front": [
+                        {
+                            "kanji": "仮令",
+                            "furigana": "たとえ"
+                        }
+                    ],
+                    "back": [
+                        "even if; no matter (what); if; though; although; supposing; supposing that; -ever"
+                    ]
+                },
+                {
+                    "id": "107550",
+                    "type": "'su' godan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "凝",
+                            "furigana": "こご"
+                        },
+                        "らす"
+                    ],
+                    "back": [
+                        "to freeze; to congeal",
+                        "to concentrate one's attention on; to devote oneself to something; to ponder; to meditate"
+                    ]
+                },
+                {
+                    "id": "276041",
+                    "type": "'ru' godan verb, intransitive verb",
+                    "front": [
+                        {
+                            "kanji": "篭",
+                            "furigana": "こも"
+                        },
+                        "る"
+                    ],
+                    "back": [
+                        "to seclude oneself; to be confined in",
+                        "to be filled (e.g. with emotion, satire, etc.); to be heavy (with)"
+                    ]
+                },
+                {
+                    "id": "115704",
+                    "type": "noun, 'suru' verb",
+                    "front": [
+                        {
+                            "kanji": "謝絶",
+                            "furigana": "しゃぜつ"
+                        }
+                    ],
+                    "back": [
+                        "refusal"
+                    ]
+                },
+                {
+                    "id": "270062",
+                    "type": "'i' adjective",
+                    "front": [
+                        {
+                            "kanji": "五月蝿",
+                            "furigana": "うるさ"
+                        },
+                        "い"
+                    ],
+                    "back": [
+                        "noisy; loud",
+                        "annoying; troublesome; tiresome; persistent; importunate"
+                    ]
+                },
+                {
+                    "id": "119028",
+                    "type": "'ru' godan verb, intransitive verb",
+                    "front": [
+                        {
+                            "kanji": "植",
+                            "furigana": "う"
+                        },
+                        "わる"
+                    ],
+                    "back": [
+                        "to be planted"
+                    ]
+                },
+                {
+                    "id": "99564",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "尉",
+                            "furigana": "じょう"
+                        }
+                    ],
+                    "back": [
+                        "inspector (third highest of the four administrative ranks of the ritsuryo system)",
+                        "(noh) old man"
+                    ]
+                },
+                {
+                    "id": "99287",
+                    "type": "ichidan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "宛",
+                            "furigana": "あ"
+                        },
+                        "てる"
+                    ],
+                    "back": [
+                        "to address"
+                    ]
+                },
+                {
+                    "id": "276130",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "些事",
+                            "furigana": "さじ"
+                        }
+                    ],
+                    "back": [
+                        "something small or petty; trifle"
+                    ]
+                },
+                {
+                    "id": "106343",
+                    "type": "'ru' godan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "詰",
+                            "furigana": "なじ"
+                        },
+                        "る"
+                    ],
+                    "back": [
+                        "to rebuke; to scold; to tell off"
+                    ]
+                },
+                {
+                    "id": "272792",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "屎尿",
+                            "furigana": "しにょう"
+                        }
+                    ],
+                    "back": [
+                        "excreta; raw sewage; human waste; night soil"
+                    ]
+                },
+                {
+                    "id": "274413",
+                    "type": "pre-noun adjectival (rentaishi)",
+                    "front": [
+                        {
+                            "kanji": "凡",
+                            "furigana": "あら"
+                        },
+                        "ゆる"
+                    ],
+                    "back": [
+                        "all; every"
+                    ]
+                },
+                {
+                    "id": "273995",
+                    "type": "'gu' godan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "剥",
+                            "furigana": "は"
+                        },
+                        "ぐ"
+                    ],
+                    "back": [
+                        "to tear off; to peel off; to rip off; to strip off; to skin; to flay; to bark; to disrobe",
+                        "to strip of (e.g. clothes, rank); to deprive of; to divest"
+                    ]
+                },
+                {
+                    "id": "268420",
+                    "type": "adverb",
+                    "front": [
+                        {
+                            "kanji": "恰度",
+                            "furigana": "ちょうど"
+                        }
+                    ],
+                    "back": [
+                        "exactly; precisely; just; right",
+                        "as if; as though; quite"
+                    ]
+                },
+                {
+                    "id": "266608",
+                    "type": "ichidan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "据",
+                            "furigana": "す"
+                        },
+                        "え",
+                        {
+                            "kanji": "付",
+                            "furigana": "つ"
+                        },
+                        "ける"
+                    ],
+                    "back": [
+                        "to install; to equip; to mount"
+                    ]
+                },
+                {
+                    "id": "263918",
+                    "type": "ichidan verb, intransitive verb",
+                    "front": [
+                        {
+                            "kanji": "冴",
+                            "furigana": "さ"
+                        },
+                        "える"
+                    ],
+                    "back": [
+                        "to be clear (of a sight, sound, colour, etc.); to be bright; to be vivid; to be crisp",
+                        "to be clear-headed; to be alert; to be on the ball; to be wide awake"
+                    ]
+                },
+                {
+                    "id": "107299",
+                    "type": "'ru' godan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "強請",
+                            "furigana": "ねだ"
+                        },
+                        "る"
+                    ],
+                    "back": [
+                        "to beg; to pester; to plead; to coax; to hound; to importune"
+                    ]
+                },
+                {
+                    "id": "102462",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "下吏",
+                            "furigana": "かり"
+                        }
+                    ],
+                    "back": [
+                        "lower official"
+                    ]
+                },
+                {
+                    "id": "85648",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "其処",
+                            "furigana": "そこ"
+                        },
+                        "ら"
+                    ],
+                    "back": [
+                        "everywhere; somewhere; approximately; that area; around there"
+                    ]
+                },
+                {
+                    "id": "123223",
+                    "type": "'gu' godan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "漕",
+                            "furigana": "こ"
+                        },
+                        "ぐ"
+                    ],
+                    "back": [
+                        "to row; to scull; to paddle",
+                        "to pedal (e.g. bicycle)"
+                    ]
+                },
+                {
+                    "id": "258500",
+                    "type": "'i' adjective",
+                    "front": [
+                        {
+                            "kanji": "怠",
+                            "furigana": "だる"
+                        },
+                        "い"
+                    ],
+                    "back": [
+                        "sluggish; languid; listless; heavy (heart, legs, etc.); dull",
+                        "bothersome; tiresome"
+                    ]
+                },
+                {
+                    "id": "121446",
+                    "type": "'i' adjective",
+                    "front": [
+                        {
+                            "kanji": "脆",
+                            "furigana": "もろ"
+                        },
+                        "い"
+                    ],
+                    "back": [
+                        "brittle; fragile; tender-hearted"
+                    ]
+                },
+                {
+                    "id": "135160",
+                    "type": "adverb",
+                    "front": [
+                        {
+                            "kanji": "凡",
+                            "furigana": "およ"
+                        },
+                        "そ"
+                    ],
+                    "back": [
+                        "about; roughly; approximately",
+                        "generally; on the whole; as a rule"
+                    ]
+                },
+                {
+                    "id": "118403",
+                    "type": "'su' godan verb, intransitive verb",
+                    "front": [
+                        {
+                            "kanji": "照",
+                            "furigana": "て"
+                        },
+                        "り",
+                        {
+                            "kanji": "返",
+                            "furigana": "かえ"
+                        },
+                        "す"
+                    ],
+                    "back": [
+                        "to reflect; to throw back light"
+                    ]
+                },
+                {
+                    "id": "285004",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "吊",
+                            "furigana": "つ"
+                        },
+                        "り",
+                        {
+                            "kanji": "革",
+                            "furigana": "かわ"
+                        }
+                    ],
+                    "back": [
+                        "strap (to hang onto)"
+                    ]
+                },
+                {
+                    "id": "140172",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "卯",
+                            "furigana": "う"
+                        }
+                    ],
+                    "back": [
+                        "fourth sign of Chinese zodiac (The Hare, 5am-7am, east, February)"
+                    ]
+                },
+                {
+                    "id": "126450",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "辻褄",
+                            "furigana": "つじつま"
+                        }
+                    ],
+                    "back": [
+                        "coherence; consistency"
+                    ]
+                },
+                {
+                    "id": "127448",
+                    "type": "adverb",
+                    "front": [
+                        {
+                            "kanji": "兎",
+                            "furigana": "と"
+                        },
+                        "も",
+                        {
+                            "kanji": "角",
+                            "furigana": "かく"
+                        }
+                    ],
+                    "back": [
+                        "anyhow; anyway; somehow or other; generally speaking; in any case; be that as it may"
+                    ]
+                },
+                {
+                    "id": "285281",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "金槌",
+                            "furigana": "かなづち"
+                        }
+                    ],
+                    "back": [
+                        "hammer",
+                        "hopeless swimmer; complete beginner at swimming; someone who sinks like a stone"
+                    ]
+                },
+                {
+                    "id": "278444",
+                    "type": "'ru' godan verb, intransitive verb",
+                    "front": [
+                        {
+                            "kanji": "謙",
+                            "furigana": "へりくだ"
+                        },
+                        "る"
+                    ],
+                    "back": [
+                        "to deprecate oneself and praise the listener; to abase oneself",
+                        "to condescend to"
+                    ]
+                },
+                {
+                    "id": "106234",
+                    "type": "'ku' godan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "欺",
+                            "furigana": "あざむ"
+                        },
+                        "く"
+                    ],
+                    "back": [
+                        "to deceive; to delude; to trick; to fool",
+                        "to be as ... as ... (e.g. \"as bright as day\", \"as beautiful as a rose\")"
+                    ]
+                },
+                {
+                    "id": "125271",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "弛",
+                            "furigana": "たる"
+                        },
+                        "み"
+                    ],
+                    "back": [
+                        "slack; slackening; sagginess; flabbiness (skin, etc.)",
+                        "dullness; letdown; depression; ennui"
+                    ]
+                },
+                {
+                    "id": "130115",
+                    "type": "'ru' godan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "罵",
+                            "furigana": "ののし"
+                        },
+                        "る"
+                    ],
+                    "back": [
+                        "to abuse verbally; to curse at; to shout abuse at; to speak ill of"
+                    ]
+                },
+                {
+                    "id": "273117",
+                    "type": "'na' adjective",
+                    "front": [
+                        {
+                            "kanji": "煌",
+                            "furigana": "きら"
+                        },
+                        "びやか"
+                    ],
+                    "back": [
+                        "gorgeous; gaudy; dazzling; gay; resplendent"
+                    ]
+                },
+                {
+                    "id": "139475",
+                    "type": "'mu' godan verb, intransitive verb",
+                    "front": [
+                        {
+                            "kanji": "滲",
+                            "furigana": "にじ"
+                        },
+                        "む"
+                    ],
+                    "back": [
+                        "to run (of liquid); to spread",
+                        "to blur; to blot; to be blurred"
+                    ]
+                },
+                {
+                    "id": "120557",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "数詞",
+                            "furigana": "すうし"
+                        }
+                    ],
+                    "back": [
+                        "numeral"
+                    ]
+                },
+                {
+                    "id": "109370",
+                    "type": "'ru' godan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "捲",
+                            "furigana": "まく"
+                        },
+                        "る"
+                    ],
+                    "back": [
+                        "to turn up; to roll up (e.g. sleeves)",
+                        "to do a lot of ..."
+                    ]
+                },
+                {
+                    "id": "258362",
+                    "type": "adverb",
+                    "front": [
+                        {
+                            "kanji": "悉",
+                            "furigana": "ことごと"
+                        },
+                        "く"
+                    ],
+                    "back": [
+                        "altogether; entirely"
+                    ]
+                },
+                {
+                    "id": "258679",
+                    "type": "'ku' godan verb",
+                    "front": [
+                        {
+                            "kanji": "藻掻",
+                            "furigana": "もが"
+                        },
+                        "く"
+                    ],
+                    "back": [
+                        "to struggle; to wriggle; to squirm; to writhe",
+                        "to be impatient"
+                    ]
+                },
+                {
+                    "id": "273323",
+                    "type": "'su' godan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "貶",
+                            "furigana": "けな"
+                        },
+                        "す"
+                    ],
+                    "back": [
+                        "to speak ill of"
+                    ]
+                },
+                {
+                    "id": "123772",
+                    "type": "conjunction",
+                    "front": [
+                        {
+                            "kanji": "其処",
+                            "furigana": "そこ"
+                        },
+                        "で"
+                    ],
+                    "back": [
+                        "so; accordingly; now; then; thereupon; therefore"
+                    ]
+                },
+                {
+                    "id": "85548",
+                    "type": "noun, 'suru' verb",
+                    "front": [
+                        {
+                            "kanji": "吃逆",
+                            "furigana": "しゃっくり"
+                        }
+                    ],
+                    "back": [
+                        "hiccough; hiccup"
+                    ]
+                },
+                {
+                    "id": "139889",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "踵",
+                            "furigana": "かかと"
+                        }
+                    ],
+                    "back": [
+                        "heel (of foot, shoe, stocking, etc.)"
+                    ]
+                },
+                {
+                    "id": "260481",
+                    "type": "'mu' godan verb, intransitive verb",
+                    "front": [
+                        {
+                            "kanji": "霞",
+                            "furigana": "かす"
+                        },
+                        "む"
+                    ],
+                    "back": [
+                        "to grow hazy; to be misty",
+                        "to get blurry"
+                    ]
+                },
+                {
+                    "id": "265748",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "梢",
+                            "furigana": "こずえ"
+                        }
+                    ],
+                    "back": [
+                        "treetop; tip of a branch"
+                    ]
+                },
+                {
+                    "id": "278622",
+                    "type": "'ru' godan verb, intransitive verb",
+                    "front": [
+                        {
+                            "kanji": "跨",
+                            "furigana": "また"
+                        },
+                        "がる"
+                    ],
+                    "back": [
+                        "to extend over; to extend into",
+                        "to straddle"
+                    ]
+                },
+                {
+                    "id": "130395",
+                    "type": "ichidan verb, intransitive verb",
+                    "front": [
+                        {
+                            "kanji": "剥",
+                            "furigana": "は"
+                        },
+                        "げる"
+                    ],
+                    "back": [
+                        "to come off; to be worn off",
+                        "to fade; to discolor; to discolour"
+                    ]
+                },
+                {
+                    "id": "126453",
+                    "type": "ichidan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "綴",
+                            "furigana": "と"
+                        },
+                        "じる"
+                    ],
+                    "back": [
+                        "to bind; to file",
+                        "to top with egg (e.g. donburi)"
+                    ]
+                },
+                {
+                    "id": "136130",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "面皰",
+                            "furigana": "にきび"
+                        }
+                    ],
+                    "back": [
+                        "pimple; acne"
+                    ]
+                },
+                {
+                    "id": "85578",
+                    "type": "noun, 'suru' verb",
+                    "front": [
+                        "じゃん",
+                        {
+                            "kanji": "拳",
+                            "furigana": "けん"
+                        }
+                    ],
+                    "back": [
+                        "rock, paper, scissors game"
+                    ]
+                },
+                {
+                    "id": "279848",
+                    "type": "pre-noun adjectival (rentaishi)",
+                    "front": [
+                        {
+                            "kanji": "碌",
+                            "furigana": "ろく"
+                        },
+                        "な"
+                    ],
+                    "back": [
+                        "satisfactory; decent"
+                    ]
+                },
+                {
+                    "id": "117316",
+                    "type": "'na' adjective, noun",
+                    "front": [
+                        {
+                            "kanji": "出鱈目",
+                            "furigana": "でたらめ"
+                        }
+                    ],
+                    "back": [
+                        "irresponsible utterance; nonsense; bullshit; codswallop",
+                        "random; haphazard; unsystematic"
+                    ]
+                },
+                {
+                    "id": "272518",
+                    "type": "'ru' godan verb, intransitive verb",
+                    "front": [
+                        {
+                            "kanji": "漏",
+                            "furigana": "も"
+                        },
+                        "る"
+                    ],
+                    "back": [
+                        "to leak; to run out"
+                    ]
+                },
+                {
+                    "id": "268900",
+                    "type": "'mu' godan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "妬",
+                            "furigana": "ねた"
+                        },
+                        "む"
+                    ],
+                    "back": [
+                        "to be jealous of; to envy; to begrudge"
+                    ]
+                },
+                {
+                    "id": "139230",
+                    "type": "'na' adjective, noun",
+                    "front": [
+                        {
+                            "kanji": "婉曲",
+                            "furigana": "えんきょく"
+                        }
+                    ],
+                    "back": [
+                        "euphemistic; circumlocution; roundabout; indirect"
+                    ]
+                },
+                {
+                    "id": "263171",
+                    "type": "expression",
+                    "front": [
+                        {
+                            "kanji": "御覧",
+                            "furigana": "ごらん"
+                        },
+                        "なさい"
+                    ],
+                    "back": [
+                        "(please) look",
+                        "see (used to emphasize that an earlier prediction was correct)"
+                    ]
+                },
+                {
+                    "id": "139897",
+                    "type": "'u' godan verb, intransitive verb",
+                    "front": [
+                        {
+                            "kanji": "躊躇",
+                            "furigana": "ためら"
+                        },
+                        "う"
+                    ],
+                    "back": [
+                        "to hesitate"
+                    ]
+                },
+                {
+                    "id": "138950",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "藁",
+                            "furigana": "わら"
+                        }
+                    ],
+                    "back": [
+                        "straw"
+                    ]
+                },
+                {
+                    "id": "130739",
+                    "type": "'tsu' godan verb",
+                    "front": [
+                        {
+                            "kanji": "伐",
+                            "furigana": "う"
+                        },
+                        "つ"
+                    ],
+                    "back": [
+                        "to strike; to attack; to punish"
+                    ]
+                },
+                {
+                    "id": "272773",
+                    "type": "'ru' godan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "傲",
+                            "furigana": "おご"
+                        },
+                        "る"
+                    ],
+                    "back": [
+                        "to give (someone) a treat",
+                        "to be extravagant; to live luxuriously"
+                    ]
+                },
+                {
+                    "id": "261014",
+                    "type": "'i' adjective",
+                    "front": [
+                        {
+                            "kanji": "喧",
+                            "furigana": "やかま"
+                        },
+                        "しい"
+                    ],
+                    "back": [
+                        "noisy; boisterous",
+                        "strict; faultfinding; carping; fussy"
+                    ]
+                },
+                {
+                    "id": "327117",
+                    "type": "",
+                    "front": [
+                        {
+                            "kanji": "依",
+                            "furigana": "い"
+                        }
+                    ],
+                    "back": [
+                        "depending on\n\n                      (click the word for examples and links)"
+                    ]
+                },
+                {
+                    "id": "267542",
+                    "type": "'su' godan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "掻",
+                            "furigana": "か"
+                        },
+                        "き",
+                        {
+                            "kanji": "回",
+                            "furigana": "まわ"
+                        },
+                        "す"
+                    ],
+                    "back": [
+                        "to stir up; to churn; to ransack; to disturb"
+                    ]
+                },
+                {
+                    "id": "150831",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "捕吏",
+                            "furigana": "ほり"
+                        }
+                    ],
+                    "back": [
+                        "constable; policeman"
+                    ]
+                },
+                {
+                    "id": "272394",
+                    "type": "'su' godan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "零",
+                            "furigana": "こぼ"
+                        },
+                        "す"
+                    ],
+                    "back": [
+                        "to spill; to drop; to shed (tears)",
+                        "to grumble; to complain"
+                    ]
+                },
+                {
+                    "id": "110345",
+                    "type": "'gu' godan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "跨",
+                            "furigana": "また"
+                        },
+                        "ぐ"
+                    ],
+                    "back": [
+                        "to step over; to step across; to stride over; to stride across; to cross",
+                        "to stretch over; to span; to bridge; to saddle; to straddle"
+                    ]
+                },
+                {
+                    "id": "288629",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "歎",
+                            "furigana": "たん"
+                        }
+                    ],
+                    "back": [
+                        "sigh",
+                        "grief; lamentation"
+                    ]
+                },
+                {
+                    "id": "265265",
+                    "type": "'su' godan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "蹴飛",
+                            "furigana": "けと"
+                        },
+                        "ばす"
+                    ],
+                    "back": [
+                        "to kick away; to kick off; to kick hard",
+                        "to refuse curtly; to reject outright"
+                    ]
+                },
+                {
+                    "id": "139371",
+                    "type": "'u' godan verb",
+                    "front": [
+                        {
+                            "kanji": "揶揄",
+                            "furigana": "からか"
+                        },
+                        "う"
+                    ],
+                    "back": [
+                        "to ridicule; to tease; to mock; to chaff; to razz; to banter with; to make fun of; to poke fun at; to make cracks about"
+                    ]
+                },
+                {
+                    "id": "134401",
+                    "type": "'i' adjective",
+                    "front": [
+                        {
+                            "kanji": "呆気",
+                            "furigana": "あっけ"
+                        },
+                        "ない"
+                    ],
+                    "back": [
+                        "not enough; too quick (short, long, etc.)"
+                    ]
+                },
+                {
+                    "id": "139441",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "檻",
+                            "furigana": "おり"
+                        }
+                    ],
+                    "back": [
+                        "cage; pen; jail cell; gaol cell"
+                    ]
+                },
+                {
+                    "id": "139902",
+                    "type": "'mu' godan verb, intransitive verb",
+                    "front": [
+                        {
+                            "kanji": "軋",
+                            "furigana": "きし"
+                        },
+                        "む"
+                    ],
+                    "back": [
+                        "to jar; to creak; to grate"
+                    ]
+                },
+                {
+                    "id": "260454",
+                    "type": "ichidan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "苛",
+                            "furigana": "いじ"
+                        },
+                        "める"
+                    ],
+                    "back": [
+                        "to tease; to torment; to persecute; to chastise"
+                    ]
+                },
+                {
+                    "id": "139693",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "臍",
+                            "furigana": "へそ"
+                        }
+                    ],
+                    "back": [
+                        "navel; belly button",
+                        "protrusion or depression in the middle of an object"
+                    ]
+                },
+                {
+                    "id": "121074",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "清濁",
+                            "furigana": "せいだく"
+                        }
+                    ],
+                    "back": [
+                        "good and evil; purity and impurity",
+                        "voiced and unvoiced consonants"
+                    ]
+                },
+                {
+                    "id": "139899",
+                    "type": "noun, 'no' adjective",
+                    "front": [
+                        {
+                            "kanji": "躾",
+                            "furigana": "しつけ"
+                        }
+                    ],
+                    "back": [
+                        "discipline; training; teaching manners"
+                    ]
+                },
+                {
+                    "id": "273080",
+                    "type": "adverb",
+                    "front": [
+                        {
+                            "kanji": "碌",
+                            "furigana": "ろく"
+                        },
+                        "に"
+                    ],
+                    "back": [
+                        "well; enough; sufficiently"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Wikipedia JLPT N1 Vocab 3301-3363",
+            "vocabs": [
+                {
+                    "id": "139191",
+                    "type": "adverb",
+                    "front": [
+                        {
+                            "kanji": "嘸",
+                            "furigana": "さぞ"
+                        }
+                    ],
+                    "back": [
+                        "I am sure; certainly; no doubt"
+                    ]
+                },
+                {
+                    "id": "274190",
+                    "type": "'ru' godan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "瞑",
+                            "furigana": "つぶ"
+                        },
+                        "る"
+                    ],
+                    "back": [
+                        "to close (eyes); to shut"
+                    ]
+                },
+                {
+                    "id": "258438",
+                    "type": "adverb, 'to' adverb",
+                    "front": [
+                        {
+                            "kanji": "泌",
+                            "furigana": "し"
+                        },
+                        "み",
+                        {
+                            "kanji": "泌",
+                            "furigana": "じ"
+                        },
+                        "み"
+                    ],
+                    "back": [
+                        "keenly; deeply; fully; heartily; seriously; earnestly",
+                        "calmly; quietly; softly"
+                    ]
+                },
+                {
+                    "id": "140080",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "鼾",
+                            "furigana": "いびき"
+                        }
+                    ],
+                    "back": [
+                        "snoring; snore"
+                    ]
+                },
+                {
+                    "id": "272978",
+                    "type": "'ru' godan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "炙",
+                            "furigana": "あぶ"
+                        },
+                        "る"
+                    ],
+                    "back": [
+                        "to warm (e.g. one's hands over a fire); to dry",
+                        "to scorch; to broil; to toast; to grill"
+                    ]
+                },
+                {
+                    "id": "273294",
+                    "type": "noun, prefix",
+                    "front": [
+                        {
+                            "kanji": "藍褸",
+                            "furigana": "ぼろ"
+                        }
+                    ],
+                    "back": [
+                        "rag; scrap; tattered clothes",
+                        "fault (esp. in a pretense, pretence); defect"
+                    ]
+                },
+                {
+                    "id": "326769",
+                    "type": "ichidan verb, intransitive verb",
+                    "front": [
+                        {
+                            "kanji": "不山戯",
+                            "furigana": "ふざけ"
+                        },
+                        "る"
+                    ],
+                    "back": [
+                        "to joke; to jest; to kid; to josh",
+                        "to make fun of; to laugh at; to play a prank"
+                    ]
+                },
+                {
+                    "id": "259634",
+                    "type": "'ku' godan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "引",
+                            "furigana": "ひ"
+                        },
+                        "っ",
+                        {
+                            "kanji": "掻",
+                            "furigana": "か"
+                        },
+                        "く"
+                    ],
+                    "back": [
+                        "to scratch; to claw"
+                    ]
+                },
+                {
+                    "id": "264019",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "擦",
+                            "furigana": "す"
+                        },
+                        "れ",
+                        {
+                            "kanji": "違",
+                            "furigana": "ちが"
+                        },
+                        "い"
+                    ],
+                    "back": [
+                        "passing each other; crossing paths without meeting; being at cross purposes"
+                    ]
+                },
+                {
+                    "id": "265082",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "手筈",
+                            "furigana": "てはず"
+                        }
+                    ],
+                    "back": [
+                        "arrangement; plan; programme; program"
+                    ]
+                },
+                {
+                    "id": "139654",
+                    "type": "ichidan verb, intransitive verb",
+                    "front": [
+                        {
+                            "kanji": "聳",
+                            "furigana": "そび"
+                        },
+                        "える"
+                    ],
+                    "back": [
+                        "to rise; to tower; to soar"
+                    ]
+                },
+                {
+                    "id": "272991",
+                    "type": "'taru' adjective, 'to' adverb",
+                    "front": [
+                        {
+                            "kanji": "煌々",
+                            "furigana": "こうこう"
+                        }
+                    ],
+                    "back": [
+                        "brilliant; dazzling; light; bright"
+                    ]
+                },
+                {
+                    "id": "85727",
+                    "type": "adverb",
+                    "front": [
+                        {
+                            "kanji": "些",
+                            "furigana": "ちっ"
+                        },
+                        "とも"
+                    ],
+                    "back": [
+                        "not at all (neg. verb)"
+                    ]
+                },
+                {
+                    "id": "139139",
+                    "type": "ichidan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "咎",
+                            "furigana": "とが"
+                        },
+                        "める"
+                    ],
+                    "back": [
+                        "to blame; to reproach; to censure; to rebuke; to reprove; to find fault; to take to task; to criticize; to criticise",
+                        "to question (a suspect); to challenge"
+                    ]
+                },
+                {
+                    "id": "274603",
+                    "type": "adverb",
+                    "front": [
+                        {
+                            "kanji": "厭々",
+                            "furigana": "いやいや"
+                        }
+                    ],
+                    "back": [
+                        "unwillingly; grudgingly; reluctantly",
+                        "shaking head in refusal (to children)"
+                    ]
+                },
+                {
+                    "id": "139898",
+                    "type": "'ku' godan verb, intransitive verb",
+                    "front": [
+                        {
+                            "kanji": "躓",
+                            "furigana": "つまず"
+                        },
+                        "く"
+                    ],
+                    "back": [
+                        "to stumble; to trip",
+                        "to fail"
+                    ]
+                },
+                {
+                    "id": "139336",
+                    "type": "'ru' godan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "抓",
+                            "furigana": "つね"
+                        },
+                        "る"
+                    ],
+                    "back": [
+                        "to pinch"
+                    ]
+                },
+                {
+                    "id": "327095",
+                    "type": "'u' godan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "拐",
+                            "furigana": "さら"
+                        },
+                        "う"
+                    ],
+                    "back": [
+                        "to carry off; to run away with; to kidnap; to abduct",
+                        "to monopolize; to make one's own"
+                    ]
+                },
+                {
+                    "id": "264550",
+                    "type": "'ru' godan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "賜",
+                            "furigana": "たまわ"
+                        },
+                        "る"
+                    ],
+                    "back": [
+                        "to be given; to be granted; to be honored with; to be honoured with",
+                        "to give; to bestow; to confer; to honor; to honour"
+                    ]
+                },
+                {
+                    "id": "277451",
+                    "type": "ichidan verb, intransitive verb",
+                    "front": [
+                        {
+                            "kanji": "蕩",
+                            "furigana": "とろ"
+                        },
+                        "ける"
+                    ],
+                    "back": [
+                        "to melt (to a liquid)",
+                        "to be enchanted with; to be charmed; to be bewitched"
+                    ]
+                },
+                {
+                    "id": "115458",
+                    "type": "adverb",
+                    "front": [
+                        {
+                            "kanji": "疾",
+                            "furigana": "と"
+                        },
+                        "っくに"
+                    ],
+                    "back": [
+                        "long ago; already; a long time ago"
+                    ]
+                },
+                {
+                    "id": "258315",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "嚏",
+                            "furigana": "くさめ"
+                        }
+                    ],
+                    "back": [
+                        "sneeze",
+                        "spoken twice in response to someone sneezing as a charm against an early death"
+                    ]
+                },
+                {
+                    "id": "266588",
+                    "type": "'ru' godan verb, intransitive verb",
+                    "front": [
+                        {
+                            "kanji": "嵩張",
+                            "furigana": "かさば"
+                        },
+                        "る"
+                    ],
+                    "back": [
+                        "to be bulky; to be unwieldy; to grow voluminous"
+                    ]
+                },
+                {
+                    "id": "85533",
+                    "type": "adverb",
+                    "front": [
+                        {
+                            "kanji": "頻",
+                            "furigana": "しき"
+                        },
+                        "りに"
+                    ],
+                    "back": [
+                        "frequently; repeatedly; often; incessantly; constantly",
+                        "strongly; eagerly"
+                    ]
+                },
+                {
+                    "id": "127150",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "纏",
+                            "furigana": "まと"
+                        },
+                        "まり"
+                    ],
+                    "back": [
+                        "unity; coherence; consistency; coordination",
+                        "settlement; conclusion; completion"
+                    ]
+                },
+                {
+                    "id": "139209",
+                    "type": "'i' adjective",
+                    "front": [
+                        {
+                            "kanji": "夥",
+                            "furigana": "おびただ"
+                        },
+                        "しい"
+                    ],
+                    "back": [
+                        "large number; innumerable; great many; immense; vast; abundant"
+                    ]
+                },
+                {
+                    "id": "125020",
+                    "type": "ichidan verb, intransitive verb",
+                    "front": [
+                        {
+                            "kanji": "綻",
+                            "furigana": "ほころ"
+                        },
+                        "びる"
+                    ],
+                    "back": [
+                        "to come apart at the seams; to be ripped; to be torn",
+                        "to begin to open; to begin to bloom"
+                    ]
+                },
+                {
+                    "id": "106613",
+                    "type": "ichidan verb, intransitive verb",
+                    "front": [
+                        {
+                            "kanji": "朽",
+                            "furigana": "く"
+                        },
+                        "ちる"
+                    ],
+                    "back": [
+                        "to rot; to decay",
+                        "to die in obscurity"
+                    ]
+                },
+                {
+                    "id": "273111",
+                    "type": "noun, 'suru' verb",
+                    "front": [
+                        {
+                            "kanji": "籤引",
+                            "furigana": "くじびき"
+                        }
+                    ],
+                    "back": [
+                        "lottery; drawn lot"
+                    ]
+                },
+                {
+                    "id": "139198",
+                    "type": "'ru' godan verb, intransitive verb",
+                    "front": [
+                        {
+                            "kanji": "囀",
+                            "furigana": "さえず"
+                        },
+                        "る"
+                    ],
+                    "back": [
+                        "to sing; to chirp; to twitter"
+                    ]
+                },
+                {
+                    "id": "272781",
+                    "type": "'na' adjective",
+                    "front": [
+                        {
+                            "kanji": "嫋",
+                            "furigana": "しなや"
+                        },
+                        "か"
+                    ],
+                    "back": [
+                        "supple; flexible; elastic"
+                    ]
+                },
+                {
+                    "id": "274159",
+                    "type": "conjunction, interjection (kandoushi)",
+                    "front": [
+                        {
+                            "kanji": "偖",
+                            "furigana": "さて"
+                        }
+                    ],
+                    "back": [
+                        "well; now; then"
+                    ]
+                },
+                {
+                    "id": "120540",
+                    "type": "'mu' godan verb, intransitive verb",
+                    "front": [
+                        {
+                            "kanji": "嵩",
+                            "furigana": "かさ"
+                        },
+                        "む"
+                    ],
+                    "back": [
+                        "to pile up; to increase"
+                    ]
+                },
+                {
+                    "id": "106309",
+                    "type": "'u' godan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "掬",
+                            "furigana": "すく"
+                        },
+                        "う"
+                    ],
+                    "back": [
+                        "to scoop; to ladle out"
+                    ]
+                },
+                {
+                    "id": "109180",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "月賦",
+                            "furigana": "げっぷ"
+                        }
+                    ],
+                    "back": [
+                        "monthly installment (instalment); monthly payment"
+                    ]
+                },
+                {
+                    "id": "122830",
+                    "type": "'u' godan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "繕",
+                            "furigana": "つくろ"
+                        },
+                        "う"
+                    ],
+                    "back": [
+                        "to mend; to patch up; to repair; to fix; to darn; to trim",
+                        "to fix (hair, clothes, appearance etc.); to adjust; to tidy up; to groom"
+                    ]
+                },
+                {
+                    "id": "112331",
+                    "type": "adverb",
+                    "front": [
+                        {
+                            "kanji": "忽",
+                            "furigana": "たちま"
+                        },
+                        "ち"
+                    ],
+                    "back": [
+                        "at once; in a moment; suddenly; all at once; quickly; promptly; immediately"
+                    ]
+                },
+                {
+                    "id": "272944",
+                    "type": "'ru' godan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "毟",
+                            "furigana": "むし"
+                        },
+                        "る"
+                    ],
+                    "back": [
+                        "to pluck; to pick; to tear"
+                    ]
+                },
+                {
+                    "id": "139340",
+                    "type": "ichidan verb, intransitive verb",
+                    "front": [
+                        {
+                            "kanji": "拗",
+                            "furigana": "こじ"
+                        },
+                        "れる"
+                    ],
+                    "back": [
+                        "to get complicated; to grow worse; to turn sour"
+                    ]
+                },
+                {
+                    "id": "136534",
+                    "type": "adverb, 'to' adverb",
+                    "front": [
+                        {
+                            "kanji": "矢鱈",
+                            "furigana": "やたら"
+                        }
+                    ],
+                    "back": [
+                        "indiscriminately; blindly; at random; recklessly; thoughtlessly; excessively; profusely",
+                        "indiscriminate; random; excessive"
+                    ]
+                },
+                {
+                    "id": "258685",
+                    "type": "adverb",
+                    "front": [
+                        {
+                            "kanji": "軈",
+                            "furigana": "やが"
+                        },
+                        "て"
+                    ],
+                    "back": [
+                        "before long; soon",
+                        "almost; nearly"
+                    ]
+                },
+                {
+                    "id": "273913",
+                    "type": "'gu' godan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "濯",
+                            "furigana": "そそ"
+                        },
+                        "ぐ"
+                    ],
+                    "back": [
+                        "to rinse; to wash out",
+                        "to have one's revenge; to wipe out a disgrace"
+                    ]
+                },
+                {
+                    "id": "139832",
+                    "type": "ichidan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "誂",
+                            "furigana": "あつら"
+                        },
+                        "える"
+                    ],
+                    "back": [
+                        "to give an order; to place an order"
+                    ]
+                },
+                {
+                    "id": "274155",
+                    "type": "noun",
+                    "front": [
+                        {
+                            "kanji": "伜",
+                            "furigana": "せがれ"
+                        }
+                    ],
+                    "back": [
+                        "son",
+                        "punk; brat"
+                    ]
+                },
+                {
+                    "id": "85294",
+                    "type": "expression",
+                    "front": [
+                        {
+                            "kanji": "畏",
+                            "furigana": "かしこ"
+                        },
+                        "まりました"
+                    ],
+                    "back": [
+                        "certainly!"
+                    ]
+                },
+                {
+                    "id": "139839",
+                    "type": "'i' adjective",
+                    "front": [
+                        {
+                            "kanji": "諄",
+                            "furigana": "くど"
+                        },
+                        "い"
+                    ],
+                    "back": [
+                        "verbose; importunate; wordy; repetitious; long-winded",
+                        "heavy (taste); rich; strong; cloying; gaudy; loud"
+                    ]
+                },
+                {
+                    "id": "268425",
+                    "type": "'mu' godan verb, intransitive verb",
+                    "front": [
+                        {
+                            "kanji": "萎",
+                            "furigana": "しぼ"
+                        },
+                        "む"
+                    ],
+                    "back": [
+                        "to wither (e.g. flowers, dreams); to sag (e.g. balloon, grapes); to fade (away); to shrivel; to wilt; to deflate"
+                    ]
+                },
+                {
+                    "id": "309204",
+                    "type": "noun, 'suru' verb",
+                    "front": [
+                        {
+                            "kanji": "含嗽",
+                            "furigana": "がんそう"
+                        }
+                    ],
+                    "back": [
+                        "gargling; rinsing one's mouth"
+                    ]
+                },
+                {
+                    "id": "99786",
+                    "type": "ichidan verb, intransitive verb",
+                    "front": [
+                        {
+                            "kanji": "萎",
+                            "furigana": "しな"
+                        },
+                        "びる"
+                    ],
+                    "back": [
+                        "to shrivel (e.g. cut vegetables, skin); to wilt; to fade; to wither; to be wizened"
+                    ]
+                },
+                {
+                    "id": "139348",
+                    "type": "ichidan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "拵",
+                            "furigana": "こしら"
+                        },
+                        "える"
+                    ],
+                    "back": [
+                        "to make; to manufacture"
+                    ]
+                },
+                {
+                    "id": "326676",
+                    "type": "'i' adjective",
+                    "front": [
+                        {
+                            "kanji": "厭",
+                            "furigana": "い"
+                        },
+                        "やらしい"
+                    ],
+                    "back": [
+                        "disgusting; filthy; repulsive; detestable; unpleasant; disagreeable",
+                        "lewd; lascivious; indecent; obscene; filthy; dirty"
+                    ]
+                },
+                {
+                    "id": "125272",
+                    "type": "'mu' godan verb, intransitive verb",
+                    "front": [
+                        {
+                            "kanji": "弛",
+                            "furigana": "たる"
+                        },
+                        "む"
+                    ],
+                    "back": [
+                        "to slacken; to loosen; to relax; to droop (e.g. loose or flabby skin); to sag (ceiling)",
+                        "to slack off (e.g. one's work, attention); to not put one's heart in"
+                    ]
+                },
+                {
+                    "id": "273172",
+                    "type": "ichidan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "嘗",
+                            "furigana": "な"
+                        },
+                        "める"
+                    ],
+                    "back": [
+                        "to lick",
+                        "to taste"
+                    ]
+                },
+                {
+                    "id": "272796",
+                    "type": "ichidan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "填",
+                            "furigana": "は"
+                        },
+                        "める"
+                    ],
+                    "back": [
+                        "to insert; to put in (such that there is a snug fit); to button; to put on (something that envelops, e.g. gloves, ring)",
+                        "to have sex; to fuck"
+                    ]
+                },
+                {
+                    "id": "277893",
+                    "type": "'ru' godan verb, intransitive verb",
+                    "front": [
+                        {
+                            "kanji": "填",
+                            "furigana": "は"
+                        },
+                        "まる"
+                    ],
+                    "back": [
+                        "to fit; to get into; to go into",
+                        "to be fit for (a job, etc.); to be suited for; to satisfy (conditions)"
+                    ]
+                },
+                {
+                    "id": "272680",
+                    "type": "ichidan verb, intransitive verb",
+                    "front": [
+                        {
+                            "kanji": "凭",
+                            "furigana": "もた"
+                        },
+                        "れる"
+                    ],
+                    "back": [
+                        "to lean against; to lean on; to recline on",
+                        "to lie heavy (on the stomach); to be uneasily digested"
+                    ]
+                },
+                {
+                    "id": "85387",
+                    "type": "ichidan verb, intransitive verb",
+                    "front": [
+                        {
+                            "kanji": "草臥",
+                            "furigana": "くたび"
+                        },
+                        "れる"
+                    ],
+                    "back": [
+                        "to get tired; to be exhausted",
+                        "to wear out; to be battered from long use"
+                    ]
+                },
+                {
+                    "id": "273328",
+                    "type": "'su' godan verb",
+                    "front": [
+                        {
+                            "kanji": "齎",
+                            "furigana": "もた"
+                        },
+                        "らす"
+                    ],
+                    "back": [
+                        "to bring; to take; to bring about"
+                    ]
+                },
+                {
+                    "id": "139470",
+                    "type": "ichidan verb, intransitive verb",
+                    "front": [
+                        {
+                            "kanji": "涸",
+                            "furigana": "か"
+                        },
+                        "れる"
+                    ],
+                    "back": [
+                        "to dry up (spring, pond, etc.); to run out"
+                    ]
+                },
+                {
+                    "id": "258311",
+                    "type": "adverb",
+                    "front": [
+                        {
+                            "kanji": "屹度",
+                            "furigana": "きっと"
+                        }
+                    ],
+                    "back": [
+                        "surely; undoubtedly; almost certainly; most likely (e.g. 90 percent)",
+                        "sternly; severely"
+                    ]
+                },
+                {
+                    "id": "122348",
+                    "type": "ichidan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "煽",
+                            "furigana": "おだ"
+                        },
+                        "てる"
+                    ],
+                    "back": [
+                        "to flatter; to soft-soap",
+                        "to instigate; to stir up"
+                    ]
+                },
+                {
+                    "id": "277964",
+                    "type": "'ku' godan verb, transitive verb",
+                    "front": [
+                        {
+                            "kanji": "散蒔",
+                            "furigana": "ばらま"
+                        },
+                        "く"
+                    ],
+                    "back": [
+                        "to disseminate; to scatter; to broadcast; to give money freely; to strew"
+                    ]
+                },
+                {
+                    "id": "258320",
+                    "type": "'i' adjective",
+                    "front": [
+                        {
+                            "kanji": "擽",
+                            "furigana": "くす"
+                        },
+                        "ぐったい"
+                    ],
+                    "back": [
+                        "ticklish",
+                        "embarrassing"
+                    ]
+                }
+            ]
+        }
+    ]
+}
